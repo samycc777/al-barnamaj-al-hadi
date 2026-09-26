@@ -5,6 +5,7 @@
   "scripts": {
     "build": "node build.mjs",
     "check": "node build.mjs && node check.mjs",
-    "dev": "node build.mjs && npx --yes serve dist -l 4321"
+    "dev": "node build.mjs && npx --yes serve dist -l 4321",
+    "import": "node scripts/import-lessons.mjs"
   }
 }
