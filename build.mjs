@@ -1,5 +1,5 @@
 // Builds the static site into dist/ from src/content.mjs. No dependencies.
-import { mkdirSync, rmSync, writeFileSync, cpSync } from 'node:fs';
+import { mkdirSync, rmSync, writeFileSync, cpSync, readFileSync } from 'node:fs';
 import { site, categories } from './src/content.mjs';
 
 const OUT = 'dist';
@@ -31,6 +31,8 @@ const ICONS = {
   clock: '<circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/>',
   sun: '<circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/>',
   moon: '<path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/>',
+  chevron: '<path d="M15 5l-7 7 7 7"/>',
+  pause: '<path d="M8 5.5v13M16 5.5v13"/>',
   info: '<circle cx="12" cy="12" r="8.5"/><path d="M12 11v5M12 8h.01"/>',
 };
 const icon = (name, cls = 'ic') =>
@@ -44,18 +46,26 @@ const TYPE = {
   link: { icon: 'link', label: 'فتح', action: 'play' },
 };
 
-function itemRow(it) {
+// A book's lessons, copied from the Shaykh's site by `npm run import`.
+const lessonsOf = (it) => JSON.parse(readFileSync(`src/lessons/${it.slug}.json`, 'utf8'));
+const lessonCount = (book) => book.chapters.reduce((n, c) => n + c.lessons.length, 0);
+
+function itemRow(it, c) {
   const t = TYPE[it.type] || TYPE.link;
+  const book = it.slug && lessonsOf(it);
   const meta = [
+    book && `<span>عدد الدروس: ${lessonCount(book)}</span>`,
     it.date && `<span>${esc(it.date)}</span>`,
     it.note && `<span>${esc(it.note)}</span>`,
   ].filter(Boolean).join('<i class="dot"></i>');
-  const btn = it.url
+  const btn = book
+    ? `<a class="round-btn" href="/${c.slug}/${it.slug}/" title="الدروس" aria-label="الدروس">${icon('chevron')}</a>`
+    : it.url
     ? `<a class="round-btn" href="${esc(it.url)}" target="_blank" rel="noopener" title="${t.label}" aria-label="${t.label}">${icon(t.action)}</a>`
     : '';
   return `<li class="row">
       <span class="row-ic">${icon(t.icon)}</span>
-      <div class="row-body"><div class="row-title">${esc(it.title)}</div>${meta ? `<div class="row-meta">${meta}</div>` : ''}</div>
+      <div class="row-body"><div class="row-title">${book ? `<a href="/${c.slug}/${it.slug}/">${esc(it.title)}</a>` : esc(it.title)}</div>${meta ? `<div class="row-meta">${meta}</div>` : ''}</div>
       ${btn}
     </li>`;
 }
@@ -67,7 +77,7 @@ function panel(title, iconName, body) {
   </section>`;
 }
 
-function layout({ title, active, main }) {
+function layout({ title, active, main, extra = '' }) {
   const pageTitle = title ? `${title} — ${site.name}` : site.name;
   const nav = [
     `<li><a href="/"${active === 'home' ? ' class="active" aria-current="page"' : ''}>الرئيسية</a></li>`,
@@ -142,6 +152,7 @@ ${main}
     mark();
   });
 </script>
+${extra}
 </body>
 </html>
 `;
@@ -161,8 +172,65 @@ function homePage() {
 }
 
 function categoryPage(c) {
-  const body = c.items.length ? `<ul class="rows">${c.items.map(itemRow).join('')}</ul>` : '';
+  const body = c.items.length ? `<ul class="rows">${c.items.map((it) => itemRow(it, c)).join('')}</ul>` : '';
   return layout({ title: c.name, active: c.slug, main: panel(c.name, c.icon, body) });
+}
+
+function lessonRow(l, i) {
+  const meta = [l.date && `<span>${esc(l.date)}</span>`, l.size && `<span dir="ltr">${esc(l.size)}</span>`]
+    .filter(Boolean).join('<i class="dot"></i>');
+  return `<li class="row lesson" data-src="${esc(l.audio)}">
+      <span class="num">${i + 1}</span>
+      <div class="row-body"><div class="row-title">${esc(l.title)}</div>${meta ? `<div class="row-meta">${meta}</div>` : ''}</div>
+      <a class="round-btn dl" href="${esc(l.download || l.audio)}" title="تحميل" aria-label="تحميل">${icon('download')}</a>
+      <button class="round-btn play" type="button" title="استماع" aria-label="استماع">${icon('play', 'ic i-play')}${icon('pause', 'ic i-pause')}</button>
+    </li>`;
+}
+
+// One page per book: its chapters and lessons, each playable here. The audio
+// streams from the Shaykh's site.
+function bookPage(c, it) {
+  const book = lessonsOf(it);
+  const list = (ls) => `<ul class="rows">${ls.map(lessonRow).join('')}</ul>`;
+  const body = book.chapters.length === 1
+    ? list(book.chapters[0].lessons)
+    : book.chapters.map((ch, i) => `<details class="chapter"${i === 0 ? ' open' : ''}>
+        <summary><span>${esc(ch.title)}</span><span class="count">${ch.lessons.length}</span></summary>
+        ${list(ch.lessons)}
+      </details>`).join('');
+  const head = `<div class="book-head">
+      <a class="crumb" href="/${c.slug}/">${esc(c.name)}</a>
+      ${it.note ? `<div class="book-note">${esc(it.note)}</div>` : ''}
+      <a class="book-src" href="${esc(book.source)}" target="_blank" rel="noopener">المصدر: الموقع الرسمي للشيخ</a>
+    </div>`;
+  const player = `<div class="player" hidden>
+  <div class="player-title"></div>
+  <audio controls preload="none"></audio>
+</div>
+<script>
+  // One player for the page: a lesson's play button loads it here.
+  var bar = document.querySelector('.player'), au = bar.querySelector('audio'), cur = null;
+  function sync() {
+    document.querySelectorAll('.lesson').forEach(function (r) {
+      var on = r === cur && !au.paused;
+      r.classList.toggle('playing', on);
+      r.querySelector('.play').setAttribute('aria-label', on ? 'إيقاف' : 'استماع');
+    });
+  }
+  document.addEventListener('click', function (e) {
+    var b = e.target.closest('.play'); if (!b) return;
+    var r = b.closest('.lesson');
+    if (r === cur) { au.paused ? au.play() : au.pause(); return; }
+    cur = r;
+    au.src = r.dataset.src;
+    bar.querySelector('.player-title').textContent = r.querySelector('.row-title').textContent;
+    bar.hidden = false;
+    document.body.classList.add('has-player');
+    au.play();
+  });
+  ['play', 'pause', 'ended'].forEach(function (ev) { au.addEventListener(ev, sync); });
+</script>`;
+  return layout({ title: it.title, active: c.slug, main: panel(it.title, c.icon, head + body), extra: player });
 }
 
 function notFound() {
@@ -179,4 +247,9 @@ for (const c of categories) {
   mkdirSync(`${OUT}/${c.slug}`, { recursive: true });
   writeFileSync(`${OUT}/${c.slug}/index.html`, categoryPage(c));
 }
-console.log(`Built ${categories.length + 2} pages into ${OUT}/`);
+const books = categories.flatMap((c) => c.items.filter((it) => it.slug).map((it) => [c, it]));
+for (const [c, it] of books) {
+  mkdirSync(`${OUT}/${c.slug}/${it.slug}`, { recursive: true });
+  writeFileSync(`${OUT}/${c.slug}/${it.slug}/index.html`, bookPage(c, it));
+}
+console.log(`Built ${categories.length + books.length + 2} pages into ${OUT}/`);

@@ -3,7 +3,12 @@ import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { categories } from './src/content.mjs';
 
-const pages = ['dist/index.html', 'dist/404.html', ...categories.map((c) => `dist/${c.slug}/index.html`)];
+const books = categories.flatMap((c) => c.items.filter((it) => it.slug).map((it) => ({ c, it })));
+const pages = [
+  'dist/index.html', 'dist/404.html',
+  ...categories.map((c) => `dist/${c.slug}/index.html`),
+  ...books.map(({ c, it }) => `dist/${c.slug}/${it.slug}/index.html`),
+];
 let errors = 0;
 const fail = (m) => { console.error('✗', m); errors++; };
 
@@ -19,6 +24,17 @@ for (const p of pages) {
 const slugs = categories.map((c) => c.slug);
 if (new Set(slugs).size !== slugs.length) fail('two categories share the same slug');
 for (const c of categories) for (const it of c.items) if (!it.title) fail(`an item in ${c.name} has no title`);
+
+for (const { it } of books) {
+  const f = `src/lessons/${it.slug}.json`;
+  if (!existsSync(f)) { fail(`${it.title} has no lesson list: run npm run import -- ${it.slug}`); continue; }
+  const { chapters } = JSON.parse(readFileSync(f, 'utf8'));
+  for (const ch of chapters) for (const l of ch.lessons) {
+    if (!l.title || !/^https:\/\/.+\.mp3$/.test(l.audio)) fail(`${f}: a lesson has no title or audio address`);
+  }
+}
+const bookSlugs = books.map(({ c, it }) => `${c.slug}/${it.slug}`);
+if (new Set(bookSlugs).size !== bookSlugs.length) fail('two books share the same slug');
 
 if (errors) process.exit(1);
 console.log(`✓ ${pages.length} pages OK`);

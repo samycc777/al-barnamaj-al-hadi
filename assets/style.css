@@ -229,3 +229,36 @@ main.container { padding: 28px 0 40px; }
   .cat-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
   .foot-inner { justify-content: center; text-align: center; }
 }
+
+/* ---- A book's page: chapters, lessons and the audio player ---- */
+.book-head { margin: -18px -18px 0; padding: 12px 18px; border-bottom: 1px solid var(--row-line); display: flex; flex-wrap: wrap; align-items: center; gap: 6px 16px; font-size: 14px; }
+.crumb::before { content: "‹ "; }
+.book-note { color: var(--ink-2); flex: 1; }
+.book-src { color: var(--link-soft); font-size: 13px; }
+.book-head + .rows { margin-top: 0; }
+.chapter { margin: 0 -18px; border-bottom: 1px solid var(--line); }
+.chapter:last-child { margin-bottom: -18px; border-bottom: 0; }
+.chapter summary { cursor: pointer; list-style: none; display: flex; align-items: center; gap: 10px; padding: 13px 18px; font-weight: 700; color: var(--brown-3); background: var(--cream-2); }
+.chapter summary::-webkit-details-marker { display: none; }
+.chapter summary::before { content: ""; width: 7px; height: 7px; border: solid var(--gold); border-width: 0 2px 2px 0; transform: rotate(135deg); transition: transform .15s; }
+.chapter[open] summary::before { transform: rotate(45deg); }
+.chapter .count { margin-inline-start: auto; font-size: 13px; font-weight: 500; color: var(--muted); }
+.chapter .rows { margin: 0; }
+.num { min-width: 28px; text-align: center; font-weight: 700; color: var(--gold); }
+.lesson .i-pause, .lesson.playing .i-play { display: none; }
+.lesson.playing .i-pause { display: block; }
+.lesson.playing { background: var(--row-hover); }
+.lesson.playing .play { background: var(--brown); color: #fff6e7; }
+.round-btn.dl { color: var(--muted); }
+button.round-btn { border: 0; cursor: pointer; font: inherit; }
+.player { position: fixed; inset-inline: 0; bottom: 0; z-index: 20; background: var(--paper); border-top: 3px solid var(--gold); box-shadow: 0 -2px 12px rgba(0, 0, 0, .15); padding: 8px 16px calc(8px + env(safe-area-inset-bottom)); display: flex; flex-wrap: wrap; align-items: center; gap: 4px 14px; }
+.player-title { flex: 1 1 200px; min-width: 0; font-weight: 500; color: var(--brown-3); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.player audio { flex: 2 1 280px; width: 100%; height: 40px; }
+body.has-player { padding-bottom: 110px; }
+.player[hidden] { display: none; }
+@media (max-width: 720px) {
+  .row { gap: 10px; }
+  .lesson .round-btn { width: 34px; height: 34px; }
+  .num { min-width: 20px; }
+  .player audio { flex-basis: 100%; }
+}

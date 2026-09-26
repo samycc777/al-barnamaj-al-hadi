@@ -6,9 +6,11 @@ Live at https://al-barnamaj-al-hadi.pages.dev (Cloudflare Pages project `al-barn
 
 ## Layout
 
-- `src/content.mjs`: all content. `site` (name, url) and `categories`, each with `items` (lessons: `title`, `type` audio/video/pdf/article/link, `url`, `date`, `note`). To add a lesson, add an item there.
-- `build.mjs`: builds static pages into `dist/` (home, one page per category at `/<slug>/`, `404.html`). No dependencies. Icons are inline SVG line icons in `ICONS`.
-- `check.mjs`: checks every page was built and every internal link resolves.
+- `src/content.mjs`: all content. `site` (name, url) and `categories`, each with `items` (lessons: `title`, `type` audio/video/pdf/article/link, `url`, `date`, `note`). To add a lesson, add an item there. A book with many recorded lessons gets `slug` and `source` (its lessons page on the Shaykh's site, al-abbaad.com) instead of `url`, and its own page at `/<category>/<slug>/`.
+- `src/lessons/<slug>.json`: each book's chapters and lessons (title, date, audio address, download link, size), copied from the Shaykh's site by `npm run import`. The audio stays on his site; the book page plays it from there with one player bar at the bottom.
+- `scripts/import-lessons.mjs`: the importer.
+- `build.mjs`: builds static pages into `dist/` (home, one page per category at `/<slug>/`, one per book at `/<category>/<book>/`, `404.html`). No dependencies. Icons are inline SVG line icons in `ICONS`.
+- `check.mjs`: checks every page was built, every internal link resolves, and every book has a lesson list.
 - `assets/`: `style.css` (colour tokens at the top) and `favicon.svg`.
 
 ## Commands
@@ -16,6 +18,7 @@ Live at https://al-barnamaj-al-hadi.pages.dev (Cloudflare Pages project `al-barn
 - `npm run build`: build into `dist/`.
 - `npm run check`: build and verify. This is the full check command; run it after every change and merge.
 - `npm run dev`: build and serve on http://localhost:4321.
+- `npm run import` (or `npm run import -- <slug>`): refresh books' lesson lists from al-abbaad.com. Run it after adding a book, or when the Shaykh's site adds lessons, then commit the JSON.
 
 Cloudflare builds with `npm run build` and serves `dist/`. Deploying = pushing `main` to GitHub (a push needs the user's OK only if they haven't asked for the change to go live).
 
