@@ -7,6 +7,14 @@ const OUT = 'dist';
 const esc = (s = '') =>
   String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
 
+// Show every number in the page text as an Arabic-Indic digit (١٢٣). Only
+// text between tags changes: links, attributes, scripts and styles keep 0-9.
+const toArabicDigits = (html) =>
+  html.split(/(<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>)/).map((part, i) =>
+    i % 2 ? part : part.replace(/>[^<]*</g, (t) => t.replace(/[0-9]/g, (d) => '٠١٢٣٤٥٦٧٨٩'[d])),
+  ).join('');
+const write = (file, html) => writeFileSync(file, toArabicDigits(html));
+
 // Line icons (24×24). Objects and shapes only.
 const ICONS = {
   star: '<path d="M12 2.5l2.8 2.8h4v4L21.5 12l-2.7 2.8v4h-4L12 21.5l-2.8-2.7h-4v-4L2.5 12l2.7-2.7v-4h4z"/><circle cx="12" cy="12" r="3.2"/>',
@@ -241,15 +249,15 @@ function notFound() {
 rmSync(OUT, { recursive: true, force: true });
 mkdirSync(OUT, { recursive: true });
 cpSync('assets', `${OUT}/assets`, { recursive: true });
-writeFileSync(`${OUT}/index.html`, homePage());
-writeFileSync(`${OUT}/404.html`, notFound());
+write(`${OUT}/index.html`, homePage());
+write(`${OUT}/404.html`, notFound());
 for (const c of categories) {
   mkdirSync(`${OUT}/${c.slug}`, { recursive: true });
-  writeFileSync(`${OUT}/${c.slug}/index.html`, categoryPage(c));
+  write(`${OUT}/${c.slug}/index.html`, categoryPage(c));
 }
 const books = categories.flatMap((c) => c.items.filter((it) => it.slug).map((it) => [c, it]));
 for (const [c, it] of books) {
   mkdirSync(`${OUT}/${c.slug}/${it.slug}`, { recursive: true });
-  writeFileSync(`${OUT}/${c.slug}/${it.slug}/index.html`, bookPage(c, it));
+  write(`${OUT}/${c.slug}/${it.slug}/index.html`, bookPage(c, it));
 }
 console.log(`Built ${categories.length + books.length + 2} pages into ${OUT}/`);
