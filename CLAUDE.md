@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-البرنامج الهادي لتأصيل العلم: an Arabic (RTL) Islamic study site whose lessons are grouped into nine categories (العقيدة، الحديث، علوم الحديث، الفقه، أصول وقواعد الفقه، التفسير، أصول وقواعد التفسير، السيرة، علوم العربية). Its look follows rabee.net: cream parchment with a geometric pattern, a brown/gold nav bar, panels with brown headers and round gold badges, Tajawal for text, Aref Ruqaa for the site name, Amiri for Qur'an and ḥadīth. The user adds content little by little.
+البرنامج الهادي لتأصيل العلم: an Arabic (RTL) Islamic study site whose lessons are grouped into ten categories (العقيدة، آداب الطالب، الحديث، علوم الحديث، الفقه، أصول وقواعد الفقه، التفسير، أصول وقواعد التفسير، السيرة، علوم العربية). Its look follows rabee.net: cream parchment with a geometric pattern, a brown/gold nav bar, panels with brown headers and round gold badges, Tajawal for text, Aref Ruqaa for the site name, Amiri for Qur'an and ḥadīth. The user adds content little by little.
 
 Live at https://al-barnamaj-al-hadi.pages.dev (Cloudflare Pages project `al-barnamaj-al-hadi`, linked to the GitHub repo `samycc777/al-barnamaj-al-hadi`: every push to `main` rebuilds and deploys it).
 

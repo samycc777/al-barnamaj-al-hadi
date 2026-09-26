@@ -15,11 +15,12 @@ export const site = {
 
 export const categories = [
   { slug: 'aqeedah', name: 'العقيدة', icon: 'star', items: [] },
+  { slug: 'adab-at-talib', name: 'آداب الطالب', icon: 'lamp', items: [] },
   {
     slug: 'hadith', name: 'الحديث', icon: 'scroll', items: [
-      { title: 'شرح الأربعين النووية وتتمة الخمسين', note: 'الشيخ العباد' },
-      { title: 'شرح عمدة الأحكام', note: 'الشيخ العباد' },
-      { title: 'شرح بلوغ المرام', note: 'الشيخ العباد' },
+      { title: 'شرح الأربعين النووية وتتمة الخمسين', note: 'الشيخ عبد المحسن العباد' },
+      { title: 'شرح عمدة الأحكام', note: 'الشيخ عبد المحسن العباد' },
+      { title: 'شرح بلوغ المرام', note: 'الشيخ عبد المحسن العباد' },
     ],
   },
   { slug: 'ulum-al-hadith', name: 'علوم الحديث', icon: 'chain', items: [] },
