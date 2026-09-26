@@ -43,13 +43,9 @@ const TYPE = {
   link: { icon: 'link', label: 'فتح', action: 'play' },
 };
 
-const allItems = categories.flatMap((c) => c.items.map((it) => ({ ...it, cat: c })));
-const latest = allItems.slice(-8).reverse();
-
-function itemRow(it, showCat) {
+function itemRow(it) {
   const t = TYPE[it.type] || TYPE.link;
   const meta = [
-    showCat && `<a href="/${it.cat.slug}/">${esc(it.cat.name)}</a>`,
     it.date && `<span>${esc(it.date)}</span>`,
     it.note && `<span>${esc(it.note)}</span>`,
   ].filter(Boolean).join('<i class="dot"></i>');
@@ -63,16 +59,14 @@ function itemRow(it, showCat) {
     </li>`;
 }
 
-const empty = (text) => `<div class="empty">${icon('clock')}<p>${text}</p></div>`;
-
-function panel(title, iconName, body, extra = '') {
-  return `<section class="panel ${extra}">
+function panel(title, iconName, body) {
+  return `<section class="panel">
     <header class="panel-head"><span class="badge">${icon(iconName)}</span><h2>${esc(title)}</h2></header>
     <div class="panel-body">${body}</div>
   </section>`;
 }
 
-function layout({ title, active, main, after = '', description }) {
+function layout({ title, active, main }) {
   const pageTitle = title ? `${title} — ${site.name}` : site.name;
   const nav = [
     `<li><a href="/"${active === 'home' ? ' class="active" aria-current="page"' : ''}>الرئيسية</a></li>`,
@@ -86,9 +80,7 @@ function layout({ title, active, main, after = '', description }) {
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(pageTitle)}</title>
-<meta name="description" content="${esc(description || site.tagline)}">
 <meta property="og:title" content="${esc(pageTitle)}">
-<meta property="og:description" content="${esc(description || site.tagline)}">
 <meta property="og:locale" content="ar_AR">
 <meta name="theme-color" content="#6a3c18">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
@@ -109,9 +101,7 @@ function layout({ title, active, main, after = '', description }) {
 <header class="site-head">
   <div class="brand-wrap">
     <a class="brand" href="/">
-      <span class="brand-top">بسم الله الرحمن الرحيم</span>
       <span class="brand-name">${esc(site.name)}</span>
-      <span class="brand-sub">${esc(site.tagline)}</span>
     </a>
   </div>
   <nav class="site-nav" aria-label="الأقسام">
@@ -125,11 +115,9 @@ function layout({ title, active, main, after = '', description }) {
 <main class="container">
 ${main}
 </main>
-${after}
 <footer class="site-foot">
   <div class="container foot-inner">
     <span class="foot-name">${esc(site.name)}</span>
-    <span>جميع الحقوق محفوظة لكل مسلم</span>
   </div>
 </footer>
 <script>
@@ -164,53 +152,20 @@ function homePage() {
       (c) => `<a class="cat-card" href="/${c.slug}/">
         <span class="cat-ic">${icon(c.icon)}</span>
         <span class="cat-name">${esc(c.name)}</span>
-        <span class="cat-count">${c.items.length ? `عدد الدروس: ${c.items.length}` : 'قريبًا'}</span>
       </a>`,
     )
     .join('');
 
-  const latestBody = latest.length
-    ? `<ul class="rows">${latest.map((it) => itemRow(it, true)).join('')}</ul>`
-    : empty('لم تُضف دروس بعد، وستظهر هنا أحدث الإضافات بإذن الله.');
-
-  const verses = `<section class="band">
-    <div class="band-inner">
-      <figure class="quote">
-        <blockquote class="ayah">﴿وَقُل رَّبِّ زِدْنِي عِلْمًا﴾</blockquote>
-        <figcaption>[سورة طه: ١١٤]</figcaption>
-      </figure>
-      <figure class="quote">
-        <blockquote>قال رسول الله ﷺ: «مَن يُرِدِ اللهُ به خيرًا يُفقِّهْهُ في الدِّين»</blockquote>
-        <figcaption>متفق عليه: البخاري (٧١)، ومسلم (١٠٣٧)، من حديث معاوية رضي الله عنه</figcaption>
-      </figure>
-    </div>
-  </section>`;
-
-  const main = `<div class="grid-2">
-  <div class="col-main">${panel('أقسام البرنامج', 'grid', `<div class="cat-grid">${cards}</div>`)}</div>
-  <aside class="col-side">${panel('أحدث الإضافات', 'clock', latestBody)}</aside>
-</div>`;
-  return layout({ active: 'home', main, after: verses });
+  return layout({ active: 'home', main: `<section class="panel"><div class="panel-body"><div class="cat-grid">${cards}</div></div></section>` });
 }
 
 function categoryPage(c) {
-  const body = c.items.length
-    ? `<ul class="rows">${c.items.map((it) => itemRow(it, false)).join('')}</ul>`
-    : empty('سيُضاف محتوى هذا القسم قريبًا بإذن الله.');
-  const others = categories
-    .filter((o) => o !== c)
-    .map((o) => `<li><a href="/${o.slug}/">${icon(o.icon)}<span>${esc(o.name)}</span></a></li>`)
-    .join('');
-  const main = `<nav class="crumbs" aria-label="المسار"><a href="/">الرئيسية</a><span>/</span><span>${esc(c.name)}</span></nav>
-<div class="grid-2">
-  <div class="col-main">${panel(c.name, c.icon, body)}</div>
-  <aside class="col-side">${panel('بقية الأقسام', 'grid', `<ul class="side-list">${others}</ul>`)}</aside>
-</div>`;
-  return layout({ title: c.name, active: c.slug, main, description: `دروس ${c.name} — ${site.name}` });
+  const body = c.items.length ? `<ul class="rows">${c.items.map(itemRow).join('')}</ul>` : '';
+  return layout({ title: c.name, active: c.slug, main: panel(c.name, c.icon, body) });
 }
 
 function notFound() {
-  const main = panel('الصفحة غير موجودة', 'info', `<div class="empty"><p>لم نجد هذه الصفحة.</p><p><a class="btn" href="/">العودة إلى الرئيسية</a></p></div>`);
+  const main = panel('الصفحة غير موجودة', 'info', `<p style="text-align:center"><a class="btn" href="/">الرئيسية</a></p>`);
   return layout({ title: 'الصفحة غير موجودة', active: '', main });
 }
 

@@ -6,7 +6,7 @@ Live at https://al-barnamaj-al-hadi.pages.dev (Cloudflare Pages project `al-barn
 
 ## Layout
 
-- `src/content.mjs`: all content. `site` (name, tagline) and `categories`, each with `items` (lessons: `title`, `type` audio/video/pdf/article/link, `url`, `date`, `note`). To add a lesson, add an item there.
+- `src/content.mjs`: all content. `site` (name, url) and `categories`, each with `items` (lessons: `title`, `type` audio/video/pdf/article/link, `url`, `date`, `note`). To add a lesson, add an item there.
 - `build.mjs`: builds static pages into `dist/` (home, one page per category at `/<slug>/`, `404.html`). No dependencies. Icons are inline SVG line icons in `ICONS`.
 - `check.mjs`: checks every page was built and every internal link resolves.
 - `assets/`: `style.css` (colour tokens at the top) and `favicon.svg`.
@@ -23,3 +23,4 @@ Cloudflare builds with `npm run build` and serves `dist/`. Deploying = pushing `
 
 - Arabic, RTL, no framework. Keep pages static.
 - Follow the user's religious content rules: no images of living beings or faces (icons are objects and shapes only), no music, and cite every āyah and ḥadīth (sūrah and number; ḥadīth with source and grading).
+- Put on the site only text the user gave. No taglines, verses, quotes, intro lines or "coming soon" messages of our own; only the words needed to use the site (menu labels, page not found).

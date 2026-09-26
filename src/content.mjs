@@ -10,7 +10,6 @@
 
 export const site = {
   name: 'البرنامج الهادي لتأصيل العلم',
-  tagline: 'دروس مرتّبة على أبواب العلم الشرعي',
   url: 'https://al-barnamaj-al-hadi.pages.dev',
 };
 
