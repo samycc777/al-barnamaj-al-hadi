@@ -44,7 +44,7 @@ function lessonsOf(html) {
   const out = [];
   const re = /class="judulsingle".*?<a href="[^"]*ids=(\d+)">([\s\S]*?)<\/a>[\s\S]*?href="([^"]+\.mp3)"[\s\S]*?class="besarfile">([^<]*)</g;
   for (const [, id, raw, mp3, size] of html.matchAll(re)) {
-    out.push({ ...parseTitle(raw), audio: new URL(mp3, ORIGIN).href, download: `${ORIGIN}/download/?type=audio&ids=${id}`, size: clean(size).replace(/\s+/, ' ') });
+    out.push({ ...parseTitle(raw), audio: new URL(mp3, ORIGIN).href, download: `${ORIGIN}/download/?type=audio&ids=${id}`, size: /\d/.test(size) ? clean(size).replace(/\s+/, ' ') : '' });
   }
   return out.sort((a, b) => (a.n ?? 0) - (b.n ?? 0));
 }
