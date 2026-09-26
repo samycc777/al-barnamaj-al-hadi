@@ -28,6 +28,8 @@ const ICONS = {
   home: '<path d="M4 11l8-7 8 7M6 9.5V20h12V9.5"/>',
   grid: '<rect x="4" y="4" width="7" height="7" rx="1"/><rect x="13" y="4" width="7" height="7" rx="1"/><rect x="4" y="13" width="7" height="7" rx="1"/><rect x="13" y="13" width="7" height="7" rx="1"/>',
   clock: '<circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/>',
+  sun: '<circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/>',
+  moon: '<path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/>',
   info: '<circle cx="12" cy="12" r="8.5"/><path d="M12 11v5M12 8h.01"/>',
 };
 const icon = (name, cls = 'ic') =>
@@ -94,6 +96,14 @@ function layout({ title, active, main, after = '', description }) {
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Aref+Ruqaa:wght@700&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/style.css">
+<script>
+  // Pick light or dark before the page shows, so it doesn't flash.
+  (function () {
+    var t; try { t = localStorage.getItem('theme'); } catch (e) {}
+    if (t !== 'light' && t !== 'dark') t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', t);
+  })();
+</script>
 </head>
 <body>
 <header class="site-head">
@@ -107,6 +117,7 @@ function layout({ title, active, main, after = '', description }) {
   <nav class="site-nav" aria-label="الأقسام">
     <div class="nav-inner">
       <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav-list">${icon('menu')}<span>الأقسام</span></button>
+      <button class="theme-btn" type="button" title="الوضع الليلي" aria-label="الوضع الليلي" aria-pressed="false">${icon('moon', 'ic i-moon')}${icon('sun', 'ic i-sun')}</button>
       <ul id="nav-list">${nav}</ul>
     </div>
   </nav>
@@ -126,6 +137,20 @@ ${after}
   b.addEventListener('click', function () {
     var open = document.body.classList.toggle('nav-open');
     b.setAttribute('aria-expanded', open);
+  });
+  var root = document.documentElement, tb = document.querySelector('.theme-btn');
+  function mark() {
+    var dark = root.getAttribute('data-theme') === 'dark';
+    tb.setAttribute('aria-pressed', dark);
+    tb.title = dark ? 'الوضع النهاري' : 'الوضع الليلي';
+    tb.setAttribute('aria-label', tb.title);
+  }
+  mark();
+  tb.addEventListener('click', function () {
+    var t = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    root.setAttribute('data-theme', t);
+    try { localStorage.setItem('theme', t); } catch (e) {}
+    mark();
   });
 </script>
 </body>
