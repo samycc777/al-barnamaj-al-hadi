@@ -11,10 +11,11 @@
 //   note               one short line under the title (the book, the shaykh…)
 //   slug, source       a book whose lessons are listed on its own page at
 //                      /<category>/<slug>/. `source` is its lessons page on
-//                      al-abbaad.com; `npm run import` copies the lesson list
-//                      into src/lessons/<slug>.json. A book from another
-//                      site (miraath.net) also gets `sourceName`, shown
-//                      instead of "the Shaykh's official site".
+//                      al-abbaad.com (or miraath.net); `npm run import` copies
+//                      the lesson list into src/lessons/<slug>.json. The
+//                      source is not shown on the site.
+//   skip               lesson numbers on the source page that belong to
+//                      another book; `npm run import` leaves them out
 
 export const site = {
   name: 'البرنامج الهادي لتأصيل العلم',
@@ -47,7 +48,7 @@ export const categories = [
   { slug: 'usul-al-tafsir', name: 'أصول وقواعد التفسير', icon: 'key', items: [] },
   {
     slug: 'seerah', name: 'السيرة', icon: 'route', items: [
-      { title: 'شرح مختصر سيرة الرسول ﷺ للإمام محمد بن عبد الوهاب التميمي', type: 'audio', slug: 'mukhtasar-as-seerah', source: 'https://miraath.net/%D9%85%D8%AE%D8%AA%D8%B5%D8%B1-%D8%A7%D9%84%D8%B3%D9%8A%D8%B1%D8%A9-%D8%A7%D9%84%D8%B4%D9%8A%D8%AE-%D8%B9%D9%84%D9%8A-%D9%86%D8%A7%D8%B5%D8%B1-%D8%A7%D9%84%D9%81%D9%82%D9%8A%D9%87%D9%8A/', sourceName: 'موقع ميراث الأنبياء', note: 'فضيلة الشيخ العلامة علي بن محمد بن ناصر الفقيهي' },
+      { title: 'شرح مختصر سيرة الرسول ﷺ للإمام محمد بن عبد الوهاب التميمي', type: 'audio', slug: 'mukhtasar-as-seerah', source: 'https://miraath.net/%D9%85%D8%AE%D8%AA%D8%B5%D8%B1-%D8%A7%D9%84%D8%B3%D9%8A%D8%B1%D8%A9-%D8%A7%D9%84%D8%B4%D9%8A%D8%AE-%D8%B9%D9%84%D9%8A-%D9%86%D8%A7%D8%B5%D8%B1-%D8%A7%D9%84%D9%81%D9%82%D9%8A%D9%87%D9%8A/', skip: [64], note: 'فضيلة الشيخ العلامة علي بن محمد بن ناصر الفقيهي' },
     ],
   },
   { slug: 'arabiyyah', name: 'علوم العربية', icon: 'pen', items: [] },

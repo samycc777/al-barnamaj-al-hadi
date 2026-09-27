@@ -234,7 +234,6 @@ main.container { padding: 28px 0 40px; }
 .book-head { margin: -18px -18px 0; padding: 12px 18px; border-bottom: 1px solid var(--row-line); display: flex; flex-wrap: wrap; align-items: center; gap: 6px 16px; font-size: 14px; }
 .crumb::before { content: "‹ "; }
 .book-note { color: var(--ink-2); flex: 1; }
-.book-src { color: var(--link-soft); font-size: 13px; }
 .book-head + .rows { margin-top: 0; }
 .chapter { margin: 0 -18px; border-bottom: 1px solid var(--line); }
 .chapter:last-child { margin-bottom: -18px; border-bottom: 0; }

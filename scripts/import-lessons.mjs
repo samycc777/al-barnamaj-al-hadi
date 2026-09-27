@@ -84,6 +84,8 @@ async function importBook(item) {
   } else {
     chapters = [{ title: '', lessons: lessonsOf(html) }];
   }
+  // Lessons the source site filed under this book by mistake.
+  if (item.skip) for (const c of chapters) c.lessons = c.lessons.filter((l) => !item.skip.includes(l.n));
   const count = chapters.reduce((s, c) => s + c.lessons.length, 0);
   if (!count) throw new Error(`no lessons found on ${item.source}`);
   writeFileSync(`src/lessons/${item.slug}.json`, JSON.stringify({ source: new URL(item.source, ORIGIN).href, chapters }, null, 2) + '\n');

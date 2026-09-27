@@ -242,7 +242,6 @@ function bookPage(c, it) {
   const head = `<div class="book-head">
       <a class="crumb" href="/${c.slug}/">${esc(c.name)}</a>
       ${it.note ? `<div class="book-note">${esc(it.note)}</div>` : ''}
-      <a class="book-src" href="${esc(book.source)}" target="_blank" rel="noopener">المصدر: ${esc(it.sourceName || 'الموقع الرسمي للشيخ')}</a>
     </div>`;
 
   return layout({ title: it.title, active: c.slug, main: panel(it.title, c.icon, head + body), extra: PLAYER });
