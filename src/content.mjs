@@ -30,8 +30,10 @@ export const categories = [
   { slug: 'aqeedah', name: 'العقيدة', icon: 'star', items: [] },
   {
     slug: 'adab-at-talib', name: 'آداب الطالب', icon: 'lamp', items: [
+      { title: 'مرحبا يا طالب العلم', type: 'audio', slug: 'marhaban-ya-talib-al-ilm', note: 'فضيلة الشيخ العلامة ربيع بن هادي عمير المدخلي' },
       { title: 'شرح حلية طالب العلم للشيخ بكر بن عبد الله أبي زيد', type: 'audio', slug: 'hilyat-talib-al-ilm', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين' },
       { title: 'التعليق على مقدمة المجموع شرح المهذب للإمام يحيى بن شرف النووي', type: 'audio', slug: 'muqaddimat-al-majmu', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين' },
+      { title: 'عوائق في طريق طالب العلم', type: 'audio', audio: 'https://rabee.net/wp-content/uploads/bulk-files/sounds/awaiq.mp3', download: 'https://rabee.net/wp-content/uploads/bulk-files/sounds/awaiq.mp3', note: 'فضيلة الشيخ العلامة ربيع بن هادي عمير المدخلي' },
     ],
   },
   {
