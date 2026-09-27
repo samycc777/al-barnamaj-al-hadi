@@ -67,6 +67,11 @@ function miraathLessons(html) {
   for (const [, mp3, raw] of html.matchAll(/<a href='(https:\/\/miraath\.net\/[^']+\.mp3)'>([^<]+)<\/a>/g)) {
     if (!out.some((l) => l.audio === mp3)) out.push({ ...parseTitle(raw), audio: encodeURI(mp3), download: '', size: '' });
   }
+  // "شرح عمدة الفقه - كتاب الطهارة" on every lesson: keep only the part after the book's name.
+  const prefix = out[0]?.title.match(/^[^-]+ - /)?.[0];
+  if (prefix && out.length > 1 && out.every((l) => l.title.startsWith(prefix) && l.title.length > prefix.length)) {
+    for (const l of out) l.title = l.title.slice(prefix.length);
+  }
   return out.sort((a, b) => (a.n ?? 0) - (b.n ?? 0));
 }
 
