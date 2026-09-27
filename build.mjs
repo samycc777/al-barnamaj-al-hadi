@@ -103,6 +103,8 @@ function layout({ title, active, main, extra = '' }) {
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(pageTitle)}</title>
 <meta property="og:title" content="${esc(pageTitle)}">
+<meta name="description" content="${esc(site.description)}">
+<meta property="og:description" content="${esc(site.description)}">
 <meta property="og:locale" content="ar_AR">
 <meta name="theme-color" content="#6a3c18">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
@@ -125,6 +127,7 @@ function layout({ title, active, main, extra = '' }) {
     <a class="brand" href="/">
       <span class="brand-name">${esc(site.name)}</span>
     </a>
+    <p class="brand-desc">${esc(site.description)}</p>
   </div>
   <nav class="site-nav" aria-label="الأقسام">
     <div class="nav-inner">

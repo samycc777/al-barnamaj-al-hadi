@@ -100,6 +100,11 @@ a:hover { color: var(--brown-2); }
   text-shadow: 0 1px 0 rgba(242, 198, 90, .25);
   padding: 0 6px;
 }
+.brand-desc {
+  max-width: 640px; margin: 6px auto 0;
+  font-size: clamp(15px, 2.2vw, 18px); line-height: 1.8;
+  color: var(--brown-2);
+}
 
 .site-nav {
   background: var(--pattern-dark), linear-gradient(180deg, #8a5426, #6a3c18 55%, #56300f);

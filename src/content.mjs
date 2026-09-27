@@ -21,6 +21,8 @@
 
 export const site = {
   name: 'البرنامج الهادي لتأصيل العلم',
+  // Shown under the name (the manager's wording).
+  description: 'مكتبة صوتية تهدف إلى تأصيل العلم الشرعي عبر تتبع شروح كبار العلماء المعاصرين على المتون المعتمدة، وفق توصياتهم في التدرج.',
   url: 'https://al-barnamaj-al-hadi.pages.dev',
 };
 
