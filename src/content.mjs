@@ -13,7 +13,9 @@
 //                      /<category>/<slug>/. `source` is its lessons page on
 //                      al-abbaad.com (or miraath.net); `npm run import` copies
 //                      the lesson list into src/lessons/<slug>.json. The
-//                      source is not shown on the site.
+//                      source is not shown on the site. A book with no
+//                      `source` has its audio in our own storage (see
+//                      CLAUDE.md) and a lesson list written by hand.
 //   skip               lesson numbers on the source page that belong to
 //                      another book; `npm run import` leaves them out
 
@@ -46,10 +48,16 @@ export const categories = [
   { slug: 'usul-al-fiqh', name: 'أصول وقواعد الفقه', icon: 'columns', items: [] },
   {
     slug: 'tafsir', name: 'التفسير', icon: 'book', items: [
-      { title: 'التفسير الميسر', type: 'video', url: 'https://www.youtube.com/playlist?list=PL_J8_IbvJexON2bwvHBhXmpSUYJgj0_M_', note: 'مع تلاوة الآيات بصوت فضيلة الشيخ علي بن عبد الرحمن الحذيفي' },
+      { title: 'التفسير الميسر', type: 'audio', slug: 'tafsir-al-muyassar', note: 'مع تلاوة الآيات بصوت فضيلة الشيخ علي بن عبد الرحمن الحذيفي' },
+      { title: 'تيسير الكريم الرحمن في تفسير كلام المنان للإمام عبد الرحمن بن ناصر السعدي', type: 'audio', slug: 'tafsir-as-saadi', note: 'قراءة الشيخ محمد بن علي العرفج' },
     ],
   },
-  { slug: 'usul-al-tafsir', name: 'أصول وقواعد التفسير', icon: 'key', items: [] },
+  {
+    slug: 'usul-al-tafsir', name: 'أصول وقواعد التفسير', icon: 'key', items: [
+      { title: 'شرح القواعد الحسان في تفسير القرآن للإمام عبد الرحمن بن ناصر السعدي', type: 'audio', slug: 'al-qawaid-al-hisan', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين' },
+      { title: 'شرح أصول في التفسير', type: 'audio', slug: 'usul-fi-at-tafsir', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين' },
+    ],
+  },
   {
     slug: 'seerah', name: 'السيرة', icon: 'route', items: [
       { title: 'شرح مختصر سيرة الرسول ﷺ للإمام محمد بن عبد الوهاب التميمي', type: 'audio', slug: 'mukhtasar-as-seerah', source: 'https://miraath.net/%D9%85%D8%AE%D8%AA%D8%B5%D8%B1-%D8%A7%D9%84%D8%B3%D9%8A%D8%B1%D8%A9-%D8%A7%D9%84%D8%B4%D9%8A%D8%AE-%D8%B9%D9%84%D9%8A-%D9%86%D8%A7%D8%B5%D8%B1-%D8%A7%D9%84%D9%81%D9%82%D9%8A%D9%87%D9%8A/', skip: [64], note: 'فضيلة الشيخ العلامة علي بن محمد بن ناصر الفقيهي' },
