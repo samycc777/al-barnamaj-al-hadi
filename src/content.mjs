@@ -10,7 +10,9 @@
 //   slug, source       a book whose lessons are listed on its own page at
 //                      /<category>/<slug>/. `source` is its lessons page on
 //                      al-abbaad.com; `npm run import` copies the lesson list
-//                      into src/lessons/<slug>.json.
+//                      into src/lessons/<slug>.json. A book from another
+//                      site (miraath.net) also gets `sourceName`, shown
+//                      instead of "the Shaykh's official site".
 
 export const site = {
   name: 'البرنامج الهادي لتأصيل العلم',
@@ -25,8 +27,15 @@ export const categories = [
       { title: 'شرح الأربعين في مباني الإسلام وقواعد الأحكام للإمام النووي', type: 'audio', slug: 'al-arbain', source: 'https://al-abbaad.com/lecture/hadith/arbain-annawawi?type=files', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد' },
       { title: 'شرح الأربعين وتتمة الخمسين للإمامين النووي وابن رجب', type: 'audio', slug: 'fath-al-qawi', source: 'https://al-abbaad.com/lecture/hadith/fathul-qowiy?type=files', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد' },
       { title: 'شرح عمدة الأحكام من كلام خير الأنام ﷺ للإمام عبد الغني المقدسي', type: 'audio', slug: 'umdat-al-ahkam', source: 'https://al-abbaad.com/lecture/hadith/umadtul-ahkam?type=dir', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد' },
+      { title: 'كيفية الاستفادة من كتب الحديث', type: 'audio', url: 'https://al-abbaad.com/lecture/001/kaifiyah-alistifadah-min-kutub-alhadith?type=single&ids=243742', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد' },
       { title: 'شرح الموطأ للإمام مالك بن أنس', type: 'audio', slug: 'al-muwatta', source: 'https://al-abbaad.com/lecture/hadith/sharh-almuwatto?type=files', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد' },
       { title: 'شرح بلوغ المرام من أدلة الأحكام للإمام ابن حجر العسقلاني', type: 'audio', slug: 'bulugh-al-maram', source: 'https://al-abbaad.com/lecture/hadith/bulugh-almaram?type=dir', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد' },
+      { title: 'شرح صحيح البخاري للإمام محمد بن إسماعيل البخاري', type: 'audio', slug: 'sahih-al-bukhari', source: 'https://al-abbaad.com/lecture/hadith/shahih-albukhari-old?type=dir', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد' },
+      { title: 'شرح صحيح مسلم للإمام مسلم بن الحجاج النيسابوري', type: 'audio', slug: 'sahih-muslim', source: 'https://al-abbaad.com/lecture/hadith/syarh-shahih-muslim?type=dir', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد' },
+      { title: 'شرح سنن أبي داود للإمام أبي داود سليمان بن الأشعث السجستاني', type: 'audio', slug: 'sunan-abi-dawud', source: 'https://al-abbaad.com/lecture/hadith/syarh-sunan-abi-dawud?type=files', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد' },
+      { title: 'شرح جامع الترمذي للإمام محمد بن عيسى الترمذي', type: 'audio', slug: 'jami-at-tirmidhi', source: 'https://al-abbaad.com/lecture/hadith/syarh-sunan-attirmidzi?type=files', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد' },
+      { title: 'شرح سنن النسائي للإمام أحمد بن شعيب النسائي', type: 'audio', slug: 'sunan-an-nasai', source: 'https://al-abbaad.com/lecture/hadith/syarh-sunan-annasaiy?type=dir', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد' },
+      { title: 'شرح سنن ابن ماجه للإمام محمد بن يزيد ابن ماجه القزويني', type: 'audio', slug: 'sunan-ibn-majah', source: 'https://al-abbaad.com/lecture/hadith/syarh-sunan-ibni-majah?type=dir', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد' },
     ],
   },
   { slug: 'ulum-al-hadith', name: 'علوم الحديث', icon: 'chain', items: [] },
@@ -34,6 +43,10 @@ export const categories = [
   { slug: 'usul-al-fiqh', name: 'أصول وقواعد الفقه', icon: 'columns', items: [] },
   { slug: 'tafsir', name: 'التفسير', icon: 'book', items: [] },
   { slug: 'usul-al-tafsir', name: 'أصول وقواعد التفسير', icon: 'key', items: [] },
-  { slug: 'seerah', name: 'السيرة', icon: 'route', items: [] },
+  {
+    slug: 'seerah', name: 'السيرة', icon: 'route', items: [
+      { title: 'شرح مختصر سيرة الرسول ﷺ للإمام محمد بن عبد الوهاب التميمي', type: 'audio', slug: 'mukhtasar-as-seerah', source: 'https://miraath.net/%D9%85%D8%AE%D8%AA%D8%B5%D8%B1-%D8%A7%D9%84%D8%B3%D9%8A%D8%B1%D8%A9-%D8%A7%D9%84%D8%B4%D9%8A%D8%AE-%D8%B9%D9%84%D9%8A-%D9%86%D8%A7%D8%B5%D8%B1-%D8%A7%D9%84%D9%81%D9%82%D9%8A%D9%87%D9%8A/', sourceName: 'موقع ميراث الأنبياء', note: 'فضيلة الشيخ العلامة علي بن محمد بن ناصر الفقيهي' },
+    ],
+  },
   { slug: 'arabiyyah', name: 'علوم العربية', icon: 'pen', items: [] },
 ];

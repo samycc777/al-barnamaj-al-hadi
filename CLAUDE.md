@@ -6,8 +6,8 @@ Live at https://al-barnamaj-al-hadi.pages.dev (Cloudflare Pages project `al-barn
 
 ## Layout
 
-- `src/content.mjs`: all content. `site` (name, url) and `categories`, each with `items` (lessons: `title`, `type` audio/video/pdf/article/link, `url`, `date`, `note`). To add a lesson, add an item there. A book with many recorded lessons gets `slug` and `source` (its lessons page on the Shaykh's site, al-abbaad.com) instead of `url`, and its own page at `/<category>/<slug>/`.
-- `src/lessons/<slug>.json`: each book's chapters and lessons (title, date, audio address, download link, size), copied from the Shaykh's site by `npm run import`. The audio stays on his site; the book page plays it from there with one player bar at the bottom.
+- `src/content.mjs`: all content. `site` (name, url) and `categories`, each with `items` (lessons: `title`, `type` audio/video/pdf/article/link, `url`, `date`, `note`). To add a lesson, add an item there. A book with many recorded lessons gets `slug` and `source` (its lessons page on the Shaykh's site, al-abbaad.com) instead of `url`, and its own page at `/<category>/<slug>/`. A book from another site (miraath.net, for scholars with no official site) also gets `sourceName`, the label shown for its source link.
+- `src/lessons/<slug>.json`: each book's chapters and lessons (title, date, audio address, download link, size), copied from the Shaykh's site (or miraath.net) by `npm run import`. The audio stays on his site; the book page plays it from there with one player bar at the bottom.
 - `scripts/import-lessons.mjs`: the importer.
 - `build.mjs`: builds static pages into `dist/` (home, one page per category at `/<slug>/`, one per book at `/<category>/<book>/`, `404.html`). No dependencies. Icons are inline SVG line icons in `ICONS`.
 - `check.mjs`: checks every page was built, every internal link resolves, and every book has a lesson list.

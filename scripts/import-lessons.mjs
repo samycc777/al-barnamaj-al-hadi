@@ -36,7 +36,8 @@ function parseTitle(raw) {
     n = Number(m[1]);
     t = t.slice(m[0].length);
   }
-  return { n, title: t.trim() || clean(raw), date };
+  // Some books name their lessons by number only ("003").
+  return { n, title: t.trim() || (n != null ? `الدرس ${n}` : clean(raw)), date };
 }
 
 // A page listing audio files → its lessons, in order.
@@ -56,13 +57,25 @@ function chaptersOf(html) {
     const { n, title } = parseTitle(raw);
     if (!out.some((c) => c.path === path)) out.push({ n, title, path: decode(path) });
   }
+  // Same number twice ("كتاب العلم" and "كتاب العلم - آخر"): the shorter title first.
+  return out.sort((a, b) => (a.n ?? 0) - (b.n ?? 0) || a.title.length - b.title.length);
+}
+
+// A miraath.net page: one list of links straight to the mp3 files.
+function miraathLessons(html) {
+  const out = [];
+  for (const [, mp3, raw] of html.matchAll(/<a href='(https:\/\/miraath\.net\/[^']+\.mp3)'>([^<]+)<\/a>/g)) {
+    if (!out.some((l) => l.audio === mp3)) out.push({ ...parseTitle(raw), audio: encodeURI(mp3), download: '', size: '' });
+  }
   return out.sort((a, b) => (a.n ?? 0) - (b.n ?? 0));
 }
 
 async function importBook(item) {
   const html = await get(item.source);
   let chapters;
-  if (item.source.includes('type=dir')) {
+  if (item.source.includes('miraath.net')) {
+    chapters = [{ title: '', lessons: miraathLessons(html) }];
+  } else if (item.source.includes('type=dir')) {
     chapters = [];
     for (const c of chaptersOf(html)) {
       const lessons = lessonsOf(await get(c.path));

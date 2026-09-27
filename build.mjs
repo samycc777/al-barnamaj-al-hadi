@@ -209,7 +209,7 @@ function bookPage(c, it) {
   const head = `<div class="book-head">
       <a class="crumb" href="/${c.slug}/">${esc(c.name)}</a>
       ${it.note ? `<div class="book-note">${esc(it.note)}</div>` : ''}
-      <a class="book-src" href="${esc(book.source)}" target="_blank" rel="noopener">المصدر: الموقع الرسمي للشيخ</a>
+      <a class="book-src" href="${esc(book.source)}" target="_blank" rel="noopener">المصدر: ${esc(it.sourceName || 'الموقع الرسمي للشيخ')}</a>
     </div>`;
   const player = `<div class="player" hidden>
   <div class="player-title"></div>
