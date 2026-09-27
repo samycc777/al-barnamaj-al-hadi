@@ -29,6 +29,7 @@ export const categories = [
   {
     slug: 'adab-at-talib', name: 'آداب الطالب', icon: 'lamp', items: [
       { title: 'شرح حلية طالب العلم للشيخ بكر بن عبد الله أبي زيد', type: 'audio', slug: 'hilyat-talib-al-ilm', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين' },
+      { title: 'التعليق على مقدمة المجموع شرح المهذب للإمام يحيى بن شرف النووي', type: 'audio', slug: 'muqaddimat-al-majmu', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين' },
     ],
   },
   {
