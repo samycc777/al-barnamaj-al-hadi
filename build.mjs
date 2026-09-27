@@ -68,10 +68,13 @@ function itemRow(it, c) {
   ].filter(Boolean).join('<i class="dot"></i>');
   const btn = book
     ? `<a class="round-btn" href="/${c.slug}/${it.slug}/" title="الدروس" aria-label="الدروس">${icon('chevron')}</a>`
+    : it.audio
+    ? `<a class="round-btn dl" href="${esc(it.download || it.audio)}" title="تحميل" aria-label="تحميل">${icon('download')}</a>
+      <button class="round-btn play" type="button" title="استماع" aria-label="استماع">${icon('play', 'ic i-play')}${icon('pause', 'ic i-pause')}</button>`
     : it.url
     ? `<a class="round-btn" href="${esc(it.url)}" target="_blank" rel="noopener" title="${t.label}" aria-label="${t.label}">${icon(t.action)}</a>`
     : '';
-  return `<li class="row">
+  return `<li class="row${it.audio ? ' lesson' : ''}"${it.audio ? ` data-src="${esc(it.audio)}"` : ''}>
       <span class="row-ic">${icon(t.icon)}</span>
       <div class="row-body"><div class="row-title">${book ? `<a href="/${c.slug}/${it.slug}/">${esc(it.title)}</a>` : esc(it.title)}</div>${meta ? `<div class="row-meta">${meta}</div>` : ''}</div>
       ${btn}
@@ -179,9 +182,39 @@ function homePage() {
   return layout({ active: 'home', main: `<section class="panel"><div class="panel-body"><div class="cat-grid">${cards}</div></div></section>` });
 }
 
+// One audio player bar per page: a lesson's play button loads it here. The
+// audio streams from the Shaykh's site (or miraath.net).
+const PLAYER = `<div class="player" hidden>
+  <div class="player-title"></div>
+  <audio controls preload="none"></audio>
+</div>
+<script>
+  // One player for the page: a lesson's play button loads it here.
+  var bar = document.querySelector('.player'), au = bar.querySelector('audio'), cur = null;
+  function sync() {
+    document.querySelectorAll('.lesson').forEach(function (r) {
+      var on = r === cur && !au.paused;
+      r.classList.toggle('playing', on);
+      r.querySelector('.play').setAttribute('aria-label', on ? 'إيقاف' : 'استماع');
+    });
+  }
+  document.addEventListener('click', function (e) {
+    var b = e.target.closest('.play'); if (!b) return;
+    var r = b.closest('.lesson');
+    if (r === cur) { au.paused ? au.play() : au.pause(); return; }
+    cur = r;
+    au.src = r.dataset.src;
+    bar.querySelector('.player-title').textContent = r.querySelector('.row-title').textContent;
+    bar.hidden = false;
+    document.body.classList.add('has-player');
+    au.play();
+  });
+  ['play', 'pause', 'ended'].forEach(function (ev) { au.addEventListener(ev, sync); });
+</script>`;
+
 function categoryPage(c) {
   const body = c.items.length ? `<ul class="rows">${c.items.map((it) => itemRow(it, c)).join('')}</ul>` : '';
-  return layout({ title: c.name, active: c.slug, main: panel(c.name, c.icon, body) });
+  return layout({ title: c.name, active: c.slug, main: panel(c.name, c.icon, body), extra: c.items.some((it) => it.audio) ? PLAYER : '' });
 }
 
 function lessonRow(l, i) {
@@ -211,34 +244,8 @@ function bookPage(c, it) {
       ${it.note ? `<div class="book-note">${esc(it.note)}</div>` : ''}
       <a class="book-src" href="${esc(book.source)}" target="_blank" rel="noopener">المصدر: ${esc(it.sourceName || 'الموقع الرسمي للشيخ')}</a>
     </div>`;
-  const player = `<div class="player" hidden>
-  <div class="player-title"></div>
-  <audio controls preload="none"></audio>
-</div>
-<script>
-  // One player for the page: a lesson's play button loads it here.
-  var bar = document.querySelector('.player'), au = bar.querySelector('audio'), cur = null;
-  function sync() {
-    document.querySelectorAll('.lesson').forEach(function (r) {
-      var on = r === cur && !au.paused;
-      r.classList.toggle('playing', on);
-      r.querySelector('.play').setAttribute('aria-label', on ? 'إيقاف' : 'استماع');
-    });
-  }
-  document.addEventListener('click', function (e) {
-    var b = e.target.closest('.play'); if (!b) return;
-    var r = b.closest('.lesson');
-    if (r === cur) { au.paused ? au.play() : au.pause(); return; }
-    cur = r;
-    au.src = r.dataset.src;
-    bar.querySelector('.player-title').textContent = r.querySelector('.row-title').textContent;
-    bar.hidden = false;
-    document.body.classList.add('has-player');
-    au.play();
-  });
-  ['play', 'pause', 'ended'].forEach(function (ev) { au.addEventListener(ev, sync); });
-</script>`;
-  return layout({ title: it.title, active: c.slug, main: panel(it.title, c.icon, head + body), extra: player });
+
+  return layout({ title: it.title, active: c.slug, main: panel(it.title, c.icon, head + body), extra: PLAYER });
 }
 
 function notFound() {

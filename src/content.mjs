@@ -5,6 +5,8 @@
 //   title  (required)  the lesson's title
 //   type               "audio" | "video" | "pdf" | "article" | "link" (default "link")
 //   url                where the play/read/download button goes
+//   audio, download    a single recorded lecture: its mp3 address (played on
+//                      the page) and its download link
 //   date               e.g. "1448/03/12" or "2026-09-26", shown as is
 //   note               one short line under the title (the book, the shaykh…)
 //   slug, source       a book whose lessons are listed on its own page at
@@ -27,7 +29,7 @@ export const categories = [
       { title: 'شرح الأربعين في مباني الإسلام وقواعد الأحكام للإمام النووي', type: 'audio', slug: 'al-arbain', source: 'https://al-abbaad.com/lecture/hadith/arbain-annawawi?type=files', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد' },
       { title: 'شرح الأربعين وتتمة الخمسين للإمامين النووي وابن رجب', type: 'audio', slug: 'fath-al-qawi', source: 'https://al-abbaad.com/lecture/hadith/fathul-qowiy?type=files', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد' },
       { title: 'شرح عمدة الأحكام من كلام خير الأنام ﷺ للإمام عبد الغني المقدسي', type: 'audio', slug: 'umdat-al-ahkam', source: 'https://al-abbaad.com/lecture/hadith/umadtul-ahkam?type=dir', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد' },
-      { title: 'كيفية الاستفادة من كتب الحديث', type: 'audio', url: 'https://al-abbaad.com/lecture/001/kaifiyah-alistifadah-min-kutub-alhadith?type=single&ids=243742', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد' },
+      { title: 'كيفية الاستفادة من كتب الحديث', type: 'audio', audio: 'https://al-abbaad.com/jdownloads/muhadharah/kaifiyah-alistifadah-min-kutub-alhadith.mp3', download: 'https://al-abbaad.com/download/?type=audio&ids=243742', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد' },
       { title: 'شرح الموطأ للإمام مالك بن أنس', type: 'audio', slug: 'al-muwatta', source: 'https://al-abbaad.com/lecture/hadith/sharh-almuwatto?type=files', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد' },
       { title: 'شرح بلوغ المرام من أدلة الأحكام للإمام ابن حجر العسقلاني', type: 'audio', slug: 'bulugh-al-maram', source: 'https://al-abbaad.com/lecture/hadith/bulugh-almaram?type=dir', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد' },
       { title: 'شرح صحيح البخاري للإمام محمد بن إسماعيل البخاري', type: 'audio', slug: 'sahih-al-bukhari', source: 'https://al-abbaad.com/lecture/hadith/shahih-albukhari-old?type=dir', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد' },
