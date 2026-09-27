@@ -29,6 +29,7 @@ for (const { it } of books) {
   const f = `src/lessons/${it.slug}.json`;
   if (!existsSync(f)) { fail(`${it.title} has no lesson list: run npm run import -- ${it.slug}`); continue; }
   const { chapters } = JSON.parse(readFileSync(f, 'utf8'));
+  if (!chapters.length || chapters.some((ch) => !ch.lessons.length)) fail(`${f}: a chapter has no lessons`);
   for (const ch of chapters) for (const l of ch.lessons) {
     if (!l.title || !/^https:\/\/.+\.mp3$/.test(l.audio)) fail(`${f}: a lesson has no title or audio address`);
   }
