@@ -53,7 +53,7 @@ export const categories = [
     slug: 'fiqh', name: 'الفقه', icon: 'scale', items: [
       { title: 'شرح شروط الصلاة وأركانها وواجباتها للإمام محمد بن عبد الوهاب التميمي', type: 'audio', slug: 'shurut-as-salah', source: 'https://al-abbaad.com/lecture/feqh/shuruth-assalah-wa-arkaaniha?type=files', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد البدر' },
       { title: 'شرح آداب المشي إلى الصلاة للإمام محمد بن عبد الوهاب التميمي', type: 'audio', slug: 'adab-al-mashy', source: 'https://al-abbaad.com/lecture/feqh/adab-mashi-ilas-solah?type=files', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد البدر' },
-      { title: 'شرح عمدة الفقه للإمام عبد الله بن أحمد بن محمد بن قدامة المقدسي', type: 'audio', slug: 'umdat-al-fiqh', source: 'https://miraath.net/%d8%b4%d8%b1%d8%ad-%d8%b9%d9%85%d8%af%d8%a9-%d8%a7%d9%84%d9%81%d9%82%d9%87-%d9%84%d9%84%d8%b4%d9%8a%d8%ae-%d8%a7%d9%84%d8%b9%d9%84%d8%a7%d9%85%d8%a9-%d8%b9%d8%a8%d9%8a%d8%af-%d8%a7%d9%84%d8%ac%d8%a7/', note: 'فضيلة الشيخ عبيد بن عبد الله بن سليمان الحمداني الجابري' },
+      { title: 'شرح عمدة الفقه للإمام عبد الله بن أحمد بن محمد بن قدامة المقدسي', type: 'audio', slug: 'umdat-al-fiqh', source: 'https://miraath.net/%d8%b4%d8%b1%d8%ad-%d8%b9%d9%85%d8%af%d8%a9-%d8%a7%d9%84%d9%81%d9%82%d9%87-%d9%84%d9%84%d8%b4%d9%8a%d8%ae-%d8%a7%d9%84%d8%b9%d9%84%d8%a7%d9%85%d8%a9-%d8%b9%d8%a8%d9%8a%d8%af-%d8%a7%d9%84%d8%ac%d8%a7/', note: 'فضيلة الشيخ العلامة عبيد بن عبد الله بن سليمان الحمداني الجابري' },
     ],
   },
   { slug: 'usul-al-fiqh', name: 'أصول وقواعد الفقه', icon: 'columns', items: [] },
