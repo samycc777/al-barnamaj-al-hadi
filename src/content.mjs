@@ -26,7 +26,11 @@ export const site = {
 
 export const categories = [
   { slug: 'aqeedah', name: 'العقيدة', icon: 'star', items: [] },
-  { slug: 'adab-at-talib', name: 'آداب الطالب', icon: 'lamp', items: [] },
+  {
+    slug: 'adab-at-talib', name: 'آداب الطالب', icon: 'lamp', items: [
+      { title: 'شرح حلية طالب العلم للشيخ بكر بن عبد الله أبي زيد', type: 'audio', slug: 'hilyat-talib-al-ilm', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين' },
+    ],
+  },
   {
     slug: 'hadith', name: 'الحديث', icon: 'scroll', items: [
       { title: 'شرح الأربعين في مباني الإسلام وقواعد الأحكام للإمام النووي', type: 'audio', slug: 'al-arbain', source: 'https://al-abbaad.com/lecture/hadith/arbain-annawawi?type=files', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد' },
