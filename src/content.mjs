@@ -50,7 +50,11 @@ export const categories = [
       { title: 'شرح السنن للإمام أبي داود سليمان بن الأشعث السجستاني', type: 'audio', slug: 'sunan-abi-dawud', source: 'https://al-abbaad.com/lecture/hadith/syarh-sunan-abi-dawud?type=files', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد البدر' },
     ],
   },
-  { slug: 'ulum-al-hadith', name: 'علوم الحديث', icon: 'chain', items: [] },
+  {
+    slug: 'ulum-al-hadith', name: 'علوم الحديث', icon: 'chain', items: [
+      { title: 'مقدمة في علم الحديث', type: 'audio', audio: 'https://rabee.net/wp-content/uploads/bulk-files/sounds/mostalah.mp3', note: 'فضيلة الشيخ العلامة ربيع بن هادي عمير المدخلي' },
+    ],
+  },
   {
     slug: 'fiqh', name: 'الفقه', icon: 'scale', items: [
       { title: 'شرح شروط الصلاة وأركانها وواجباتها للإمام محمد بن عبد الوهاب التميمي', type: 'audio', slug: 'shurut-as-salah', source: 'https://al-abbaad.com/lecture/feqh/shuruth-assalah-wa-arkaaniha?type=files', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد البدر' },
