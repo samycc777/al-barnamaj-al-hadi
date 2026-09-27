@@ -44,7 +44,11 @@ export const categories = [
   { slug: 'ulum-al-hadith', name: 'علوم الحديث', icon: 'chain', items: [] },
   { slug: 'fiqh', name: 'الفقه', icon: 'scale', items: [] },
   { slug: 'usul-al-fiqh', name: 'أصول وقواعد الفقه', icon: 'columns', items: [] },
-  { slug: 'tafsir', name: 'التفسير', icon: 'book', items: [] },
+  {
+    slug: 'tafsir', name: 'التفسير', icon: 'book', items: [
+      { title: 'التفسير الميسر', type: 'video', url: 'https://www.youtube.com/playlist?list=PL_J8_IbvJexON2bwvHBhXmpSUYJgj0_M_', note: 'مع تلاوة الآيات بصوت فضيلة الشيخ علي بن عبد الرحمن الحذيفي' },
+    ],
+  },
   { slug: 'usul-al-tafsir', name: 'أصول وقواعد التفسير', icon: 'key', items: [] },
   {
     slug: 'seerah', name: 'السيرة', icon: 'route', items: [
