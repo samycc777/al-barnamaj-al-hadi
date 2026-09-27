@@ -66,7 +66,16 @@ export const categories = [
       { title: 'التعليق على الكافي للإمام عبد الله بن أحمد بن محمد بن قدامة المقدسي', type: 'audio', slug: 'al-kafi', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين' },
     ],
   },
-  { slug: 'usul-al-fiqh', name: 'أصول وقواعد الفقه', icon: 'columns', items: [] },
+  {
+    slug: 'usul-al-fiqh', name: 'أصول وقواعد الفقه', icon: 'columns', items: [
+      { title: 'شرح منظومة القواعد الفقهية للإمام عبد الرحمن بن ناصر السعدي', type: 'audio', slug: 'manzumat-al-qawaid-al-fiqhiyyah', note: 'فضيلة الشيخ العلامة عبيد بن عبد الله بن سليمان الحمداني الجابري' },
+      { title: 'شرح القواعد والأصول الجامعة والفروق والتقاسيم البديعة النافعة للإمام عبد الرحمن بن ناصر السعدي', type: 'audio', slug: 'al-qawaid-wal-usul-al-jamiah', source: 'https://miraath.net/%d8%b4%d8%b1%d8%ad-%d8%a7%d9%84%d9%82%d9%88%d8%a7%d8%b9%d8%af-%d9%88%d8%a7%d9%84%d8%a3%d8%b5%d9%88%d9%84-%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a9-%d9%88%d8%a7%d9%84%d9%81%d8%b1%d9%88%d9%82-%d9%88/', note: 'فضيلة الشيخ العلامة عبيد بن عبد الله بن سليمان الحمداني الجابري' },
+      { title: 'شرح الأصول من علم الأصول', type: 'audio', slug: 'al-usul-min-ilm-al-usul', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين' },
+      { title: 'شرح منظومة أصول الفقه وقواعده', type: 'audio', slug: 'manzumat-usul-al-fiqh', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين' },
+      { title: 'شرح قواعد الأصول ومعاقد الفصول للإمام عبد المؤمن بن عبد الحق القطيعي البغدادي', type: 'audio', slug: 'qawaid-al-usul', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين' },
+      { title: 'تقرير القواعد وتحرير الفوائد للإمام ابن رجب', type: 'audio', slug: 'taqrir-al-qawaid', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين' },
+    ],
+  },
   {
     slug: 'tafsir', name: 'التفسير', icon: 'book', items: [
       { title: 'التفسير الميسر', type: 'audio', slug: 'tafsir-al-muyassar', note: 'مع تلاوة الآيات بصوت فضيلة الشيخ علي بن عبد الرحمن الحذيفي' },

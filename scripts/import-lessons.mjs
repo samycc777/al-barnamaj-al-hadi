@@ -72,7 +72,22 @@ function miraathLessons(html) {
   if (prefix && out.length > 1 && out.every((l) => l.title.startsWith(prefix) && l.title.length > prefix.length)) {
     for (const l of out) l.title = l.title.slice(prefix.length);
   }
+  // Every lesson titled with just the book's name and no number: number them in page order.
+  if (out.length > 1 && out.every((l) => l.n == null && l.title === out[0].title)) {
+    out.forEach((l, i) => Object.assign(l, { n: i + 1, title: `الدرس ${ordinal(i + 1)}` }));
+  }
   return out.sort((a, b) => (a.n ?? 0) - (b.n ?? 0));
+}
+
+// 1 → "الأول", 12 → "الثاني عشر", 21 → "الحادي والعشرون"
+const ONES = ['', 'الأول', 'الثاني', 'الثالث', 'الرابع', 'الخامس', 'السادس', 'السابع', 'الثامن', 'التاسع', 'العاشر'];
+const UNITS = ['', 'الحادي', 'الثاني', 'الثالث', 'الرابع', 'الخامس', 'السادس', 'السابع', 'الثامن', 'التاسع'];
+const TENS = ['', '', 'العشرون', 'الثلاثون', 'الأربعون', 'الخمسون', 'الستون', 'السبعون', 'الثمانون', 'التسعون'];
+function ordinal(n) {
+  if (n <= 10) return ONES[n];
+  if (n < 20) return `${UNITS[n - 10]} عشر`;
+  if (n < 100) return n % 10 ? `${UNITS[n % 10]} و${TENS[Math.floor(n / 10)]}` : TENS[n / 10];
+  return String(n);
 }
 
 async function importBook(item) {
