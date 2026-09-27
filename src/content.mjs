@@ -56,6 +56,7 @@ export const categories = [
     slug: 'usul-al-tafsir', name: 'أصول وقواعد التفسير', icon: 'key', items: [
       { title: 'شرح القواعد الحسان في تفسير القرآن للإمام عبد الرحمن بن ناصر السعدي', type: 'audio', slug: 'al-qawaid-al-hisan', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين' },
       { title: 'شرح أصول في التفسير', type: 'audio', slug: 'usul-fi-at-tafsir', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين' },
+      { title: 'شرح مقدمة في أصول التفسير للإمام أحمد بن عبد الحليم ابن تيمية النميري الحراني', type: 'audio', slug: 'muqaddimah-at-tafsir', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين' },
     ],
   },
   {

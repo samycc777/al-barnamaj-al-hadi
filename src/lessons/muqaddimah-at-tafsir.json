@@ -1,0 +1,50 @@
+{
+  "source": "https://binothaimeen.net",
+  "chapters": [
+    {
+      "title": "",
+      "lessons": [
+        {
+          "n": 1,
+          "title": "الدرس الأول",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/muqaddimah-at-tafsir/01.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/muqaddimah-at-tafsir/01.mp3",
+          "size": "42.7 MB"
+        },
+        {
+          "n": 2,
+          "title": "الدرس الثاني",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/muqaddimah-at-tafsir/02.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/muqaddimah-at-tafsir/02.mp3",
+          "size": "42.7 MB"
+        },
+        {
+          "n": 3,
+          "title": "الدرس الثالث",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/muqaddimah-at-tafsir/03.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/muqaddimah-at-tafsir/03.mp3",
+          "size": "42.2 MB"
+        },
+        {
+          "n": 4,
+          "title": "الدرس الرابع",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/muqaddimah-at-tafsir/04.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/muqaddimah-at-tafsir/04.mp3",
+          "size": "42.8 MB"
+        },
+        {
+          "n": 5,
+          "title": "الدرس الخامس",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/muqaddimah-at-tafsir/05.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/muqaddimah-at-tafsir/05.mp3",
+          "size": "28.5 MB"
+        }
+      ]
+    }
+  ]
+}
