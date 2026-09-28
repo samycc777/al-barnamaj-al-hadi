@@ -1,9 +1,9 @@
 // Checks the built site: every page exists and every internal link points to a real page.
 import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
-import { categories } from './src/content.mjs';
+import { categories, itemsOf } from './src/content.mjs';
 
-const books = categories.flatMap((c) => c.items.filter((it) => it.slug).map((it) => ({ c, it })));
+const books = categories.flatMap((c) => itemsOf(c).filter((it) => it.slug).map((it) => ({ c, it })));
 const pages = [
   'dist/index.html', 'dist/404.html',
   ...categories.map((c) => `dist/${c.slug}/index.html`),
@@ -23,7 +23,7 @@ for (const p of pages) {
 }
 const slugs = categories.map((c) => c.slug);
 if (new Set(slugs).size !== slugs.length) fail('two categories share the same slug');
-for (const c of categories) for (const it of c.items) if (!it.title) fail(`an item in ${c.name} has no title`);
+for (const c of categories) for (const it of itemsOf(c)) if (!it.title) fail(`an item in ${c.name} has no title`);
 
 for (const { it } of books) {
   const f = `src/lessons/${it.slug}.json`;

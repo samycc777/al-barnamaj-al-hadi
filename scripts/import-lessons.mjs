@@ -6,7 +6,7 @@
 //   npm run import            all books
 //   npm run import -- <slug>  one book
 import { mkdirSync, writeFileSync } from 'node:fs';
-import { categories } from '../src/content.mjs';
+import { categories, itemsOf } from '../src/content.mjs';
 
 const ORIGIN = 'https://al-abbaad.com';
 const only = process.argv[2];
@@ -113,6 +113,6 @@ async function importBook(item) {
 }
 
 mkdirSync('src/lessons', { recursive: true });
-const books = categories.flatMap((c) => c.items).filter((it) => it.source && (!only || it.slug === only));
+const books = categories.flatMap(itemsOf).filter((it) => it.source && (!only || it.slug === only));
 if (!books.length) throw new Error(only ? `no book with slug "${only}" and a source` : 'no book has a source');
 for (const b of books) await importBook(b);

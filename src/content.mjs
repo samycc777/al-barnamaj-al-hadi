@@ -18,6 +18,10 @@
 //                      CLAUDE.md) and a lesson list written by hand.
 //   skip               lesson numbers on the source page that belong to
 //                      another book; `npm run import` leaves them out
+//
+// A category can also have `sections`: [{ title, items }], groups shown under
+// their own heading on the category page (a scholar's works, النحو…). Their
+// books' pages are still at /<category>/<slug>/.
 
 export const site = {
   name: 'البرنامج الهادي لتأصيل العلم',
@@ -97,3 +101,6 @@ export const categories = [
   },
   { slug: 'arabiyyah', name: 'علوم العربية', icon: 'pen', items: [] },
 ];
+
+// A category's items, including those in its sections.
+export const itemsOf = (c) => [...c.items, ...(c.sections || []).flatMap((s) => s.items)];

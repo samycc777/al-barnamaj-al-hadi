@@ -248,6 +248,8 @@ main.container { padding: 28px 0 40px; }
 .chapter[open] summary::before { transform: rotate(45deg); }
 .chapter .count { margin-inline-start: auto; font-size: 13px; font-weight: 500; color: var(--muted); }
 .chapter .rows { margin: 0; }
+.panel-body > .rows:not(:last-child) { margin-bottom: 0; }
+.panel-body > .chapter:first-child { margin-top: -18px; }
 .num { min-width: 28px; text-align: center; font-weight: 700; color: var(--gold); }
 .lesson .i-pause, .lesson.playing .i-play { display: none; }
 .lesson.playing .i-pause { display: block; }

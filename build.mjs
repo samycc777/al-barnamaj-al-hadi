@@ -1,6 +1,6 @@
 // Builds the static site into dist/ from src/content.mjs. No dependencies.
 import { mkdirSync, rmSync, writeFileSync, cpSync, readFileSync } from 'node:fs';
-import { site, categories } from './src/content.mjs';
+import { site, categories, itemsOf } from './src/content.mjs';
 
 const OUT = 'dist';
 
@@ -215,9 +215,15 @@ const PLAYER = `<div class="player" hidden>
   ['play', 'pause', 'ended'].forEach(function (ev) { au.addEventListener(ev, sync); });
 </script>`;
 
+// A category's lessons, then each of its sections (a scholar's works, a
+// branch like النحو) as an open, foldable group.
 function categoryPage(c) {
-  const body = c.items.length ? `<ul class="rows">${c.items.map((it) => itemRow(it, c)).join('')}</ul>` : '';
-  return layout({ title: c.name, active: c.slug, main: panel(c.name, c.icon, body), extra: c.items.some((it) => it.audio) ? PLAYER : '' });
+  const rows = (items) => `<ul class="rows">${items.map((it) => itemRow(it, c)).join('')}</ul>`;
+  const body = (c.items.length ? rows(c.items) : '') + (c.sections || []).map((s) => `<details class="chapter" open>
+        <summary><span>${esc(s.title)}</span><span class="count">${s.items.length}</span></summary>
+        ${rows(s.items)}
+      </details>`).join('');
+  return layout({ title: c.name, active: c.slug, main: panel(c.name, c.icon, body), extra: itemsOf(c).some((it) => it.audio) ? PLAYER : '' });
 }
 
 function lessonRow(l, i) {
@@ -264,7 +270,7 @@ for (const c of categories) {
   mkdirSync(`${OUT}/${c.slug}`, { recursive: true });
   write(`${OUT}/${c.slug}/index.html`, categoryPage(c));
 }
-const books = categories.flatMap((c) => c.items.filter((it) => it.slug).map((it) => [c, it]));
+const books = categories.flatMap((c) => itemsOf(c).filter((it) => it.slug).map((it) => [c, it]));
 for (const [c, it] of books) {
   mkdirSync(`${OUT}/${c.slug}/${it.slug}`, { recursive: true });
   write(`${OUT}/${c.slug}/${it.slug}/index.html`, bookPage(c, it));
