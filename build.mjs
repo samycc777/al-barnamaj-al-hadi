@@ -62,7 +62,7 @@ function itemRow(it, c) {
   const t = TYPE[it.type] || TYPE.link;
   const book = it.slug && lessonsOf(it);
   const meta = [
-    book && `<span>عدد الدروس: ${lessonCount(book)}</span>`,
+    book && `<span>عدد ${book.unit || 'الدروس'}: ${lessonCount(book)}</span>`,
     it.date && `<span>${esc(it.date)}</span>`,
     it.note && `<span>${esc(it.note)}</span>`,
   ].filter(Boolean).join('<i class="dot"></i>');
