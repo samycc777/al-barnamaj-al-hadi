@@ -55,6 +55,7 @@ export const categories = [
   {
     slug: 'ulum-al-hadith', name: 'علوم الحديث', icon: 'chain', items: [
       { title: 'مقدمة في علم الحديث', type: 'audio', audio: 'https://rabee.net/wp-content/uploads/bulk-files/sounds/mostalah.mp3', note: 'فضيلة الشيخ العلامة ربيع بن هادي عمير المدخلي' },
+      { title: 'شرح مقدمة صحيح الإمام مسلم بن الحجاج', type: 'audio', slug: 'muqaddimat-sahih-muslim', note: 'فضيلة الشيخ العلامة محمد بن علي بن آدم الإتيوبي' },
     ],
   },
   {
