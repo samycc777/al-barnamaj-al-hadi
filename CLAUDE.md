@@ -24,7 +24,8 @@ Live at https://al-barnamaj-al-hadi.pages.dev (Cloudflare Pages project `al-barn
 - `npm run build`: build into `dist/`.
 - `npm run check`: build and verify. This is the full check command; run it after every change and merge.
 - `npm run dev`: build and serve on http://localhost:4321 (`scripts/dev.mjs`, no dependencies). It watches `src/`, `assets/` and `build.mjs`, rebuilds on every change and reloads the open page. Run in the project folder (main), it shows each change as soon as it is merged. If port 4321 is already in use it says so and exits.
-- The user's cmux has a workspace command **Tasil Ilm preview** (in `~/.config/cmux/cmux.json`, run from the Command Palette ⌘⇧P): Claude on the left, the site at localhost:4321 on the right with the dev server below it.
+- The preview is always running: the user wants `npm run dev` on at all times. A macOS LaunchAgent (`~/Library/LaunchAgents/com.samycachon.tasil-ilm-preview.plist`) runs `node scripts/dev.mjs` in the project folder at login and restarts it if it stops; its output goes to `~/Library/Logs/tasil-ilm-preview.log`. So don't start another `npm run dev` on port 4321 (it would only report that the port is in use). Restart it with `launchctl kickstart -k gui/$(id -u)/com.samycachon.tasil-ilm-preview`. It runs `/opt/homebrew/bin/node`; if node moves, update the plist.
+- The user's cmux has a workspace command **Tasil Ilm preview** (in `~/.config/cmux/cmux.json`, run from the Command Palette ⌘⇧P): Claude on the left, the site at localhost:4321 on the right with the preview's log below it.
 - `npm run import` (or `npm run import -- <slug>`): refresh books' lesson lists from al-abbaad.com. Run it after adding a book, or when the Shaykh's site adds lessons, then commit the JSON.
 
 Cloudflare builds with `npm run build` and serves `dist/`. Deploying = pushing `main` to GitHub (a push needs the user's OK only if they haven't asked for the change to go live).
