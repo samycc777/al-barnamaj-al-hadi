@@ -57,6 +57,7 @@ export const categories = [
       },
       {
         title: 'مؤلفات الإمام أحمد بن عبد الحليم ابن تيمية النميري الحراني', items: [
+        { title: 'شرح القصيدة اللامية للإمام أحمد بن عبد الحليم ابن تيمية النميري الحراني', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/al-lamiyyah/al-lamiyyah.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/al-lamiyyah/al-lamiyyah.mp3', note: 'فضيلة الشيخ عبد الله بن صالح القصير' },
         { title: 'شرح العبودية للإمام أحمد بن عبد الحليم ابن تيمية النميري الحراني', type: 'audio', slug: 'al-ubudiyyah', note: 'فضيلة الشيخ العلامة صالح بن فوزان بن عبد الله الفوزان' },
         { title: 'شرح قاعدة جليلة في التوسل والوسيلة للإمام أحمد بن عبد الحليم ابن تيمية النميري الحراني', type: 'audio', slug: 'at-tawassul-wal-wasilah', note: 'فضيلة الشيخ العلامة صالح بن فوزان بن عبد الله الفوزان' },
         { title: 'شرح العقيدة الواسطية للإمام أحمد بن عبد الحليم ابن تيمية النميري الحراني', type: 'audio', slug: 'al-aqidah-al-wasitiyyah', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين' },
