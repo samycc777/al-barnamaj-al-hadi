@@ -79,6 +79,7 @@ export const categories = [
       {
         title: 'الدعوة', items: [
         { title: 'شرح وجوب الأمر بالمعروف والنهي عن المنكر للإمام عبد العزيز بن عبد الله بن باز', type: 'audio', slug: 'wujub-al-amr-bil-maruf', note: 'فضيلة الشيخ العلامة صالح بن فوزان بن عبد الله الفوزان' },
+        { title: 'شرح الأمر بالمعروف والنهي عن المنكر للإمام أحمد بن عبد الحليم ابن تيمية النميري الحراني', type: 'audio', slug: 'al-amr-bil-maruf', note: 'فضيلة الشيخ العلامة عبيد بن عبد الله بن سليمان الحمداني الجابري' },
         ],
       },
     ],
@@ -103,6 +104,10 @@ export const categories = [
     slug: 'ulum-al-hadith', name: 'علوم الحديث', icon: 'chain', items: [
       { title: 'مقدمة في علم الحديث', type: 'audio', audio: 'https://rabee.net/wp-content/uploads/bulk-files/sounds/mostalah.mp3', note: 'فضيلة الشيخ العلامة ربيع بن هادي عمير المدخلي' },
       { title: 'شرح مقدمة صحيح الإمام مسلم بن الحجاج', type: 'audio', slug: 'muqaddimat-sahih-muslim', note: 'فضيلة الشيخ العلامة محمد بن علي بن آدم الإتيوبي' },
+      { title: 'شرح المنظومة البيقونية للإمام عمر بن محمد البيقوني', type: 'audio', slug: 'al-bayquniyyah', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين' },
+      { title: 'شرح نزهة النظر في توضيح نخبة الفكر للإمام أحمد بن علي بن حجر العسقلاني', type: 'audio', slug: 'nuzhat-an-nazar', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين' },
+      { title: 'شرح نخبة الفكر في مصطلح أهل الأثر للإمام أحمد بن علي بن حجر العسقلاني', type: 'audio', slug: 'nukhbat-al-fikar', note: 'فضيلة الشيخ العلامة محمد بن علي بن آدم الإتيوبي' },
+      { title: 'شرح ألفية السيوطي في علم الحديث للإمام عبد الرحمن بن أبي بكر السيوطي', type: 'audio', slug: 'alfiyyat-as-suyuti', source: 'https://al-abbaad.com/lecture/hadith/alfiyah-suyuthi?type=files', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد البدر' },
     ],
   },
   {
