@@ -1,0 +1,34 @@
+{
+  "source": "https://archive.org/details/gami-shurut-shahada",
+  "chapters": [
+    {
+      "title": "",
+      "lessons": [
+        {
+          "n": 1,
+          "title": "الدرس الأول",
+          "date": "",
+          "audio": "https://archive.org/download/gami-shurut-shahada/01.mp3",
+          "download": "https://archive.org/download/gami-shurut-shahada/01.mp3",
+          "size": "15.6 MB"
+        },
+        {
+          "n": 2,
+          "title": "الدرس الثاني",
+          "date": "",
+          "audio": "https://archive.org/download/gami-shurut-shahada/02.mp3",
+          "download": "https://archive.org/download/gami-shurut-shahada/02.mp3",
+          "size": "16.4 MB"
+        },
+        {
+          "n": 3,
+          "title": "الدرس الثالث",
+          "date": "",
+          "audio": "https://archive.org/download/gami-shurut-shahada/03.mp3",
+          "download": "https://archive.org/download/gami-shurut-shahada/03.mp3",
+          "size": "16.1 MB"
+        }
+      ]
+    }
+  ]
+}
