@@ -31,7 +31,37 @@ export const site = {
 };
 
 export const categories = [
-  { slug: 'aqeedah', name: 'العقيدة', icon: 'star', items: [] },
+  {
+    slug: 'aqeedah', name: 'العقيدة', icon: 'star', items: [], sections: [
+      {
+        title: 'مؤلفات الإمام محمد بن عبد الوهاب التميمي', items: [
+        { title: 'شرح رسالة إلى أهل القصيم للإمام محمد بن عبد الوهاب التميمي', type: 'audio', slug: 'risalah-ahl-al-qasim', source: 'https://miraath.net/%D8%B1%D8%B3%D8%A7%D9%84%D8%A9-%D8%A7%D9%84%D8%B4%D9%8A%D8%AE-%D9%85%D8%AD%D9%85%D8%AF-%D8%A8%D9%86-%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%88%D9%87%D8%A7%D8%A8-%D8%A5%D9%84%D9%89-%D8%A3%D9%87%D9%84-%D8%A7/', note: 'فضيلة الشيخ العلامة علي بن محمد بن ناصر الفقيهي' },
+        { title: 'شرح تفسير كلمة التوحيد للإمام محمد بن عبد الوهاب التميمي', type: 'audio', slug: 'tafsir-kalimat-at-tawhid', source: 'https://miraath.net/%D9%83%D8%AA%D8%A7%D8%A8-%D8%AA%D9%81%D8%B3%D9%8A%D8%B1-%D9%83%D9%84%D9%85%D8%A9-%D8%A7%D9%84%D8%AA%D9%88%D8%AD%D9%8A%D8%AF-%D8%A7%D9%84%D8%B4%D9%8A%D8%AE-%D8%B9%D9%84%D9%8A-%D9%86%D8%A7/', note: 'فضيلة الشيخ العلامة علي بن محمد بن ناصر الفقيهي' },
+        { title: 'شرح الجامع لعبادة الله وحده للإمام محمد بن عبد الوهاب التميمي', type: 'audio', slug: 'al-jami-li-ibadatillah', source: 'https://miraath.net/%D8%B1%D8%B3%D8%A7%D9%84%D8%A9-%D8%A7%D9%84%D8%B4%D9%8A%D8%AE-%D9%85%D8%AD%D9%85%D8%AF-%D8%A8%D9%86-%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%88%D9%87%D8%A7%D8%A8-%D9%81%D9%8A-%D8%A7%D9%84%D8%AC%D8%A7%D9%85/', note: 'فضيلة الشيخ العلامة علي بن محمد بن ناصر الفقيهي' },
+        { title: 'شرح بعض فوائد من سورة الفاتحة للإمام محمد بن عبد الوهاب التميمي', type: 'audio', slug: 'fawaid-al-fatihah', source: 'https://miraath.net/%D8%B1%D8%B3%D8%A7%D9%84%D8%A9-%D8%A7%D9%84%D8%B4%D9%8A%D8%AE-%D9%85%D8%AD%D9%85%D8%AF-%D8%A8%D9%86-%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%88%D9%87%D8%A7%D8%A8-%D9%81%D9%8A-%D8%A8%D8%B9%D8%B6-%D9%81%D9%88/', note: 'فضيلة الشيخ العلامة علي بن محمد بن ناصر الفقيهي' },
+        { title: 'شرح معنى الطاغوت للإمام محمد بن عبد الوهاب التميمي', type: 'audio', slug: 'mana-at-taghut', source: 'https://miraath.net/%D8%B1%D8%B3%D8%A7%D9%84%D8%A9-%D8%A7%D9%84%D8%B4%D9%8A%D8%AE-%D9%85%D8%AD%D9%85%D8%AF-%D8%A8%D9%86-%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%88%D9%87%D8%A7%D8%A8-%D9%81%D9%8A-%D9%85%D8%B9%D9%86%D9%89-%D8%A7/', note: 'فضيلة الشيخ العلامة علي بن محمد بن ناصر الفقيهي' },
+        { title: 'شرح ستة مواضع في السيرة للإمام محمد بن عبد الوهاب التميمي', type: 'audio', slug: 'sittat-mawadi-as-seerah', source: 'https://miraath.net/%D9%85%D9%88%D8%A7%D8%B6%D8%B9-%D8%A7%D9%84%D8%B3%D9%8A%D8%B1%D8%A9-%D8%A7%D9%84%D8%B4%D9%8A%D8%AE-%D8%B9%D9%84%D9%8A-%D9%86%D8%A7%D8%B5%D8%B1-%D8%A7%D9%84%D9%81%D9%82%D9%8A%D9%87%D9%8A/', note: 'فضيلة الشيخ العلامة علي بن محمد بن ناصر الفقيهي' },
+        { title: 'شرح القواعد الأربع للإمام محمد بن عبد الوهاب التميمي', type: 'audio', slug: 'al-qawaid-al-arba', source: 'https://miraath.net/%D8%B1%D8%B3%D8%A7%D9%84%D8%A9-%D8%A7%D9%84%D8%B4%D9%8A%D8%AE-%D9%85%D8%AD%D9%85%D8%AF-%D8%A8%D9%86-%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%88%D9%87%D8%A7%D8%A8-%D9%81%D9%8A-%D8%A7%D9%84%D9%82%D9%88%D8%A7/', note: 'فضيلة الشيخ العلامة علي بن محمد بن ناصر الفقيهي' },
+        { title: 'شرح ثلاثة الأصول للإمام محمد بن عبد الوهاب التميمي', type: 'audio', slug: 'thalathat-al-usul', source: 'https://miraath.net/%D8%A7%D9%84%D8%A3%D8%B5%D9%88%D9%84-%D8%A7%D9%84%D8%AB%D9%84%D8%A7%D8%AB%D8%A9-%D8%A7%D9%84%D8%B4%D9%8A%D8%AE-%D8%B9%D9%84%D9%8A-%D9%86%D8%A7%D8%B5%D8%B1-%D8%A7%D9%84%D9%81%D9%82%D9%8A/', note: 'فضيلة الشيخ العلامة علي بن محمد بن ناصر الفقيهي' },
+        { title: 'شرح الأصول الستة للإمام محمد بن عبد الوهاب التميمي', type: 'audio', slug: 'al-usul-as-sittah', source: 'https://miraath.net/%D8%A7%D9%84%D8%A3%D8%B5%D9%88%D9%84-%D8%A7%D9%84%D8%B3%D8%AA%D8%A9-%D8%A7%D9%84%D8%B4%D9%8A%D8%AE-%D8%B9%D9%84%D9%8A-%D9%86%D8%A7%D8%B5%D8%B1-%D8%A7%D9%84%D9%81%D9%82%D9%8A%D9%87%D9%8A/', note: 'فضيلة الشيخ العلامة علي بن محمد بن ناصر الفقيهي' },
+        { title: 'شرح كشف الشبهات للإمام محمد بن عبد الوهاب التميمي', type: 'audio', slug: 'kashf-ash-shubuhat', note: 'فضيلة الشيخ العلامة صالح بن فوزان بن عبد الله الفوزان' },
+        { title: 'شرح مسائل الجاهلية للإمام محمد بن عبد الوهاب التميمي', type: 'audio', slug: 'masail-al-jahiliyyah', note: 'فضيلة الشيخ العلامة صالح بن فوزان بن عبد الله الفوزان' },
+        { title: 'شرح كتاب الكبائر للإمام محمد بن عبد الوهاب التميمي', type: 'audio', slug: 'al-kabair', note: 'فضيلة الشيخ العلامة صالح بن فوزان بن عبد الله الفوزان' },
+        { title: 'شرح كتاب الفتن والحوادث للإمام محمد بن عبد الوهاب التميمي', type: 'audio', slug: 'al-fitan-wal-hawadith', note: 'فضيلة الشيخ العلامة صالح بن فوزان بن عبد الله الفوزان' },
+        ],
+      },
+      {
+        title: 'مؤلفات الإمام أحمد بن عبد الحليم ابن تيمية النميري الحراني', items: [
+        { title: 'شرح العبودية للإمام أحمد بن عبد الحليم ابن تيمية النميري الحراني', type: 'audio', slug: 'al-ubudiyyah', note: 'فضيلة الشيخ العلامة صالح بن فوزان بن عبد الله الفوزان' },
+        { title: 'شرح قاعدة جليلة في التوسل والوسيلة للإمام أحمد بن عبد الحليم ابن تيمية النميري الحراني', type: 'audio', slug: 'at-tawassul-wal-wasilah', note: 'فضيلة الشيخ العلامة صالح بن فوزان بن عبد الله الفوزان' },
+        { title: 'شرح العقيدة الواسطية للإمام أحمد بن عبد الحليم ابن تيمية النميري الحراني', type: 'audio', slug: 'al-aqidah-al-wasitiyyah', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين' },
+        { title: 'شرح الفتوى الحموية الكبرى للإمام أحمد بن عبد الحليم ابن تيمية النميري الحراني', type: 'audio', slug: 'al-hamawiyyah', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين' },
+        { title: 'شرح الرسالة التدمرية للإمام أحمد بن عبد الحليم ابن تيمية النميري الحراني', type: 'audio', slug: 'at-tadmuriyyah', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين' },
+        { title: 'شرح اقتضاء الصراط المستقيم لمخالفة أصحاب الجحيم للإمام أحمد بن عبد الحليم ابن تيمية النميري الحراني', type: 'audio', slug: 'iqtida-as-sirat', note: 'فضيلة الشيخ العلامة صالح بن فوزان بن عبد الله الفوزان' },
+        ],
+      },
+    ],
+  },
   {
     slug: 'adab-at-talib', name: 'آداب الطالب', icon: 'lamp', items: [
       { title: 'مرحبا يا طالب العلم', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/marhaban-ya-talib-al-ilm/marhaban-ya-talib-al-ilm.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/marhaban-ya-talib-al-ilm/marhaban-ya-talib-al-ilm.mp3', note: 'فضيلة الشيخ العلامة ربيع بن هادي عمير المدخلي' },
@@ -99,7 +129,16 @@ export const categories = [
       { title: 'شرح مختصر سيرة الرسول ﷺ للإمام محمد بن عبد الوهاب التميمي', type: 'audio', slug: 'mukhtasar-as-seerah', source: 'https://miraath.net/%D9%85%D8%AE%D8%AA%D8%B5%D8%B1-%D8%A7%D9%84%D8%B3%D9%8A%D8%B1%D8%A9-%D8%A7%D9%84%D8%B4%D9%8A%D8%AE-%D8%B9%D9%84%D9%8A-%D9%86%D8%A7%D8%B5%D8%B1-%D8%A7%D9%84%D9%81%D9%82%D9%8A%D9%87%D9%8A/', skip: [64], note: 'فضيلة الشيخ العلامة علي بن محمد بن ناصر الفقيهي' },
     ],
   },
-  { slug: 'arabiyyah', name: 'علوم العربية', icon: 'pen', items: [] },
+  {
+    slug: 'arabiyyah', name: 'علوم العربية', icon: 'pen', items: [], sections: [
+      {
+        title: 'النحو', items: [
+        { title: 'التعليق على الدرة اليتيمة', type: 'audio', slug: 'ad-durrah-al-yatimah', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين' },
+        { title: 'شرح الآجرومية للإمام محمد بن محمد بن آجروم الصنهاجي', type: 'audio', slug: 'al-ajurrumiyyah', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين' },
+        ],
+      },
+    ],
+  },
 ];
 
 // A category's items, including those in its sections.

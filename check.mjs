@@ -32,7 +32,7 @@ for (const { it } of books) {
   if (!chapters.length || chapters.some((ch) => !ch.lessons.length)) fail(`${f}: a chapter has no lessons`);
   for (const ch of chapters) for (const l of ch.lessons) {
     // mimham.net serves its mp3s at addresses like /audcha-165-1, with no .mp3 ending.
-    if (!l.title || !/^https:\/\/(.+\.mp3|www\.mimham\.net\/aud[a-z]+-[\d-]+)$/.test(l.audio)) fail(`${f}: a lesson has no title or audio address`);
+    if (!l.title || !/^https:\/\/(.+\.mp3|www\.mimham\.net\/aud[a-z]+-[\d-]+)$/i.test(l.audio)) fail(`${f}: a lesson has no title or audio address`);
   }
 }
 const bookSlugs = books.map(({ c, it }) => `${c.slug}/${it.slug}`);
