@@ -74,6 +74,13 @@ export const categories = [
       { title: 'عوائق في طريق طالب العلم', type: 'audio', audio: 'https://rabee.net/wp-content/uploads/bulk-files/sounds/awaiq.mp3', download: 'https://rabee.net/wp-content/uploads/bulk-files/sounds/awaiq.mp3', note: 'فضيلة الشيخ العلامة ربيع بن هادي عمير المدخلي' },
       { title: 'شرح حلية طالب العلم للشيخ بكر بن عبد الله أبي زيد', type: 'audio', slug: 'hilyat-talib-al-ilm', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين' },
       { title: 'التعليق على مقدمة المجموع شرح المهذب للإمام يحيى بن شرف النووي', type: 'audio', slug: 'muqaddimat-al-majmu', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين' },
+      { title: 'شرح الألفية في الآداب الشرعية للإمام محمد بن عبد القوي المرداوي', type: 'audio', slug: 'al-alfiyyah-fil-adab', note: 'فضيلة الشيخ العلامة صالح بن فوزان بن عبد الله الفوزان' },
+    ], sections: [
+      {
+        title: 'الدعوة', items: [
+        { title: 'شرح وجوب الأمر بالمعروف والنهي عن المنكر للإمام عبد العزيز بن عبد الله بن باز', type: 'audio', slug: 'wujub-al-amr-bil-maruf', note: 'فضيلة الشيخ العلامة صالح بن فوزان بن عبد الله الفوزان' },
+        ],
+      },
     ],
   },
   {
@@ -105,6 +112,7 @@ export const categories = [
       { title: 'شرح عمدة الفقه للإمام عبد الله بن أحمد بن محمد بن قدامة المقدسي', type: 'audio', slug: 'umdat-al-fiqh', source: 'https://miraath.net/%d8%b4%d8%b1%d8%ad-%d8%b9%d9%85%d8%af%d8%a9-%d8%a7%d9%84%d9%81%d9%82%d9%87-%d9%84%d9%84%d8%b4%d9%8a%d8%ae-%d8%a7%d9%84%d8%b9%d9%84%d8%a7%d9%85%d8%a9-%d8%b9%d8%a8%d9%8a%d8%af-%d8%a7%d9%84%d8%ac%d8%a7/', note: 'فضيلة الشيخ العلامة عبيد بن عبد الله بن سليمان الحمداني الجابري' },
       { title: 'شرح زاد المستقنع في اختصار المقنع للإمام موسى بن أحمد الحجاوي', type: 'audio', slug: 'zad-al-mustaqni', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين' },
       { title: 'التعليق على الكافي للإمام عبد الله بن أحمد بن محمد بن قدامة المقدسي', type: 'audio', slug: 'al-kafi', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين' },
+      { title: 'شرح السياسة الشرعية في إصلاح الراعي والرعية للإمام أحمد بن عبد الحليم ابن تيمية النميري الحراني', type: 'audio', slug: 'as-siyasah-ash-shariyyah', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين' },
     ],
   },
   {
