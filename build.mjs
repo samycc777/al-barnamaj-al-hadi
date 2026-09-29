@@ -216,10 +216,10 @@ const PLAYER = `<div class="player" hidden>
 </script>`;
 
 // A category's lessons, then each of its sections (a scholar's works, a
-// branch like النحو) as an open, foldable group.
+// branch like النحو) as a foldable group, closed until tapped.
 function categoryPage(c) {
   const rows = (items) => `<ul class="rows">${items.map((it) => itemRow(it, c)).join('')}</ul>`;
-  const body = (c.items.length ? rows(c.items) : '') + (c.sections || []).map((s) => `<details class="chapter" open>
+  const body = (c.items.length ? rows(c.items) : '') + (c.sections || []).map((s) => `<details class="chapter">
         <summary><span>${esc(s.title)}</span><span class="count">${s.items.length}</span></summary>
         ${rows(s.items)}
       </details>`).join('');
