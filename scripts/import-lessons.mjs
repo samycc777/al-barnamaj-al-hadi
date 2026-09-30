@@ -5,7 +5,7 @@
 //
 //   npm run import            all books
 //   npm run import -- <slug>  one book
-import { mkdirSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { categories, itemsOf } from '../src/content.mjs';
 
 const ORIGIN = 'https://al-abbaad.com';
@@ -31,6 +31,8 @@ function parseTitle(raw) {
     t = t.slice(0, d.index);
   }
   let n = null;
+  // "شرح صحيح مسلم 254 - باب …": the book's name before the number.
+  t = t.replace(/^\s*شرح [^\d-]+?\s(?=\d+\s*-)/, '');
   const m = t.match(/^\s*(\d+)\s*[-_.]?\s*/);
   if (m) {
     n = Number(m[1]);
@@ -113,9 +115,20 @@ async function importBook(item) {
   }
   // Lessons the source site filed under this book by mistake.
   if (item.skip) for (const c of chapters) c.lessons = c.lessons.filter((l) => !item.skip.includes(l.n));
+  // Lessons the source lacks, added by hand from another copy (archive.org) with
+  // `extra: true`, stay: in their chapter if the source has it, else in their own.
+  const file = `src/lessons/${item.slug}.json`;
+  const old = existsSync(file) ? JSON.parse(readFileSync(file, 'utf8')).chapters : [];
+  for (const oc of old) {
+    const extra = oc.lessons.filter((l) => l.extra && !chapters.some((c) => c.lessons.some((x) => x.n === l.n)));
+    if (!extra.length) continue;
+    const c = chapters.find((c) => c.title === oc.title);
+    if (c) c.lessons = [...c.lessons, ...extra].sort((a, b) => (a.n ?? 0) - (b.n ?? 0));
+    else chapters.push({ title: oc.title, lessons: extra });
+  }
   const count = chapters.reduce((s, c) => s + c.lessons.length, 0);
   if (!count) throw new Error(`no lessons found on ${item.source}`);
-  writeFileSync(`src/lessons/${item.slug}.json`, JSON.stringify({ source: new URL(item.source, ORIGIN).href, chapters }, null, 2) + '\n');
+  writeFileSync(file, JSON.stringify({ source: new URL(item.source, ORIGIN).href, chapters }, null, 2) + '\n');
   console.log(`${item.slug}: ${chapters.length} chapter(s), ${count} lessons`);
 }
 

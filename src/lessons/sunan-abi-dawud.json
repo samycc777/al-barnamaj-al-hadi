@@ -5,6 +5,24 @@
       "title": "",
       "lessons": [
         {
+          "n": 1,
+          "title": "الدرس 1",
+          "date": "",
+          "audio": "https://archive.org/download/Sharh_Sunan_Abee-Daawood/001.mp3",
+          "download": "https://archive.org/download/Sharh_Sunan_Abee-Daawood/001.mp3",
+          "size": "21.3 MB",
+          "extra": true
+        },
+        {
+          "n": 2,
+          "title": "الدرس 2",
+          "date": "",
+          "audio": "https://archive.org/download/Sharh_Sunan_Abee-Daawood/002.mp3",
+          "download": "https://archive.org/download/Sharh_Sunan_Abee-Daawood/002.mp3",
+          "size": "20.9 MB",
+          "extra": true
+        },
+        {
           "n": 3,
           "title": "الدرس 3",
           "date": "",

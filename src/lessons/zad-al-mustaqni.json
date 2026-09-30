@@ -3487,6 +3487,43 @@
       ]
     },
     {
+      "title": "كتاب الأطعمة",
+      "lessons": [
+        {
+          "n": 1,
+          "title": "الدرس الأول",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin/othaimeen_G/01%20alzad/alat3imah/alat3imah_alzad_othaimeen_G_01.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin/othaimeen_G/01%20alzad/alat3imah/alat3imah_alzad_othaimeen_G_01.mp3",
+          "size": "85.2 MB"
+        },
+        {
+          "n": 2,
+          "title": "الدرس الثاني",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin/othaimeen_G/01%20alzad/alat3imah/alat3imah_alzad_othaimeen_G_02.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin/othaimeen_G/01%20alzad/alat3imah/alat3imah_alzad_othaimeen_G_02.mp3",
+          "size": "85.5 MB"
+        },
+        {
+          "n": 3,
+          "title": "الدرس الثالث",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin/othaimeen_G/01%20alzad/alat3imah/alat3imah_alzad_othaimeen_G_03.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin/othaimeen_G/01%20alzad/alat3imah/alat3imah_alzad_othaimeen_G_03.mp3",
+          "size": "79.4 MB"
+        },
+        {
+          "n": 4,
+          "title": "الدرس الرابع",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin/othaimeen_G/01%20alzad/alat3imah/alat3imah_alzad_othaimeen_G_04.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin/othaimeen_G/01%20alzad/alat3imah/alat3imah_alzad_othaimeen_G_04.mp3",
+          "size": "86.0 MB"
+        }
+      ]
+    },
+    {
       "title": "كتاب الأيمان إلى كتاب القضاء",
       "lessons": [
         {
@@ -3648,43 +3685,6 @@
           "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin/othaimeen_G/01%20alzad/alayman_ila_alqadaa/alayman_ila_alqadaa_alzad_othaimeen_G_20.mp3",
           "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin/othaimeen_G/01%20alzad/alayman_ila_alqadaa/alayman_ila_alqadaa_alzad_othaimeen_G_20.mp3",
           "size": "41.2 MB"
-        }
-      ]
-    },
-    {
-      "title": "كتاب الأطعمة",
-      "lessons": [
-        {
-          "n": 1,
-          "title": "الدرس الأول",
-          "date": "",
-          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin/othaimeen_G/01%20alzad/alat3imah/alat3imah_alzad_othaimeen_G_01.mp3",
-          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin/othaimeen_G/01%20alzad/alat3imah/alat3imah_alzad_othaimeen_G_01.mp3",
-          "size": "85.2 MB"
-        },
-        {
-          "n": 2,
-          "title": "الدرس الثاني",
-          "date": "",
-          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin/othaimeen_G/01%20alzad/alat3imah/alat3imah_alzad_othaimeen_G_02.mp3",
-          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin/othaimeen_G/01%20alzad/alat3imah/alat3imah_alzad_othaimeen_G_02.mp3",
-          "size": "85.5 MB"
-        },
-        {
-          "n": 3,
-          "title": "الدرس الثالث",
-          "date": "",
-          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin/othaimeen_G/01%20alzad/alat3imah/alat3imah_alzad_othaimeen_G_03.mp3",
-          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin/othaimeen_G/01%20alzad/alat3imah/alat3imah_alzad_othaimeen_G_03.mp3",
-          "size": "79.4 MB"
-        },
-        {
-          "n": 4,
-          "title": "الدرس الرابع",
-          "date": "",
-          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin/othaimeen_G/01%20alzad/alat3imah/alat3imah_alzad_othaimeen_G_04.mp3",
-          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin/othaimeen_G/01%20alzad/alat3imah/alat3imah_alzad_othaimeen_G_04.mp3",
-          "size": "86.0 MB"
         }
       ]
     }
