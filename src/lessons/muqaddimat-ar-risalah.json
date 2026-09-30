@@ -1,0 +1,58 @@
+{
+  "source": "https://archive.org/details/DawraMeknes",
+  "chapters": [
+    {
+      "title": "",
+      "lessons": [
+        {
+          "n": 1,
+          "title": "الدرس الأول",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/muqaddimat-ar-risalah-jabiri/01.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/muqaddimat-ar-risalah-jabiri/01.mp3",
+          "size": "33.8 MB"
+        },
+        {
+          "n": 2,
+          "title": "الدرس الثاني",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/muqaddimat-ar-risalah-jabiri/02.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/muqaddimat-ar-risalah-jabiri/02.mp3",
+          "size": "27.1 MB"
+        },
+        {
+          "n": 3,
+          "title": "الدرس الثالث",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/muqaddimat-ar-risalah-jabiri/03.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/muqaddimat-ar-risalah-jabiri/03.mp3",
+          "size": "21.5 MB"
+        },
+        {
+          "n": 4,
+          "title": "الدرس الرابع",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/muqaddimat-ar-risalah-jabiri/04.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/muqaddimat-ar-risalah-jabiri/04.mp3",
+          "size": "32.8 MB"
+        },
+        {
+          "n": 5,
+          "title": "الدرس الخامس",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/muqaddimat-ar-risalah-jabiri/05.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/muqaddimat-ar-risalah-jabiri/05.mp3",
+          "size": "20.7 MB"
+        },
+        {
+          "n": 6,
+          "title": "الدرس السادس",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/muqaddimat-ar-risalah-jabiri/06.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/muqaddimat-ar-risalah-jabiri/06.mp3",
+          "size": "36.8 MB"
+        }
+      ]
+    }
+  ]
+}

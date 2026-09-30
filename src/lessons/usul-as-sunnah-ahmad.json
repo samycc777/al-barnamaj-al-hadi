@@ -1,0 +1,42 @@
+{
+  "source": "https://rabee.net",
+  "chapters": [
+    {
+      "title": "",
+      "lessons": [
+        {
+          "n": 1,
+          "title": "الدرس الأول",
+          "date": "",
+          "audio": "https://rabee.net/wp-content/uploads/bulk-files/sounds/Osol_sunna1.mp3",
+          "download": "https://rabee.net/wp-content/uploads/bulk-files/sounds/Osol_sunna1.mp3",
+          "size": "31.9 MB"
+        },
+        {
+          "n": 2,
+          "title": "الدرس الثاني",
+          "date": "",
+          "audio": "https://rabee.net/wp-content/uploads/bulk-files/sounds/Osol_sunna2.mp3",
+          "download": "https://rabee.net/wp-content/uploads/bulk-files/sounds/Osol_sunna2.mp3",
+          "size": "6.7 MB"
+        },
+        {
+          "n": 3,
+          "title": "الدرس الثالث",
+          "date": "",
+          "audio": "https://rabee.net/wp-content/uploads/bulk-files/sounds/Osol_sunna3.mp3",
+          "download": "https://rabee.net/wp-content/uploads/bulk-files/sounds/Osol_sunna3.mp3",
+          "size": "43.7 MB"
+        },
+        {
+          "n": 4,
+          "title": "الدرس الرابع",
+          "date": "",
+          "audio": "https://rabee.net/wp-content/uploads/bulk-files/sounds/Osol_sunna4.mp3",
+          "download": "https://rabee.net/wp-content/uploads/bulk-files/sounds/Osol_sunna4.mp3",
+          "size": "33.2 MB"
+        }
+      ]
+    }
+  ]
+}

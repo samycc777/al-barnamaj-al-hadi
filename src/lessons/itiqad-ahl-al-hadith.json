@@ -1,0 +1,58 @@
+{
+  "source": "https://www.youtube.com/playlist?list=PLDt6JFWpCMTyUcb5k1zG4F-Zuv5o_jqLg",
+  "chapters": [
+    {
+      "title": "",
+      "lessons": [
+        {
+          "n": 1,
+          "title": "الدرس الأول",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/itiqad-ahl-al-hadith-jabiri/01.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/itiqad-ahl-al-hadith-jabiri/01.mp3",
+          "size": "26.5 MB"
+        },
+        {
+          "n": 2,
+          "title": "الدرس الثاني",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/itiqad-ahl-al-hadith-jabiri/02.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/itiqad-ahl-al-hadith-jabiri/02.mp3",
+          "size": "30.4 MB"
+        },
+        {
+          "n": 3,
+          "title": "الدرس الثالث",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/itiqad-ahl-al-hadith-jabiri/03.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/itiqad-ahl-al-hadith-jabiri/03.mp3",
+          "size": "23.4 MB"
+        },
+        {
+          "n": 4,
+          "title": "الدرس الرابع",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/itiqad-ahl-al-hadith-jabiri/04.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/itiqad-ahl-al-hadith-jabiri/04.mp3",
+          "size": "12.7 MB"
+        },
+        {
+          "n": 5,
+          "title": "الدرس الخامس",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/itiqad-ahl-al-hadith-jabiri/05.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/itiqad-ahl-al-hadith-jabiri/05.mp3",
+          "size": "22.3 MB"
+        },
+        {
+          "n": 6,
+          "title": "الدرس السادس",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/itiqad-ahl-al-hadith-jabiri/06.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/itiqad-ahl-al-hadith-jabiri/06.mp3",
+          "size": "26.1 MB"
+        }
+      ]
+    }
+  ]
+}
