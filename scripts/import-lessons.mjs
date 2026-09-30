@@ -65,7 +65,14 @@ function chaptersOf(html) {
 function miraathLessons(html) {
   const out = [];
   for (const [, mp3, raw] of html.matchAll(/<a href='(https:\/\/miraath\.net\/[^']+\.mp3)'>([^<]+)<\/a>/g)) {
-    if (!out.some((l) => l.audio === mp3)) out.push({ ...parseTitle(raw), audio: encodeURI(mp3), download: '', size: '' });
+    if (out.some((l) => l.audio === mp3)) continue;
+    // "0009-0010قدم وفد عبدالقيس" (the ḥadīth numbers a lesson covers, كتاب الإيمان لابن منده)
+    // → n 9, "(9–10) قدم وفد عبدالقيس".
+    const h = clean(raw).match(/^(\d{4})(?:-(\d{4}))?\s*(\D.*)$/);
+    if (h) {
+      const [a, b] = [Number(h[1]), h[2] && Number(h[2])];
+      out.push({ n: a, title: `(${b ? `${a}–${b}` : a}) ${h[3].trim()}`, date: '', audio: encodeURI(mp3), download: '', size: '' });
+    } else out.push({ ...parseTitle(raw), audio: encodeURI(mp3), download: '', size: '' });
   }
   // "شرح عمدة الفقه - كتاب الطهارة" on every lesson: keep only the part after the book's name.
   const prefix = out[0]?.title.match(/^[^-]+ - /)?.[0];
