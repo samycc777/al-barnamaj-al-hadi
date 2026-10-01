@@ -206,6 +206,11 @@ export const categories = [
       { title: 'شرح الوابل الصيب ورافع الكلم الطيب للإمام محمد بن أبي بكر ابن قيم الجوزية (ت 751هـ)', type: 'audio', slug: 'al-wabil-as-sayyib', note: 'سماحة الشيخ العلامة عبد العزيز بن عبد الله بن باز (ت 1420هـ)' },
     ],
   },
+  {
+    slug: 'tazkiyat-an-nafs', name: 'تزكية النفس', icon: 'heart', items: [
+      { title: 'شرح الداء والدواء للإمام محمد بن أبي بكر ابن قيم الجوزية (ت 751هـ)', type: 'audio', slug: 'ad-daa-wad-dawaa', note: 'فضيلة الشيخ العلامة عبد الرزاق بن عبد المحسن البدر' },
+    ],
+  },
 ];
 
 // A category's items, including those in its sections.
