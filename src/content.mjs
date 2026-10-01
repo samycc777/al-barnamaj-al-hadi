@@ -65,6 +65,7 @@ export const categories = [
         { title: 'شرح الفتوى الحموية الكبرى', type: 'audio', slug: 'al-hamawiyyah', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين (ت 1421هـ)' },
         { title: 'شرح الرسالة التدمرية', type: 'audio', slug: 'at-tadmuriyyah', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين (ت 1421هـ)' },
         { title: 'شرح اقتضاء الصراط المستقيم لمخالفة أصحاب الجحيم', type: 'audio', slug: 'iqtida-as-sirat', note: 'فضيلة الشيخ العلامة صالح بن فوزان بن عبد الله الفوزان' },
+        { title: 'شرح الأمر بالمعروف والنهي عن المنكر', type: 'audio', slug: 'al-amr-bil-maruf', note: 'فضيلة الشيخ العلامة عبيد بن عبد الله بن سليمان الحمداني الجابري (ت 1444هـ)' },
         ],
       },
       {
@@ -91,24 +92,18 @@ export const categories = [
         { title: 'شرح منظومة الفروق بين الكفر والشرك والنفاق والظلم والفسوق', type: 'audio', slug: 'manzumat-al-furuq', note: 'فضيلة الشيخ العلامة زيد بن محمد بن هادي المدخلي (ت 1435هـ)' },
         { title: 'شرح عقيدة أهل السنة والجماعة', type: 'audio', slug: 'aqidat-ahl-as-sunnah', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين (ت 1421هـ)' },
         { title: 'شرح القواعد المثلى في صفات الله وأسمائه الحسنى', type: 'audio', slug: 'al-qawaid-al-muthla', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين (ت 1421هـ)' },
+        { title: 'شرح وجوب الأمر بالمعروف والنهي عن المنكر للإمام عبد العزيز بن عبد الله بن باز', type: 'audio', slug: 'wujub-al-amr-bil-maruf', note: 'فضيلة الشيخ العلامة صالح بن فوزان بن عبد الله الفوزان' },
         ],
       },
     ],
   },
   {
-    slug: 'adab-at-talib', name: 'آداب الطالب', icon: 'lamp', items: [
+    slug: 'adab-at-talib', name: 'الآداب', icon: 'lamp', items: [
       { title: 'مرحبا يا طالب العلم', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/marhaban-ya-talib-al-ilm/marhaban-ya-talib-al-ilm.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/marhaban-ya-talib-al-ilm/marhaban-ya-talib-al-ilm.mp3', note: 'فضيلة الشيخ العلامة ربيع بن هادي عمير المدخلي (ت 1447هـ)' },
       { title: 'عوائق في طريق طالب العلم', type: 'audio', audio: 'https://rabee.net/wp-content/uploads/bulk-files/sounds/awaiq.mp3', download: 'https://rabee.net/wp-content/uploads/bulk-files/sounds/awaiq.mp3', note: 'فضيلة الشيخ العلامة ربيع بن هادي عمير المدخلي (ت 1447هـ)' },
       { title: 'شرح حلية طالب العلم للشيخ بكر بن عبد الله أبي زيد', type: 'audio', slug: 'hilyat-talib-al-ilm', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين (ت 1421هـ)' },
       { title: 'التعليق على مقدمة المجموع شرح المهذب للإمام يحيى بن شرف النووي', type: 'audio', slug: 'muqaddimat-al-majmu', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين (ت 1421هـ)' },
       { title: 'شرح الألفية في الآداب الشرعية للإمام محمد بن عبد القوي المرداوي', type: 'audio', slug: 'al-alfiyyah-fil-adab', note: 'فضيلة الشيخ العلامة صالح بن فوزان بن عبد الله الفوزان' },
-    ], sections: [
-      {
-        title: 'الدعوة', items: [
-        { title: 'شرح وجوب الأمر بالمعروف والنهي عن المنكر للإمام عبد العزيز بن عبد الله بن باز', type: 'audio', slug: 'wujub-al-amr-bil-maruf', note: 'فضيلة الشيخ العلامة صالح بن فوزان بن عبد الله الفوزان' },
-        { title: 'شرح الأمر بالمعروف والنهي عن المنكر للإمام أحمد بن عبد الحليم ابن تيمية النميري الحراني', type: 'audio', slug: 'al-amr-bil-maruf', note: 'فضيلة الشيخ العلامة عبيد بن عبد الله بن سليمان الحمداني الجابري (ت 1444هـ)' },
-        ],
-      },
     ],
   },
   {
