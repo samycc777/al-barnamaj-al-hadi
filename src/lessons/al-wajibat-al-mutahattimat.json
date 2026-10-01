@@ -1,0 +1,42 @@
+{
+  "source": "https://archive.org/details/04-1_20260815",
+  "chapters": [
+    {
+      "title": "",
+      "lessons": [
+        {
+          "n": 1,
+          "title": "الدرس الأول",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/al-wajibat-al-mutahattimat/01.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/al-wajibat-al-mutahattimat/01.mp3",
+          "size": "25.8 MB"
+        },
+        {
+          "n": 2,
+          "title": "الدرس الثاني",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/al-wajibat-al-mutahattimat/02.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/al-wajibat-al-mutahattimat/02.mp3",
+          "size": "25.3 MB"
+        },
+        {
+          "n": 3,
+          "title": "الدرس الثالث",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/al-wajibat-al-mutahattimat/03.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/al-wajibat-al-mutahattimat/03.mp3",
+          "size": "25.2 MB"
+        },
+        {
+          "n": 4,
+          "title": "الدرس الرابع",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/al-wajibat-al-mutahattimat/04.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/al-wajibat-al-mutahattimat/04.mp3",
+          "size": "18.5 MB"
+        }
+      ]
+    }
+  ]
+}
