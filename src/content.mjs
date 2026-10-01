@@ -165,6 +165,7 @@ export const categories = [
   {
     slug: 'seerah', name: 'السيرة', icon: 'route', items: [
       { title: 'شرح مختصر سيرة الرسول ﷺ للإمام محمد بن عبد الوهاب التميمي', type: 'audio', slug: 'mukhtasar-as-seerah', source: 'https://miraath.net/%D9%85%D8%AE%D8%AA%D8%B5%D8%B1-%D8%A7%D9%84%D8%B3%D9%8A%D8%B1%D8%A9-%D8%A7%D9%84%D8%B4%D9%8A%D8%AE-%D8%B9%D9%84%D9%8A-%D9%86%D8%A7%D8%B5%D8%B1-%D8%A7%D9%84%D9%81%D9%82%D9%8A%D9%87%D9%8A/', skip: [64], note: 'فضيلة الشيخ العلامة علي بن محمد بن ناصر الفقيهي (ت 1446هـ)' },
+      { title: 'شرح مختصر زاد المعاد للإمام محمد بن عبد الوهاب التميمي', type: 'audio', slug: 'mukhtasar-zad-al-maad', note: 'فضيلة الشيخ العلامة صالح بن فوزان بن عبد الله الفوزان' },
     ],
   },
   {
