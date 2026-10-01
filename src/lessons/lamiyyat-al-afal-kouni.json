@@ -1,5 +1,5 @@
 {
-  "source": "https://archive.org",
+  "source": "https://archive.org/details/kawni-lamiah-ibnmalik-hazrami",
   "chapters": [
     {
       "title": "",
@@ -8,57 +8,41 @@
           "n": 1,
           "title": "الدرس الأول",
           "date": "",
-          "audio": "https://archive.org/download/04_20231127/00.mp3",
-          "download": "https://archive.org/download/04_20231127/00.mp3",
-          "size": "35.8 MB"
+          "audio": "https://archive.org/download/kawni-lamiah-ibnmalik-hazrami/01.mp3",
+          "download": "https://archive.org/download/kawni-lamiah-ibnmalik-hazrami/01.mp3",
+          "size": "43.3 MB"
         },
         {
           "n": 2,
           "title": "الدرس الثاني",
           "date": "",
-          "audio": "https://archive.org/download/04_20231127/01.mp3",
-          "download": "https://archive.org/download/04_20231127/01.mp3",
-          "size": "44.9 MB"
+          "audio": "https://archive.org/download/kawni-lamiah-ibnmalik-hazrami/02.mp3",
+          "download": "https://archive.org/download/kawni-lamiah-ibnmalik-hazrami/02.mp3",
+          "size": "33.8 MB"
         },
         {
           "n": 3,
           "title": "الدرس الثالث",
           "date": "",
-          "audio": "https://archive.org/download/04_20231127/02.mp3",
-          "download": "https://archive.org/download/04_20231127/02.mp3",
-          "size": "39.6 MB"
+          "audio": "https://archive.org/download/kawni-lamiah-ibnmalik-hazrami/03.mp3",
+          "download": "https://archive.org/download/kawni-lamiah-ibnmalik-hazrami/03.mp3",
+          "size": "20.6 MB"
         },
         {
           "n": 4,
           "title": "الدرس الرابع",
           "date": "",
-          "audio": "https://archive.org/download/04_20231127/03.mp3",
-          "download": "https://archive.org/download/04_20231127/03.mp3",
-          "size": "16.6 MB"
+          "audio": "https://archive.org/download/kawni-lamiah-ibnmalik-hazrami/04.mp3",
+          "download": "https://archive.org/download/kawni-lamiah-ibnmalik-hazrami/04.mp3",
+          "size": "45.0 MB"
         },
         {
           "n": 5,
           "title": "الدرس الخامس",
           "date": "",
-          "audio": "https://archive.org/download/04_20231127/04.mp3",
-          "download": "https://archive.org/download/04_20231127/04.mp3",
-          "size": "46.1 MB"
-        },
-        {
-          "n": 6,
-          "title": "الدرس السادس",
-          "date": "",
-          "audio": "https://archive.org/download/04_20231127/05.mp3",
-          "download": "https://archive.org/download/04_20231127/05.mp3",
-          "size": "44.5 MB"
-        },
-        {
-          "n": 7,
-          "title": "الدرس السابع",
-          "date": "",
-          "audio": "https://archive.org/download/04_20231127/06.mp3",
-          "download": "https://archive.org/download/04_20231127/06.mp3",
-          "size": "11.7 MB"
+          "audio": "https://archive.org/download/kawni-lamiah-ibnmalik-hazrami/05.mp3",
+          "download": "https://archive.org/download/kawni-lamiah-ibnmalik-hazrami/05.mp3",
+          "size": "45.5 MB"
         }
       ]
     }
