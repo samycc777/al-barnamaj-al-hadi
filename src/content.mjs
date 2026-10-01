@@ -208,7 +208,7 @@ export const categories = [
   },
   {
     slug: 'tazkiyat-an-nafs', name: 'تزكية النفس', icon: 'heart', items: [
-      { title: 'شرح الداء والدواء للإمام محمد بن أبي بكر ابن قيم الجوزية (ت 751هـ)', type: 'audio', slug: 'ad-daa-wad-dawaa', note: 'فضيلة الشيخ العلامة عبد الرزاق بن عبد المحسن البدر' },
+      { title: 'شرح الداء والدواء للإمام محمد بن أبي بكر ابن قيم الجوزية (ت 751هـ)', type: 'audio', slug: 'ad-daa-wad-dawaa', note: 'فضيلة الشيخ العلامة صالح بن فوزان بن عبد الله الفوزان' },
     ],
   },
 ];
