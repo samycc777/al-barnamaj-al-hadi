@@ -108,11 +108,6 @@ export const categories = [
     ],
   },
   {
-    slug: 'adhkar', name: 'الأذكار', icon: 'sunrise', items: [
-      { title: 'شرح الوابل الصيب ورافع الكلم الطيب للإمام محمد بن أبي بكر ابن قيم الجوزية (ت 751هـ)', type: 'audio', slug: 'al-wabil-as-sayyib', note: 'سماحة الشيخ العلامة عبد العزيز بن عبد الله بن باز (ت 1420هـ)' },
-    ],
-  },
-  {
     slug: 'hadith', name: 'الحديث', icon: 'scroll', items: [
       { title: 'شرح الأربعين في مباني الإسلام وقواعد الأحكام للإمام النووي (ت 676هـ)', type: 'audio', slug: 'al-arbain', source: 'https://al-abbaad.com/lecture/hadith/arbain-annawawi?type=files', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد البدر' },
       { title: 'شرح الأربعين وتتمة الخمسين للإمامين النووي (ت 676هـ) وابن رجب (ت 795هـ)', type: 'audio', slug: 'fath-al-qawi', source: 'https://al-abbaad.com/lecture/hadith/fathul-qowiy?type=files', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد البدر' },
@@ -204,6 +199,11 @@ export const categories = [
         { title: 'شرح البلاغة من كتاب قواعد اللغة العربية', type: 'audio', slug: 'durus-al-balaghah', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين (ت 1421هـ)' },
         ],
       },
+    ],
+  },
+  {
+    slug: 'adhkar', name: 'الأذكار', icon: 'sunrise', items: [
+      { title: 'شرح الوابل الصيب ورافع الكلم الطيب للإمام محمد بن أبي بكر ابن قيم الجوزية (ت 751هـ)', type: 'audio', slug: 'al-wabil-as-sayyib', note: 'سماحة الشيخ العلامة عبد العزيز بن عبد الله بن باز (ت 1420هـ)' },
     ],
   },
 ];
