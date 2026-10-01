@@ -117,11 +117,11 @@ a:hover { color: var(--brown-2); }
 .nav-inner { width: min(1180px, 100% - 32px); margin-inline: auto; }
 .site-nav ul {
   list-style: none; margin: 0; padding: 8px 0;
-  display: flex; flex-wrap: wrap; justify-content: center; gap: 4px;
+  display: flex; flex-wrap: wrap; justify-content: center; gap: 2px;
 }
 .site-nav a {
   display: block; color: #fff6e7; font-size: 15.5px; font-weight: 500;
-  padding: 5px 13px; border-radius: 999px; white-space: nowrap;
+  padding: 5px 10px; border-radius: 999px; white-space: nowrap;
   transition: background-color .2s, color .2s;
 }
 .site-nav a:hover { background: rgba(255, 246, 231, .14); color: #fff; }
