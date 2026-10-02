@@ -1,0 +1,41 @@
+{
+  "chapters": [
+    {
+      "title": "",
+      "lessons": [
+        {
+          "n": 1,
+          "title": "الدرس الأول",
+          "date": "",
+          "audio": "https://al-abbaad.com/jdownloads/durus/aqedah/sharh-shudur-bitahrim-raful-qubur/01.mp3",
+          "download": "https://al-abbaad.com/download/?type=audio&ids=244683",
+          "size": "15.39 MB"
+        },
+        {
+          "n": 2,
+          "title": "الدرس الثاني",
+          "date": "",
+          "audio": "https://al-abbaad.com/jdownloads/durus/aqedah/sharh-shudur-bitahrim-raful-qubur/02.mp3",
+          "download": "https://al-abbaad.com/download/?type=audio&ids=244684",
+          "size": "13.26 MB"
+        },
+        {
+          "n": 3,
+          "title": "الدرس الثالث",
+          "date": "",
+          "audio": "https://al-abbaad.com/jdownloads/durus/aqedah/sharh-shudur-bitahrim-raful-qubur/04.mp3",
+          "download": "https://al-abbaad.com/download/?type=audio&ids=244686",
+          "size": "12.81 MB"
+        },
+        {
+          "n": 4,
+          "title": "الدرس الرابع",
+          "date": "",
+          "audio": "https://al-abbaad.com/jdownloads/durus/aqedah/sharh-shudur-bitahrim-raful-qubur/03.mp3",
+          "download": "https://al-abbaad.com/download/?type=audio&ids=244685",
+          "size": "7.47 MB"
+        }
+      ]
+    }
+  ]
+}
