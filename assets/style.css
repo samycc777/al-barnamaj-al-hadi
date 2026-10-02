@@ -101,7 +101,7 @@ a:hover { color: var(--brown-2); }
   padding: 0 6px;
 }
 .brand-desc {
-  max-width: 640px; margin: 6px auto 0;
+  max-width: 720px; margin: 6px auto 0; text-wrap: balance;
   font-size: clamp(15px, 2.2vw, 18px); line-height: 1.8;
   color: var(--brown-2);
 }
