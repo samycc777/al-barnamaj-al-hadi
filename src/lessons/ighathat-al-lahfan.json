@@ -1,0 +1,889 @@
+{
+  "chapters": [
+    {
+      "title": "",
+      "lessons": [
+        {
+          "n": 1,
+          "title": "مقدمة الكتاب",
+          "date": "1434/03/22",
+          "audio": "https://archive.org/download/57_20200217/01%20%D9%85%D9%82%D8%AF%D9%85%D8%A9%20%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D8%A8.mp3",
+          "download": "https://archive.org/download/57_20200217/01%20%D9%85%D9%82%D8%AF%D9%85%D8%A9%20%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D8%A8.mp3",
+          "size": "54.9 MB"
+        },
+        {
+          "n": 2,
+          "title": "القلب كالملك",
+          "date": "1434/03/29",
+          "audio": "https://archive.org/download/57_20200217/02%20%20%D8%A7%D9%84%D9%82%D9%84%D8%A8%20%D9%83%D8%A7%D9%84%D9%85%D9%84%D9%83.mp3",
+          "download": "https://archive.org/download/57_20200217/02%20%20%D8%A7%D9%84%D9%82%D9%84%D8%A8%20%D9%83%D8%A7%D9%84%D9%85%D9%84%D9%83.mp3",
+          "size": "72.1 MB"
+        },
+        {
+          "n": 3,
+          "title": "انقسام القلوب",
+          "date": "1434/04/07",
+          "audio": "https://archive.org/download/57_20200217/03%20%20%D8%A3%D9%82%D8%B3%D8%A7%D9%85%20%D8%A7%D9%84%D9%82%D9%84%D9%88%D8%A8.mp3",
+          "download": "https://archive.org/download/57_20200217/03%20%20%D8%A3%D9%82%D8%B3%D8%A7%D9%85%20%D8%A7%D9%84%D9%82%D9%84%D9%88%D8%A8.mp3",
+          "size": "74.9 MB"
+        },
+        {
+          "n": 4,
+          "title": "صحيح وسقيم",
+          "date": "1434/04/14",
+          "audio": "https://archive.org/download/57_20200217/04%20%20%D8%B5%D8%AD%D9%8A%D8%AD%20%D9%88%D8%B3%D9%82%D9%8A%D9%85.mp3",
+          "download": "https://archive.org/download/57_20200217/04%20%20%D8%B5%D8%AD%D9%8A%D8%AD%20%D9%88%D8%B3%D9%82%D9%8A%D9%85.mp3",
+          "size": "70.7 MB"
+        },
+        {
+          "n": 5,
+          "title": "مرض القلب",
+          "date": "1434/04/21",
+          "audio": "https://archive.org/download/57_20200217/05%20%20%D9%85%D8%B1%D8%B6%20%D8%A7%D9%84%D9%82%D9%84%D8%A8.mp3",
+          "download": "https://archive.org/download/57_20200217/05%20%20%D9%85%D8%B1%D8%B6%20%D8%A7%D9%84%D9%82%D9%84%D8%A8.mp3",
+          "size": "73.2 MB"
+        },
+        {
+          "n": 6,
+          "title": "انقسام مرض القلب",
+          "date": "1434/04/28",
+          "audio": "https://archive.org/download/57_20200217/06%20%20%D8%A7%D9%86%D9%82%D8%B3%D8%A7%D9%85%20%D9%85%D8%B1%D8%B6%20%D8%A7%D9%84%D9%82%D9%84%D8%A8.mp3",
+          "download": "https://archive.org/download/57_20200217/06%20%20%D8%A7%D9%86%D9%82%D8%B3%D8%A7%D9%85%20%D9%85%D8%B1%D8%B6%20%D8%A7%D9%84%D9%82%D9%84%D8%A8.mp3",
+          "size": "71.9 MB"
+        },
+        {
+          "n": 7,
+          "title": "حياة القلب",
+          "date": "1434/05/05",
+          "audio": "https://archive.org/download/57_20200217/07%20%20%D8%AD%D9%8A%D8%A7%D8%A9%20%D8%A7%D9%84%D9%82%D9%84%D8%A8.mp3",
+          "download": "https://archive.org/download/57_20200217/07%20%20%D8%AD%D9%8A%D8%A7%D8%A9%20%D8%A7%D9%84%D9%82%D9%84%D8%A8.mp3",
+          "size": "71.4 MB"
+        },
+        {
+          "n": 8,
+          "title": "صحة القلب",
+          "date": "1434/05/19",
+          "audio": "https://archive.org/download/57_20200217/08%20%20%D8%B5%D8%AD%D8%A9%20%D8%A7%D9%84%D9%82%D9%84%D8%A8.mp3",
+          "download": "https://archive.org/download/57_20200217/08%20%20%D8%B5%D8%AD%D8%A9%20%D8%A7%D9%84%D9%82%D9%84%D8%A8.mp3",
+          "size": "69.3 MB"
+        },
+        {
+          "n": 9,
+          "title": "سعادة القلب",
+          "date": "1434/05/27",
+          "audio": "https://archive.org/download/57_20200217/09%20%20%D8%B3%D8%B9%D8%A7%D8%AF%D8%A9%20%D8%A7%D9%84%D9%82%D9%84%D8%A8.mp3",
+          "download": "https://archive.org/download/57_20200217/09%20%20%D8%B3%D8%B9%D8%A7%D8%AF%D8%A9%20%D8%A7%D9%84%D9%82%D9%84%D8%A8.mp3",
+          "size": "73.8 MB"
+        },
+        {
+          "n": 10,
+          "title": "لذة القلب",
+          "date": "",
+          "audio": "https://archive.org/download/57_20200217/11%20%20%D9%84%D8%B0%D8%A9%20%D8%A7%D9%84%D9%82%D9%84%D8%A8.mp3",
+          "download": "https://archive.org/download/57_20200217/11%20%20%D9%84%D8%B0%D8%A9%20%D8%A7%D9%84%D9%82%D9%84%D8%A8.mp3",
+          "size": "72.0 MB"
+        },
+        {
+          "n": 11,
+          "title": "الدرس الحادي عشر",
+          "date": "1434/10/18",
+          "audio": "https://archive.org/download/fouzan-igathat-lahfan/1434-10-18.mp3",
+          "download": "https://archive.org/download/fouzan-igathat-lahfan/1434-10-18.mp3",
+          "size": "16.7 MB"
+        },
+        {
+          "n": 12,
+          "title": "معنى التكليف",
+          "date": "1434/10/25",
+          "audio": "https://archive.org/download/57_20200217/12%20%20%D9%85%D8%B9%D9%86%D9%89%20%D8%A7%D9%84%D8%AA%D9%83%D9%84%D9%8A%D9%81.mp3",
+          "download": "https://archive.org/download/57_20200217/12%20%20%D9%85%D8%B9%D9%86%D9%89%20%D8%A7%D9%84%D8%AA%D9%83%D9%84%D9%8A%D9%81.mp3",
+          "size": "74.1 MB"
+        },
+        {
+          "n": 13,
+          "title": "نعيم القلب",
+          "date": "1434/11/02",
+          "audio": "https://archive.org/download/57_20200217/13%20%20%D9%86%D8%B9%D9%8A%D9%85%20%D8%A7%D9%84%D9%82%D9%84%D8%A8.mp3",
+          "download": "https://archive.org/download/57_20200217/13%20%20%D9%86%D8%B9%D9%8A%D9%85%20%D8%A7%D9%84%D9%82%D9%84%D8%A8.mp3",
+          "size": "74.3 MB"
+        },
+        {
+          "n": 14,
+          "title": "زكاة القلب (1)",
+          "date": "1434/11/09",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/ighathat-al-lahfan-fawzan/014.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/ighathat-al-lahfan-fawzan/014.mp3",
+          "size": "37.0 MB"
+        },
+        {
+          "n": 15,
+          "title": "الدرس الخامس عشر",
+          "date": "1434/12/29",
+          "audio": "https://archive.org/download/fouzan-igathat-lahfan/1434-12-29.mp3",
+          "download": "https://archive.org/download/fouzan-igathat-lahfan/1434-12-29.mp3",
+          "size": "18.1 MB"
+        },
+        {
+          "n": 16,
+          "title": "زكاة القلب (2)",
+          "date": "1435/01/07",
+          "audio": "https://archive.org/download/57_20200217/14%20%20%D8%B2%D9%83%D8%A7%D8%A9%20%D8%A7%D9%84%D9%82%D9%84%D8%A8.mp3",
+          "download": "https://archive.org/download/57_20200217/14%20%20%D8%B2%D9%83%D8%A7%D8%A9%20%D8%A7%D9%84%D9%82%D9%84%D8%A8.mp3",
+          "size": "73.8 MB"
+        },
+        {
+          "n": 17,
+          "title": "تزكية النفس",
+          "date": "1435/01/14",
+          "audio": "https://archive.org/download/57_20200217/15%20%20%D8%AA%D8%B2%D9%83%D9%8A%D8%A9%20%D8%A7%D9%84%D9%86%D9%81%D8%B3.mp3",
+          "download": "https://archive.org/download/57_20200217/15%20%20%D8%AA%D8%B2%D9%83%D9%8A%D8%A9%20%D8%A7%D9%84%D9%86%D9%81%D8%B3.mp3",
+          "size": "75.3 MB"
+        },
+        {
+          "n": 18,
+          "title": "معنى بعض الأدعية",
+          "date": "1435/01/21",
+          "audio": "https://archive.org/download/57_20200217/16%20%20%D9%85%D8%B9%D9%86%D9%89%20%D8%A8%D8%B9%D8%B6%20%D8%A7%D9%84%D8%A3%D8%AF%D8%B9%D9%8A%D8%A9.mp3",
+          "download": "https://archive.org/download/57_20200217/16%20%20%D9%85%D8%B9%D9%86%D9%89%20%D8%A8%D8%B9%D8%B6%20%D8%A7%D9%84%D8%A3%D8%AF%D8%B9%D9%8A%D8%A9.mp3",
+          "size": "71.5 MB"
+        },
+        {
+          "n": 19,
+          "title": "نجاسة القلب",
+          "date": "1435/01/28",
+          "audio": "https://archive.org/download/57_20200217/18%20%20%D9%86%D8%AC%D8%A7%D8%B3%D8%A9%20%D8%A7%D9%84%D9%82%D9%84%D8%A8.mp3",
+          "download": "https://archive.org/download/57_20200217/18%20%20%D9%86%D8%AC%D8%A7%D8%B3%D8%A9%20%D8%A7%D9%84%D9%82%D9%84%D8%A8.mp3",
+          "size": "74.8 MB"
+        },
+        {
+          "n": 20,
+          "title": "تطهير القلب",
+          "date": "1435/02/05",
+          "audio": "https://archive.org/download/57_20200217/19%20%20%D8%AA%D8%B7%D9%87%D8%A8%D8%B1%20%D8%A7%D9%84%D9%82%D9%84%D8%A8.mp3",
+          "download": "https://archive.org/download/57_20200217/19%20%20%D8%AA%D8%B7%D9%87%D8%A8%D8%B1%20%D8%A7%D9%84%D9%82%D9%84%D8%A8.mp3",
+          "size": "73.5 MB"
+        },
+        {
+          "n": 21,
+          "title": "مرض القلب (1)",
+          "date": "1435/02/12",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/ighathat-al-lahfan-fawzan/021.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/ighathat-al-lahfan-fawzan/021.mp3",
+          "size": "38.8 MB"
+        },
+        {
+          "n": 22,
+          "title": "مرض القلب (2)",
+          "date": "1435/02/19",
+          "audio": "https://archive.org/download/57_20200217/20%20%20%D8%B9%D9%84%D8%A7%D9%85%D8%A9%20%D9%85%D8%B1%D8%B6%20%D8%A7%D9%84%D9%82%D9%84%D8%A8.mp3",
+          "download": "https://archive.org/download/57_20200217/20%20%20%D8%B9%D9%84%D8%A7%D9%85%D8%A9%20%D9%85%D8%B1%D8%B6%20%D8%A7%D9%84%D9%82%D9%84%D8%A8.mp3",
+          "size": "72.6 MB"
+        },
+        {
+          "n": 23,
+          "title": "الأغذية النافعة",
+          "date": "1435/03/25",
+          "audio": "https://archive.org/download/57_20200217/21%20%20%D8%A7%D9%84%D8%A3%D8%BA%D8%B0%D9%8A%D8%A9%20%D8%A7%D9%84%D9%86%D8%A7%D9%81%D8%B9%D8%A9.mp3",
+          "download": "https://archive.org/download/57_20200217/21%20%20%D8%A7%D9%84%D8%A3%D8%BA%D8%B0%D9%8A%D8%A9%20%D8%A7%D9%84%D9%86%D8%A7%D9%81%D8%B9%D8%A9.mp3",
+          "size": "72.3 MB"
+        },
+        {
+          "n": 24,
+          "title": "تصحيح العمل",
+          "date": "1435/04/02",
+          "audio": "https://archive.org/download/57_20200217/22%20%20%D8%AA%D8%B5%D8%AD%D9%8A%D8%AD%20%D8%A7%D9%84%D8%B9%D9%85%D9%84.mp3",
+          "download": "https://archive.org/download/57_20200217/22%20%20%D8%AA%D8%B5%D8%AD%D9%8A%D8%AD%20%D8%A7%D9%84%D8%B9%D9%85%D9%84.mp3",
+          "size": "74.9 MB"
+        },
+        {
+          "n": 25,
+          "title": "معنى اللوامة",
+          "date": "1435/04/09",
+          "audio": "https://archive.org/download/57_20200217/23%20%20%D9%85%D8%B9%D9%86%D9%89%20%D8%A7%D9%84%D9%84%D9%88%D8%A7%D9%85%D8%A9.mp3",
+          "download": "https://archive.org/download/57_20200217/23%20%20%D9%85%D8%B9%D9%86%D9%89%20%D8%A7%D9%84%D9%84%D9%88%D8%A7%D9%85%D8%A9.mp3",
+          "size": "67.0 MB"
+        },
+        {
+          "n": 26,
+          "title": "محاسبة النفس",
+          "date": "1435/05/01",
+          "audio": "https://archive.org/download/57_20200217/24%20%20%D9%85%D8%AD%D8%A7%D8%B3%D8%A8%D8%A9%20%D8%A7%D9%84%D9%86%D9%81%D8%B3.mp3",
+          "download": "https://archive.org/download/57_20200217/24%20%20%D9%85%D8%AD%D8%A7%D8%B3%D8%A8%D8%A9%20%D8%A7%D9%84%D9%86%D9%81%D8%B3.mp3",
+          "size": "73.0 MB"
+        },
+        {
+          "n": 27,
+          "title": "علاج القلب",
+          "date": "1435/05/08",
+          "audio": "https://archive.org/download/57_20200217/25%20%20%D8%B9%D9%84%D8%A7%D8%AC%20%D8%A7%D9%84%D9%82%D9%84%D8%A8.mp3",
+          "download": "https://archive.org/download/57_20200217/25%20%20%D8%B9%D9%84%D8%A7%D8%AC%20%D8%A7%D9%84%D9%82%D9%84%D8%A8.mp3",
+          "size": "73.0 MB"
+        },
+        {
+          "n": 28,
+          "title": "أرباب السلوك",
+          "date": "1435/05/15",
+          "audio": "https://archive.org/download/57_20200217/26%20%20%D8%A3%D8%B1%D8%A8%D8%A7%D8%A8%20%D8%A7%D9%84%D8%B3%D9%84%D9%88%D9%83.mp3",
+          "download": "https://archive.org/download/57_20200217/26%20%20%D8%A3%D8%B1%D8%A8%D8%A7%D8%A8%20%D8%A7%D9%84%D8%B3%D9%84%D9%88%D9%83.mp3",
+          "size": "76.1 MB"
+        },
+        {
+          "n": 29,
+          "title": "مجادلة الكفار",
+          "date": "1435/05/29",
+          "audio": "https://archive.org/download/57_20200217/27%20%20%D9%85%D8%AC%D8%A7%D8%AF%D9%84%D8%A9%20%D8%A7%D9%84%D9%83%D9%81%D8%A7%D8%B1.mp3",
+          "download": "https://archive.org/download/57_20200217/27%20%20%D9%85%D8%AC%D8%A7%D8%AF%D9%84%D8%A9%20%D8%A7%D9%84%D9%83%D9%81%D8%A7%D8%B1.mp3",
+          "size": "75.0 MB"
+        },
+        {
+          "n": 30,
+          "title": "تشكيك في الآخرة",
+          "date": "",
+          "audio": "https://archive.org/download/57_20200217/28%20%20%D8%AA%D8%B4%D9%83%D9%8A%D9%83%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%A3%D8%AE%D8%B1%D8%A9.mp3",
+          "download": "https://archive.org/download/57_20200217/28%20%20%D8%AA%D8%B4%D9%83%D9%8A%D9%83%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%A3%D8%AE%D8%B1%D8%A9.mp3",
+          "size": "74.1 MB"
+        },
+        {
+          "n": 31,
+          "title": "كيد الشيطان",
+          "date": "",
+          "audio": "https://archive.org/download/57_20200217/29%20%20%D9%83%D9%8A%D8%AF%20%D8%A7%D9%84%D8%B4%D9%8A%D8%B7%D8%A7%D9%86.mp3",
+          "download": "https://archive.org/download/57_20200217/29%20%20%D9%83%D9%8A%D8%AF%20%D8%A7%D9%84%D8%B4%D9%8A%D8%B7%D8%A7%D9%86.mp3",
+          "size": "73.1 MB"
+        },
+        {
+          "n": 32,
+          "title": "الأيمان الكاذبة",
+          "date": "1435/11/05",
+          "audio": "https://archive.org/download/57_20200217/30%20%20%D8%A7%D9%84%D8%A3%D9%8A%D9%85%D8%A7%D9%86%20%D8%A7%D9%84%D9%83%D8%A7%D8%B0%D8%A8%D8%A9.mp3",
+          "download": "https://archive.org/download/57_20200217/30%20%20%D8%A7%D9%84%D8%A3%D9%8A%D9%85%D8%A7%D9%86%20%D8%A7%D9%84%D9%83%D8%A7%D8%B0%D8%A8%D8%A9.mp3",
+          "size": "74.6 MB"
+        },
+        {
+          "n": 33,
+          "title": "الكيد العجيب",
+          "date": "1435/12/25",
+          "audio": "https://archive.org/download/57_20200217/31%20%20%D8%A7%D9%84%D9%83%D9%8A%D8%AF%20%D8%A7%D9%84%D8%B9%D8%AC%D9%8A%D8%A8.mp3",
+          "download": "https://archive.org/download/57_20200217/31%20%20%D8%A7%D9%84%D9%83%D9%8A%D8%AF%20%D8%A7%D9%84%D8%B9%D8%AC%D9%8A%D8%A8.mp3",
+          "size": "73.8 MB"
+        },
+        {
+          "n": 34,
+          "title": "الآثام والفجور",
+          "date": "1436/01/02",
+          "audio": "https://archive.org/download/57_20200217/32%20%20%D8%A7%D9%84%D8%A3%D8%AB%D8%A7%D9%85%20%D9%88%D8%A7%D9%84%D9%81%D8%AC%D9%88%D8%B1.mp3",
+          "download": "https://archive.org/download/57_20200217/32%20%20%D8%A7%D9%84%D8%A3%D8%AB%D8%A7%D9%85%20%D9%88%D8%A7%D9%84%D9%81%D8%AC%D9%88%D8%B1.mp3",
+          "size": "75.0 MB"
+        },
+        {
+          "n": 35,
+          "title": "أتبع الأمة للسنة",
+          "date": "1436/01/15",
+          "audio": "https://archive.org/download/57_20200217/33%20%20%D9%85%D9%83%D8%A7%D9%8A%D8%AF%20%D8%A7%D9%84%D8%B4%D9%8A%D8%B7%D8%A7%D9%86.mp3",
+          "download": "https://archive.org/download/57_20200217/33%20%20%D9%85%D9%83%D8%A7%D9%8A%D8%AF%20%D8%A7%D9%84%D8%B4%D9%8A%D8%B7%D8%A7%D9%86.mp3",
+          "size": "73.2 MB"
+        },
+        {
+          "n": 36,
+          "title": "أبعد من الشيطان",
+          "date": "1436/01/23",
+          "audio": "https://archive.org/download/57_20200217/34%20%20%D8%A7%D8%A8%D8%B9%D8%AF%20%D9%85%D9%86%20%D8%A7%D9%84%D8%B4%D9%8A%D8%B7%D8%A7%D9%86.mp3",
+          "download": "https://archive.org/download/57_20200217/34%20%20%D8%A7%D8%A8%D8%B9%D8%AF%20%D9%85%D9%86%20%D8%A7%D9%84%D8%B4%D9%8A%D8%B7%D8%A7%D9%86.mp3",
+          "size": "73.4 MB"
+        },
+        {
+          "n": 37,
+          "title": "إكثار من صب الماء",
+          "date": "1436/02/01",
+          "audio": "https://archive.org/download/57_20200217/35%20%20%D8%A5%D9%83%D8%AB%D8%A7%D8%B1%20%D9%85%D9%86%20%D8%B5%D8%A8%20%D8%A7%D9%84%D9%85%D8%A7%D8%A1.mp3",
+          "download": "https://archive.org/download/57_20200217/35%20%20%D8%A5%D9%83%D8%AB%D8%A7%D8%B1%20%D9%85%D9%86%20%D8%B5%D8%A8%20%D8%A7%D9%84%D9%85%D8%A7%D8%A1.mp3",
+          "size": "71.1 MB"
+        },
+        {
+          "n": 38,
+          "title": "الموسوسون",
+          "date": "1436/10/17",
+          "audio": "https://archive.org/download/57_20200217/36%20%20%D8%A7%D9%84%D9%85%D9%88%D8%B3%D9%88%D8%B3%D9%88%D9%86.mp3",
+          "download": "https://archive.org/download/57_20200217/36%20%20%D8%A7%D9%84%D9%85%D9%88%D8%B3%D9%88%D8%B3%D9%88%D9%86.mp3",
+          "size": "73.0 MB"
+        },
+        {
+          "n": 39,
+          "title": "اتباع الرسول",
+          "date": "1436/10/24",
+          "audio": "https://archive.org/download/57_20200217/37%20%20%D8%A7%D8%AA%D8%A8%D8%A7%D8%B9%20%D8%A7%D9%84%D8%B1%D8%B3%D9%88%D9%84.mp3",
+          "download": "https://archive.org/download/57_20200217/37%20%20%D8%A7%D8%AA%D8%A8%D8%A7%D8%B9%20%D8%A7%D9%84%D8%B1%D8%B3%D9%88%D9%84.mp3",
+          "size": "72.3 MB"
+        },
+        {
+          "n": 40,
+          "title": "فريضة الوقت",
+          "date": "1436/11/01",
+          "audio": "https://archive.org/download/57_20200217/38%20%20%D9%81%D8%B1%D9%8A%D8%B6%D8%A9%20%D8%A7%D9%84%D9%88%D9%82%D8%AA.mp3",
+          "download": "https://archive.org/download/57_20200217/38%20%20%D9%81%D8%B1%D9%8A%D8%B6%D8%A9%20%D8%A7%D9%84%D9%88%D9%82%D8%AA.mp3",
+          "size": "72.7 MB"
+        },
+        {
+          "n": 41,
+          "title": "مفاسد الوسواس",
+          "date": "1436/11/08",
+          "audio": "https://archive.org/download/57_20200217/39%20%20%D9%85%D9%81%D8%A7%D8%B3%D8%AF%20%D8%A7%D9%84%D9%88%D8%B3%D9%88%D8%A7%D8%B3.mp3",
+          "download": "https://archive.org/download/57_20200217/39%20%20%D9%85%D9%81%D8%A7%D8%B3%D8%AF%20%D8%A7%D9%84%D9%88%D8%B3%D9%88%D8%A7%D8%B3.mp3",
+          "size": "74.8 MB"
+        },
+        {
+          "n": 42,
+          "title": "عصر الصحابة",
+          "date": "1436/11/15",
+          "audio": "https://archive.org/download/57_20200217/40%20%20%D8%B9%D8%B5%D8%B1%20%D8%A7%D9%84%D8%B5%D8%AD%D8%A7%D8%A8%D8%A9.mp3",
+          "download": "https://archive.org/download/57_20200217/40%20%20%D8%B9%D8%B5%D8%B1%20%D8%A7%D9%84%D8%B5%D8%AD%D8%A7%D8%A8%D8%A9.mp3",
+          "size": "75.8 MB"
+        },
+        {
+          "n": 43,
+          "title": "طعام أهل الكتاب",
+          "date": "1436/12/28",
+          "audio": "https://archive.org/download/57_20200217/41%20%20%D8%B7%D8%B9%D8%A7%D9%85%20%D8%A3%D9%87%D9%84%20%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D8%A8.mp3",
+          "download": "https://archive.org/download/57_20200217/41%20%20%D8%B7%D8%B9%D8%A7%D9%85%20%D8%A3%D9%87%D9%84%20%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D8%A8.mp3",
+          "size": "75.2 MB"
+        },
+        {
+          "n": 44,
+          "title": "أهل الوسواس",
+          "date": "1437/01/04",
+          "audio": "https://archive.org/download/57_20200217/42%20%20%D8%A3%D9%87%D9%84%20%D8%A7%D9%84%D9%88%D8%B3%D9%88%D8%A7%D8%B3.mp3",
+          "download": "https://archive.org/download/57_20200217/42%20%20%D8%A3%D9%87%D9%84%20%D8%A7%D9%84%D9%88%D8%B3%D9%88%D8%A7%D8%B3.mp3",
+          "size": "72.1 MB"
+        },
+        {
+          "n": 45,
+          "title": "فتنة القبر (1)",
+          "date": "1437/01/11",
+          "audio": "https://archive.org/download/fouzan-igathat-lahfan/1437-01-11.mp3",
+          "download": "https://archive.org/download/fouzan-igathat-lahfan/1437-01-11.mp3",
+          "size": "23.5 MB"
+        },
+        {
+          "n": 46,
+          "title": "فتنة القبر (2)",
+          "date": "1437/01/19",
+          "audio": "https://archive.org/download/57_20200217/43%20%20%D9%81%D8%AA%D9%86%D8%A9%20%D8%A7%D9%84%D9%82%D8%A8%D8%B1.mp3",
+          "download": "https://archive.org/download/57_20200217/43%20%20%D9%81%D8%AA%D9%86%D8%A9%20%D8%A7%D9%84%D9%82%D8%A8%D8%B1.mp3",
+          "size": "74.6 MB"
+        },
+        {
+          "n": 47,
+          "title": "اتخاذ القبر مسجدا",
+          "date": "1437/01/26",
+          "audio": "https://archive.org/download/57_20200217/44%20%20%D8%A5%D8%AA%D8%AE%D8%A7%D8%B0%20%D8%A7%D9%84%D9%82%D8%A8%D8%B1%20%D9%85%D8%B3%D8%AC%D8%AF%D8%A7.mp3",
+          "download": "https://archive.org/download/57_20200217/44%20%20%D8%A5%D8%AA%D8%AE%D8%A7%D8%B0%20%D8%A7%D9%84%D9%82%D8%A8%D8%B1%20%D9%85%D8%B3%D8%AC%D8%AF%D8%A7.mp3",
+          "size": "73.3 MB"
+        },
+        {
+          "n": 48,
+          "title": "المفاسد العظيمة",
+          "date": "1437/02/04",
+          "audio": "https://archive.org/download/57_20200217/45%20%20%D8%A7%D9%84%D9%85%D9%81%D8%A7%D8%B3%D8%AF%20%D8%A7%D9%84%D8%B9%D8%B8%D9%8A%D9%85%D8%A9.mp3",
+          "download": "https://archive.org/download/57_20200217/45%20%20%D8%A7%D9%84%D9%85%D9%81%D8%A7%D8%B3%D8%AF%20%D8%A7%D9%84%D8%B9%D8%B8%D9%8A%D9%85%D8%A9.mp3",
+          "size": "71.3 MB"
+        },
+        {
+          "n": 49,
+          "title": "المساجد والقباب",
+          "date": "1437/02/11",
+          "audio": "https://archive.org/download/57_20200217/46%20%20%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D8%AC%D8%AF%20%D9%88%D8%A7%D9%84%D9%82%D8%A8%D8%A7%D8%A8.mp3",
+          "download": "https://archive.org/download/57_20200217/46%20%20%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D8%AC%D8%AF%20%D9%88%D8%A7%D9%84%D9%82%D8%A8%D8%A7%D8%A8.mp3",
+          "size": "71.8 MB"
+        },
+        {
+          "n": 50,
+          "title": "تجريد التوحيد",
+          "date": "1437/02/17",
+          "audio": "https://archive.org/download/57_20200217/47%20%20%D8%AA%D8%AC%D8%B1%D9%8A%D8%AF%20%D8%A7%D9%84%D8%AA%D9%88%D8%AD%D9%8A%D8%AF.mp3",
+          "download": "https://archive.org/download/57_20200217/47%20%20%D8%AA%D8%AC%D8%B1%D9%8A%D8%AF%20%D8%A7%D9%84%D8%AA%D9%88%D8%AD%D9%8A%D8%AF.mp3",
+          "size": "73.7 MB"
+        },
+        {
+          "n": 51,
+          "title": "البرء والشفاء",
+          "date": "1437/02/24",
+          "audio": "https://archive.org/download/57_20200217/48%20%20%D8%A7%D9%84%D8%A8%D8%B1%D8%A1%20%D9%88%D8%A7%D9%84%D8%B4%D9%81%D8%A7%D8%A1.mp3",
+          "download": "https://archive.org/download/57_20200217/48%20%20%D8%A7%D9%84%D8%A8%D8%B1%D8%A1%20%D9%88%D8%A7%D9%84%D8%B4%D9%81%D8%A7%D8%A1.mp3",
+          "size": "73.0 MB"
+        },
+        {
+          "n": 52,
+          "title": "المسامير والخرق",
+          "date": "1437/04/14",
+          "audio": "https://archive.org/download/57_20200217/49%20%20%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D9%85%D9%8A%D8%B1%20%D9%88%D8%A7%D9%84%D8%AE%D8%B1%D9%82.mp3",
+          "download": "https://archive.org/download/57_20200217/49%20%20%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D9%85%D9%8A%D8%B1%20%D9%88%D8%A7%D9%84%D8%AE%D8%B1%D9%82.mp3",
+          "size": "70.0 MB"
+        },
+        {
+          "n": 53,
+          "title": "إيقاد السرج",
+          "date": "1437/04/21",
+          "audio": "https://archive.org/download/57_20200217/50%20%20%D8%A5%D9%8A%D9%82%D8%A7%D8%AF%20%D8%A7%D9%84%D8%B3%D8%B1%D8%AC.mp3",
+          "download": "https://archive.org/download/57_20200217/50%20%20%D8%A5%D9%8A%D9%82%D8%A7%D8%AF%20%D8%A7%D9%84%D8%B3%D8%B1%D8%AC.mp3",
+          "size": "70.7 MB"
+        },
+        {
+          "n": 54,
+          "title": "صحة الحديث",
+          "date": "1437/05/05",
+          "audio": "https://archive.org/download/57_20200217/51%20%20%D8%B5%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%AF%D9%8A%D8%AB.mp3",
+          "download": "https://archive.org/download/57_20200217/51%20%20%D8%B5%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%AF%D9%8A%D8%AB.mp3",
+          "size": "75.8 MB"
+        },
+        {
+          "n": 55,
+          "title": "سماع الملاهي",
+          "date": "1437/05/12",
+          "audio": "https://archive.org/download/57_20200217/52%20%20%D8%B3%D9%85%D8%A7%D8%B9%20%D8%A7%D9%84%D9%85%D9%84%D8%A7%D9%87%D9%8A.mp3",
+          "download": "https://archive.org/download/57_20200217/52%20%20%D8%B3%D9%85%D8%A7%D8%B9%20%D8%A7%D9%84%D9%85%D9%84%D8%A7%D9%87%D9%8A.mp3",
+          "size": "75.5 MB"
+        },
+        {
+          "n": 56,
+          "title": "صوت المعازف",
+          "date": "",
+          "audio": "https://archive.org/download/57_20200217/53%20%20%D8%B5%D9%88%D8%AA%20%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D8%B2%D9%81.mp3",
+          "download": "https://archive.org/download/57_20200217/53%20%20%D8%B5%D9%88%D8%AA%20%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D8%B2%D9%81.mp3",
+          "size": "72.7 MB"
+        },
+        {
+          "n": 57,
+          "title": "المرأة الأجنبية",
+          "date": "1437/05/26",
+          "audio": "https://archive.org/download/57_20200217/54%20%20%D8%A7%D9%84%D9%85%D8%B1%D8%A3%D8%A9%20%D8%A7%D9%84%D8%A3%D8%AC%D9%86%D8%A8%D9%8A%D8%A9.mp3",
+          "download": "https://archive.org/download/57_20200217/54%20%20%D8%A7%D9%84%D9%85%D8%B1%D8%A3%D8%A9%20%D8%A7%D9%84%D8%A3%D8%AC%D9%86%D8%A8%D9%8A%D8%A9.mp3",
+          "size": "71.9 MB"
+        },
+        {
+          "n": 58,
+          "title": "السماع الشيطاني",
+          "date": "1437/06/18",
+          "audio": "https://archive.org/download/57_20200217/55%20%20%D8%A7%D9%84%D8%B3%D9%85%D8%A7%D8%B9%20%D8%A7%D9%84%D8%B4%D9%8A%D8%B7%D8%A7%D9%86%D9%8A.mp3",
+          "download": "https://archive.org/download/57_20200217/55%20%20%D8%A7%D9%84%D8%B3%D9%85%D8%A7%D8%B9%20%D8%A7%D9%84%D8%B4%D9%8A%D8%B7%D8%A7%D9%86%D9%8A.mp3",
+          "size": "72.3 MB"
+        },
+        {
+          "n": 59,
+          "title": "الزور واللغو",
+          "date": "1437/06/25",
+          "audio": "https://archive.org/download/57_20200217/56%20%20%D8%A7%D9%84%D8%B2%D9%88%D8%B1%20%D9%88%D8%A7%D9%84%D9%84%D8%BA%D9%88.mp3",
+          "download": "https://archive.org/download/57_20200217/56%20%20%D8%A7%D9%84%D8%B2%D9%88%D8%B1%20%D9%88%D8%A7%D9%84%D9%84%D8%BA%D9%88.mp3",
+          "size": "72.7 MB"
+        },
+        {
+          "n": 60,
+          "title": "غناء البغايا",
+          "date": "1437/07/10",
+          "audio": "https://archive.org/download/57_20200217/57%20%20%D8%BA%D9%86%D8%A7%D8%A1%20%D8%A7%D9%84%D8%A8%D8%BA%D8%A7%D8%A1.mp3",
+          "download": "https://archive.org/download/57_20200217/57%20%20%D8%BA%D9%86%D8%A7%D8%A1%20%D8%A7%D9%84%D8%A8%D8%BA%D8%A7%D8%A1.mp3",
+          "size": "78.3 MB"
+        },
+        {
+          "n": 61,
+          "title": "مصايد الشيطان",
+          "date": "1437/07/17",
+          "audio": "https://archive.org/download/57_20200217/58%20%20%D9%85%D8%B5%D8%A7%D9%8A%D8%AF%20%D8%A7%D9%84%D8%B4%D9%8A%D8%B7%D8%A7%D9%86.mp3",
+          "download": "https://archive.org/download/57_20200217/58%20%20%D9%85%D8%B5%D8%A7%D9%8A%D8%AF%20%D8%A7%D9%84%D8%B4%D9%8A%D8%B7%D8%A7%D9%86.mp3",
+          "size": "70.0 MB"
+        },
+        {
+          "n": 62,
+          "title": "معنى السمود",
+          "date": "",
+          "audio": "https://archive.org/download/57_20200217/59%20%20%D9%85%D8%B9%D9%89%20%D8%A7%D9%84%D8%B3%D9%85%D9%88%D8%AF.mp3",
+          "download": "https://archive.org/download/57_20200217/59%20%20%D9%85%D8%B9%D9%89%20%D8%A7%D9%84%D8%B3%D9%85%D9%88%D8%AF.mp3",
+          "size": "71.4 MB"
+        },
+        {
+          "n": 63,
+          "title": "الضرب بالدفوف",
+          "date": "1438/01/08",
+          "audio": "https://archive.org/download/57_20200217/60%20%20%D8%A7%D9%84%D8%B6%D8%B1%D8%A8%20%D8%A8%D8%A7%D9%84%D8%AF%D9%81%D9%88%D9%81.mp3",
+          "download": "https://archive.org/download/57_20200217/60%20%20%D8%A7%D9%84%D8%B6%D8%B1%D8%A8%20%D8%A8%D8%A7%D9%84%D8%AF%D9%81%D9%88%D9%81.mp3",
+          "size": "59.1 MB"
+        },
+        {
+          "n": 64,
+          "title": "شبه المغنين",
+          "date": "1438/01/15",
+          "audio": "https://archive.org/download/57_20200217/61%20%20%D8%B4%D8%A8%D8%A9%20%D8%A7%D9%84%D9%85%D8%BA%D9%86%D9%8A%D9%86.mp3",
+          "download": "https://archive.org/download/57_20200217/61%20%20%D8%B4%D8%A8%D8%A9%20%D8%A7%D9%84%D9%85%D8%BA%D9%86%D9%8A%D9%86.mp3",
+          "size": "71.6 MB"
+        },
+        {
+          "n": 65,
+          "title": "معنى التحليل",
+          "date": "1438/01/29",
+          "audio": "https://archive.org/download/57_20200217/62%20%20%D9%85%D8%B9%D9%86%D9%89%20%D8%A7%D9%84%D8%AA%D8%AD%D9%84%D9%8A%D9%84.mp3",
+          "download": "https://archive.org/download/57_20200217/62%20%20%D9%85%D8%B9%D9%86%D9%89%20%D8%A7%D9%84%D8%AA%D8%AD%D9%84%D9%8A%D9%84.mp3",
+          "size": "73.3 MB"
+        },
+        {
+          "n": 66,
+          "title": "نكاح المحلل",
+          "date": "1438/02/06",
+          "audio": "https://archive.org/download/57_20200217/63%20%20%D9%86%D9%83%D8%A7%D8%AD%20%D8%A7%D9%84%D9%85%D8%AD%D9%84%D9%84.mp3",
+          "download": "https://archive.org/download/57_20200217/63%20%20%D9%86%D9%83%D8%A7%D8%AD%20%D8%A7%D9%84%D9%85%D8%AD%D9%84%D9%84.mp3",
+          "size": "71.3 MB"
+        },
+        {
+          "n": 67,
+          "title": "الحيل والمكر",
+          "date": "1438/02/20",
+          "audio": "https://archive.org/download/57_20200217/64%20%20%D8%A7%D9%84%D8%AD%D9%8A%D9%84%20%D9%88%D8%A7%D9%84%D9%85%D9%83%D8%B1.mp3",
+          "download": "https://archive.org/download/57_20200217/64%20%20%D8%A7%D9%84%D8%AD%D9%8A%D9%84%20%D9%88%D8%A7%D9%84%D9%85%D9%83%D8%B1.mp3",
+          "size": "72.1 MB"
+        },
+        {
+          "n": 68,
+          "title": "الأعمال بالنية",
+          "date": "1438/03/05",
+          "audio": "https://archive.org/download/57_20200217/65%20%20%D8%A7%D9%84%D8%A3%D8%B9%D9%85%D8%A7%D9%84%20%D8%A8%D8%A7%D9%84%D9%86%D9%8A%D8%A9.mp3",
+          "download": "https://archive.org/download/57_20200217/65%20%20%D8%A7%D9%84%D8%A3%D8%B9%D9%85%D8%A7%D9%84%20%D8%A8%D8%A7%D9%84%D9%86%D9%8A%D8%A9.mp3",
+          "size": "74.8 MB"
+        },
+        {
+          "n": 69,
+          "title": "استحلال الربا",
+          "date": "1438/03/12",
+          "audio": "https://archive.org/download/57_20200217/66%20%20%D8%A7%D8%B3%D8%AA%D8%AD%D9%84%D8%A7%D9%84%20%D8%A7%D9%84%D8%B1%D8%A8%D8%A7.mp3",
+          "download": "https://archive.org/download/57_20200217/66%20%20%D8%A7%D8%B3%D8%AA%D8%AD%D9%84%D8%A7%D9%84%20%D8%A7%D9%84%D8%B1%D8%A8%D8%A7.mp3",
+          "size": "75.6 MB"
+        },
+        {
+          "n": 70,
+          "title": "سد الذرائع",
+          "date": "1438/03/19",
+          "audio": "https://archive.org/download/57_20200217/67%20%20%D8%B3%D8%AF%20%D8%A7%D9%84%D8%B0%D8%B1%D8%A7%D8%A6%D8%B9.mp3",
+          "download": "https://archive.org/download/57_20200217/67%20%20%D8%B3%D8%AF%20%D8%A7%D9%84%D8%B0%D8%B1%D8%A7%D8%A6%D8%B9.mp3",
+          "size": "75.0 MB"
+        },
+        {
+          "n": 71,
+          "title": "السلف والبيع",
+          "date": "1438/03/26",
+          "audio": "https://archive.org/download/57_20200217/68%20%20%D8%A7%D9%84%D8%B3%D9%84%D9%81%20%D9%88%D8%A7%D9%84%D8%A8%D9%8A%D8%B9.mp3",
+          "download": "https://archive.org/download/57_20200217/68%20%20%D8%A7%D9%84%D8%B3%D9%84%D9%81%20%D9%88%D8%A7%D9%84%D8%A8%D9%8A%D8%B9.mp3",
+          "size": "73.5 MB"
+        },
+        {
+          "n": 72,
+          "title": "راعنا",
+          "date": "1438/05/15",
+          "audio": "https://archive.org/download/57_20200217/69%20%20%D8%B1%D8%A7%D8%B9%D9%86%D8%A7.mp3",
+          "download": "https://archive.org/download/57_20200217/69%20%20%D8%B1%D8%A7%D8%B9%D9%86%D8%A7.mp3",
+          "size": "74.6 MB"
+        },
+        {
+          "n": 73,
+          "title": "تجويز الحيل",
+          "date": "",
+          "audio": "https://archive.org/download/57_20200217/70%20%20%D8%AA%D8%AC%D9%88%D9%8A%D8%B2%20%D8%A7%D9%84%D8%AD%D9%8A%D9%84.mp3",
+          "download": "https://archive.org/download/57_20200217/70%20%20%D8%AA%D8%AC%D9%88%D9%8A%D8%B2%20%D8%A7%D9%84%D8%AD%D9%8A%D9%84.mp3",
+          "size": "71.5 MB"
+        },
+        {
+          "n": 74,
+          "title": "بطلان الحيل",
+          "date": "1438/06/06",
+          "audio": "https://archive.org/download/57_20200217/71%20%20%D8%A8%D8%B7%D9%84%D8%A7%D9%86%20%D8%A7%D9%84%D8%AD%D9%8A%D9%84.mp3",
+          "download": "https://archive.org/download/57_20200217/71%20%20%D8%A8%D8%B7%D9%84%D8%A7%D9%86%20%D8%A7%D9%84%D8%AD%D9%8A%D9%84.mp3",
+          "size": "75.3 MB"
+        },
+        {
+          "n": 75,
+          "title": "استحلاف اللص",
+          "date": "",
+          "audio": "https://archive.org/download/57_20200217/73%20%20%D8%A7%D8%B3%D8%AA%D8%AD%D9%84%D8%A7%D9%81%20%D8%A7%D9%84%D9%84%D8%B5.mp3",
+          "download": "https://archive.org/download/57_20200217/73%20%20%D8%A7%D8%B3%D8%AA%D8%AD%D9%84%D8%A7%D9%81%20%D8%A7%D9%84%D9%84%D8%B5.mp3",
+          "size": "76.8 MB"
+        },
+        {
+          "n": 76,
+          "title": "عشاق الصور",
+          "date": "1438/07/12",
+          "audio": "https://archive.org/download/57_20200217/74%20%20%D8%B9%D8%B4%D8%A7%D9%82%20%D8%A7%D9%84%D8%B5%D9%88%D8%B1.mp3",
+          "download": "https://archive.org/download/57_20200217/74%20%20%D8%B9%D8%B4%D8%A7%D9%82%20%D8%A7%D9%84%D8%B5%D9%88%D8%B1.mp3",
+          "size": "75.3 MB"
+        },
+        {
+          "n": 77,
+          "title": "جبريل في القرآن",
+          "date": "1438/07/19",
+          "audio": "https://archive.org/download/57_20200217/75%20%20%D8%AC%D8%A8%D8%B1%D9%8A%D9%84%20%D9%81%D9%8A%20%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86.mp3",
+          "download": "https://archive.org/download/57_20200217/75%20%20%D8%AC%D8%A8%D8%B1%D9%8A%D9%84%20%D9%81%D9%8A%20%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86.mp3",
+          "size": "74.8 MB"
+        },
+        {
+          "n": 78,
+          "title": "دعوة يونس",
+          "date": "1438/07/26",
+          "audio": "https://archive.org/download/57_20200217/76%20%20%D8%AF%D8%B9%D9%88%D8%A9%20%D9%8A%D9%88%D9%86%D8%B3.mp3",
+          "download": "https://archive.org/download/57_20200217/76%20%20%D8%AF%D8%B9%D9%88%D8%A9%20%D9%8A%D9%88%D9%86%D8%B3.mp3",
+          "size": "76.1 MB"
+        },
+        {
+          "n": 79,
+          "title": "الضلال والشقاء",
+          "date": "1439/01/11",
+          "audio": "https://archive.org/download/57_20200217/77%20%20%D8%A7%D9%84%D8%B6%D9%84%D8%A7%D9%84%20%D9%88%D8%A7%D9%84%D8%B4%D9%82%D8%A7%D8%A1.mp3",
+          "download": "https://archive.org/download/57_20200217/77%20%20%D8%A7%D9%84%D8%B6%D9%84%D8%A7%D9%84%20%D9%88%D8%A7%D9%84%D8%B4%D9%82%D8%A7%D8%A1.mp3",
+          "size": "69.9 MB"
+        },
+        {
+          "n": 80,
+          "title": "المفتون بالصور",
+          "date": "1439/01/18",
+          "audio": "https://archive.org/download/57_20200217/78%20%20%D8%A7%D9%84%D9%85%D9%81%D8%AA%D9%88%D9%86%20%D8%A8%D8%A7%D9%84%D8%B5%D9%88%D8%B1.mp3",
+          "download": "https://archive.org/download/57_20200217/78%20%20%D8%A7%D9%84%D9%85%D9%81%D8%AA%D9%88%D9%86%20%D8%A8%D8%A7%D9%84%D8%B5%D9%88%D8%B1.mp3",
+          "size": "75.7 MB"
+        },
+        {
+          "n": 81,
+          "title": "اشتغال القلب",
+          "date": "1439/01/25",
+          "audio": "https://archive.org/download/57_20200217/79%20%20%D8%A7%D8%B4%D8%AA%D8%BA%D8%A7%D9%84%20%D8%A7%D9%84%D9%82%D9%84%D8%A8.mp3",
+          "download": "https://archive.org/download/57_20200217/79%20%20%D8%A7%D8%B4%D8%AA%D8%BA%D8%A7%D9%84%20%D8%A7%D9%84%D9%82%D9%84%D8%A8.mp3",
+          "size": "73.3 MB"
+        },
+        {
+          "n": 82,
+          "title": "أصل الفواحش",
+          "date": "1439/02/02",
+          "audio": "https://archive.org/download/57_20200217/80%20%20%D8%A3%D8%B5%D9%84%20%D8%A7%D9%84%D9%81%D9%88%D8%A7%D8%AD%D8%B4.mp3",
+          "download": "https://archive.org/download/57_20200217/80%20%20%D8%A3%D8%B5%D9%84%20%D8%A7%D9%84%D9%81%D9%88%D8%A7%D8%AD%D8%B4.mp3",
+          "size": "36.5 MB"
+        },
+        {
+          "n": 83,
+          "title": "الكافر مفتون",
+          "date": "1439/02/09",
+          "audio": "https://archive.org/download/57_20200217/81%20%20%D8%A7%D9%84%D9%83%D8%A7%D9%81%D8%B1%20%D9%85%D9%81%D8%AA%D9%88%D9%86.mp3",
+          "download": "https://archive.org/download/57_20200217/81%20%20%D8%A7%D9%84%D9%83%D8%A7%D9%81%D8%B1%20%D9%85%D9%81%D8%AA%D9%88%D9%86.mp3",
+          "size": "72.2 MB"
+        },
+        {
+          "n": 84,
+          "title": "أنواع الفتنة",
+          "date": "1439/02/16",
+          "audio": "https://archive.org/download/57_20200217/82%20%20%D8%A3%D9%86%D9%88%D8%A7%D8%B9%20%D8%A7%D9%84%D9%81%D8%AA%D9%86%D8%A9.mp3",
+          "download": "https://archive.org/download/57_20200217/82%20%20%D8%A3%D9%86%D9%88%D8%A7%D8%B9%20%D8%A7%D9%84%D9%81%D8%AA%D9%86%D8%A9.mp3",
+          "size": "70.6 MB"
+        },
+        {
+          "n": 85,
+          "title": "صفة الرحمة",
+          "date": "1439/03/01",
+          "audio": "https://archive.org/download/57_20200217/83%20%20%D8%B5%D9%81%D8%A9%20%D8%A7%D9%84%D8%B1%D8%AD%D9%85%D8%A9.mp3",
+          "download": "https://archive.org/download/57_20200217/83%20%20%D8%B5%D9%81%D8%A9%20%D8%A7%D9%84%D8%B1%D8%AD%D9%85%D8%A9.mp3",
+          "size": "67.3 MB"
+        },
+        {
+          "n": 86,
+          "title": "نكتة نافعة",
+          "date": "1439/03/08",
+          "audio": "https://archive.org/download/57_20200217/84%20%20%D9%86%D9%83%D8%AA%D8%A9%20%D9%86%D8%A7%D9%81%D8%B9%D8%A9.mp3",
+          "download": "https://archive.org/download/57_20200217/84%20%20%D9%86%D9%83%D8%AA%D8%A9%20%D9%86%D8%A7%D9%81%D8%B9%D8%A9.mp3",
+          "size": "76.0 MB"
+        },
+        {
+          "n": 87,
+          "title": "الإنسان مجبول",
+          "date": "1439/03/15",
+          "audio": "https://archive.org/download/57_20200217/85%20%20%D8%A7%D9%84%D8%A5%D9%86%D8%B3%D8%A7%D9%86%20%D9%85%D8%AC%D8%A8%D9%88%D9%84.mp3",
+          "download": "https://archive.org/download/57_20200217/85%20%20%D8%A7%D9%84%D8%A5%D9%86%D8%B3%D8%A7%D9%86%20%D9%85%D8%AC%D8%A8%D9%88%D9%84.mp3",
+          "size": "75.7 MB"
+        },
+        {
+          "n": 88,
+          "title": "الثقة بوعد الله",
+          "date": "1439/03/22",
+          "audio": "https://archive.org/download/57_20200217/86%20%20%D9%88%D8%A7%D9%84%D8%A3%D8%AE%D9%8A%D8%B1%20-%20%20%D8%A7%D9%84%D8%AB%D9%82%D8%A9%20%D8%A8%D9%88%D8%B9%D8%AF%20%D8%A7%D9%84%D9%84%D9%87.mp3",
+          "download": "https://archive.org/download/57_20200217/86%20%20%D9%88%D8%A7%D9%84%D8%A3%D8%AE%D9%8A%D8%B1%20-%20%20%D8%A7%D9%84%D8%AB%D9%82%D8%A9%20%D8%A8%D9%88%D8%B9%D8%AF%20%D8%A7%D9%84%D9%84%D9%87.mp3",
+          "size": "71.5 MB"
+        },
+        {
+          "n": 89,
+          "title": "والعاقبة للمتقين",
+          "date": "1439/05/18",
+          "audio": "https://archive.org/download/fouzan-igathat-lahfan/1439-05-18.mp3",
+          "download": "https://archive.org/download/fouzan-igathat-lahfan/1439-05-18.mp3",
+          "size": "31.9 MB"
+        },
+        {
+          "n": 90,
+          "title": "أصول نافعة",
+          "date": "1439/06/16",
+          "audio": "https://archive.org/download/fouzan-igathat-lahfan/1439-06-16.mp3",
+          "download": "https://archive.org/download/fouzan-igathat-lahfan/1439-06-16.mp3",
+          "size": "18.1 MB"
+        },
+        {
+          "n": 91,
+          "title": "امتحان بإدالة عدو",
+          "date": "1439/06/23",
+          "audio": "https://archive.org/download/fouzan-igathat-lahfan/1439-06-23.mp3",
+          "download": "https://archive.org/download/fouzan-igathat-lahfan/1439-06-23.mp3",
+          "size": "17.2 MB"
+        },
+        {
+          "n": 92,
+          "title": "البلاء أربعة أقسام",
+          "date": "1439/07/01",
+          "audio": "https://archive.org/download/fouzan-igathat-lahfan/1439-07-01.mp3",
+          "download": "https://archive.org/download/fouzan-igathat-lahfan/1439-07-01.mp3",
+          "size": "18.0 MB"
+        },
+        {
+          "n": 93,
+          "title": "محبة الله",
+          "date": "1439/07/08",
+          "audio": "https://archive.org/download/fouzan-igathat-lahfan/1439-07-08.mp3",
+          "download": "https://archive.org/download/fouzan-igathat-lahfan/1439-07-08.mp3",
+          "size": "16.8 MB"
+        },
+        {
+          "n": 94,
+          "title": "كيد الشيطان",
+          "date": "1439/07/15",
+          "audio": "https://archive.org/download/fouzan-igathat-lahfan/1439-07-15.mp3",
+          "download": "https://archive.org/download/fouzan-igathat-lahfan/1439-07-15.mp3",
+          "size": "17.6 MB"
+        },
+        {
+          "n": 95,
+          "title": "السداد والاستقامة",
+          "date": "1439/07/22",
+          "audio": "https://archive.org/download/fouzan-igathat-lahfan/1439-07-22.mp3",
+          "download": "https://archive.org/download/fouzan-igathat-lahfan/1439-07-22.mp3",
+          "size": "24.3 MB"
+        },
+        {
+          "n": 96,
+          "title": "صنم يقال له سعد",
+          "date": "1439/07/29",
+          "audio": "https://archive.org/download/fouzan-igathat-lahfan/1439-07-29.mp3",
+          "download": "https://archive.org/download/fouzan-igathat-lahfan/1439-07-29.mp3",
+          "size": "17.6 MB"
+        },
+        {
+          "n": 97,
+          "title": "عبادة الأصنام",
+          "date": "1440/01/20",
+          "audio": "https://archive.org/download/fouzan-igathat-lahfan/1440-01-20.mp3",
+          "download": "https://archive.org/download/fouzan-igathat-lahfan/1440-01-20.mp3",
+          "size": "23.6 MB"
+        },
+        {
+          "n": 98,
+          "title": "الغلو في المخلوق",
+          "date": "1440/01/27",
+          "audio": "https://archive.org/download/fouzan-igathat-lahfan/1440-01-27.mp3",
+          "download": "https://archive.org/download/fouzan-igathat-lahfan/1440-01-27.mp3",
+          "size": "17.9 MB"
+        },
+        {
+          "n": 99,
+          "title": "السميع البصير",
+          "date": "1440/02/12",
+          "audio": "https://archive.org/download/fouzan-igathat-lahfan/1440-02-12.mp3",
+          "download": "https://archive.org/download/fouzan-igathat-lahfan/1440-02-12.mp3",
+          "size": "26.9 MB"
+        },
+        {
+          "n": 100,
+          "title": "عباد النار",
+          "date": "1440/02/26",
+          "audio": "https://archive.org/download/fouzan-igathat-lahfan/1440-02-26.mp3",
+          "download": "https://archive.org/download/fouzan-igathat-lahfan/1440-02-26.mp3",
+          "size": "27.1 MB"
+        },
+        {
+          "n": 101,
+          "title": "الثنوية",
+          "date": "1440/03/03",
+          "audio": "https://archive.org/download/fouzan-igathat-lahfan/1440-03-03.mp3",
+          "download": "https://archive.org/download/fouzan-igathat-lahfan/1440-03-03.mp3",
+          "size": "23.9 MB"
+        },
+        {
+          "n": 102,
+          "title": "أرسطو وابن سينا",
+          "date": "1440/07/10",
+          "audio": "https://archive.org/download/fouzan-igathat-lahfan/1440-07-10.mp3",
+          "download": "https://archive.org/download/fouzan-igathat-lahfan/1440-07-10.mp3",
+          "size": "18.8 MB"
+        },
+        {
+          "n": 103,
+          "title": "الفلاسفة",
+          "date": "1440/07/17",
+          "audio": "https://archive.org/download/fouzan-igathat-lahfan/1440-07-17.mp3",
+          "download": "https://archive.org/download/fouzan-igathat-lahfan/1440-07-17.mp3",
+          "size": "27.7 MB"
+        },
+        {
+          "n": 104,
+          "title": "مجمع خامس",
+          "date": "1441/02/21",
+          "audio": "https://archive.org/download/fouzan-igathat-lahfan/1441-02-21.mp3",
+          "download": "https://archive.org/download/fouzan-igathat-lahfan/1441-02-21.mp3",
+          "size": "25.9 MB"
+        },
+        {
+          "n": 105,
+          "title": "أبطل الباطل",
+          "date": "1441/02/28",
+          "audio": "https://archive.org/download/fouzan-igathat-lahfan/1441-02-28.mp3",
+          "download": "https://archive.org/download/fouzan-igathat-lahfan/1441-02-28.mp3",
+          "size": "27.3 MB"
+        },
+        {
+          "n": 106,
+          "title": "النجاسة",
+          "date": "1441/03/06",
+          "audio": "https://archive.org/download/fouzan-igathat-lahfan/1441-03-06.mp3",
+          "download": "https://archive.org/download/fouzan-igathat-lahfan/1441-03-06.mp3",
+          "size": "27.4 MB"
+        },
+        {
+          "n": 107,
+          "title": "الضلال والهدى",
+          "date": "1441/03/13",
+          "audio": "https://archive.org/download/fouzan-igathat-lahfan/1441-03-13.mp3",
+          "download": "https://archive.org/download/fouzan-igathat-lahfan/1441-03-13.mp3",
+          "size": "17.7 MB"
+        },
+        {
+          "n": 108,
+          "title": "الآيات",
+          "date": "1441/03/20",
+          "audio": "https://archive.org/download/fouzan-igathat-lahfan/1441-03-20.mp3",
+          "download": "https://archive.org/download/fouzan-igathat-lahfan/1441-03-20.mp3",
+          "size": "16.5 MB"
+        },
+        {
+          "n": 109,
+          "title": "قصة القتيل",
+          "date": "1441/03/27",
+          "audio": "https://archive.org/download/fouzan-igathat-lahfan/1441-03-27.mp3",
+          "download": "https://archive.org/download/fouzan-igathat-lahfan/1441-03-27.mp3",
+          "size": "26.8 MB"
+        },
+        {
+          "n": 110,
+          "title": "الشحوم",
+          "date": "1441/06/22",
+          "audio": "https://archive.org/download/fouzan-igathat-lahfan/1441-06-22.mp3",
+          "download": "https://archive.org/download/fouzan-igathat-lahfan/1441-06-22.mp3",
+          "size": "25.7 MB"
+        }
+      ]
+    }
+  ]
+}
