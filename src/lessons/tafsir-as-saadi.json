@@ -3125,6 +3125,22 @@
           "audio": "https://archive.org/download/tafsir_alsa3di_mp3/ar_Sa3di_Taha_12.mp3",
           "download": "https://archive.org/download/tafsir_alsa3di_mp3/ar_Sa3di_Taha_12.mp3",
           "size": "2.2 MB"
+        },
+        {
+          "n": 26,
+          "title": "سورة طه: من الآية 123 إلى الآية 130",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/tafsir-as-saadi/taha-123-130.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/tafsir-as-saadi/taha-123-130.mp3",
+          "size": "4.7 MB"
+        },
+        {
+          "n": 27,
+          "title": "سورة طه: من الآية 131 إلى الآية 135",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/tafsir-as-saadi/taha-131-135.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/tafsir-as-saadi/taha-131-135.mp3",
+          "size": "3.8 MB"
         }
       ]
     },
@@ -3133,14 +3149,22 @@
       "lessons": [
         {
           "n": 1,
-          "title": "سورة الأنبياء (1): من الآية 1 إلى الآية 15",
+          "title": "سورة الأنبياء: من الآية 1 إلى الآية 6",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/tafsir-as-saadi/anbiya-1-6.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/tafsir-as-saadi/anbiya-1-6.mp3",
+          "size": "3.8 MB"
+        },
+        {
+          "n": 2,
+          "title": "سورة الأنبياء (1): من الآية 7 إلى الآية 15",
           "date": "",
           "audio": "https://archive.org/download/tafsir_alsa3di_mp3/ar_Sa3di_AlAnbiaa_01.mp3",
           "download": "https://archive.org/download/tafsir_alsa3di_mp3/ar_Sa3di_AlAnbiaa_01.mp3",
           "size": "2.3 MB"
         },
         {
-          "n": 2,
+          "n": 3,
           "title": "سورة الأنبياء (2): من الآية 16 إلى الآية 23",
           "date": "",
           "audio": "https://archive.org/download/tafsir_alsa3di_mp3/ar_Sa3di_AlAnbiaa_02.mp3",
@@ -3148,7 +3172,7 @@
           "size": "2.3 MB"
         },
         {
-          "n": 3,
+          "n": 4,
           "title": "سورة الأنبياء (3): من الآية 24 إلى الآية 33",
           "date": "",
           "audio": "https://archive.org/download/tafsir_alsa3di_mp3/ar_Sa3di_AlAnbiaa_03.mp3",
@@ -3156,7 +3180,7 @@
           "size": "2.8 MB"
         },
         {
-          "n": 4,
+          "n": 5,
           "title": "سورة الأنبياء (4): من الآية 34 إلى الآية 41",
           "date": "",
           "audio": "https://archive.org/download/tafsir_alsa3di_mp3/ar_Sa3di_AlAnbiaa_04.mp3",
@@ -3164,7 +3188,7 @@
           "size": "1.9 MB"
         },
         {
-          "n": 5,
+          "n": 6,
           "title": "سورة الأنبياء (5): من الآية 42 إلى الآية 50",
           "date": "",
           "audio": "https://archive.org/download/tafsir_alsa3di_mp3/ar_Sa3di_AlAnbiaa_05.mp3",
@@ -3172,7 +3196,7 @@
           "size": "2.7 MB"
         },
         {
-          "n": 6,
+          "n": 7,
           "title": "سورة الأنبياء (6): من الآية 51 إلى الآية 61",
           "date": "",
           "audio": "https://archive.org/download/tafsir_alsa3di_mp3/ar_Sa3di_AlAnbiaa_06.mp3",
@@ -3180,7 +3204,7 @@
           "size": "2.3 MB"
         },
         {
-          "n": 7,
+          "n": 8,
           "title": "سورة الأنبياء (7): من الآية 62 إلى الآية 73",
           "date": "",
           "audio": "https://archive.org/download/tafsir_alsa3di_mp3/ar_Sa3di_AlAnbiaa_07.mp3",
@@ -3188,7 +3212,7 @@
           "size": "2.2 MB"
         },
         {
-          "n": 8,
+          "n": 9,
           "title": "سورة الأنبياء (8): من الآية 74 إلى الآية 82",
           "date": "",
           "audio": "https://archive.org/download/tafsir_alsa3di_mp3/ar_Sa3di_AlAnbiaa_08.mp3",
@@ -3196,7 +3220,7 @@
           "size": "2.6 MB"
         },
         {
-          "n": 9,
+          "n": 10,
           "title": "سورة الأنبياء (9): من الآية 83 إلى الآية 88",
           "date": "",
           "audio": "https://archive.org/download/tafsir_alsa3di_mp3/ar_Sa3di_AlAnbiaa_09.mp3",
@@ -3204,7 +3228,7 @@
           "size": "2.0 MB"
         },
         {
-          "n": 10,
+          "n": 11,
           "title": "سورة الأنبياء (10): من الآية 89 إلى الآية 94",
           "date": "",
           "audio": "https://archive.org/download/tafsir_alsa3di_mp3/ar_Sa3di_AlAnbiaa_10.mp3",
@@ -3212,7 +3236,7 @@
           "size": "2.0 MB"
         },
         {
-          "n": 11,
+          "n": 12,
           "title": "سورة الأنبياء (11): من الآية 95 إلى الآية 103",
           "date": "",
           "audio": "https://archive.org/download/tafsir_alsa3di_mp3/ar_Sa3di_AlAnbiaa_11.mp3",
@@ -3220,7 +3244,7 @@
           "size": "1.9 MB"
         },
         {
-          "n": 12,
+          "n": 13,
           "title": "سورة الأنبياء (12): من الآية 104 إلى الآية 112",
           "date": "",
           "audio": "https://archive.org/download/tafsir_alsa3di_mp3/ar_Sa3di_AlAnbiaa_12.mp3",
@@ -3228,7 +3252,7 @@
           "size": "2.0 MB"
         },
         {
-          "n": 13,
+          "n": 14,
           "title": "سورة الحج (1): من الآية 1 إلى الآية 4",
           "date": "",
           "audio": "https://archive.org/download/tafsir_alsa3di_mp3/ar_Sa3di_Al7ajj_01.mp3",
@@ -3236,7 +3260,7 @@
           "size": "1.8 MB"
         },
         {
-          "n": 14,
+          "n": 15,
           "title": "سورة الحج (2): من الآية 5 إلى الآية 10",
           "date": "",
           "audio": "https://archive.org/download/tafsir_alsa3di_mp3/ar_Sa3di_Al7ajj_02.mp3",
@@ -3244,7 +3268,7 @@
           "size": "2.5 MB"
         },
         {
-          "n": 15,
+          "n": 16,
           "title": "سورة الحج (3): من الآية 11 إلى الآية 16",
           "date": "",
           "audio": "https://archive.org/download/tafsir_alsa3di_mp3/ar_Sa3di_Al7ajj_03.mp3",
@@ -3252,7 +3276,7 @@
           "size": "2.0 MB"
         },
         {
-          "n": 16,
+          "n": 17,
           "title": "سورة الحج (4): من الآية 17 إلى الآية 25",
           "date": "",
           "audio": "https://archive.org/download/tafsir_alsa3di_mp3/ar_Sa3di_Al7ajj_04.mp3",
@@ -3260,7 +3284,7 @@
           "size": "2.4 MB"
         },
         {
-          "n": 17,
+          "n": 18,
           "title": "سورة الحج (5): من الآية 26 إلى الآية 31",
           "date": "",
           "audio": "https://archive.org/download/tafsir_alsa3di_mp3/ar_Sa3di_Al7ajj_05.mp3",
@@ -3268,7 +3292,7 @@
           "size": "2.4 MB"
         },
         {
-          "n": 18,
+          "n": 19,
           "title": "سورة الحج (6): من الآية 32 إلى الآية 38",
           "date": "",
           "audio": "https://archive.org/download/tafsir_alsa3di_mp3/ar_Sa3di_Al7ajj_06.mp3",
@@ -3276,7 +3300,7 @@
           "size": "2.7 MB"
         },
         {
-          "n": 19,
+          "n": 20,
           "title": "سورة الحج (7): من الآية 39 إلى الآية 41",
           "date": "",
           "audio": "https://archive.org/download/tafsir_alsa3di_mp3/ar_Sa3di_Al7ajj_07.mp3",
@@ -3284,7 +3308,7 @@
           "size": "2.4 MB"
         },
         {
-          "n": 20,
+          "n": 21,
           "title": "سورة الحج (8): من الآية 42 إلى الآية 51",
           "date": "",
           "audio": "https://archive.org/download/tafsir_alsa3di_mp3/ar_Sa3di_Al7ajj_08.mp3",
@@ -3292,7 +3316,7 @@
           "size": "2.5 MB"
         },
         {
-          "n": 21,
+          "n": 22,
           "title": "سورة الحج (9): من الآية 52 إلى الآية 57",
           "date": "",
           "audio": "https://archive.org/download/tafsir_alsa3di_mp3/ar_Sa3di_Al7ajj_09.mp3",
@@ -3300,7 +3324,7 @@
           "size": "2.2 MB"
         },
         {
-          "n": 22,
+          "n": 23,
           "title": "سورة الحج (10): من الآية 58 إلى الآية 62",
           "date": "",
           "audio": "https://archive.org/download/tafsir_alsa3di_mp3/ar_Sa3di_Al7ajj_10.mp3",
@@ -3308,7 +3332,7 @@
           "size": "2.1 MB"
         },
         {
-          "n": 23,
+          "n": 24,
           "title": "سورة الحج (11): من الآية 63 إلى الآية 66",
           "date": "",
           "audio": "https://archive.org/download/tafsir_alsa3di_mp3/ar_Sa3di_Al7ajj_11.mp3",
@@ -3316,7 +3340,7 @@
           "size": "1.9 MB"
         },
         {
-          "n": 24,
+          "n": 25,
           "title": "سورة الحج (12): من الآية 67 إلى الآية 72",
           "date": "",
           "audio": "https://archive.org/download/tafsir_alsa3di_mp3/ar_Sa3di_Al7ajj_12.mp3",
@@ -3324,7 +3348,7 @@
           "size": "2.1 MB"
         },
         {
-          "n": 25,
+          "n": 26,
           "title": "سورة الحج (13): من الآية 73 إلى الآية 78",
           "date": "",
           "audio": "https://archive.org/download/tafsir_alsa3di_mp3/ar_Sa3di_Al7ajj_13.mp3",
@@ -3647,7 +3671,7 @@
         },
         {
           "n": 10,
-          "title": "سورة الشعراء (3): من الآية 42 إلى الآية 68",
+          "title": "سورة الشعراء (3): من الآية 41 إلى الآية 68",
           "date": "",
           "audio": "https://archive.org/download/tafsir_alsa3di_mp3/ar_Sa3di_Asho3araa_03.mp3",
           "download": "https://archive.org/download/tafsir_alsa3di_mp3/ar_Sa3di_Asho3araa_03.mp3",
@@ -4238,7 +4262,7 @@
         },
         {
           "n": 21,
-          "title": "سورة يس (1): من الآية 1 إلى الآية 12",
+          "title": "سورة يس (1): من الآية 1 إلى الآية 6",
           "date": "",
           "audio": "https://archive.org/download/tafsir_alsa3di_mp3/ar_Sa3di_Yaseen_01.mp3",
           "download": "https://archive.org/download/tafsir_alsa3di_mp3/ar_Sa3di_Yaseen_01.mp3",
@@ -4246,6 +4270,14 @@
         },
         {
           "n": 22,
+          "title": "سورة يس: من الآية 6 إلى الآية 12",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/tafsir-as-saadi/yasin-6-12.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/tafsir-as-saadi/yasin-6-12.mp3",
+          "size": "2.3 MB"
+        },
+        {
+          "n": 23,
           "title": "سورة يس (2): من الآية 13 إلى الآية 30",
           "date": "",
           "audio": "https://archive.org/download/tafsir_alsa3di_mp3/ar_Sa3di_Yaseen_02.mp3",
