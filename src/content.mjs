@@ -72,6 +72,7 @@ export const categories = [
         title: 'مؤلفات العلماء المتقدمين إلى المتأخرين', items: [
         { title: 'شرح أصول السنة للإمام عبد الله بن الزبير الحميدي (ت 219هـ)', type: 'audio', slug: 'usul-as-sunnah-al-humaydi', note: 'فضيلة الشيخ العلامة عبيد بن عبد الله بن سليمان الحمداني الجابري (ت 1444هـ)' },
         { title: 'شرح أصول السنة للإمام أحمد بن حنبل (ت 241هـ)', type: 'audio', slug: 'usul-as-sunnah-ahmad', note: 'فضيلة الشيخ العلامة ربيع بن هادي عمير المدخلي (ت 1447هـ)' },
+        { title: 'شرح أصول السنة للإمام أحمد بن حنبل (ت 241هـ)', type: 'audio', slug: 'usul-as-sunnah-ahmad-jabiri', note: 'فضيلة الشيخ العلامة عبيد بن عبد الله بن سليمان الحمداني الجابري (ت 1444هـ)' },
         { title: 'شرح عقيدة الرازيين أبي زرعة (ت 264هـ) وأبي حاتم (ت 277هـ)', type: 'audio', slug: 'aqidat-ar-raziyyayn', note: 'فضيلة الشيخ العلامة ربيع بن هادي عمير المدخلي (ت 1447هـ)' },
         { title: 'شرح كتاب الرد على الجهمية للإمام عثمان بن سعيد الدارمي (ت 280هـ)', type: 'audio', slug: 'ar-radd-ala-al-jahmiyyah', note: 'فضيلة الشيخ ياسين بن علي الحوشبي العدني (ت 1439هـ)' },
         { title: 'شرح صريح السنة للإمام محمد بن جرير الطبري (ت 310هـ)', type: 'audio', slug: 'sarih-as-sunnah-at-tabari', note: 'فضيلة الشيخ ياسين بن علي الحوشبي العدني (ت 1439هـ)' },
@@ -91,6 +92,7 @@ export const categories = [
       },
       {
         title: 'مؤلفات ومحاضرات العلماء المعاصرين', items: [
+        { title: 'عقيدة أهل السنة والجماعة', type: 'audio', audio: 'https://files.zadapps.info/binbaz.org.sa/sawtyaat/dros%26mohadrat/dros_aqida/aqeda_sunna.mp3', download: 'https://files.zadapps.info/binbaz.org.sa/sawtyaat/dros%26mohadrat/dros_aqida/aqeda_sunna.mp3', note: 'فضيلة الشيخ العلامة عبد العزيز بن عبد الله بن باز (ت 1420هـ)' },
         { title: 'الطائفة الناجية المنصورة', type: 'audio', audio: 'https://alnajmi.net/files/altaifh-almansoura.MP3', download: 'https://alnajmi.net/files/altaifh-almansoura.MP3', note: 'فضيلة الشيخ العلامة أحمد بن يحيى النجمي (ت 1429هـ)' },
         { title: 'شرح وجوب الأمر بالمعروف والنهي عن المنكر للإمام عبد العزيز بن عبد الله بن باز (ت 1420هـ)', type: 'audio', slug: 'wujub-al-amr-bil-maruf', note: 'فضيلة الشيخ العلامة صالح بن فوزان بن عبد الله الفوزان' },
         { title: 'شرح أصول العقائد الدينية للإمام عبد الرحمن بن ناصر السعدي (ت 1376هـ)', type: 'audio', slug: 'usul-al-aqaid-ad-diniyyah', note: 'فضيلة الشيخ العلامة زيد بن محمد بن هادي المدخلي (ت 1435هـ)' },
