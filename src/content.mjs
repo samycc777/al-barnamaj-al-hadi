@@ -165,7 +165,7 @@ export const categories = [
   },
   {
     slug: 'tafsir', name: 'التفسير', icon: 'book', items: [
-      { title: 'التفسير الميسر', type: 'audio', slug: 'tafsir-al-muyassar', note: 'مع تلاوة الآيات بصوت فضيلة الشيخ علي بن عبد الرحمن الحذيفي' },
+      { title: 'التفسير الميسّر بإشراف الشيخ صالح بن عبد العزيز آل الشيخ', type: 'audio', slug: 'tafsir-al-muyassar', note: 'مع تلاوة الآيات بصوت فضيلة الشيخ علي بن عبد الرحمن الحذيفي' },
       { title: 'تيسير الكريم الرحمن في تفسير كلام المنان للإمام عبد الرحمن بن ناصر السعدي (ت 1376هـ)', type: 'audio', slug: 'tafsir-as-saadi', note: 'قراءة الشيخ محمد بن علي العرفج (ت 1442هـ)' },
     ],
   },
