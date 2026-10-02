@@ -1,0 +1,49 @@
+{
+  "chapters": [
+    {
+      "title": "",
+      "lessons": [
+        {
+          "n": 1,
+          "title": "الدرس الأول",
+          "date": "",
+          "audio": "https://download.dar-sh.com/sounds/musharokah/sh_ubaid/1426/attuhaf/01.mp3",
+          "download": "https://download.dar-sh.com/sounds/musharokah/sh_ubaid/1426/attuhaf/01.mp3",
+          "size": "17.8 MB"
+        },
+        {
+          "n": 2,
+          "title": "الدرس الثاني",
+          "date": "",
+          "audio": "https://download.dar-sh.com/sounds/musharokah/sh_ubaid/1426/attuhaf/02.mp3",
+          "download": "https://download.dar-sh.com/sounds/musharokah/sh_ubaid/1426/attuhaf/02.mp3",
+          "size": "15.9 MB"
+        },
+        {
+          "n": 3,
+          "title": "الدرس الثالث",
+          "date": "",
+          "audio": "https://download.dar-sh.com/sounds/musharokah/sh_ubaid/1426/attuhaf/03.mp3",
+          "download": "https://download.dar-sh.com/sounds/musharokah/sh_ubaid/1426/attuhaf/03.mp3",
+          "size": "9.3 MB"
+        },
+        {
+          "n": 4,
+          "title": "الدرس الرابع",
+          "date": "",
+          "audio": "https://download.dar-sh.com/sounds/musharokah/sh_ubaid/1426/attuhaf/04.mp3",
+          "download": "https://download.dar-sh.com/sounds/musharokah/sh_ubaid/1426/attuhaf/04.mp3",
+          "size": "7.8 MB"
+        },
+        {
+          "n": 5,
+          "title": "الدرس الخامس",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/tuhaf-jabiri/05.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/tuhaf-jabiri/05.mp3",
+          "size": "8.3 MB"
+        }
+      ]
+    }
+  ]
+}
