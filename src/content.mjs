@@ -34,6 +34,24 @@ export const categories = [
   {
     slug: 'aqeedah', name: 'العقيدة', icon: 'star', items: [], sections: [
       {
+        title: 'مؤلفات ومحاضرات العلماء المعاصرين', items: [
+        { title: 'عقيدة أهل السنة والجماعة', type: 'audio', audio: 'https://files.zadapps.info/binbaz.org.sa/sawtyaat/dros%26mohadrat/dros_aqida/aqeda_sunna.mp3', download: 'https://files.zadapps.info/binbaz.org.sa/sawtyaat/dros%26mohadrat/dros_aqida/aqeda_sunna.mp3', note: 'فضيلة الشيخ العلامة عبد العزيز بن عبد الله بن باز (ت 1420هـ)' },
+        { title: 'شرح دعوة أهل السنة والجماعة', type: 'audio', audio: 'https://www.mimham.net/audmoh-4898', download: 'https://www.mimham.net/audmoh-4898', note: 'فضيلة الشيخ العلامة مقبل بن هادي الوادعي (ت 1422هـ)' },
+        { title: 'الطائفة الناجية المنصورة', type: 'audio', audio: 'https://alnajmi.net/files/altaifh-almansoura.MP3', download: 'https://alnajmi.net/files/altaifh-almansoura.MP3', note: 'فضيلة الشيخ العلامة أحمد بن يحيى النجمي (ت 1429هـ)' },
+        { title: 'العقيدة الإسلامية وتاريخها', type: 'audio', audio: 'https://archive.org/download/muhadarat-gami/17-%D8%A7%D9%84%D8%B9%D9%82%D9%8A%D8%AF%D8%A9%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%D8%A9%20%D9%88%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE%D9%87%D8%A7%20-%20%D8%A3%D9%84%D9%82%D9%8A%D8%AA%20%D8%A8%D8%A7%D9%84%D8%AE%D8%A8%D8%B1.mp3', download: 'https://archive.org/download/muhadarat-gami/17-%D8%A7%D9%84%D8%B9%D9%82%D9%8A%D8%AF%D8%A9%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%D8%A9%20%D9%88%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE%D9%87%D8%A7%20-%20%D8%A3%D9%84%D9%82%D9%8A%D8%AA%20%D8%A8%D8%A7%D9%84%D8%AE%D8%A8%D8%B1.mp3', note: 'فضيلة الشيخ العلامة محمد أمان بن علي الجامي (ت 1416هـ)' },
+        { title: 'أصول اعتقاد أهل السنة والجماعة', type: 'audio', audio: 'https://archive.org/download/fouzan-general/02.mp3', download: 'https://archive.org/download/fouzan-general/02.mp3', note: 'فضيلة الشيخ العلامة صالح بن فوزان بن عبد الله الفوزان' },
+        { title: 'حقيقة الإيمان', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/haqiqat-al-iman/haqiqat-al-iman.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/haqiqat-al-iman/haqiqat-al-iman.mp3', note: 'فضيلة الشيخ العلامة عبد العزيز بن عبد الله آل الشيخ (ت 1447هـ)' },
+        { title: 'أصول وقواعد في منهج السلف', type: 'audio', slug: 'usul-wa-qawaid-jabiri', note: 'فضيلة الشيخ العلامة عبيد بن عبد الله بن سليمان الحمداني الجابري (ت 1444هـ)' },
+        { title: 'سلسلة مفهوم السلفية (أصول الدعوة السلفية)', type: 'audio', slug: 'mafhum-as-salafiyyah', note: 'فضيلة الشيخ العلامة محمد ناصر الدين بن نوح الألباني (ت 1420هـ)' },
+        { title: 'شرح وجوب الأمر بالمعروف والنهي عن المنكر للإمام عبد العزيز بن عبد الله بن باز (ت 1420هـ)', type: 'audio', slug: 'wujub-al-amr-bil-maruf', note: 'فضيلة الشيخ العلامة صالح بن فوزان بن عبد الله الفوزان' },
+        { title: 'شرح أصول العقائد الدينية للإمام عبد الرحمن بن ناصر السعدي (ت 1376هـ)', type: 'audio', slug: 'usul-al-aqaid-ad-diniyyah', note: 'فضيلة الشيخ العلامة زيد بن محمد بن هادي المدخلي (ت 1435هـ)' },
+        { title: 'شرح منظومة الفروق بين الكفر والشرك والنفاق والظلم والفسوق', type: 'audio', slug: 'manzumat-al-furuq', note: 'فضيلة الشيخ العلامة زيد بن محمد بن هادي المدخلي (ت 1435هـ)' },
+        { title: 'شرح عقيدة أهل السنة والجماعة', type: 'audio', slug: 'aqidat-ahl-as-sunnah', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين (ت 1421هـ)' },
+        { title: 'شرح القواعد المثلى في صفات الله وأسمائه الحسنى', type: 'audio', slug: 'al-qawaid-al-muthla', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين (ت 1421هـ)' },
+        { title: 'شرح الحسام الماحق لكل مشرك ومنافق', type: 'audio', slug: 'al-husam-al-mahiq', note: 'فضيلة الشيخ العلامة محمد تقي الدين بن عبد القادر الهلالي (ت 1407هـ)' },
+        ],
+      },
+      {
         title: 'مؤلفات الإمام محمد بن عبد الوهاب التميمي (ت 1206هـ)', items: [
         { title: 'شرح رسالة إلى أهل القصيم', type: 'audio', slug: 'risalah-ahl-al-qasim', source: 'https://miraath.net/%D8%B1%D8%B3%D8%A7%D9%84%D8%A9-%D8%A7%D9%84%D8%B4%D9%8A%D8%AE-%D9%85%D8%AD%D9%85%D8%AF-%D8%A8%D9%86-%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%88%D9%87%D8%A7%D8%A8-%D8%A5%D9%84%D9%89-%D8%A3%D9%87%D9%84-%D8%A7/', note: 'فضيلة الشيخ العلامة علي بن محمد بن ناصر الفقيهي (ت 1446هـ)' },
         { title: 'شرح شروط لا إله إلا الله', type: 'audio', slug: 'shurut-la-ilaha-illallah', note: 'فضيلة الشيخ العلامة محمد أمان بن علي الجامي (ت 1416هـ)' },
@@ -90,24 +108,6 @@ export const categories = [
         { title: 'شرح تطهير الاعتقاد عن أدران الإلحاد للإمام محمد بن إسماعيل الأمير الصنعاني (ت 1182هـ)', type: 'audio', slug: 'tathir-al-itiqad-fawzan', note: 'فضيلة الشيخ العلامة صالح بن فوزان بن عبد الله الفوزان' },
         { title: 'شرح كتاب شرح الصدور بتحريم رفع القبور للإمام محمد بن علي الشوكاني (ت 1250هـ)', type: 'audio', slug: 'sharh-as-sudur', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد البدر' },
         { title: 'شرح التحف في مذاهب السلف للإمام محمد بن علي الشوكاني (ت 1250هـ)', type: 'audio', slug: 'at-tuhaf-fi-madhahib-as-salaf', note: 'فضيلة الشيخ العلامة عبيد بن عبد الله بن سليمان الحمداني الجابري (ت 1444هـ)' },
-        ],
-      },
-      {
-        title: 'مؤلفات ومحاضرات العلماء المعاصرين', items: [
-        { title: 'عقيدة أهل السنة والجماعة', type: 'audio', audio: 'https://files.zadapps.info/binbaz.org.sa/sawtyaat/dros%26mohadrat/dros_aqida/aqeda_sunna.mp3', download: 'https://files.zadapps.info/binbaz.org.sa/sawtyaat/dros%26mohadrat/dros_aqida/aqeda_sunna.mp3', note: 'فضيلة الشيخ العلامة عبد العزيز بن عبد الله بن باز (ت 1420هـ)' },
-        { title: 'شرح دعوة أهل السنة والجماعة', type: 'audio', audio: 'https://www.mimham.net/audmoh-4898', download: 'https://www.mimham.net/audmoh-4898', note: 'فضيلة الشيخ العلامة مقبل بن هادي الوادعي (ت 1422هـ)' },
-        { title: 'الطائفة الناجية المنصورة', type: 'audio', audio: 'https://alnajmi.net/files/altaifh-almansoura.MP3', download: 'https://alnajmi.net/files/altaifh-almansoura.MP3', note: 'فضيلة الشيخ العلامة أحمد بن يحيى النجمي (ت 1429هـ)' },
-        { title: 'العقيدة الإسلامية وتاريخها', type: 'audio', audio: 'https://archive.org/download/muhadarat-gami/17-%D8%A7%D9%84%D8%B9%D9%82%D9%8A%D8%AF%D8%A9%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%D8%A9%20%D9%88%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE%D9%87%D8%A7%20-%20%D8%A3%D9%84%D9%82%D9%8A%D8%AA%20%D8%A8%D8%A7%D9%84%D8%AE%D8%A8%D8%B1.mp3', download: 'https://archive.org/download/muhadarat-gami/17-%D8%A7%D9%84%D8%B9%D9%82%D9%8A%D8%AF%D8%A9%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%D8%A9%20%D9%88%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE%D9%87%D8%A7%20-%20%D8%A3%D9%84%D9%82%D9%8A%D8%AA%20%D8%A8%D8%A7%D9%84%D8%AE%D8%A8%D8%B1.mp3', note: 'فضيلة الشيخ العلامة محمد أمان بن علي الجامي (ت 1416هـ)' },
-        { title: 'أصول اعتقاد أهل السنة والجماعة', type: 'audio', audio: 'https://archive.org/download/fouzan-general/02.mp3', download: 'https://archive.org/download/fouzan-general/02.mp3', note: 'فضيلة الشيخ العلامة صالح بن فوزان بن عبد الله الفوزان' },
-        { title: 'حقيقة الإيمان', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/haqiqat-al-iman/haqiqat-al-iman.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/haqiqat-al-iman/haqiqat-al-iman.mp3', note: 'فضيلة الشيخ العلامة عبد العزيز بن عبد الله آل الشيخ (ت 1447هـ)' },
-        { title: 'أصول وقواعد في منهج السلف', type: 'audio', slug: 'usul-wa-qawaid-jabiri', note: 'فضيلة الشيخ العلامة عبيد بن عبد الله بن سليمان الحمداني الجابري (ت 1444هـ)' },
-        { title: 'سلسلة مفهوم السلفية (أصول الدعوة السلفية)', type: 'audio', slug: 'mafhum-as-salafiyyah', note: 'فضيلة الشيخ العلامة محمد ناصر الدين بن نوح الألباني (ت 1420هـ)' },
-        { title: 'شرح وجوب الأمر بالمعروف والنهي عن المنكر للإمام عبد العزيز بن عبد الله بن باز (ت 1420هـ)', type: 'audio', slug: 'wujub-al-amr-bil-maruf', note: 'فضيلة الشيخ العلامة صالح بن فوزان بن عبد الله الفوزان' },
-        { title: 'شرح أصول العقائد الدينية للإمام عبد الرحمن بن ناصر السعدي (ت 1376هـ)', type: 'audio', slug: 'usul-al-aqaid-ad-diniyyah', note: 'فضيلة الشيخ العلامة زيد بن محمد بن هادي المدخلي (ت 1435هـ)' },
-        { title: 'شرح منظومة الفروق بين الكفر والشرك والنفاق والظلم والفسوق', type: 'audio', slug: 'manzumat-al-furuq', note: 'فضيلة الشيخ العلامة زيد بن محمد بن هادي المدخلي (ت 1435هـ)' },
-        { title: 'شرح عقيدة أهل السنة والجماعة', type: 'audio', slug: 'aqidat-ahl-as-sunnah', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين (ت 1421هـ)' },
-        { title: 'شرح القواعد المثلى في صفات الله وأسمائه الحسنى', type: 'audio', slug: 'al-qawaid-al-muthla', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين (ت 1421هـ)' },
-        { title: 'شرح الحسام الماحق لكل مشرك ومنافق', type: 'audio', slug: 'al-husam-al-mahiq', note: 'فضيلة الشيخ العلامة محمد تقي الدين بن عبد القادر الهلالي (ت 1407هـ)' },
         ],
       },
     ],
