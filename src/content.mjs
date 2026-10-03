@@ -223,6 +223,7 @@ export const categories = [
   },
   {
     slug: 'adhkar', name: 'الأذكار', icon: 'sunrise', items: [
+      { title: 'حصن المسلم من أذكار الكتاب والسنة للشيخ سعيد بن علي بن وهف القحطاني (ت 1440هـ)', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/hisn-al-muslim/hisn-al-muslim.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/hisn-al-muslim/hisn-al-muslim.mp3', note: 'بقراءة الأستاذ حمد الدريهم' },
       { title: 'شرح الوابل الصيب ورافع الكلم الطيب للإمام محمد بن أبي بكر ابن قيم الجوزية (ت 751هـ)', type: 'audio', slug: 'al-wabil-as-sayyib', note: 'سماحة الشيخ العلامة عبد العزيز بن عبد الله بن باز (ت 1420هـ)' },
     ],
   },
