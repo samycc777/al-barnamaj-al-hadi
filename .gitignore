@@ -4,3 +4,6 @@ dist/
 .env*
 .dev.vars
 .DS_Store
+
+# Files downloaded from the brother's inbox by scripts/inbox.mjs.
+/inbox/

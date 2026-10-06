@@ -1,0 +1,14 @@
+# Cloudflare Pages settings for al-barnamaj-al-hadi. Once this file exists,
+# Cloudflare takes the settings from here instead of the dashboard.
+name = "al-barnamaj-al-hadi"
+pages_build_output_dir = "dist"
+compatibility_date = "2026-09-26"
+
+[vars]
+NODE_VERSION = "22"
+
+# The brother's inbox (/inbox/ page, functions/api/inbox/): his messages and
+# files. Private, unlike the public audio bucket.
+[[r2_buckets]]
+binding = "INBOX"
+bucket_name = "al-barnamaj-al-hadi-inbox"

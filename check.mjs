@@ -5,7 +5,7 @@ import { categories, itemsOf } from './src/content.mjs';
 
 const books = categories.flatMap((c) => itemsOf(c).filter((it) => it.slug).map((it) => ({ c, it })));
 const pages = [
-  'dist/index.html', 'dist/404.html',
+  'dist/index.html', 'dist/404.html', 'dist/inbox/index.html',
   ...categories.map((c) => `dist/${c.slug}/index.html`),
   ...books.map(({ c, it }) => `dist/${c.slug}/${it.slug}/index.html`),
 ];

@@ -268,3 +268,24 @@ body.has-player { padding-bottom: 110px; }
   .num { min-width: 20px; }
   .player audio { flex-basis: 100%; }
 }
+
+/* The brother's inbox page (/inbox/). */
+.inbox-form label { display: block; margin: 0 0 6px; font-weight: 700; color: var(--brown-3); }
+.inbox-form textarea,
+.inbox-form input[type="file"] { display: block; width: 100%; margin-bottom: 16px; padding: 10px 12px; border: 1px solid var(--line); border-radius: 10px; background: var(--cream-2); color: var(--ink); font: inherit; }
+.inbox-form textarea { resize: vertical; }
+.inbox-form button { border: 0; cursor: pointer; font: inherit; padding: 8px 32px; }
+.inbox-form button:disabled { cursor: wait; opacity: .6; }
+.inbox-status { margin: 12px 0 0; color: var(--ink-2); }
+.inbox-status:empty { display: none; }
+.inbox-error { padding: 10px 12px; border-radius: 10px; background: #fdecea; color: #a12a1b; font-weight: 700; }
+.inbox-messages { margin: 0; padding: 0; list-style: none; }
+.inbox-messages > li { padding: 12px 0; border-bottom: 1px solid var(--row-line); }
+.inbox-messages > li:last-child { border-bottom: 0; }
+.inbox-messages .meta { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 0; color: var(--muted); font-size: 14px; }
+.inbox-messages .badge { display: inline-block; width: auto; height: auto; box-shadow: none; padding: 1px 12px; border-radius: 999px; font-weight: 700; }
+.inbox-messages .badge.new { background: #fff3d6; color: #8a5a00; }
+.inbox-messages .badge.done { background: #e3f4e8; color: #1d6b3a; }
+.inbox-messages .text { margin: 6px 0 0; white-space: pre-wrap; overflow-wrap: anywhere; }
+.inbox-messages .files { margin: 6px 0 0; color: var(--ink-2); font-size: 14px; }
+.inbox-messages .reply { margin: 8px 0 0; padding: 6px 12px; border-inline-start: 3px solid var(--gold); color: var(--ink-2); white-space: pre-wrap; }

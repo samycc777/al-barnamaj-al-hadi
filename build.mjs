@@ -258,6 +258,29 @@ function bookPage(c, it) {
   return layout({ title: it.title, active: c.slug, main: panel(it.title, c.icon, head + body), extra: PLAYER });
 }
 
+// The brother's inbox: where he sends new additions (text and files). Not
+// linked from any page; his link carries the key (/inbox/#key=...). The
+// sending and listing is done by assets/inbox.js with functions/api/inbox/.
+function inboxPage() {
+  const form = `<p class="inbox-error" id="no-key" hidden>هذا الرابط ينقصه المفتاح. افتح الرابط كاملًا كما أُرسل إليك.</p>
+    <form id="send-form" class="inbox-form">
+      <label for="text">الرسالة</label>
+      <textarea id="text" name="text" rows="8" dir="auto"></textarea>
+      <label for="files">إرفاق ملفات</label>
+      <input id="files" name="files" type="file" multiple>
+      <button type="submit" class="btn">إرسال</button>
+      <p id="send-status" class="inbox-status" role="status" aria-live="polite"></p>
+    </form>`;
+  const sent = `<p id="list-status" class="inbox-status" role="status" aria-live="polite"></p>
+    <ol id="messages" class="inbox-messages"></ol>`;
+  return layout({
+    title: 'إرسال إضافات',
+    active: '',
+    main: panel('إرسال إضافات', 'pen', form) + panel('الرسائل المرسلة', 'file', sent),
+    extra: '<script src="/assets/inbox.js" defer></script>',
+  });
+}
+
 function notFound() {
   const main = panel('الصفحة غير موجودة', 'info', `<p style="text-align:center"><a class="btn" href="/">الرئيسية</a></p>`);
   return layout({ title: 'الصفحة غير موجودة', active: '', main });
@@ -268,6 +291,8 @@ mkdirSync(OUT, { recursive: true });
 cpSync('assets', `${OUT}/assets`, { recursive: true });
 write(`${OUT}/index.html`, homePage());
 write(`${OUT}/404.html`, notFound());
+mkdirSync(`${OUT}/inbox`, { recursive: true });
+write(`${OUT}/inbox/index.html`, inboxPage());
 for (const c of categories) {
   mkdirSync(`${OUT}/${c.slug}`, { recursive: true });
   write(`${OUT}/${c.slug}/index.html`, categoryPage(c));
