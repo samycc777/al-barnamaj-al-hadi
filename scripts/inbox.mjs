@@ -3,8 +3,10 @@
 //   npm run inbox                        show the messages not yet added, and
 //                                        download their files into inbox/<id>/
 //   npm run inbox -- all                 show every message, added ones too
-//   npm run inbox -- done <id> [reply]   mark a message as added; the reply is
-//                                        shown to the brother under his message
+//   npm run inbox -- done <id> [reply] [/path/]
+//                                        mark a message as added; the reply is
+//                                        shown to the brother under his message,
+//                                        with a button to the page (a site path)
 //   npm run inbox -- undo <id>           mark it as waiting again
 //
 // Needs INBOX_KEY in .env.local of the main project folder (it works from a
@@ -31,13 +33,15 @@ if (!key) {
 }
 
 const [command = "new", id, ...replyWords] = process.argv.slice(2);
+// A last word starting with "/" is the page where the addition is.
+const link = replyWords.at(-1)?.startsWith("/") ? replyWords.pop() : undefined;
 
 if (command === "done" || command === "undo") {
-  await setStatus(id, command === "done" ? "done" : "new", replyWords.join(" "));
+  await setStatus(id, command === "done" ? "done" : "new", replyWords.join(" "), link);
 } else if (command === "new" || command === "all") {
   await show(command === "all");
 } else {
-  console.error(`Unknown command "${command}". Use: (nothing), all, done <id> [reply], undo <id>.`);
+  console.error(`Unknown command "${command}". Use: (nothing), all, done <id> [reply] [/path/], undo <id>.`);
   process.exit(1);
 }
 
@@ -78,13 +82,14 @@ async function show(includeDone) {
   }
 }
 
-async function setStatus(messageId, status, reply) {
+async function setStatus(messageId, status, reply, link) {
   if (!messageId) {
     console.error("Give the message id, e.g. npm run inbox -- done 2026-10-07T14-03-22-k3f9 \"Added.\"");
     process.exit(1);
   }
   const body = { id: messageId, status };
   if (reply) body.reply = reply;
+  if (link) body.link = link;
   const { message } = await api("/api/inbox/status", {
     method: "POST",
     headers: { "Content-Type": "application/json" },

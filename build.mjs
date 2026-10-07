@@ -44,6 +44,9 @@ const ICONS = {
   chevron: '<path d="M15 5l-7 7 7 7"/>',
   pause: '<path d="M8 5.5v13M16 5.5v13"/>',
   info: '<circle cx="12" cy="12" r="8.5"/><path d="M12 11v5M12 8h.01"/>',
+  check: '<circle cx="12" cy="12" r="8.5"/><path d="M8 12.5l2.7 2.7L16.5 9.5"/>',
+  clip: '<path d="M20 11.5l-8 8a5 5 0 0 1-7-7l8.5-8.5a3.3 3.3 0 0 1 4.7 4.7L9.7 17.2a1.7 1.7 0 0 1-2.4-2.4L15 7"/>',
+  send: '<path d="M20.5 3.5L3.5 10.5l7 3 3 7z"/><path d="M20.5 3.5l-10 10"/>',
 };
 const icon = (name, cls = 'ic') =>
   `<svg class="${cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICONS[name]}</svg>`;
@@ -260,23 +263,38 @@ function bookPage(c, it) {
 
 // The brother's inbox: where he sends new additions (text and files). Not
 // linked from any page; his link carries the key (/inbox/#key=...). The
-// sending and listing is done by assets/inbox.js with functions/api/inbox/.
+// sending and listing is done by assets/inbox.js with functions/api/inbox/:
+// his messages waiting to be added, then the ones added to the site with the
+// user's reply and a link to where they were added.
 function inboxPage() {
   const form = `<p class="inbox-error" id="no-key" hidden>هذا الرابط ينقصه المفتاح. افتح الرابط كاملًا كما أُرسل إليك.</p>
     <form id="send-form" class="inbox-form">
       <label for="text">الرسالة</label>
-      <textarea id="text" name="text" rows="8" dir="auto"></textarea>
-      <label for="files">إرفاق ملفات</label>
-      <input id="files" name="files" type="file" multiple>
-      <button type="submit" class="btn">إرسال</button>
+      <textarea id="text" name="text" rows="6" dir="auto"></textarea>
+      <input id="files" type="file" multiple class="inbox-file-input">
+      <label for="files" class="inbox-drop" id="drop">
+        ${icon('clip')}
+        <span><strong>إرفاق ملفات</strong><small>اضغط للاختيار أو اسحب الملفات إلى هنا</small></span>
+      </label>
+      <ul id="chosen" class="inbox-chosen"></ul>
+      <div class="inbox-send">
+        <button type="submit" class="btn">${icon('send')}<span>إرسال</span></button>
+        <progress id="progress" max="100" value="0" hidden></progress>
+      </div>
       <p id="send-status" class="inbox-status" role="status" aria-live="polite"></p>
     </form>`;
-  const sent = `<p id="list-status" class="inbox-status" role="status" aria-live="polite"></p>
-    <ol id="messages" class="inbox-messages"></ol>`;
+  const list = (id, empty) => `<p class="inbox-status" data-status="${id}" role="status" aria-live="polite"></p>
+    <p class="inbox-empty" data-empty="${id}" hidden>${empty}</p>
+    <ol id="${id}" class="inbox-messages"></ol>`;
+  const counted = (title, iconName, id, body) => panel(title, iconName, body)
+    .replace('<section class="panel">', `<section class="panel inbox-panel" id="panel-${id}">`)
+    .replace('</h2>', `</h2><span class="inbox-count" data-count="${id}"></span>`);
   return layout({
     title: 'إرسال إضافات',
     active: '',
-    main: panel('إرسال إضافات', 'pen', form) + panel('الرسائل المرسلة', 'file', sent),
+    main: panel('إرسال إضافات', 'pen', form)
+      + counted('بانتظار الإضافة', 'clock', 'waiting', list('waiting', 'لا توجد رسائل بانتظار الإضافة.'))
+      + counted('أُضيفت إلى الموقع', 'check', 'added', list('added', 'لم يُضف شيء بعد.')),
     extra: '<script src="/assets/inbox.js" defer></script>',
   });
 }
