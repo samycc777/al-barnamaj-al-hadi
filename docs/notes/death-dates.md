@@ -6,3 +6,4 @@ The rule is in CLAUDE.md (Conventions). These are the dates already checked, mov
 - Less-known authors checked (Arabic Wikipedia / al-Zirikli): al-Bayquni «نحو 1080» (exact year unknown), al-Zanjani 655, al-Bunjawi 1336, Bahraq al-Hadrami (the additions to لامية الأفعال) 930; Dr. Mahdi Rizqallah Ahmad (born 1945) has no death report, so no date.
 - سعيد بن علي بن وهف القحطاني: 21 Muharram 1440 (alyaum.com, al-madina.com news reports).
 - ابن أبي العز الحنفي 792 (Arabic Wikipedia, al-Zirikli).
+- أبو جعفر الطحاوي 321 (Arabic Wikipedia, al-Dhahabi's Siyar).
