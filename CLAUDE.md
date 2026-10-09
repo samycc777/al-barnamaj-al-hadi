@@ -20,7 +20,9 @@ Live at https://al-barnamaj-al-hadi.pages.dev (Cloudflare Pages project `al-barn
 - `scripts/import-lessons.mjs`: the importer. Lessons the source lacks can be added by hand with `"extra": true`; the importer keeps them (in their chapter if the source has it).
 - `build.mjs`: builds static pages into `dist/` (home, `/<category>/`, `/<category>/<book>/`, `404.html`). No dependencies. Icons are inline SVG line icons in `ICONS` (sun and moon are taken by the night-mode button).
 - `check.mjs`: checks every page was built, every internal link resolves, and every book has a lesson list. It wants mp3 audio (AAC/m4a must go to R2 as mp3); mimham's `audcha-…` addresses without `.mp3` are allowed.
-- `assets/`: `style.css` (colour tokens at the top) and `favicon.svg`.
+- `assets/`: `style.css` (colour tokens at the top), `favicon.svg`, `apple-touch-icon.png` (180 px, from the favicon) and `og.jpg` (1200×630 link-preview picture: site name and description; remake it if either changes).
+- The player (`PLAYER` in `build.mjs`) remembers each lesson's position (localStorage), plays the next lesson on a book page, shows lesson/book/shaykh on the phone's lock screen, and says so when a file fails to load.
+- The site opens light; dark only through the moon button.
 
 ## Audio hosts (details per book in docs/notes/book-sources.md)
 

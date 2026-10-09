@@ -31,8 +31,8 @@
   color-scheme: light;
 }
 
-/* Dark mode: night-time brown and gold. Chosen with the button in the nav bar;
-   the choice is saved, otherwise it follows the phone or computer setting. */
+/* Dark mode: night-time brown and gold. Chosen with the button in the nav bar
+   and saved; the site opens light otherwise. */
 :root[data-theme="dark"] {
   --cream: #1d140d;
   --cream-2: #17100a;
@@ -262,6 +262,7 @@ button.round-btn { border: 0; cursor: pointer; font: inherit; }
 .player audio { flex: 2 1 280px; width: 100%; height: 40px; }
 body.has-player { padding-bottom: 110px; }
 .player[hidden] { display: none; }
+.player.failed .player-title { color: #a33a1c; }
 @media (max-width: 720px) {
   .row { gap: 10px; }
   .lesson .round-btn { width: 34px; height: 34px; }

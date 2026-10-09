@@ -93,7 +93,7 @@ function panel(title, iconName, body) {
   </section>`;
 }
 
-function layout({ title, active, main, extra = '' }) {
+function layout({ title, active, main, extra = '', path = '/' }) {
   const pageTitle = title ? `${title} — ${site.name}` : site.name;
   const nav = [
     `<li><a href="/"${active === 'home' ? ' class="active" aria-current="page"' : ''}>الرئيسية</a></li>`,
@@ -111,18 +111,27 @@ function layout({ title, active, main, extra = '' }) {
 <meta name="description" content="${esc(site.description)}">
 <meta property="og:description" content="${esc(site.description)}">
 <meta property="og:locale" content="ar_AR">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="${esc(site.name)}">
+<meta property="og:url" content="${site.url}${path}">
+<meta property="og:image" content="${site.url}/assets/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="${site.url}${path}">
 <meta name="theme-color" content="#6a3c18">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Aref+Ruqaa:wght@700&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/style.css">
 <script>
-  // Pick light or dark before the page shows, so it doesn't flash.
+  // Light unless the visitor chose dark with the button. Set before the page
+  // shows, so it doesn't flash.
   (function () {
     var t; try { t = localStorage.getItem('theme'); } catch (e) {}
-    if (t !== 'light' && t !== 'dark') t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-    document.documentElement.setAttribute('data-theme', t);
+    document.documentElement.setAttribute('data-theme', t === 'dark' ? 'dark' : 'light');
   })();
 </script>
 </head>
@@ -197,26 +206,76 @@ const PLAYER = `<div class="player" hidden>
   <audio controls preload="none"></audio>
 </div>
 <script>
-  // One player for the page: a lesson's play button loads it here.
-  var bar = document.querySelector('.player'), au = bar.querySelector('audio'), cur = null;
+  // One player for the page: a lesson's play button loads it here. Each
+  // lesson remembers where it was stopped; on a book's page the next lesson
+  // plays when one ends. The phone's lock screen shows the lesson and book.
+  var bar = document.querySelector('.player'), au = bar.querySelector('audio'), cur = null, saved = 0;
+  var bookPage = !!document.querySelector('.book-head');
+  var rows = function () { return [].slice.call(document.querySelectorAll('.lesson')); };
+  var key = function (r) { return 'pos:' + r.dataset.src; };
+  function store(fn) { try { return fn(localStorage); } catch (e) {} }
+  // A failed load shows its message from the 'error' event below.
+  function play() { var p = au.play(); if (p) p.catch(function () {}); }
   function sync() {
-    document.querySelectorAll('.lesson').forEach(function (r) {
+    rows().forEach(function (r) {
       var on = r === cur && !au.paused;
       r.classList.toggle('playing', on);
       r.querySelector('.play').setAttribute('aria-label', on ? 'إيقاف' : 'استماع');
     });
   }
+  function load(r) {
+    cur = r;
+    au.src = r.dataset.src;
+    var title = r.querySelector('.row-title').textContent;
+    bar.querySelector('.player-title').textContent = title;
+    bar.classList.remove('failed');
+    bar.hidden = false;
+    document.body.classList.add('has-player');
+    var d = r.closest('details'); if (d) d.open = true;
+    if ('mediaSession' in navigator) {
+      var who = document.querySelector('.book-note') || r.querySelector('.row-meta span:last-child');
+      navigator.mediaSession.metadata = new MediaMetadata({
+        title: title,
+        artist: who ? who.textContent : '',
+        album: bookPage ? document.querySelector('.panel-head h2').textContent : '',
+        artwork: [{ src: '/assets/apple-touch-icon.png', sizes: '180x180', type: 'image/png' }],
+      });
+    }
+    play();
+  }
+  function step(by) {
+    var all = rows(), r = all[all.indexOf(cur) + by];
+    if (r) { load(r); r.scrollIntoView({ block: 'nearest' }); }
+  }
   document.addEventListener('click', function (e) {
     var b = e.target.closest('.play'); if (!b) return;
     var r = b.closest('.lesson');
-    if (r === cur) { au.paused ? au.play() : au.pause(); return; }
-    cur = r;
-    au.src = r.dataset.src;
-    bar.querySelector('.player-title').textContent = r.querySelector('.row-title').textContent;
-    bar.hidden = false;
-    document.body.classList.add('has-player');
-    au.play();
+    if (r === cur) { au.paused ? play() : au.pause(); return; }
+    load(r);
   });
+  au.addEventListener('loadedmetadata', function () {
+    var t = +store(function (s) { return s.getItem(key(cur)); }) || 0;
+    if (t > 15 && t < au.duration - 15) au.currentTime = t - 3;
+  });
+  au.addEventListener('timeupdate', function () {
+    if (!cur || Math.abs(au.currentTime - saved) < 5) return;
+    saved = au.currentTime;
+    store(function (s) { s.setItem(key(cur), Math.floor(saved)); });
+  });
+  au.addEventListener('ended', function () {
+    store(function (s) { s.removeItem(key(cur)); });
+    if (bookPage) step(1);
+  });
+  au.addEventListener('error', function () {
+    if (!au.getAttribute('src')) return;
+    bar.classList.add('failed');
+    bar.querySelector('.player-title').textContent = 'تعذر تشغيل هذا الدرس، حاول مرة أخرى';
+    cur = null; sync();
+  });
+  if (bookPage && 'mediaSession' in navigator) {
+    navigator.mediaSession.setActionHandler('nexttrack', function () { step(1); });
+    navigator.mediaSession.setActionHandler('previoustrack', function () { step(-1); });
+  }
   ['play', 'pause', 'ended'].forEach(function (ev) { au.addEventListener(ev, sync); });
 </script>`;
 
@@ -228,15 +287,17 @@ function categoryPage(c) {
         <summary><span>${esc(s.title)}</span><span class="count">${s.items.length}</span></summary>
         ${rows(s.items)}
       </details>`).join('');
-  return layout({ title: c.name, active: c.slug, main: panel(c.name, c.icon, body), extra: itemsOf(c).some((it) => it.audio) ? PLAYER : '' });
+  return layout({ title: c.name, active: c.slug, path: `/${c.slug}/`, main: panel(c.name, c.icon, body), extra: itemsOf(c).some((it) => it.audio) ? PLAYER : '' });
 }
 
 function lessonRow(l, i) {
+  // Some lessons on the Shaykh's site are titled with their file name only.
+  const title = /^\d+_[\d-]+$/.test(l.title) ? `الدرس ${i + 1}` : l.title;
   const meta = [l.date && `<span>${esc(l.date)}</span>`, l.size && `<span dir="ltr">${esc(l.size)}</span>`]
     .filter(Boolean).join('<i class="dot"></i>');
   return `<li class="row lesson" data-src="${esc(l.audio)}">
       <span class="num">${i + 1}</span>
-      <div class="row-body"><div class="row-title">${esc(l.title)}</div>${meta ? `<div class="row-meta">${meta}</div>` : ''}</div>
+      <div class="row-body"><div class="row-title">${esc(title)}</div>${meta ? `<div class="row-meta">${meta}</div>` : ''}</div>
       <a class="round-btn dl" href="${esc(l.download || l.audio)}" title="تحميل" aria-label="تحميل">${icon('download')}</a>
       <button class="round-btn play" type="button" title="استماع" aria-label="استماع">${icon('play', 'ic i-play')}${icon('pause', 'ic i-pause')}</button>
     </li>`;
@@ -258,7 +319,7 @@ function bookPage(c, it) {
       ${it.note ? `<div class="book-note">${esc(it.note)}</div>` : ''}
     </div>`;
 
-  return layout({ title: it.title, active: c.slug, main: panel(it.title, c.icon, head + body), extra: PLAYER });
+  return layout({ title: it.title, active: c.slug, path: `/${c.slug}/${it.slug}/`, main: panel(it.title, c.icon, head + body), extra: PLAYER });
 }
 
 // The brother's inbox: where he sends new additions (text and files). Not
