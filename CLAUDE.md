@@ -35,7 +35,7 @@ Live at https://al-barnamaj-al-hadi.pages.dev (Cloudflare Pages project `al-barn
 ## Commands
 
 - `npm run build`: build into `dist/`.
-- `npm run check`: build and verify. Full check command; run it after every change and merge.
+- `npm run check`: build into `dist-check/` and verify (its own folder, so it never races the preview's `dist/`). Full check command; run it after every change and merge.
 - `npm run dev`: build and serve on http://localhost:4321 (`scripts/dev.mjs`), watching `src/`, `assets/`, `build.mjs`, rebuilding and reloading on change. Exits if port 4321 is in use.
 - The preview is always running (the user wants it on at all times): a LaunchAgent (`~/Library/LaunchAgents/com.samycachon.tasil-ilm-preview.plist`) runs `node scripts/dev.mjs` in the project folder at login and restarts it; log at `~/Library/Logs/tasil-ilm-preview.log`. Don't start another `npm run dev` on 4321. Restart with `launchctl kickstart -k gui/$(id -u)/com.samycachon.tasil-ilm-preview`. It runs `/opt/homebrew/bin/node`; if node moves, update the plist.
 - cmux workspace command **Tasil Ilm preview** (`~/.config/cmux/cmux.json`, Command Palette ⌘⇧P): Claude left, site at localhost:4321 right, preview log below.

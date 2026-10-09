@@ -2,7 +2,9 @@
 import { mkdirSync, rmSync, writeFileSync, cpSync, readFileSync } from 'node:fs';
 import { site, categories, itemsOf } from './src/content.mjs';
 
-const OUT = 'dist';
+// `npm run check` builds into its own folder so it never races the preview,
+// which rebuilds dist/ whenever a file changes.
+const OUT = process.env.OUT || 'dist';
 
 const esc = (s = '') =>
   String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);

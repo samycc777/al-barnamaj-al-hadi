@@ -3,11 +3,13 @@ import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { categories, itemsOf } from './src/content.mjs';
 
+const OUT = process.env.OUT || 'dist';
+
 const books = categories.flatMap((c) => itemsOf(c).filter((it) => it.slug).map((it) => ({ c, it })));
 const pages = [
-  'dist/index.html', 'dist/404.html', 'dist/inbox/index.html',
-  ...categories.map((c) => `dist/${c.slug}/index.html`),
-  ...books.map(({ c, it }) => `dist/${c.slug}/${it.slug}/index.html`),
+  `${OUT}/index.html`, `${OUT}/404.html`, `${OUT}/inbox/index.html`,
+  ...categories.map((c) => `${OUT}/${c.slug}/index.html`),
+  ...books.map(({ c, it }) => `${OUT}/${c.slug}/${it.slug}/index.html`),
 ];
 let errors = 0;
 const fail = (m) => { console.error('✗', m); errors++; };
@@ -16,7 +18,7 @@ for (const p of pages) {
   if (!existsSync(p)) { fail(`missing ${p}`); continue; }
   const html = readFileSync(p, 'utf8');
   for (const [, href] of html.matchAll(/(?:href|src)="(\/[^"]*)"/g)) {
-    const target = join('dist', href.endsWith('/') ? `${href}index.html` : href);
+    const target = join(OUT, href.endsWith('/') ? `${href}index.html` : href);
     if (!existsSync(target)) fail(`${p} links to ${href}, which does not exist`);
   }
   for (const c of categories) if (!html.includes(`href="/${c.slug}/"`)) fail(`${p} has no link to ${c.name}`);
