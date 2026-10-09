@@ -95,7 +95,7 @@ function panel(title, iconName, body) {
   </section>`;
 }
 
-function layout({ title, active, main, extra = '', path = '/' }) {
+function layout({ title, active, main, extra = '', path = '/', app = true }) {
   const pageTitle = title ? `${title} — ${site.name}` : site.name;
   const nav = [
     `<li><a href="/"${active === 'home' ? ' class="active" aria-current="page"' : ''}>الرئيسية</a></li>`,
@@ -124,6 +124,9 @@ function layout({ title, active, main, extra = '', path = '/' }) {
 <meta name="theme-color" content="#6a3c18">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+${app ? '<link rel="manifest" href="/assets/manifest.webmanifest">\n' : ''}<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="البرنامج الهادي">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Aref+Ruqaa:wght@700&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
@@ -181,6 +184,7 @@ ${main}
     try { localStorage.setItem('theme', t); } catch (e) {}
     mark();
   });
+  if ('serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js').catch(function () {});
 </script>
 ${extra}
 </body>
@@ -359,6 +363,9 @@ function inboxPage() {
       + counted('بانتظار الإضافة', 'clock', 'waiting', list('waiting', 'لا توجد رسائل بانتظار الإضافة.'))
       + counted('أُضيفت إلى الموقع', 'check', 'added', list('added', 'لم يُضف شيء بعد.')),
     extra: '<script src="/assets/inbox.js" defer></script>',
+    // His key is in the link: no manifest, so adding this page to his home
+    // screen keeps the link as it is instead of opening the home page.
+    app: false,
   });
 }
 
@@ -370,6 +377,7 @@ function notFound() {
 rmSync(OUT, { recursive: true, force: true });
 mkdirSync(OUT, { recursive: true });
 cpSync('assets', `${OUT}/assets`, { recursive: true });
+cpSync('src/sw.js', `${OUT}/sw.js`); // at the root, so it covers every page
 write(`${OUT}/index.html`, homePage());
 write(`${OUT}/404.html`, notFound());
 mkdirSync(`${OUT}/inbox`, { recursive: true });

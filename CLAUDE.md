@@ -21,6 +21,7 @@ Live at https://al-barnamaj-al-hadi.pages.dev (Cloudflare Pages project `al-barn
 - `build.mjs`: builds static pages into `dist/` (home, `/<category>/`, `/<category>/<book>/`, `404.html`). No dependencies. Icons are inline SVG line icons in `ICONS` (sun and moon are taken by the night-mode button).
 - `check.mjs`: checks every page was built, every internal link resolves, and every book has a lesson list. It wants mp3 audio (AAC/m4a must go to R2 as mp3); mimham's `audcha-…` addresses without `.mp3` are allowed.
 - `assets/`: `style.css` (colour tokens at the top), `favicon.svg`, `apple-touch-icon.png` (180 px, from the favicon) and `og.jpg` (1200×630 link-preview picture: site name and description; remake it if either changes).
+- Web app: `assets/manifest.webmanifest` with `icon-192.png`/`icon-512.png` (the favicon without rounded corners, `sips` from SVG) and `src/sw.js` (copied to `/sw.js`; network first, cache only offline; skips audio, `/api/`, `/inbox/`). The inbox page has no manifest, so its home-screen icon keeps the key. Bump `CACHE` in `sw.js` only if its logic changes.
 - The player (`PLAYER` in `build.mjs`) remembers each lesson's position (localStorage), plays the next lesson on a book page, shows lesson/book/shaykh on the phone's lock screen, and says so when a file fails to load.
 - The site opens light; dark only through the moon button.
 

@@ -14,6 +14,7 @@ const TYPES = {
   '.json': 'application/json; charset=utf-8', '.svg': 'image/svg+xml',
   '.png': 'image/png', '.jpg': 'image/jpeg', '.ico': 'image/x-icon',
   '.woff2': 'font/woff2', '.mp3': 'audio/mpeg', '.pdf': 'application/pdf', '.txt': 'text/plain; charset=utf-8',
+  '.webmanifest': 'application/manifest+json',
 };
 // Added to HTML only while previewing; the built files in dist/ stay untouched.
 const RELOAD = '<script>new EventSource("/__reload").onmessage=()=>location.reload()</script>';
