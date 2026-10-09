@@ -1,26 +1,34 @@
-// Tells the owner's phone and Mac that the brother sent something new.
-// It posts a short alert to ntfy.sh (a free push service) on a secret topic
-// (the NTFY_TOPIC secret); the ntfy app on the phone and a script on the Mac
-// (scripts/inbox-alerts-mac.sh in ~/dev/site-exposing-arafat) listen to it.
-// The exposing-arafat site posts to the same topic, so the title names the site.
-// Only a generic line is sent, never the message itself: ntfy.sh is outside
+// Tells the owner that the brother sent something new: a Telegram bot
+// (@bilal_brother_alerts_bot) messages him, so it pops up on his phone and
+// Mac. Needs the TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID secrets.
+// The exposing-arafat site uses the same bot, so the alert names the site.
+// Only a generic line is sent, never the message itself: Telegram is outside
 // the site, so the brother's text and files stay in the private bucket.
-const TITLE = "Tasil ilm: new from the brother";
+const SITE_NAME = "Tasil ilm";
 
 export async function notifyNewMessage(env, message) {
-  if (!env.NTFY_TOPIC) return;
+  if (!env.TELEGRAM_BOT_TOKEN || !env.TELEGRAM_CHAT_ID) {
+    console.log("Inbox alert skipped: the Telegram secrets are missing.");
+    return;
+  }
 
   const fileCount = message.files.length;
   const files = fileCount === 1 ? "1 file" : `${fileCount} files`;
-  const body = fileCount > 0 ? `A new message with ${files}.` : "A new message.";
+  const what = fileCount > 0 ? `A new message with ${files}.` : "A new message.";
+  const text = `${SITE_NAME}: new from the brother\n${what}\nAsk Claude for the new additions.`;
 
+  // An alert that fails must never stop his message from being saved, so
+  // problems are only written to the Cloudflare log.
   try {
-    await fetch(`https://ntfy.sh/${env.NTFY_TOPIC}`, {
+    const response = await fetch(`https://api.telegram.org/bot${env.TELEGRAM_BOT_TOKEN}/sendMessage`, {
       method: "POST",
-      headers: { Title: TITLE, Tags: "inbox_tray" },
-      body,
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ chat_id: env.TELEGRAM_CHAT_ID, text }),
     });
-  } catch {
-    // An alert that fails must never stop his message from being saved.
+    if (!response.ok) {
+      console.log(`Inbox alert failed: Telegram answered ${response.status} ${await response.text()}`);
+    }
+  } catch (error) {
+    console.log(`Inbox alert failed: ${error}`);
   }
 }
