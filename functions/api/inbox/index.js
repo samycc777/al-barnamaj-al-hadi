@@ -1,6 +1,7 @@
 // /api/inbox: GET lists every message in the brother's inbox (newest first);
 // POST adds a new one (a form with "text" and any number of "files").
 import { cleanFileName, hasInboxKey, json, newMessageId, uniqueName } from "../../_lib/inbox.js";
+import { notifyNewMessage } from "../../_lib/notify.js";
 
 export async function onRequestGet({ request, env }) {
   if (!(await hasInboxKey(request, env))) return json({ error: "Wrong or missing inbox key." }, 403);
@@ -20,7 +21,7 @@ export async function onRequestGet({ request, env }) {
   return json({ messages: newestFirst });
 }
 
-export async function onRequestPost({ request, env }) {
+export async function onRequestPost({ request, env, waitUntil }) {
   if (!(await hasInboxKey(request, env))) return json({ error: "Wrong or missing inbox key." }, 403);
 
   const form = await request.formData();
@@ -47,5 +48,7 @@ export async function onRequestPost({ request, env }) {
   await env.INBOX.put(`messages/${id}.json`, JSON.stringify(message), {
     httpMetadata: { contentType: "application/json" },
   });
+  // The alert goes out after the reply, so he never waits for it.
+  waitUntil(notifyNewMessage(env, message));
   return json({ message }, 201);
 }
