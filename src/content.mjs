@@ -17,7 +17,10 @@
 //                      `source` has its audio in our own storage (see
 //                      CLAUDE.md) and a lesson list written by hand.
 //   skip               lesson numbers on the source page that belong to
-//                      another book; `npm run import` leaves them out
+//                      another book, or that have no audio anywhere;
+//                      `npm run import` leaves them out
+//   fix                { <lesson number>: { field: value } } for fields the
+//                      source has wrong (a broken download link)
 //
 // A category can also have `sections`: [{ title, items }], groups shown under
 // their own heading on the category page (a scholar's works, النحو…). Their
@@ -140,7 +143,7 @@ export const categories = [
       { title: 'شرح السنن للإمام محمد بن يزيد ابن ماجه القزويني (ت 273هـ)', type: 'audio', slug: 'sunan-ibn-majah', source: 'https://al-abbaad.com/lecture/hadith/syarh-sunan-ibni-majah?type=dir', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد البدر' },
       { title: 'شرح السنن للإمام أبي داود سليمان بن الأشعث السجستاني (ت 275هـ)', type: 'audio', slug: 'sunan-abi-dawud', source: 'https://al-abbaad.com/lecture/hadith/syarh-sunan-abi-dawud?type=files', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد البدر' },
       { title: 'شرح الجامع المختصر من السنن عن رسول الله ﷺ ومعرفة الصحيح والمعلول وما عليه العمل للإمام محمد بن عيسى الترمذي (ت 279هـ)', type: 'audio', slug: 'jami-at-tirmidhi', source: 'https://al-abbaad.com/lecture/hadith/syarh-sunan-attirmidzi?type=files', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد البدر' },
-      { title: 'شرح المجتبى من السنن للإمام أحمد بن شعيب النسائي (ت 303هـ)', type: 'audio', slug: 'sunan-an-nasai', source: 'https://al-abbaad.com/lecture/hadith/syarh-sunan-annasaiy?type=dir', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد البدر' },
+      { title: 'شرح المجتبى من السنن للإمام أحمد بن شعيب النسائي (ت 303هـ)', type: 'audio', slug: 'sunan-an-nasai', skip: [48009], fix: { 21040: { download: 'https://al-abbaad.com/download/?type=audio&ids=242245' } }, source: 'https://al-abbaad.com/lecture/hadith/syarh-sunan-annasaiy?type=dir', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد البدر' },
     ],
   },
   {

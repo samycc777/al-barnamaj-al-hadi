@@ -115,6 +115,8 @@ async function importBook(item) {
   }
   // Lessons the source site filed under this book by mistake.
   if (item.skip) for (const c of chapters) c.lessons = c.lessons.filter((l) => !item.skip.includes(l.n));
+  // Fields the source has wrong (a broken download link), by lesson number.
+  if (item.fix) for (const c of chapters) for (const l of c.lessons) Object.assign(l, item.fix[l.n]);
   // Lessons the source lacks, added by hand from another copy (archive.org) with
   // `extra: true`, stay: in their chapter if the source has it, else in their own.
   const file = `src/lessons/${item.slug}.json`;
