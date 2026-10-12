@@ -11,9 +11,10 @@ const esc = (s = '') =>
 
 // Show every number in the page text as an Arabic-Indic digit (١٢٣). Only
 // text between tags changes: links, attributes, scripts and styles keep 0-9.
+const arDigits = (s) => s.replace(/[0-9]/g, (d) => '٠١٢٣٤٥٦٧٨٩'[d]);
 const toArabicDigits = (html) =>
   html.split(/(<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>)/).map((part, i) =>
-    i % 2 ? part : part.replace(/>[^<]*</g, (t) => t.replace(/[0-9]/g, (d) => '٠١٢٣٤٥٦٧٨٩'[d])),
+    i % 2 ? part : part.replace(/>[^<]*</g, arDigits),
   ).join('');
 const write = (file, html) => writeFileSync(file, toArabicDigits(html));
 
@@ -49,6 +50,7 @@ const ICONS = {
   check: '<circle cx="12" cy="12" r="8.5"/><path d="M8 12.5l2.7 2.7L16.5 9.5"/>',
   clip: '<path d="M20 11.5l-8 8a5 5 0 0 1-7-7l8.5-8.5a3.3 3.3 0 0 1 4.7 4.7L9.7 17.2a1.7 1.7 0 0 1-2.4-2.4L15 7"/>',
   send: '<path d="M20.5 3.5L3.5 10.5l7 3 3 7z"/><path d="M20.5 3.5l-10 10"/>',
+  search: '<circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/>',
 };
 const icon = (name, cls = 'ic') =>
   `<svg class="${cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICONS[name]}</svg>`;
@@ -202,7 +204,77 @@ function homePage() {
     )
     .join('');
 
-  return layout({ active: 'home', main: `<section class="panel"><div class="panel-body"><div class="cat-grid">${cards}</div></div></section>` });
+  // What the search box looks through: every book and lecture with its
+  // scholar, section (an author's name) and category. A lecture opens its
+  // category page and plays there.
+  const index = categories.flatMap((c) => [
+    ...c.items.map((it) => [it, '']),
+    ...(c.sections || []).flatMap((s) => s.items.map((it) => [it, s.title])),
+  ].map(([it, sec]) => ({
+    t: arDigits(it.title), n: arDigits(it.note || ''), s: arDigits(sec), c: c.name,
+    h: it.slug ? `/${c.slug}/${it.slug}/` : `/${c.slug}/${it.audio ? `#play=${encodeURIComponent(it.audio)}` : ''}`,
+  })));
+
+  // The last lesson played on this device, filled in from localStorage by the
+  // script below; hidden until there is one.
+  const resume = `<section class="panel resume" hidden>
+    <header class="panel-head"><span class="badge">${icon('clock')}</span><h2>أكمل الاستماع</h2></header>
+    <a class="row resume-row" href="/">
+      <span class="row-ic">${icon('mic')}</span>
+      <div class="row-body"><div class="row-title"></div><div class="row-meta"></div></div>
+      <span class="round-btn play">${icon('play')}</span>
+    </a>
+  </section>`;
+  const main = `${resume}<section class="panel"><div class="panel-body">
+    <label class="search">${icon('search')}<input type="search" placeholder="بحث" aria-label="بحث" autocomplete="off"></label>
+    <ul class="rows search-results" hidden></ul>
+    <p class="search-empty" hidden>لا توجد نتائج</p>
+    <div class="cat-grid">${cards}</div>
+  </div></section>`;
+  const extra = `<script type="application/json" id="search-data">${JSON.stringify(index).replace(/</g, '\\u003c')}</script>
+<script>
+  (function () {
+    var last; try { last = JSON.parse(localStorage.getItem('last')); } catch (e) {}
+    if (last && last.page) {
+      var card = document.querySelector('.resume'), a = card.querySelector('a');
+      a.href = last.page + '#play=' + encodeURIComponent(last.src);
+      a.querySelector('.row-title').textContent = last.title;
+      a.querySelector('.row-meta').textContent = [last.book, last.who].filter(Boolean).join(' · ');
+      card.hidden = false;
+    }
+  })();
+  (function () {
+    // Matching ignores harakat, tatweel, hamza forms and ta marbuta, and
+    // every word typed must appear somewhere in the book's details.
+    function norm(s) {
+      return s.replace(/[\\u064B-\\u0652\\u0670\\u0640]/g, '').replace(/[أإآٱ]/g, 'ا').replace(/ة/g, 'ه').replace(/ى/g, 'ي')
+        .replace(/[٠-٩]/g, function (d) { return '٠١٢٣٤٥٦٧٨٩'.indexOf(d); }).toLowerCase();
+    }
+    var data = JSON.parse(document.getElementById('search-data').textContent);
+    data.forEach(function (d) { d.k = norm([d.t, d.n, d.s, d.c].join(' ')); });
+    var input = document.querySelector('.search input'), list = document.querySelector('.search-results'),
+        empty = document.querySelector('.search-empty'), grid = document.querySelector('.cat-grid');
+    function el(tag, cls, text) { var e = document.createElement(tag); e.className = cls; if (text) e.textContent = text; return e; }
+    input.addEventListener('input', function () {
+      var words = norm(input.value).split(/\\s+/).filter(Boolean);
+      list.textContent = '';
+      grid.hidden = words.length > 0;
+      var found = words.length ? data.filter(function (d) { return words.every(function (w) { return d.k.indexOf(w) >= 0; }); }) : [];
+      found.slice(0, 50).forEach(function (d) {
+        var li = el('li', 'row'), a = el('a', 'row-link'), body = el('div', 'row-body');
+        a.href = d.h;
+        body.appendChild(el('div', 'row-title', d.t));
+        body.appendChild(el('div', 'row-meta', [d.c, d.s, d.n].filter(Boolean).join(' · ')));
+        a.appendChild(body);
+        li.appendChild(a);
+        list.appendChild(li);
+      });
+      list.hidden = !found.length;
+      empty.hidden = !words.length || found.length > 0;
+    });
+  })();
+</script>`;
+  return layout({ active: 'home', main, extra });
 }
 
 // One audio player bar per page: a lesson's play button loads it here. The
@@ -225,6 +297,7 @@ const PLAYER = `<div class="player" hidden>
   function sync() {
     rows().forEach(function (r) {
       var on = r === cur && !au.paused;
+      r.classList.toggle('current', r === cur);
       r.classList.toggle('playing', on);
       r.querySelector('.play').setAttribute('aria-label', on ? 'إيقاف' : 'استماع');
     });
@@ -238,15 +311,22 @@ const PLAYER = `<div class="player" hidden>
     bar.hidden = false;
     document.body.classList.add('has-player');
     var d = r.closest('details'); if (d) d.open = true;
+    var who = document.querySelector('.book-note') || r.querySelector('.row-meta span:last-child');
+    who = who ? who.textContent : '';
+    var book = document.querySelector('.panel-head h2').textContent;
+    // The home page's continue-listening card opens this lesson again.
+    store(function (s) {
+      s.setItem('last', JSON.stringify({ src: r.dataset.src, title: title, book: book, who: who, page: location.pathname }));
+    });
     if ('mediaSession' in navigator) {
-      var who = document.querySelector('.book-note') || r.querySelector('.row-meta span:last-child');
       navigator.mediaSession.metadata = new MediaMetadata({
         title: title,
-        artist: who ? who.textContent : '',
-        album: bookPage ? document.querySelector('.panel-head h2').textContent : '',
+        artist: who,
+        album: bookPage ? book : '',
         artwork: [{ src: '/assets/apple-touch-icon.png', sizes: '180x180', type: 'image/png' }],
       });
     }
+    sync();
     play();
   }
   function step(by) {
@@ -283,6 +363,14 @@ const PLAYER = `<div class="player" hidden>
     navigator.mediaSession.setActionHandler('previoustrack', function () { step(-1); });
   }
   ['play', 'pause', 'ended'].forEach(function (ev) { au.addEventListener(ev, sync); });
+  // Opened from the continue-listening card or a search result
+  // (#play=<audio>): load that lesson and play it if the browser allows.
+  var m = location.hash.match(/^#play=(.+)$/);
+  if (m) {
+    var src = decodeURIComponent(m[1]), r = rows().filter(function (x) { return x.dataset.src === src; })[0];
+    history.replaceState(null, '', location.pathname);
+    if (r) { load(r); r.scrollIntoView({ block: 'center' }); }
+  }
 </script>`;
 
 // A category's lessons, then each of its sections (a scholar's works, a
