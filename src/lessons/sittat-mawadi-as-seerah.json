@@ -1,56 +1,47 @@
 {
-  "source": "https://miraath.net/%D9%85%D9%88%D8%A7%D8%B6%D8%B9-%D8%A7%D9%84%D8%B3%D9%8A%D8%B1%D8%A9-%D8%A7%D9%84%D8%B4%D9%8A%D8%AE-%D8%B9%D9%84%D9%8A-%D9%86%D8%A7%D8%B5%D8%B1-%D8%A7%D9%84%D9%81%D9%82%D9%8A%D9%87%D9%8A/",
   "chapters": [
     {
       "title": "",
       "lessons": [
         {
           "n": 1,
-          "title": "الموضع الأول",
-          "date": "",
-          "audio": "https://miraath.net/wp-content/uploads/2021/04/01%D8%A7%D9%84%D9%85%D9%88%D8%B6%D8%B9-%D8%A7%D9%84%D8%A3%D9%88%D9%84.mp3",
-          "download": "",
-          "size": ""
+          "title": "الدرس الأول",
+          "date": "1438/01/30",
+          "audio": "https://archive.org/download/fouzan-sitat-sirah/01.mp3",
+          "download": "https://archive.org/download/fouzan-sitat-sirah/01.mp3",
+          "size": "5.50 MB"
         },
         {
           "n": 2,
-          "title": "الموضع الأول",
-          "date": "",
-          "audio": "https://miraath.net/wp-content/uploads/2021/04/02%D8%A7%D9%84%D9%85%D9%88%D8%B6%D8%B9-%D8%A7%D9%84%D8%A3%D9%88%D9%84.mp3",
-          "download": "",
-          "size": ""
+          "title": "الدرس الثاني",
+          "date": "1438/02/07",
+          "audio": "https://archive.org/download/fouzan-sitat-sirah/02.mp3",
+          "download": "https://archive.org/download/fouzan-sitat-sirah/02.mp3",
+          "size": "3.93 MB"
         },
         {
           "n": 3,
-          "title": "قوله فرضت الصلاة ليلة الإسراء و المعراج",
-          "date": "",
-          "audio": "https://miraath.net/wp-content/uploads/2021/04/03%D9%82%D9%88%D9%84%D9%87-%D9%81%D8%B1%D8%B6%D8%AA-%D8%A7%D9%84%D8%B5%D9%84%D8%A7%D8%A9-%D9%84%D9%8A%D9%84%D8%A9-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A1-%D9%88-%D8%A7%D9%84%D9%85%D8%B9%D8%B1%D8%A7%D8%AC.mp3",
-          "download": "",
-          "size": ""
+          "title": "الدرس الثالث",
+          "date": "1438/02/21",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/sittat-mawadi-fawzan/03.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/sittat-mawadi-fawzan/03.mp3",
+          "size": "4.78 MB"
         },
         {
           "n": 4,
-          "title": "الموضع الثاني",
-          "date": "",
-          "audio": "https://miraath.net/wp-content/uploads/2021/04/04%D8%A7%D9%84%D9%85%D9%88%D8%B6%D8%B9-%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A.mp3",
-          "download": "",
-          "size": ""
+          "title": "الدرس الرابع",
+          "date": "1438/03/06",
+          "audio": "https://archive.org/download/fouzan-sitat-sirah/03.mp3",
+          "download": "https://archive.org/download/fouzan-sitat-sirah/03.mp3",
+          "size": "5.14 MB"
         },
         {
           "n": 5,
-          "title": "الموضع الخامس",
-          "date": "",
-          "audio": "https://miraath.net/wp-content/uploads/2021/04/05%D8%A7%D9%84%D9%85%D9%88%D8%B6%D8%B9-%D8%A7%D9%84%D8%AE%D8%A7%D9%85%D8%B3.mp3",
-          "download": "",
-          "size": ""
-        },
-        {
-          "n": 6,
-          "title": "الموضع السادس",
-          "date": "",
-          "audio": "https://miraath.net/wp-content/uploads/2021/04/06%D8%A7%D9%84%D9%85%D9%88%D8%B6%D8%B9-%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%B3.mp3",
-          "download": "",
-          "size": ""
+          "title": "الدرس الخامس",
+          "date": "1438/03/13",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/sittat-mawadi-fawzan/05.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/sittat-mawadi-fawzan/05.mp3",
+          "size": "5.66 MB"
         }
       ]
     }
