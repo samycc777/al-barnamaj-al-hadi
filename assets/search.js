@@ -28,7 +28,12 @@
   function el(tag, cls, text) {
     var n = document.createElement(tag);
     if (cls) n.className = cls;
-    if (text) n.textContent = text;
+    // Bracketed parts move to the next line whole, as in build.mjs.
+    if (text) String(text).split(/(\([^()]*(?:\)|$))/).forEach(function (part, i) {
+      if (!part) return;
+      if (i % 2) { var s = document.createElement('span'); s.className = 'paren'; s.textContent = part; n.appendChild(s); }
+      else n.appendChild(document.createTextNode(part));
+    });
     return n;
   }
   function row(title, meta, href, iconName) {

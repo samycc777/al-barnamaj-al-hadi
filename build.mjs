@@ -9,6 +9,9 @@ const OUT = process.env.OUT || 'dist';
 
 const esc = (s = '') =>
   String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
+// Page text: a bracketed part that doesn't fit at the end of a line moves to the
+// next line whole instead of being split (.paren in style.css).
+const txt = (s = '') => esc(s).replace(/\([^()]*(\)|$)/g, (m) => `<span class="paren">${m}</span>`);
 
 // Show every number in the page text as an Arabic-Indic digit (١٢٣). Only
 // text between tags changes: links, attributes, scripts and styles keep 0-9.
@@ -103,7 +106,7 @@ function itemRow(it, c) {
   const meta = [
     book && `<span>عدد الدروس: ${lessonCount(book)}</span>`,
     it.date && `<span>${esc(it.date)}</span>`,
-    it.note && `<span>${esc(it.note)}</span>`,
+    it.note && `<span>${txt(it.note)}</span>`,
   ].filter(Boolean).join('<i class="dot"></i>');
   const btn = book
     ? `<a class="round-btn" href="/${c.slug}/${it.slug}/" title="الدروس" aria-label="الدروس">${icon('chevron')}</a>`
@@ -116,14 +119,14 @@ function itemRow(it, c) {
   const id = !book && it.audio ? ` id="${nextRow(it.title)}"` : '';
   return `<li class="row${it.audio ? ' lesson' : ''}"${id}${it.audio ? ` data-src="${esc(it.audio)}"` : ''}>
       <span class="row-ic">${icon(t.icon)}</span>
-      <div class="row-body"><div class="row-title">${book ? `<a href="/${c.slug}/${it.slug}/">${esc(it.title)}</a>` : esc(it.title)}</div>${meta ? `<div class="row-meta">${meta}</div>` : ''}</div>
+      <div class="row-body"><div class="row-title">${book ? `<a href="/${c.slug}/${it.slug}/">${txt(it.title)}</a>` : txt(it.title)}</div>${meta ? `<div class="row-meta">${meta}</div>` : ''}</div>
       ${btn}
     </li>`;
 }
 
 function panel(title, iconName, body) {
   return `<section class="panel">
-    <header class="panel-head"><span class="badge">${icon(iconName)}</span><h2>${esc(title)}</h2></header>
+    <header class="panel-head"><span class="badge">${icon(iconName)}</span><h2>${txt(title)}</h2></header>
     <div class="panel-body">${body}</div>
   </section>`;
 }
@@ -259,7 +262,7 @@ function categoryPage(c) {
   startPage([c.name, `/${c.slug}/`, '', 0]);
   const rows = (items) => `<ul class="rows">${items.map((it) => itemRow(it, c)).join('')}</ul>`;
   const body = (c.items.length ? rows(c.items) : '') + (c.sections || []).map((s) => (startChapter(s.title), `<details class="chapter">
-        <summary><span>${esc(s.title)}</span><span class="count">${s.items.length}</span></summary>
+        <summary><span>${txt(s.title)}</span><span class="count">${s.items.length}</span></summary>
         ${rows(s.items)}
       </details>`)).join('');
   return layout({ title: c.name, active: c.slug, path: `/${c.slug}/`, main: panel(c.name, c.icon, body), extra: itemsOf(c).some((it) => it.audio) ? PLAYER() : '' });
@@ -273,7 +276,7 @@ function lessonRow(l, i) {
     .filter(Boolean).join('<i class="dot"></i>');
   return `<li class="row lesson" id="${id}" data-src="${esc(l.audio)}">
       <span class="num">${i + 1}</span>
-      <div class="row-body"><div class="row-title">${esc(title)}</div>${meta ? `<div class="row-meta">${meta}</div>` : ''}</div>
+      <div class="row-body"><div class="row-title">${txt(title)}</div>${meta ? `<div class="row-meta">${meta}</div>` : ''}</div>
       <a class="round-btn dl" href="${esc(l.download || l.audio)}" title="تحميل" aria-label="تحميل: ${esc(title)}">${icon('download')}</a>
       <button class="round-btn play" type="button" title="استماع" aria-label="استماع: ${esc(title)}">${icon('play', 'ic i-play')}${icon('pause', 'ic i-pause')}</button>
     </li>`;
@@ -288,12 +291,12 @@ function bookPage(c, it) {
   const body = book.chapters.length === 1
     ? list(book.chapters[0].lessons)
     : book.chapters.map((ch, i) => (startChapter(ch.title), `<details class="chapter"${i === 0 ? ' open' : ''}>
-        <summary><span>${esc(ch.title)}</span><span class="count">${ch.lessons.length}</span></summary>
+        <summary><span>${txt(ch.title)}</span><span class="count">${ch.lessons.length}</span></summary>
         ${list(ch.lessons)}
       </details>`)).join('');
   const head = `<div class="book-head">
       <a class="crumb" href="/${c.slug}/">${esc(c.name)}</a>
-      ${it.note ? `<div class="book-note">${esc(it.note)}</div>` : ''}
+      ${it.note ? `<div class="book-note">${txt(it.note)}</div>` : ''}
     </div>`;
 
   return layout({ title: it.title, active: c.slug, path: `/${c.slug}/${it.slug}/`, main: panel(it.title, c.icon, head + body), extra: PLAYER() });

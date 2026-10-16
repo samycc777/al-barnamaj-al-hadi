@@ -227,6 +227,7 @@ main.container { padding: 28px 0 40px; }
 .row-ic .ic { width: 26px; height: 26px; }
 .row-body { flex: 1; min-width: 0; }
 .row-title { font-weight: 500; color: var(--ink); }
+.paren { display: inline-block; }
 .row-meta { font-size: 13px; color: var(--muted); display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
 .row-meta a { color: var(--link-soft); }
 .dot { width: 4px; height: 4px; border-radius: 50%; background: var(--dot); display: inline-block; }
