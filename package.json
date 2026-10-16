@@ -7,6 +7,7 @@
     "check": "OUT=dist-check node build.mjs && OUT=dist-check node check.mjs",
     "dev": "node scripts/dev.mjs",
     "import": "node scripts/import-lessons.mjs",
-    "inbox": "node scripts/inbox.mjs"
+    "inbox": "node scripts/inbox.mjs",
+    "links": "node scripts/check-links.mjs"
   }
 }
