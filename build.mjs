@@ -1,5 +1,6 @@
 // Builds the static site into dist/ from src/content.mjs. No dependencies.
 import { mkdirSync, rmSync, writeFileSync, cpSync, readFileSync } from 'node:fs';
+import { createHash } from 'node:crypto';
 import { site, categories, itemsOf } from './src/content.mjs';
 
 // `npm run check` builds into its own folder so it never races the preview,
@@ -49,9 +50,40 @@ const ICONS = {
   check: '<circle cx="12" cy="12" r="8.5"/><path d="M8 12.5l2.7 2.7L16.5 9.5"/>',
   clip: '<path d="M20 11.5l-8 8a5 5 0 0 1-7-7l8.5-8.5a3.3 3.3 0 0 1 4.7 4.7L9.7 17.2a1.7 1.7 0 0 1-2.4-2.4L15 7"/>',
   send: '<path d="M20.5 3.5L3.5 10.5l7 3 3 7z"/><path d="M20.5 3.5l-10 10"/>',
+  search: '<circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5l5 5"/>',
+  back: '<path d="M4.5 12a7.5 7.5 0 1 0 2.2-5.3"/><path d="M4.5 3.5v4h4"/>',
+  fwd: '<path d="M19.5 12a7.5 7.5 0 1 1-2.2-5.3"/><path d="M19.5 3.5v4h-4"/>',
 };
-const icon = (name, cls = 'ic') =>
-  `<svg class="${cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICONS[name]}</svg>`;
+// Each icon is drawn once per page (a hidden sprite at the top of the body,
+// made by layout()) and used by reference, so long lesson lists stay light.
+const usedIcons = new Set();
+const icon = (name, cls = 'ic') => {
+  usedIcons.add(name);
+  return `<svg class="${cls}" aria-hidden="true"><use href="#i-${name}"/></svg>`;
+};
+const sprite = () => `<svg class="sprite" aria-hidden="true">${[...usedIcons]
+  .map((n) => `<symbol id="i-${n}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">${ICONS[n]}</symbol>`)
+  .join('')}</svg>`;
+
+// The search page's index (/assets/search.json), filled while the pages are
+// built so each lesson's row number matches its page: pages are
+// [title, path, subtitle, is a book], lessons [title, page, row number,
+// chapter (-1: none)], chapters their titles.
+const search = { pages: [], chapters: [], lessons: [] };
+let page = { index: -1, rows: 0, chapter: -1 };
+function startPage(entry) {
+  page = { index: search.pages.push(entry) - 1, rows: 0, chapter: -1 };
+}
+// Lessons found by their chapter's name too (كتاب الطهارة…).
+function startChapter(title) {
+  page.chapter = title ? search.chapters.push(title) - 1 : -1;
+}
+// Gives a playable row its id (l-1, l-2…, used by search links) and lists it.
+function nextRow(title) {
+  page.rows++;
+  search.lessons.push([title, page.index, page.rows, page.chapter]);
+  return `l-${page.rows}`;
+}
 
 const TYPE = {
   audio: { icon: 'mic', label: 'استماع', action: 'play' },
@@ -76,12 +108,13 @@ function itemRow(it, c) {
   const btn = book
     ? `<a class="round-btn" href="/${c.slug}/${it.slug}/" title="الدروس" aria-label="الدروس">${icon('chevron')}</a>`
     : it.audio
-    ? `<a class="round-btn dl" href="${esc(it.download || it.audio)}" title="تحميل" aria-label="تحميل">${icon('download')}</a>
-      <button class="round-btn play" type="button" title="استماع" aria-label="استماع">${icon('play', 'ic i-play')}${icon('pause', 'ic i-pause')}</button>`
+    ? `<a class="round-btn dl" href="${esc(it.download || it.audio)}" title="تحميل" aria-label="تحميل: ${esc(it.title)}">${icon('download')}</a>
+      <button class="round-btn play" type="button" title="استماع" aria-label="استماع: ${esc(it.title)}">${icon('play', 'ic i-play')}${icon('pause', 'ic i-pause')}</button>`
     : it.url
     ? `<a class="round-btn" href="${esc(it.url)}" target="_blank" rel="noopener" title="${t.label}" aria-label="${t.label}">${icon(t.action)}</a>`
     : '';
-  return `<li class="row${it.audio ? ' lesson' : ''}"${it.audio ? ` data-src="${esc(it.audio)}"` : ''}>
+  const id = !book && it.audio ? ` id="${nextRow(it.title)}"` : '';
+  return `<li class="row${it.audio ? ' lesson' : ''}"${id}${it.audio ? ` data-src="${esc(it.audio)}"` : ''}>
       <span class="row-ic">${icon(t.icon)}</span>
       <div class="row-body"><div class="row-title">${book ? `<a href="/${c.slug}/${it.slug}/">${esc(it.title)}</a>` : esc(it.title)}</div>${meta ? `<div class="row-meta">${meta}</div>` : ''}</div>
       ${btn}
@@ -95,8 +128,26 @@ function panel(title, iconName, body) {
   </section>`;
 }
 
+// Light unless the visitor chose dark with the button. Runs inline before the
+// page shows, so it doesn't flash; _headers allows it by its hash.
+const THEME = `
+  (function () {
+    var t; try { t = localStorage.getItem('theme'); } catch (e) {}
+    document.documentElement.setAttribute('data-theme', t === 'dark' ? 'dark' : 'light');
+  })();
+`;
+const THEME_HASH = createHash('sha256').update(THEME).digest('base64');
+
+// Fonts the top of every page shows at once: fetched before the stylesheet asks.
+const PRELOAD = ['tajawal-400-arabic', 'aref-ruqaa-700-arabic']
+  .map((f) => `<link rel="preload" href="/assets/fonts/${f}.woff2" as="font" type="font/woff2" crossorigin>`).join('\n');
+
 function layout({ title, active, main, extra = '', path = '/', app = true }) {
   const pageTitle = title ? `${title} — ${site.name}` : site.name;
+  // The icons the template itself uses, so the sprite holds them too.
+  ['menu', 'moon', 'sun', 'search'].forEach((n) => usedIcons.add(n));
+  const icons = sprite();
+  usedIcons.clear();
   const nav = [
     `<li><a href="/"${active === 'home' ? ' class="active" aria-current="page"' : ''}>الرئيسية</a></li>`,
     ...categories.map(
@@ -127,20 +178,14 @@ function layout({ title, active, main, extra = '', path = '/', app = true }) {
 ${app ? '<link rel="manifest" href="/assets/manifest.webmanifest">\n' : ''}<meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="البرنامج الهادي">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Aref+Ruqaa:wght@700&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+${PRELOAD}
 <link rel="stylesheet" href="/assets/style.css">
-<script>
-  // Light unless the visitor chose dark with the button. Set before the page
-  // shows, so it doesn't flash.
-  (function () {
-    var t; try { t = localStorage.getItem('theme'); } catch (e) {}
-    document.documentElement.setAttribute('data-theme', t === 'dark' ? 'dark' : 'light');
-  })();
-</script>
+<script>${THEME}</script>
+<script src="/assets/site.js" defer></script>
 </head>
 <body>
+<a class="skip" href="#main">تخطي إلى المحتوى</a>
+${icons}
 <header class="site-head">
   <div class="brand-wrap">
     <a class="brand" href="/">
@@ -151,12 +196,13 @@ ${app ? '<link rel="manifest" href="/assets/manifest.webmanifest">\n' : ''}<meta
   <nav class="site-nav" aria-label="الأقسام">
     <div class="nav-inner">
       <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav-list">${icon('menu')}<span>الأقسام</span></button>
+      <a class="search-btn${active === 'search' ? ' active' : ''}" href="/search/" title="بحث" aria-label="بحث"${active === 'search' ? ' aria-current="page"' : ''}>${icon('search')}</a>
       <button class="theme-btn" type="button" title="الوضع الليلي" aria-label="الوضع الليلي" aria-pressed="false">${icon('moon', 'ic i-moon')}${icon('sun', 'ic i-sun')}</button>
       <ul id="nav-list">${nav}</ul>
     </div>
   </nav>
 </header>
-<main class="container">
+<main class="container" id="main" tabindex="-1">
 ${main}
 </main>
 <footer class="site-foot">
@@ -164,28 +210,6 @@ ${main}
     <span class="foot-name">${esc(site.name)}</span>
   </div>
 </footer>
-<script>
-  var b = document.querySelector('.menu-btn');
-  b.addEventListener('click', function () {
-    var open = document.body.classList.toggle('nav-open');
-    b.setAttribute('aria-expanded', open);
-  });
-  var root = document.documentElement, tb = document.querySelector('.theme-btn');
-  function mark() {
-    var dark = root.getAttribute('data-theme') === 'dark';
-    tb.setAttribute('aria-pressed', dark);
-    tb.title = dark ? 'الوضع النهاري' : 'الوضع الليلي';
-    tb.setAttribute('aria-label', tb.title);
-  }
-  mark();
-  tb.addEventListener('click', function () {
-    var t = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
-    root.setAttribute('data-theme', t);
-    try { localStorage.setItem('theme', t); } catch (e) {}
-    mark();
-  });
-  if ('serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js').catch(function () {});
-</script>
 ${extra}
 </body>
 </html>
@@ -202,130 +226,77 @@ function homePage() {
     )
     .join('');
 
-  return layout({ active: 'home', main: `<section class="panel"><div class="panel-body"><div class="cat-grid">${cards}</div></div></section>` });
+  // The last lesson played, filled in by assets/site.js. It lists the pages
+  // that can play lessons, so a removed book's lesson is never offered.
+  const paths = categories.flatMap((c) => [`/${c.slug}/`, ...itemsOf(c).filter((it) => it.slug).map((it) => `/${c.slug}/${it.slug}/`)]);
+  const last = `<section class="panel continue" hidden data-paths="${esc(JSON.stringify(paths))}">
+    <header class="panel-head"><span class="badge">${icon('clock')}</span><h2>متابعة الاستماع</h2></header>
+    <div class="panel-body"><ul class="rows"><li class="row">
+      <span class="row-ic">${icon('mic')}</span>
+      <div class="row-body"><div class="row-title"></div><div class="row-meta"><span></span></div></div>
+      <a class="round-btn" href="/" title="متابعة">${icon('play')}</a>
+    </li></ul></div>
+  </section>`;
+  return layout({ active: 'home', main: `${last}<section class="panel"><div class="panel-body"><div class="cat-grid">${cards}</div></div></section>` });
 }
 
 // One audio player bar per page: a lesson's play button loads it here. The
 // audio streams from the Shaykh's site (or miraath.net).
-const PLAYER = `<div class="player" hidden>
+const PLAYER = () => `<div class="player" hidden>
   <div class="player-title"></div>
-  <audio controls preload="none"></audio>
+  <div class="player-controls" dir="ltr">
+    <button class="pbtn back" type="button" title="رجوع ١٥ ثانية" aria-label="رجوع 15 ثانية">${icon('back')}<span>15</span></button>
+    <audio controls preload="none"></audio>
+    <button class="pbtn fwd" type="button" title="تقديم ١٥ ثانية" aria-label="تقديم 15 ثانية"><span>15</span>${icon('fwd')}</button>
+    <button class="pbtn rate" type="button" title="سرعة التشغيل" aria-label="سرعة التشغيل">1×</button>
+  </div>
 </div>
-<script>
-  // One player for the page: a lesson's play button loads it here. Each
-  // lesson remembers where it was stopped; on a book's page the next lesson
-  // plays when one ends. The phone's lock screen shows the lesson and book.
-  var bar = document.querySelector('.player'), au = bar.querySelector('audio'), cur = null, saved = 0;
-  var bookPage = !!document.querySelector('.book-head');
-  var rows = function () { return [].slice.call(document.querySelectorAll('.lesson')); };
-  var key = function (r) { return 'pos:' + r.dataset.src; };
-  function store(fn) { try { return fn(localStorage); } catch (e) {} }
-  // A failed load shows its message from the 'error' event below.
-  function play() { var p = au.play(); if (p) p.catch(function () {}); }
-  function sync() {
-    rows().forEach(function (r) {
-      var on = r === cur && !au.paused;
-      r.classList.toggle('playing', on);
-      r.querySelector('.play').setAttribute('aria-label', on ? 'إيقاف' : 'استماع');
-    });
-  }
-  function load(r) {
-    cur = r;
-    au.src = r.dataset.src;
-    var title = r.querySelector('.row-title').textContent;
-    bar.querySelector('.player-title').textContent = title;
-    bar.classList.remove('failed');
-    bar.hidden = false;
-    document.body.classList.add('has-player');
-    var d = r.closest('details'); if (d) d.open = true;
-    if ('mediaSession' in navigator) {
-      var who = document.querySelector('.book-note') || r.querySelector('.row-meta span:last-child');
-      navigator.mediaSession.metadata = new MediaMetadata({
-        title: title,
-        artist: who ? who.textContent : '',
-        album: bookPage ? document.querySelector('.panel-head h2').textContent : '',
-        artwork: [{ src: '/assets/apple-touch-icon.png', sizes: '180x180', type: 'image/png' }],
-      });
-    }
-    play();
-  }
-  function step(by) {
-    var all = rows(), r = all[all.indexOf(cur) + by];
-    if (r) { load(r); r.scrollIntoView({ block: 'nearest' }); }
-  }
-  document.addEventListener('click', function (e) {
-    var b = e.target.closest('.play'); if (!b) return;
-    var r = b.closest('.lesson');
-    if (r === cur) { au.paused ? play() : au.pause(); return; }
-    load(r);
-  });
-  au.addEventListener('loadedmetadata', function () {
-    var t = +store(function (s) { return s.getItem(key(cur)); }) || 0;
-    if (t > 15 && t < au.duration - 15) au.currentTime = t - 3;
-  });
-  au.addEventListener('timeupdate', function () {
-    if (!cur || Math.abs(au.currentTime - saved) < 5) return;
-    saved = au.currentTime;
-    store(function (s) { s.setItem(key(cur), Math.floor(saved)); });
-  });
-  au.addEventListener('ended', function () {
-    store(function (s) { s.removeItem(key(cur)); });
-    if (bookPage) step(1);
-  });
-  au.addEventListener('error', function () {
-    if (!au.getAttribute('src')) return;
-    bar.classList.add('failed');
-    bar.querySelector('.player-title').textContent = 'تعذر تشغيل هذا الدرس، حاول مرة أخرى';
-    cur = null; sync();
-  });
-  if (bookPage && 'mediaSession' in navigator) {
-    navigator.mediaSession.setActionHandler('nexttrack', function () { step(1); });
-    navigator.mediaSession.setActionHandler('previoustrack', function () { step(-1); });
-  }
-  ['play', 'pause', 'ended'].forEach(function (ev) { au.addEventListener(ev, sync); });
-</script>`;
+<script src="/assets/player.js" defer></script>`
 
 // A category's lessons, then each of its sections (a scholar's works, a
 // branch like النحو) as a foldable group, closed until tapped.
 function categoryPage(c) {
+  startPage([c.name, `/${c.slug}/`, '', 0]);
   const rows = (items) => `<ul class="rows">${items.map((it) => itemRow(it, c)).join('')}</ul>`;
-  const body = (c.items.length ? rows(c.items) : '') + (c.sections || []).map((s) => `<details class="chapter">
+  const body = (c.items.length ? rows(c.items) : '') + (c.sections || []).map((s) => (startChapter(s.title), `<details class="chapter">
         <summary><span>${esc(s.title)}</span><span class="count">${s.items.length}</span></summary>
         ${rows(s.items)}
-      </details>`).join('');
-  return layout({ title: c.name, active: c.slug, path: `/${c.slug}/`, main: panel(c.name, c.icon, body), extra: itemsOf(c).some((it) => it.audio) ? PLAYER : '' });
+      </details>`)).join('');
+  return layout({ title: c.name, active: c.slug, path: `/${c.slug}/`, main: panel(c.name, c.icon, body), extra: itemsOf(c).some((it) => it.audio) ? PLAYER() : '' });
 }
 
 function lessonRow(l, i) {
+  const id = nextRow(/^\d+_[\d-]+$/.test(l.title) ? '' : l.title);
   // Some lessons on the Shaykh's site are titled with their file name only.
   const title = /^\d+_[\d-]+$/.test(l.title) ? `الدرس ${i + 1}` : l.title;
   const meta = [l.date && `<span>${esc(l.date)}</span>`, l.size && `<span dir="ltr">${esc(l.size)}</span>`]
     .filter(Boolean).join('<i class="dot"></i>');
-  return `<li class="row lesson" data-src="${esc(l.audio)}">
+  return `<li class="row lesson" id="${id}" data-src="${esc(l.audio)}">
       <span class="num">${i + 1}</span>
       <div class="row-body"><div class="row-title">${esc(title)}</div>${meta ? `<div class="row-meta">${meta}</div>` : ''}</div>
-      <a class="round-btn dl" href="${esc(l.download || l.audio)}" title="تحميل" aria-label="تحميل">${icon('download')}</a>
-      <button class="round-btn play" type="button" title="استماع" aria-label="استماع">${icon('play', 'ic i-play')}${icon('pause', 'ic i-pause')}</button>
+      <a class="round-btn dl" href="${esc(l.download || l.audio)}" title="تحميل" aria-label="تحميل: ${esc(title)}">${icon('download')}</a>
+      <button class="round-btn play" type="button" title="استماع" aria-label="استماع: ${esc(title)}">${icon('play', 'ic i-play')}${icon('pause', 'ic i-pause')}</button>
     </li>`;
 }
 
 // One page per book: its chapters and lessons, each playable here. The audio
 // streams from the Shaykh's site.
 function bookPage(c, it) {
+  startPage([it.title, `/${c.slug}/${it.slug}/`, it.note || c.name, 1]);
   const book = lessonsOf(it);
   const list = (ls) => `<ul class="rows">${ls.map(lessonRow).join('')}</ul>`;
   const body = book.chapters.length === 1
     ? list(book.chapters[0].lessons)
-    : book.chapters.map((ch, i) => `<details class="chapter"${i === 0 ? ' open' : ''}>
+    : book.chapters.map((ch, i) => (startChapter(ch.title), `<details class="chapter"${i === 0 ? ' open' : ''}>
         <summary><span>${esc(ch.title)}</span><span class="count">${ch.lessons.length}</span></summary>
         ${list(ch.lessons)}
-      </details>`).join('');
+      </details>`)).join('');
   const head = `<div class="book-head">
       <a class="crumb" href="/${c.slug}/">${esc(c.name)}</a>
       ${it.note ? `<div class="book-note">${esc(it.note)}</div>` : ''}
     </div>`;
 
-  return layout({ title: it.title, active: c.slug, path: `/${c.slug}/${it.slug}/`, main: panel(it.title, c.icon, head + body), extra: PLAYER });
+  return layout({ title: it.title, active: c.slug, path: `/${c.slug}/${it.slug}/`, main: panel(it.title, c.icon, head + body), extra: PLAYER() });
 }
 
 // The brother's inbox: where he sends new additions (text and files). Not
@@ -369,8 +340,21 @@ function inboxPage() {
   });
 }
 
+// Search across every book and lesson (assets/search.js with search.json).
+function searchPage() {
+  ['scroll', 'mic', 'chevron'].forEach((n) => usedIcons.add(n));
+  const body = `<form id="search-form" class="search-form" role="search">
+      <label for="q" class="visually-hidden">ابحث في الكتب والدروس</label>
+      <input id="q" type="search" dir="auto" autocomplete="off" placeholder="ابحث في الكتب والدروس">
+    </form>
+    <p id="search-status" class="search-status" role="status" aria-live="polite"></p>
+    <div id="book-results" class="results" hidden></div>
+    <div id="lesson-results" class="results" hidden></div>`;
+  return layout({ title: 'البحث', active: 'search', path: '/search/', main: panel('البحث', 'search', body), extra: '<script src="/assets/search.js" defer></script>' });
+}
+
 function notFound() {
-  const main = panel('الصفحة غير موجودة', 'info', `<p style="text-align:center"><a class="btn" href="/">الرئيسية</a></p>`);
+  const main = panel('الصفحة غير موجودة', 'info', `<p class="center"><a class="btn" href="/">الرئيسية</a></p>`);
   return layout({ title: 'الصفحة غير موجودة', active: '', main });
 }
 
@@ -382,6 +366,8 @@ write(`${OUT}/index.html`, homePage());
 write(`${OUT}/404.html`, notFound());
 mkdirSync(`${OUT}/inbox`, { recursive: true });
 write(`${OUT}/inbox/index.html`, inboxPage());
+mkdirSync(`${OUT}/search`, { recursive: true });
+write(`${OUT}/search/index.html`, searchPage());
 for (const c of categories) {
   mkdirSync(`${OUT}/${c.slug}`, { recursive: true });
   write(`${OUT}/${c.slug}/index.html`, categoryPage(c));
@@ -391,4 +377,27 @@ for (const [c, it] of books) {
   mkdirSync(`${OUT}/${c.slug}/${it.slug}`, { recursive: true });
   write(`${OUT}/${c.slug}/${it.slug}/index.html`, bookPage(c, it));
 }
-console.log(`Built ${categories.length + books.length + 2} pages into ${OUT}/`);
+// Lessons titled with a file name only ("الدرس ٣" on the page) aren't worth finding.
+writeFileSync(`${OUT}/assets/search.json`, JSON.stringify({ pages: search.pages, chapters: search.chapters, lessons: search.lessons.filter((l) => l[0]) }));
+
+// Cloudflare Pages headers. Scripts, styles, fonts and pictures come only from
+// this site (the theme snippet above by its hash); audio plays from the
+// Shaykhs' sites and the other hosts, so any https address. No other site may
+// show these pages in a frame. The inbox stays out of search engines.
+const CSP = [
+  "default-src 'self'", `script-src 'self' 'sha256-${THEME_HASH}'`, "style-src 'self'", "img-src 'self' data:",
+  "font-src 'self'", 'media-src https:', "connect-src 'self'", "worker-src 'self'", "manifest-src 'self'",
+  "object-src 'none'", "base-uri 'none'", "form-action 'self'", "frame-ancestors 'none'",
+].join('; ');
+writeFileSync(`${OUT}/_headers`, `/*
+  Content-Security-Policy: ${CSP}
+  X-Frame-Options: DENY
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+/inbox/*
+  X-Robots-Tag: noindex, nofollow
+  Referrer-Policy: no-referrer
+/inbox
+  X-Robots-Tag: noindex, nofollow
+  Referrer-Policy: no-referrer
+`);
+console.log(`Built ${categories.length + books.length + 4} pages into ${OUT}/`);

@@ -1,4 +1,6 @@
-// Checks the built site: every page exists and every internal link points to a real page.
+// Checks the built site: every page exists, every internal link points to a
+// real page, every icon is in the page's sprite, and the search index points
+// at real lesson rows.
 import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { categories, itemsOf } from './src/content.mjs';
@@ -7,7 +9,7 @@ const OUT = process.env.OUT || 'dist';
 
 const books = categories.flatMap((c) => itemsOf(c).filter((it) => it.slug).map((it) => ({ c, it })));
 const pages = [
-  `${OUT}/index.html`, `${OUT}/404.html`, `${OUT}/inbox/index.html`,
+  `${OUT}/index.html`, `${OUT}/404.html`, `${OUT}/inbox/index.html`, `${OUT}/search/index.html`,
   ...categories.map((c) => `${OUT}/${c.slug}/index.html`),
   ...books.map(({ c, it }) => `${OUT}/${c.slug}/${it.slug}/index.html`),
 ];
@@ -22,6 +24,16 @@ for (const p of pages) {
     if (!existsSync(target)) fail(`${p} links to ${href}, which does not exist`);
   }
   for (const c of categories) if (!html.includes(`href="/${c.slug}/"`)) fail(`${p} has no link to ${c.name}`);
+  for (const [, name] of html.matchAll(/<use href="#i-([\w-]+)"/g)) {
+    if (!html.includes(`<symbol id="i-${name}"`)) fail(`${p} uses the icon ${name}, which is not in its sprite`);
+  }
+}
+if (!existsSync(`${OUT}/_headers`)) fail('_headers is missing');
+
+const index = JSON.parse(readFileSync(`${OUT}/assets/search.json`, 'utf8'));
+const pageHtml = index.pages.map((p) => readFileSync(join(OUT, p[1], 'index.html'), 'utf8'));
+for (const [title, pg, row] of index.lessons) {
+  if (!pageHtml[pg]?.includes(`id="l-${row}"`)) fail(`search: "${title}" points to a row ${index.pages[pg]?.[1]} doesn't have`);
 }
 const slugs = categories.map((c) => c.slug);
 if (new Set(slugs).size !== slugs.length) fail('two categories share the same slug');

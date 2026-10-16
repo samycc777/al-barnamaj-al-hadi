@@ -17,9 +17,30 @@ const TYPES = {
   '.webmanifest': 'application/manifest+json',
 };
 // Added to HTML only while previewing; the built files in dist/ stay untouched.
-const RELOAD = '<script>new EventSource("/__reload").onmessage=()=>location.reload()</script>';
+// A file, not an inline script, so the site's Content-Security-Policy allows it.
+const RELOAD = '<script src="/__reload.js"></script>';
 
 const clients = new Set();
+
+// The headers Cloudflare adds from dist/_headers (written by build.mjs), so the
+// preview runs under the same rules (the Content-Security-Policy above all).
+async function headersFor(url) {
+  let text = '';
+  try { text = await readFile(join(OUT, '_headers'), 'utf8'); } catch { return {}; }
+  const out = {};
+  let match = false;
+  for (const line of text.split('\n')) {
+    if (!line.trim()) continue;
+    if (!/^\s/.test(line)) {
+      const rule = line.trim();
+      match = rule.endsWith('*') ? url.startsWith(rule.slice(0, -1)) : url === rule;
+    } else if (match) {
+      const i = line.indexOf(':');
+      out[line.slice(0, i).trim().toLowerCase()] = line.slice(i + 1).trim();
+    }
+  }
+  return out;
+}
 
 function build() {
   const t = Date.now();
@@ -39,6 +60,11 @@ const server = createServer(async (req, res) => {
   let url;
   try { url = decodeURIComponent(new URL(req.url, 'http://x').pathname); }
   catch { res.writeHead(400).end('Bad address'); return; }
+  if (url === '/__reload.js') {
+    res.writeHead(200, { 'content-type': 'text/javascript', 'cache-control': 'no-store' });
+    res.end('new EventSource("/__reload").onmessage = () => location.reload();');
+    return;
+  }
   if (url === '/__reload') {
     res.writeHead(200, { 'content-type': 'text/event-stream', 'cache-control': 'no-cache', connection: 'keep-alive' });
     res.write(': connected\n\n');
@@ -54,7 +80,7 @@ const server = createServer(async (req, res) => {
     let body = await readFile(path);
     const type = TYPES[extname(path)] || 'application/octet-stream';
     if (type.startsWith('text/html')) body = body.toString().replace('</body>', RELOAD + '</body>');
-    res.writeHead(status, { 'content-type': type, 'cache-control': 'no-store' });
+    res.writeHead(status, { ...(await headersFor(url)), 'content-type': type, 'cache-control': 'no-store' });
     res.end(body);
   } catch {
     res.writeHead(404).end('Not found');
