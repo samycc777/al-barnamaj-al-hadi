@@ -84,6 +84,7 @@
     play();
   }
   function step(by) {
+    if (!cur) return false;
     var all = rows(), r = all[all.indexOf(cur) + by];
     if (r) { load(r); r.scrollIntoView({ block: 'nearest' }); }
     return !!r;
