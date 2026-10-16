@@ -1,232 +1,704 @@
 {
-  "source": "https://archive.org/details/fouzan-kabair",
+  "source": "https://archive.org/details/0026121447",
   "chapters": [
     {
       "title": "",
       "lessons": [
         {
           "n": 1,
-          "title": "الدرس الأول",
-          "date": "1438/07/13",
-          "audio": "https://archive.org/download/fouzan-kabair/1438-07-13.mp3",
-          "download": "https://archive.org/download/fouzan-kabair/1438-07-13.mp3",
-          "size": "2.58 MB"
+          "title": "الدرس الأول: المقدمة",
+          "date": "1436/06/25",
+          "audio": "https://archive.org/download/0026121447/01.mp3",
+          "download": "https://archive.org/download/0026121447/01.mp3",
+          "size": "13.29 MB"
         },
         {
           "n": 2,
-          "title": "الدرس الثاني",
-          "date": "1438/07/20",
-          "audio": "https://archive.org/download/fouzan-kabair/1438-07-20.mp3",
-          "download": "https://archive.org/download/fouzan-kabair/1438-07-20.mp3",
-          "size": "4.76 MB"
+          "title": "الدرس الثاني: من قوله والذنوب تنقسم إلى صغائر وكبائر",
+          "date": "1436/06/29",
+          "audio": "https://archive.org/download/0026121447/02.mp3",
+          "download": "https://archive.org/download/0026121447/02.mp3",
+          "size": "13.64 MB"
         },
         {
           "n": 3,
-          "title": "الدرس الثالث",
-          "date": "1438/07/27",
-          "audio": "https://archive.org/download/fouzan-kabair/1438-07-27.mp3",
-          "download": "https://archive.org/download/fouzan-kabair/1438-07-27.mp3",
-          "size": "3.42 MB"
+          "title": "الدرس الثالث: باب أكبر الكبائر",
+          "date": "1436/07/02",
+          "audio": "https://archive.org/download/0026121447/03.mp3",
+          "download": "https://archive.org/download/0026121447/03.mp3",
+          "size": "13.96 MB"
         },
         {
           "n": 4,
-          "title": "الدرس الرابع",
-          "date": "1439/01/12",
-          "audio": "https://archive.org/download/fouzan-kabair/1439-01-12.mp3",
-          "download": "https://archive.org/download/fouzan-kabair/1439-01-12.mp3",
-          "size": "5.17 MB"
+          "title": "الدرس الرابع: باب كبائر القلب",
+          "date": "1436/07/06",
+          "audio": "https://archive.org/download/0026121447/04.mp3",
+          "download": "https://archive.org/download/0026121447/04.mp3",
+          "size": "13.47 MB"
         },
         {
           "n": 5,
-          "title": "الدرس الخامس",
-          "date": "1439/01/26",
-          "audio": "https://archive.org/download/fouzan-kabair/1439-01-26.mp3",
-          "download": "https://archive.org/download/fouzan-kabair/1439-01-26.mp3",
-          "size": "3.59 MB"
+          "title": "الدرس الخامس: باب ذكر العجب",
+          "date": "1436/07/09",
+          "audio": "https://archive.org/download/0026121447/05.mp3",
+          "download": "https://archive.org/download/0026121447/05.mp3",
+          "size": "22.25 MB"
         },
         {
           "n": 6,
-          "title": "الدرس السادس",
-          "date": "1439/02/03",
-          "audio": "https://archive.org/download/fouzan-kabair/1439-02-03.mp3",
-          "download": "https://archive.org/download/fouzan-kabair/1439-02-03.mp3",
-          "size": "4.81 MB"
+          "title": "الدرس السادس: باب ذكر الرياء والسمعة",
+          "date": "1436/07/13",
+          "audio": "https://archive.org/download/0026121447/06.mp3",
+          "download": "https://archive.org/download/0026121447/06.mp3",
+          "size": "13.54 MB"
         },
         {
           "n": 7,
-          "title": "الدرس السابع",
-          "date": "1439/02/10",
-          "audio": "https://archive.org/download/fouzan-kabair/1439-02-10.mp3",
-          "download": "https://archive.org/download/fouzan-kabair/1439-02-10.mp3",
-          "size": "6.76 MB"
+          "title": "الدرس السابع: باب ذكر الرياء والسمعة",
+          "date": "1436/07/16",
+          "audio": "https://archive.org/download/0026121447/07.mp3",
+          "download": "https://archive.org/download/0026121447/07.mp3",
+          "size": "13.72 MB"
         },
         {
           "n": 8,
-          "title": "الدرس الثامن",
-          "date": "1439/03/02",
-          "audio": "https://archive.org/download/fouzan-kabair/1439-03-02.mp3",
-          "download": "https://archive.org/download/fouzan-kabair/1439-03-02.mp3",
-          "size": "3.72 MB"
+          "title": "الدرس الثامن: باب ذكر اليأس من روح الله والأمن من مكر الله",
+          "date": "1436/07/20",
+          "audio": "https://archive.org/download/0026121447/08.mp3",
+          "download": "https://archive.org/download/0026121447/08.mp3",
+          "size": "13.99 MB"
         },
         {
           "n": 9,
-          "title": "الدرس التاسع",
-          "date": "1439/03/09",
-          "audio": "https://archive.org/download/fouzan-kabair/1439-03-09.mp3",
-          "download": "https://archive.org/download/fouzan-kabair/1439-03-09.mp3",
-          "size": "6.54 MB"
+          "title": "الدرس التاسع: باب ذكر سوء الظنّ بالله عزّوجلّ",
+          "date": "1436/07/23",
+          "audio": "https://archive.org/download/0026121447/09.mp3",
+          "download": "https://archive.org/download/0026121447/09.mp3",
+          "size": "13.76 MB"
         },
         {
           "n": 10,
-          "title": "الدرس العاشر",
-          "date": "1439/03/23",
-          "audio": "https://archive.org/download/fouzan-kabair/1439-03-23.mp3",
-          "download": "https://archive.org/download/fouzan-kabair/1439-03-23.mp3",
-          "size": "9.57 MB"
+          "title": "الدرس العاشر: باب ذكر إرادة العلّو والفساد",
+          "date": "1436/08/12",
+          "audio": "https://archive.org/download/0026121447/10.mp3",
+          "download": "https://archive.org/download/0026121447/10.mp3",
+          "size": "13.47 MB"
         },
         {
           "n": 11,
-          "title": "الدرس الحادي عشر",
-          "date": "1439/05/19",
-          "audio": "https://archive.org/download/fouzan-kabair/1439-05-19.mp3",
-          "download": "https://archive.org/download/fouzan-kabair/1439-05-19.mp3",
-          "size": "9.84 MB"
+          "title": "الدرس الحادي عشر: باب العداوة والبغضاء",
+          "date": "1436/08/15",
+          "audio": "https://archive.org/download/0026121447/11.mp3",
+          "download": "https://archive.org/download/0026121447/11.mp3",
+          "size": "13.50 MB"
         },
         {
           "n": 12,
-          "title": "الدرس الثاني عشر",
-          "date": "1439/06/17",
-          "audio": "https://archive.org/download/fouzan-kabair/1439-06-17.mp3",
-          "download": "https://archive.org/download/fouzan-kabair/1439-06-17.mp3",
-          "size": "9.47 MB"
+          "title": "الدرس الثاني عشر: باب الفحش",
+          "date": "1436/10/09",
+          "audio": "https://archive.org/download/0026121447/12.mp3",
+          "download": "https://archive.org/download/0026121447/12.mp3",
+          "size": "12.94 MB"
         },
         {
           "n": 13,
-          "title": "الدرس الثالث عشر",
-          "date": "1439/06/24",
-          "audio": "https://archive.org/download/fouzan-kabair/1439-06-24.mp3",
-          "download": "https://archive.org/download/fouzan-kabair/1439-06-24.mp3",
-          "size": "4.89 MB"
+          "title": "الدرس الثالث عشر: باب قسوة القلوب",
+          "date": "1436/10/12",
+          "audio": "https://archive.org/download/0026121447/13.mp3",
+          "download": "https://archive.org/download/0026121447/13.mp3",
+          "size": "12.74 MB"
         },
         {
           "n": 14,
-          "title": "الدرس الرابع عشر",
-          "date": "1439/07/02",
-          "audio": "https://archive.org/download/fouzan-kabair/1439-07-02.mp3",
-          "download": "https://archive.org/download/fouzan-kabair/1439-07-02.mp3",
-          "size": "12.50 MB"
+          "title": "الدرس الرابع عشر: باب قسوة القلوب",
+          "date": "1436/10/16",
+          "audio": "https://archive.org/download/0026121447/14.mp3",
+          "download": "https://archive.org/download/0026121447/14.mp3",
+          "size": "13.76 MB"
         },
         {
           "n": 15,
-          "title": "الدرس الخامس عشر",
-          "date": "1439/07/09",
-          "audio": "https://archive.org/download/fouzan-kabair/1439-07-09.mp3",
-          "download": "https://archive.org/download/fouzan-kabair/1439-07-09.mp3",
-          "size": "12.23 MB"
+          "title": "الدرس الخامس عشر: من أبواب كبائر اللسان",
+          "date": "1436/10/19",
+          "audio": "https://archive.org/download/0026121447/15.mp3",
+          "download": "https://archive.org/download/0026121447/15.mp3",
+          "size": "13.59 MB"
         },
         {
           "n": 16,
-          "title": "الدرس السادس عشر",
-          "date": "1439/07/16",
-          "audio": "https://archive.org/download/fouzan-kabair/1439-07-16.mp3",
-          "download": "https://archive.org/download/fouzan-kabair/1439-07-16.mp3",
-          "size": "8.36 MB"
+          "title": "الدرس السادس عشر: باب ماجاء في شر اللسان",
+          "date": "1436/10/23",
+          "audio": "https://archive.org/download/0026121447/16.mp3",
+          "download": "https://archive.org/download/0026121447/16.mp3",
+          "size": "13.25 MB"
         },
         {
           "n": 17,
-          "title": "الدرس السابع عشر",
-          "date": "1439/07/23",
-          "audio": "https://archive.org/download/fouzan-kabair/1439-07-23.mp3",
-          "download": "https://archive.org/download/fouzan-kabair/1439-07-23.mp3",
-          "size": "10.84 MB"
+          "title": "الدرس السابع عشر: باب ماجاء في كثرة الكلام",
+          "date": "1436/10/26",
+          "audio": "https://archive.org/download/0026121447/17.mp3",
+          "download": "https://archive.org/download/0026121447/17.mp3",
+          "size": "13.76 MB"
         },
         {
           "n": 18,
-          "title": "الدرس الثامن عشر",
-          "date": "1439/07/30",
-          "audio": "https://archive.org/download/fouzan-kabair/1439-07-30.mp3",
-          "download": "https://archive.org/download/fouzan-kabair/1439-07-30.mp3",
-          "size": "8.29 MB"
+          "title": "الدرس الثامن عشر: باب التشدّق وتكلّف الفصاحة",
+          "date": "1436/11/04",
+          "audio": "https://archive.org/download/0026121447/18.mp3",
+          "download": "https://archive.org/download/0026121447/18.mp3",
+          "size": "13.82 MB"
         },
         {
           "n": 19,
-          "title": "الدرس التاسع عشر",
-          "date": "1440/01/21",
-          "audio": "https://archive.org/download/fouzan-kabair/1440-01-21.mp3",
-          "download": "https://archive.org/download/fouzan-kabair/1440-01-21.mp3",
-          "size": "4.54 MB"
+          "title": "الدرس التاسع عشر: باب البذاء والفحش",
+          "date": "1436/11/08",
+          "audio": "https://archive.org/download/0026121447/19.mp3",
+          "download": "https://archive.org/download/0026121447/19.mp3",
+          "size": "13.96 MB"
         },
         {
           "n": 20,
-          "title": "الدرس العشرون",
-          "date": "1440/01/28",
-          "audio": "https://archive.org/download/fouzan-kabair/1440-01-28.mp3",
-          "download": "https://archive.org/download/fouzan-kabair/1440-01-28.mp3",
-          "size": "11.11 MB"
+          "title": "الدرس العشرون: باب ماجاء في الكذب",
+          "date": "1436/11/11",
+          "audio": "https://archive.org/download/0026121447/20.mp3",
+          "download": "https://archive.org/download/0026121447/20.mp3",
+          "size": "13.73 MB"
         },
         {
           "n": 21,
-          "title": "الدرس الحادي والعشرون",
-          "date": "1440/02/03",
-          "audio": "https://archive.org/download/fouzan-kabair/1440-02-03.mp3",
-          "download": "https://archive.org/download/fouzan-kabair/1440-02-03.mp3",
-          "size": "4.74 MB"
+          "title": "الدرس الحادي والعشرون: باب ماجاء في الكذب",
+          "date": "1436/11/15",
+          "audio": "https://archive.org/download/0026121447/21.mp3",
+          "download": "https://archive.org/download/0026121447/21.mp3",
+          "size": "12.84 MB"
         },
         {
           "n": 22,
-          "title": "الدرس الثاني والعشرون",
-          "date": "1440/02/06",
-          "audio": "https://archive.org/download/fouzan-kabair/1440-02-06.mp3",
-          "download": "https://archive.org/download/fouzan-kabair/1440-02-06.mp3",
-          "size": "5.83 MB"
+          "title": "الدرس الثاني والعشرون: باب ماجاء في زعموا",
+          "date": "1436/11/18",
+          "audio": "https://archive.org/download/0026121447/22.mp3",
+          "download": "https://archive.org/download/0026121447/22.mp3",
+          "size": "12.76 MB"
         },
         {
           "n": 23,
-          "title": "الدرس الثالث والعشرون",
-          "date": "1440/02/20",
-          "audio": "https://archive.org/download/fouzan-kabair/1440-02-20.mp3",
-          "download": "https://archive.org/download/fouzan-kabair/1440-02-20.mp3",
-          "size": "7.67 MB"
+          "title": "الدرس الثالث والعشرون: باب ماجاء في الكذب والمزح ونحوه",
+          "date": "1436/12/21",
+          "audio": "https://archive.org/download/0026121447/23.mp3",
+          "download": "https://archive.org/download/0026121447/23.mp3",
+          "size": "14.87 MB"
         },
         {
           "n": 24,
-          "title": "الدرس الرابع والعشرون",
-          "date": "1440/02/27",
-          "audio": "https://archive.org/download/fouzan-kabair/1440-02-27.mp3",
-          "download": "https://archive.org/download/fouzan-kabair/1440-02-27.mp3",
-          "size": "4.83 MB"
+          "title": "الدرس الرابع والعشرون: باب ماجاء في الكذب والمزح ونحوه",
+          "date": "1436/12/24",
+          "audio": "https://archive.org/download/0026121447/24.mp3",
+          "download": "https://archive.org/download/0026121447/24.mp3",
+          "size": "13.61 MB"
         },
         {
           "n": 25,
-          "title": "الدرس الخامس والعشرون",
-          "date": "1441/02/28",
-          "audio": "https://archive.org/download/fouzan-kabair/1441-02-28.mp3",
-          "download": "https://archive.org/download/fouzan-kabair/1441-02-28.mp3",
-          "size": "10.60 MB"
+          "title": "الدرس الخامس والعشرون: باب ما جاء في التملق ومدح الإنسان بما ليس فيه",
+          "date": "1436/12/25",
+          "audio": "https://archive.org/download/0026121447/25.mp3",
+          "download": "https://archive.org/download/0026121447/25.mp3",
+          "size": "14.06 MB"
         },
         {
           "n": 26,
-          "title": "الدرس السادس والعشرون",
-          "date": "1441/03/07",
-          "audio": "https://archive.org/download/fouzan-kabair/1441-03-07.mp3",
-          "download": "https://archive.org/download/fouzan-kabair/1441-03-07.mp3",
-          "size": "7.27 MB"
+          "title": "الدرس السادس والعشرون: باب ما يمحق الكذب من البركة",
+          "date": "1436/12/27",
+          "audio": "https://archive.org/download/0026121447/26.mp3",
+          "download": "https://archive.org/download/0026121447/26.mp3",
+          "size": "13.71 MB"
         },
         {
           "n": 27,
-          "title": "الدرس السابع والعشرون",
-          "date": "1441/03/29",
-          "audio": "https://archive.org/download/fouzan-kabair/1441-03-29.mp3",
-          "download": "https://archive.org/download/fouzan-kabair/1441-03-29.mp3",
-          "size": "6.28 MB"
+          "title": "الدرس السابع والعشرون: باب ذكر مرض القلب وموته",
+          "date": "1436/12/28",
+          "audio": "https://archive.org/download/0026121447/27.mp3",
+          "download": "https://archive.org/download/0026121447/27.mp3",
+          "size": "13.80 MB"
         },
         {
           "n": 28,
-          "title": "الدرس الثامن والعشرون",
-          "date": "1441/06/23",
-          "audio": "https://archive.org/download/fouzan-kabair/1441-06-23.mp3",
-          "download": "https://archive.org/download/fouzan-kabair/1441-06-23.mp3",
+          "title": "الدرس الثامن والعشرون: باب ذكر مرض القلب وموته",
+          "date": "1437/01/12",
+          "audio": "https://archive.org/download/0026121447/28.mp3",
+          "download": "https://archive.org/download/0026121447/28.mp3",
+          "size": "13.40 MB"
+        },
+        {
+          "n": 29,
+          "title": "الدرس التاسع والعشرون: باب ذكر الرضا بالمعصية",
+          "date": "1437/01/13",
+          "audio": "https://archive.org/download/0026121447/29.mp3",
+          "download": "https://archive.org/download/0026121447/29.mp3",
+          "size": "12.14 MB"
+        },
+        {
+          "n": 30,
+          "title": "الدرس الثلاثون: باب ذكر الرضا بالمعصية",
+          "date": "1437/01/19",
+          "audio": "https://archive.org/download/0026121447/30.mp3",
+          "download": "https://archive.org/download/0026121447/30.mp3",
+          "size": "13.68 MB"
+        },
+        {
+          "n": 31,
+          "title": "الدرس الحادي والثلاثون: باب ذكر الريب",
+          "date": "1437/01/20",
+          "audio": "https://archive.org/download/0026121447/31.mp3",
+          "download": "https://archive.org/download/0026121447/31.mp3",
+          "size": "13.37 MB"
+        },
+        {
+          "n": 32,
+          "title": "الدرس الثاني والثلاثون: باب ذكر الريب",
+          "date": "1437/01/26",
+          "audio": "https://archive.org/download/0026121447/32.mp3",
+          "download": "https://archive.org/download/0026121447/32.mp3",
+          "size": "13.02 MB"
+        },
+        {
+          "n": 33,
+          "title": "الدرس الثالث والثلاثون: باب ذكر الريب",
+          "date": "1437/01/27",
+          "audio": "https://archive.org/download/0026121447/33.mp3",
+          "download": "https://archive.org/download/0026121447/33.mp3",
+          "size": "12.84 MB"
+        },
+        {
+          "n": 34,
+          "title": "الدرس الرابع والثلاثون: باب القلق والإضطراب",
+          "date": "1437/02/03",
+          "audio": "https://archive.org/download/0026121447/34.mp3",
+          "download": "https://archive.org/download/0026121447/34.mp3",
+          "size": "13.30 MB"
+        },
+        {
+          "n": 35,
+          "title": "الدرس الخامس والثلاثون: باب القلق والإضطراب",
+          "date": "1437/02/04",
+          "audio": "https://archive.org/download/0026121447/35.mp3",
+          "download": "https://archive.org/download/0026121447/35.mp3",
+          "size": "12.96 MB"
+        },
+        {
+          "n": 36,
+          "title": "الدرس السادس والثلاثون: باب القلق والإضطراب",
+          "date": "1437/02/10",
+          "audio": "https://archive.org/download/0026121447/36.mp3",
+          "download": "https://archive.org/download/0026121447/36.mp3",
+          "size": "12.78 MB"
+        },
+        {
+          "n": 37,
+          "title": "الدرس السابع والثلاثون: باب الجهالة",
+          "date": "1437/02/11",
+          "audio": "https://archive.org/download/0026121447/37.mp3",
+          "download": "https://archive.org/download/0026121447/37.mp3",
+          "size": "11.86 MB"
+        },
+        {
+          "n": 38,
+          "title": "الدرس الثامن والثلاثون: باب القحة",
+          "date": "1437/02/17",
+          "audio": "https://archive.org/download/0026121447/38.mp3",
+          "download": "https://archive.org/download/0026121447/38.mp3",
+          "size": "13.56 MB"
+        },
+        {
+          "n": 39,
+          "title": "الدرس التاسع والثلاثون: باب الهلع والجبن",
+          "date": "1437/02/18",
+          "audio": "https://archive.org/download/0026121447/39.mp3",
+          "download": "https://archive.org/download/0026121447/39.mp3",
+          "size": "13.38 MB"
+        },
+        {
+          "n": 40,
+          "title": "الدرس الأربعون: باب عقوبة البخل",
+          "date": "1437/02/24",
+          "audio": "https://archive.org/download/0026121447/40.mp3",
+          "download": "https://archive.org/download/0026121447/40.mp3",
+          "size": "13.92 MB"
+        },
+        {
+          "n": 41,
+          "title": "الدرس الحادي والأربعون: باب بغض الصالحين",
+          "date": "1437/02/25",
+          "audio": "https://archive.org/download/0026121447/41.mp3",
+          "download": "https://archive.org/download/0026121447/41.mp3",
+          "size": "12.83 MB"
+        },
+        {
+          "n": 42,
+          "title": "الدرس الثاني والأربعون: باب الحسد",
+          "date": "1437/03/02",
+          "audio": "https://archive.org/download/0026121447/42.mp3",
+          "download": "https://archive.org/download/0026121447/42.mp3",
+          "size": "12.83 MB"
+        },
+        {
+          "n": 43,
+          "title": "الدرس الثالث والأربعون: باب الحسد",
+          "date": "1437/03/03",
+          "audio": "https://archive.org/download/0026121447/43.mp3",
+          "download": "https://archive.org/download/0026121447/43.mp3",
+          "size": "12.60 MB"
+        },
+        {
+          "n": 44,
+          "title": "الدرس الرابع والأربعون: باب ماجاء في الكذب على الله والكذب على رسوله عليه الصلاة والسلام",
+          "date": "1437/03/09",
+          "audio": "https://archive.org/download/0026121447/44.mp3",
+          "download": "https://archive.org/download/0026121447/44.mp3",
+          "size": "13.16 MB"
+        },
+        {
+          "n": 45,
+          "title": "الدرس الخامس والأربعون: باب ماجاء في الكذب على الله والكذب على رسوله عليه الصلاة والسلام",
+          "date": "1437/04/14",
+          "audio": "https://archive.org/download/0026121447/45.mp3",
+          "download": "https://archive.org/download/0026121447/45.mp3",
+          "size": "12.57 MB"
+        },
+        {
+          "n": 46,
+          "title": "الدرس السادس والأربعون: باب ماجاء في الكذب على الله والكذب على رسوله عليه الصلاة والسلام",
+          "date": "1437/04/21",
+          "audio": "https://archive.org/download/0026121447/46.mp3",
+          "download": "https://archive.org/download/0026121447/46.mp3",
+          "size": "13.03 MB"
+        },
+        {
+          "n": 47,
+          "title": "الدرس السابع والأربعون: باب ماجاء في الكذب على الله والكذب على رسوله عليه الصلاة والسلام",
+          "date": "1437/04/22",
+          "audio": "https://archive.org/download/0026121447/47.mp3",
+          "download": "https://archive.org/download/0026121447/47.mp3",
+          "size": "12.58 MB"
+        },
+        {
+          "n": 48,
+          "title": "الدرس الثامن والأربعون: باب ماجاء في الكذب على الله",
+          "date": "1437/04/28",
+          "audio": "https://archive.org/download/0026121447/48.mp3",
+          "download": "https://archive.org/download/0026121447/48.mp3",
+          "size": "13.45 MB"
+        },
+        {
+          "n": 49,
+          "title": "الدرس التاسع والأربعون: باب ماجاء في القول على الله بلا علم",
+          "date": "1437/04/29",
+          "audio": "https://archive.org/download/0026121447/49.mp3",
+          "download": "https://archive.org/download/0026121447/49.mp3",
+          "size": "12.75 MB"
+        },
+        {
+          "n": 50,
+          "title": "الدرس الخمسون: باب ماجاء في القول على الله بلا علم",
+          "date": "1437/05/05",
+          "audio": "https://archive.org/download/0026121447/50.mp3",
+          "download": "https://archive.org/download/0026121447/50.mp3",
+          "size": "13.16 MB"
+        },
+        {
+          "n": 51,
+          "title": "الدرس الحادي والخمسون: باب ماجاء في شهادة الزور",
+          "date": "1437/05/06",
+          "audio": "https://archive.org/download/0026121447/51.mp3",
+          "download": "https://archive.org/download/0026121447/51.mp3",
+          "size": "12.93 MB"
+        },
+        {
+          "n": 52,
+          "title": "الدرس الثاني والخمسون: باب ماجاء في قذف المحصنات",
+          "date": "1437/05/12",
+          "audio": "https://archive.org/download/0026121447/52.mp3",
+          "download": "https://archive.org/download/0026121447/52.mp3",
+          "size": "13.34 MB"
+        },
+        {
+          "n": 53,
+          "title": "الدرس الثالث والخمسون: باب ماجاء في قذف المحصنات",
+          "date": "1437/05/13",
+          "audio": "https://archive.org/download/0026121447/53.mp3",
+          "download": "https://archive.org/download/0026121447/53.mp3",
+          "size": "12.08 MB"
+        },
+        {
+          "n": 54,
+          "title": "الدرس الرابع والخمسون: باب ماجاء في قذف المحصنات",
+          "date": "1437/05/19",
+          "audio": "https://archive.org/download/0026121447/54.mp3",
+          "download": "https://archive.org/download/0026121447/54.mp3",
+          "size": "13.17 MB"
+        },
+        {
+          "n": 55,
+          "title": "الدرس الخامس والخمسون: باب ماجاء في ذي الوجهين",
+          "date": "1437/05/20",
+          "audio": "https://archive.org/download/0026121447/55.mp3",
+          "download": "https://archive.org/download/0026121447/55.mp3",
+          "size": "13.05 MB"
+        },
+        {
+          "n": 56,
+          "title": "الدرس السادس والخمسون: باب ماجاء في النميمة",
+          "date": "1437/05/26",
+          "audio": "https://archive.org/download/0026121447/56.mp3",
+          "download": "https://archive.org/download/0026121447/56.mp3",
+          "size": "12.80 MB"
+        },
+        {
+          "n": 57,
+          "title": "الدرس السابع والخمسون: باب ماجاء في البهتان",
+          "date": "1437/05/27",
+          "audio": "https://archive.org/download/0026121447/57.mp3",
+          "download": "https://archive.org/download/0026121447/57.mp3",
+          "size": "13.03 MB"
+        },
+        {
+          "n": 58,
+          "title": "الدرس الثامن والخمسون: باب ماجاء في اللعن",
+          "date": "1437/06/04",
+          "audio": "https://archive.org/download/0026121447/58.mp3",
+          "download": "https://archive.org/download/0026121447/58.mp3",
+          "size": "12.28 MB"
+        },
+        {
+          "n": 59,
+          "title": "الدرس التاسع والخمسون: باب ماجاء في إفشاء السرّ",
+          "date": "1437/06/11",
+          "audio": "https://archive.org/download/0026121447/59.mp3",
+          "download": "https://archive.org/download/0026121447/59.mp3",
+          "size": "13.52 MB"
+        },
+        {
+          "n": 60,
+          "title": "الدرس الستون: باب ذكر تأكدّه في الأموات",
+          "date": "1437/06/12",
+          "audio": "https://archive.org/download/0026121447/60.mp3",
+          "download": "https://archive.org/download/0026121447/60.mp3",
+          "size": "13.08 MB"
+        },
+        {
+          "n": 61,
+          "title": "الدرس الحادي والستون: باب من أعان إلى خصومة في باطل",
+          "date": "1437/06/18",
+          "audio": "https://archive.org/download/0026121447/61.mp3",
+          "download": "https://archive.org/download/0026121447/61.mp3",
+          "size": "13.65 MB"
+        },
+        {
+          "n": 62,
+          "title": "الدرس الثاني والستون: باب من أعان إلى خصومة في باطل",
+          "date": "1437/07/03",
+          "audio": "https://archive.org/download/0026121447/62.mp3",
+          "download": "https://archive.org/download/0026121447/62.mp3",
+          "size": "13.64 MB"
+        },
+        {
+          "n": 63,
+          "title": "الدرس الثالث والستون: باب من شهد أمراً فليتكلّم بخير أو ليسكت",
+          "date": "1437/07/04",
+          "audio": "https://archive.org/download/0026121447/63.mp3",
+          "download": "https://archive.org/download/0026121447/63.mp3",
+          "size": "12.78 MB"
+        },
+        {
+          "n": 64,
+          "title": "الدرس الرابع والستون: باب الفخر",
+          "date": "1437/07/10",
+          "audio": "https://archive.org/download/0026121447/64.mp3",
+          "download": "https://archive.org/download/0026121447/64.mp3",
+          "size": "13.88 MB"
+        },
+        {
+          "n": 65,
+          "title": "الدرس الخامس والستون: باب الفخر",
+          "date": "1437/07/11",
+          "audio": "https://archive.org/download/0026121447/65.mp3",
+          "download": "https://archive.org/download/0026121447/65.mp3",
+          "size": "13.62 MB"
+        },
+        {
+          "n": 66,
+          "title": "الدرس السادس والستون: باب من إدّعى ماليس له ومن إذا خاصم فجر",
+          "date": "1437/07/17",
+          "audio": "https://archive.org/download/0026121447/66.mp3",
+          "download": "https://archive.org/download/0026121447/66.mp3",
+          "size": "13.86 MB"
+        },
+        {
+          "n": 67,
+          "title": "الدرس السابع والستون: باب ماجاء في لمز أهل طاعة الله والإستهزاء بضعفتهم",
+          "date": "1437/07/18",
+          "audio": "https://archive.org/download/0026121447/67.mp3",
+          "download": "https://archive.org/download/0026121447/67.mp3",
           "size": "13.25 MB"
+        },
+        {
+          "n": 68,
+          "title": "الدرس الثامن والستون: باب المتشّبع بما لم يعط",
+          "date": "1437/07/24",
+          "audio": "https://archive.org/download/0026121447/68.mp3",
+          "download": "https://archive.org/download/0026121447/68.mp3",
+          "size": "12.93 MB"
+        },
+        {
+          "n": 69,
+          "title": "الدرس التاسع والستون: باب ما جاء في الغيبة",
+          "date": "1437/07/25",
+          "audio": "https://archive.org/download/0026121447/69.mp3",
+          "download": "https://archive.org/download/0026121447/69.mp3",
+          "size": "13.56 MB"
+        },
+        {
+          "n": 70,
+          "title": "الدرس السبعون: باب ما جاء في إضلال الأعمى عن الطريق",
+          "date": "1437/11/10",
+          "audio": "https://archive.org/download/0026121447/70.mp3",
+          "download": "https://archive.org/download/0026121447/70.mp3",
+          "size": "13.85 MB"
+        },
+        {
+          "n": 71,
+          "title": "الدرس الحادي والسبعون: باب الغلول وقول الله تعالى وماكان لنبي أن يغلّ",
+          "date": "1437/11/11",
+          "audio": "https://archive.org/download/0026121447/71.mp3",
+          "download": "https://archive.org/download/0026121447/71.mp3",
+          "size": "13.84 MB"
+        },
+        {
+          "n": 72,
+          "title": "الدرس الثاني والسبعون: باب طاعة الأمراء",
+          "date": "1437/11/12",
+          "audio": "https://archive.org/download/0026121447/72.mp3",
+          "download": "https://archive.org/download/0026121447/72.mp3",
+          "size": "13.39 MB"
+        },
+        {
+          "n": 73,
+          "title": "الدرس الثالث والسبعون: باب ماجاء في الفتن",
+          "date": "1437/11/17",
+          "audio": "https://archive.org/download/0026121447/73.mp3",
+          "download": "https://archive.org/download/0026121447/73.mp3",
+          "size": "13.16 MB"
+        },
+        {
+          "n": 74,
+          "title": "الدرس الرابع والسبعون: باب ماجاء في الفتن",
+          "date": "1437/11/18",
+          "audio": "https://archive.org/download/0026121447/74.mp3",
+          "download": "https://archive.org/download/0026121447/74.mp3",
+          "size": "13.62 MB"
+        },
+        {
+          "n": 75,
+          "title": "الدرس الخامس والسبعون: باب ماجاء في الفتن",
+          "date": "1437/11/19",
+          "audio": "https://archive.org/download/0026121447/75.mp3",
+          "download": "https://archive.org/download/0026121447/75.mp3",
+          "size": "13.25 MB"
+        },
+        {
+          "n": 76,
+          "title": "الدرس السادس والسبعون: باب تعظيم النفس التي حرم الله الا بالحق",
+          "date": "1437/12/23",
+          "audio": "https://archive.org/download/0026121447/76.mp3",
+          "download": "https://archive.org/download/0026121447/76.mp3",
+          "size": "14.27 MB"
+        },
+        {
+          "n": 77,
+          "title": "الدرس السابع والسبعون: باب تعظيم قتل النفس التي حرّم الله إلا بالحقّ",
+          "date": "1437/12/24",
+          "audio": "https://archive.org/download/0026121447/77.mp3",
+          "download": "https://archive.org/download/0026121447/77.mp3",
+          "size": "14.06 MB"
+        },
+        {
+          "n": 78,
+          "title": "الدرس الثامن والسبعون: باب العقوق",
+          "date": "1437/12/25",
+          "audio": "https://archive.org/download/0026121447/78.mp3",
+          "download": "https://archive.org/download/0026121447/78.mp3",
+          "size": "14.39 MB"
+        },
+        {
+          "n": 79,
+          "title": "الدرس التاسع والسبعون: باب أذى الجار",
+          "date": "1437/12/30",
+          "audio": "https://archive.org/download/0026121447/79.mp3",
+          "download": "https://archive.org/download/0026121447/79.mp3",
+          "size": "13.98 MB"
+        },
+        {
+          "n": 80,
+          "title": "الدرس الثمانون: باب غضب الزوج",
+          "date": "1438/01/01",
+          "audio": "https://archive.org/download/0026121447/80.mp3",
+          "download": "https://archive.org/download/0026121447/80.mp3",
+          "size": "13.59 MB"
+        },
+        {
+          "n": 81,
+          "title": "الدرس الحادي والثمانون: باب الولايات من الأمانة",
+          "date": "1438/01/02",
+          "audio": "https://archive.org/download/0026121447/81.mp3",
+          "download": "https://archive.org/download/0026121447/81.mp3",
+          "size": "13.20 MB"
+        },
+        {
+          "n": 82,
+          "title": "الدرس الثاني والثمانون: باب االشفقة على الرعيّة",
+          "date": "1438/01/07",
+          "audio": "https://archive.org/download/0026121447/82.mp3",
+          "download": "https://archive.org/download/0026121447/82.mp3",
+          "size": "13.86 MB"
+        },
+        {
+          "n": 83,
+          "title": "الدرس الثالث والثمانون: باب االجور والظلم وخطر الولاية",
+          "date": "1438/01/08",
+          "audio": "https://archive.org/download/0026121447/83.mp3",
+          "download": "https://archive.org/download/0026121447/83.mp3",
+          "size": "14.14 MB"
+        },
+        {
+          "n": 84,
+          "title": "الدرس الرابع والثمانون: باب قوله صلى الله عليه وسلم ( كلكم راع وكلكم مسؤول",
+          "date": "1438/01/09",
+          "audio": "https://archive.org/download/0026121447/84.mp3",
+          "download": "https://archive.org/download/0026121447/84.mp3",
+          "size": "13.07 MB"
+        },
+        {
+          "n": 85,
+          "title": "الدرس الخامس والثمانون: باب ماجاء في الديوث",
+          "date": "1438/01/14",
+          "audio": "https://archive.org/download/0026121447/85.mp3",
+          "download": "https://archive.org/download/0026121447/85.mp3",
+          "size": "13.41 MB"
+        },
+        {
+          "n": 86,
+          "title": "الدرس السادس والثمانون: باب ظلم اليتيم",
+          "date": "1438/01/15",
+          "audio": "https://archive.org/download/0026121447/86.mp3",
+          "download": "https://archive.org/download/0026121447/86.mp3",
+          "size": "13.99 MB"
+        },
+        {
+          "n": 87,
+          "title": "الدرس السابع والثمانون: باب ماجاء في إخوّة الإسلام وحقّ المسلم على المسلم",
+          "date": "1438/01/16",
+          "audio": "https://archive.org/download/0026121447/87.mp3",
+          "download": "https://archive.org/download/0026121447/87.mp3",
+          "size": "13.43 MB"
         }
       ]
     }
