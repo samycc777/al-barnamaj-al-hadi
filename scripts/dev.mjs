@@ -35,7 +35,10 @@ async function file(path) {
 }
 
 const server = createServer(async (req, res) => {
-  const url = decodeURIComponent(new URL(req.url, 'http://x').pathname);
+  // A malformed address (a stray %) would otherwise crash the preview.
+  let url;
+  try { url = decodeURIComponent(new URL(req.url, 'http://x').pathname); }
+  catch { res.writeHead(400).end('Bad address'); return; }
   if (url === '/__reload') {
     res.writeHead(200, { 'content-type': 'text/event-stream', 'cache-control': 'no-cache', connection: 'keep-alive' });
     res.write(': connected\n\n');

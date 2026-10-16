@@ -3,13 +3,15 @@
 // and the address of each audio file and of its download link. The audio itself stays on the Shaykh's
 // site; our pages play it from there.
 //
-//   npm run import            all books
-//   npm run import -- <slug>  one book
+//   npm run import                    all books
+//   npm run import -- <slug>          one book
+//   npm run import -- <slug> --force  save even if the book now has fewer lessons
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { categories, itemsOf } from '../src/content.mjs';
 
 const ORIGIN = 'https://al-abbaad.com';
-const only = process.argv[2];
+const force = process.argv.includes('--force');
+const only = process.argv.slice(2).find((a) => !a.startsWith('--'));
 
 const decode = (s) =>
   s.replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#0?39;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>');
@@ -130,6 +132,10 @@ async function importBook(item) {
   }
   const count = chapters.reduce((s, c) => s + c.lessons.length, 0);
   if (!count) throw new Error(`no lessons found on ${item.source}`);
+  // Fewer lessons than before usually means the source page changed its layout,
+  // not that lessons were removed: keep the old list unless --force.
+  const before = old.reduce((s, c) => s + c.lessons.length, 0);
+  if (count < before && !force) throw new Error(`found ${count} lessons, ${before} before; kept the old list (--force to save)`);
   writeFileSync(file, JSON.stringify({ source: new URL(item.source, ORIGIN).href, chapters }, null, 2) + '\n');
   console.log(`${item.slug}: ${chapters.length} chapter(s), ${count} lessons`);
 }
@@ -137,4 +143,9 @@ async function importBook(item) {
 mkdirSync('src/lessons', { recursive: true });
 const books = categories.flatMap(itemsOf).filter((it) => it.source && (!only || it.slug === only));
 if (!books.length) throw new Error(only ? `no book with slug "${only}" and a source` : 'no book has a source');
-for (const b of books) await importBook(b);
+// One book failing (its page down or changed) doesn't stop the others.
+let failed = 0;
+for (const b of books) {
+  try { await importBook(b); } catch (e) { failed++; console.error(`✗ ${b.slug}: ${e.message}`); }
+}
+if (failed) { console.error(`${failed} book(s) not updated`); process.exit(1); }
