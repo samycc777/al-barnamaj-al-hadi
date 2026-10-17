@@ -1,0 +1,27 @@
+# Site internals (read when changing the build, player, web app or audio hosting)
+
+- `build.mjs`: builds static pages into `dist/` (home, `/<category>/`, `/<category>/<book>/`, `/search/`, `404.html`), plus `assets/search.json` (the search index) and `_headers` (Content-Security-Policy and other headers; `/inbox/` gets noindex). No dependencies. Icons are SVG line icons in `ICONS`, written once per page as a sprite and used with `icon()` (sun and moon are taken by the night-mode button).
+- No inline scripts or `style=`/`onclick=` attributes: the CSP blocks them. The only inline script is the theme snippet `THEME`, whose hash build.mjs puts in the CSP. Scripts are files: `assets/site.js` (menu, night mode, home page's continue card, service worker), `assets/player.js` (the player), `assets/search.js` (search page).
+- Fonts are self-hosted in `assets/fonts/` (Google Fonts' Arabic and Latin parts; `@font-face` at the top of `style.css`).
+- `check.mjs` wants mp3 audio (AAC/m4a must go to R2 as mp3); mimham's `audcha-…` addresses without `.mp3` are allowed.
+- `assets/`: `style.css` (colour tokens at the top), `favicon.svg`, `apple-touch-icon.png` (180 px, from the favicon) and `og.jpg` (1200×630 link-preview picture: site name and description; remake it if either changes).
+- Web app: `assets/manifest.webmanifest` with `icon-192.png`/`icon-512.png` (the favicon without rounded corners, `sips` from SVG) and `src/sw.js` (copied to `/sw.js`; network first, cache only offline; skips audio, `/api/`, `/inbox/`). The inbox page has no manifest, so its home-screen icon keeps the key. Bump `CACHE` in `sw.js` only if its logic changes.
+- The player (`PLAYER()` in `build.mjs`, `assets/player.js`) remembers each lesson's position and marks heard lessons (localStorage), has ±15 s and speed buttons, plays the next lesson on a book page, shows lesson/book/shaykh on the phone's lock screen, and says so when a file fails to load. `#l-<n>` (search results) or `#play=<audio>` (continue card) in a book's address opens that lesson.
+
+## Audio hosts
+
+- Play the mp3 from where it is already hosted: al-abbaad.com, miraath.net (refuses Python's default user agent; curl/browsers fine), archive.org, sounds.binothaimeen.net (Ibn Uthaymeen; lists via `shekhapi.binothaimeen.net`), rabee.net (`/wp-json/wp/v2/search?search=<title>`), files.zadapps.info (Ibn Baz; spaces as `%20`), aletioupi.com (al-Ityubi), mimham.net, download.dar-sh.com, zaidalmadkhali.com.
+- al-Fawzan's official site is suspended: his books play from archive.org (mostly مشروع كبار العلماء uploads, which carry a lesson index).
+- mimham.net (منهام) gathers commentaries per matn: page `/cha-<id>`, each lesson plays and downloads from `https://www.mimham.net/audcha-<id>-<n>`. Never use the row's `tan-…` link: it serves the lesson twice back to back.
+- YouTube auto-captions often mark «[موسيقى]» over plain speech or tape noise; check with Whisper or a spectrogram before deciding a file has music.
+- Audio that exists nowhere as a playable mp3 (YouTube only, flaky or AAC copies) goes in the Cloudflare R2 bucket `al-barnamaj-al-hadi-media`, public at https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev, in a folder named after the book. Such a book has `slug`, no `source`, and a hand-written `src/lessons/<slug>.json`. To add files: take the audio with `yt-dlp`, convert to 64k mono mp3 with ffmpeg, check it has no music, then `npx wrangler r2 object put al-barnamaj-al-hadi-media/<slug>/<file>.mp3 --file <file>.mp3 --content-type audio/mpeg --content-disposition 'attachment; filename="<file>.mp3"' --remote`. Parts of one lecture can be joined with `ffmpeg -f concat … -c copy`.
+
+## Preview and link-check jobs
+
+- The preview: a LaunchAgent (`~/Library/LaunchAgents/com.samycachon.tasil-ilm-preview.plist`) runs `node scripts/dev.mjs` in the project folder at login and restarts it; log `~/Library/Logs/tasil-ilm-preview.log`. Restart: `launchctl kickstart -k gui/$(id -u)/com.samycachon.tasil-ilm-preview`. It runs `/opt/homebrew/bin/node`; if node moves, update the plist.
+- `npm run links`: re-checks failures after 3 minutes and lists broken ones by book. LaunchAgent `com.samycachon.tasil-ilm-links.plist` runs it with `--alert` on the 1st of each month at 10:00 (only if the Mac is awake); broken links send the user a Telegram message through the brother-alerts bot. Log `~/Library/Logs/tasil-ilm-links.log`.
+
+## Brother's inbox: key and alerts
+
+- New key (if the link leaks): `npx wrangler pages secret put INBOX_KEY --project-name al-barnamaj-al-hadi`, put the same key in `.env.local`, send the brother the new link. The key stays in the address on purpose: his home-screen icon keeps it.
+- Alerts: each new message makes the Telegram bot @bilal_brother_alerts_bot send the user a generic line (no content), naming the site (`functions/_lib/notify.js`); shared with the exposing-arafat site. Token and chat id are in `~/.config/brother-alerts/` and the `TELEGRAM_BOT_TOKEN`/`TELEGRAM_CHAT_ID` Pages secrets; never commit or print them.
