@@ -95,7 +95,7 @@
         pages: d.pages.map(function (p) { return { t: p[0], p: p[1], s: p[2], book: p[3], n: norm(p[0] + ' ' + p[2]) }; }),
         lessons: d.lessons.map(function (l) {
           var c = l[3] > -1 ? d.chapters[l[3]] : '';
-          return { t: l[0], p: l[1], i: l[2], c: c, n: norm(l[0] + ' ' + c) };
+          return { t: l[0], p: l[1], i: l[2], c: c, n: norm(l[0] + ' ' + c + ' ' + d.pages[l[1]][2]) };
         }),
       };
       search();
