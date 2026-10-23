@@ -146,7 +146,7 @@ function send(event) {
       say(sendStatus, words.sent);
       loadMessages();
     } else {
-      say(sendStatus, request.status === 403 ? words.wrongKey : words.failed);
+      say(sendStatus, request.status === 403 ? words.wrongKey : request.status === 413 ? words.tooBig : words.failed);
     }
   });
   request.addEventListener("error", () => {
