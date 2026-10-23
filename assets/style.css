@@ -277,12 +277,14 @@ main.container { padding: 28px 0 40px; }
 .chapter:last-child { margin-bottom: -18px; border-bottom: 0; }
 .chapter summary { cursor: pointer; list-style: none; display: flex; align-items: center; gap: 10px; padding: 13px 18px; font-weight: 700; color: var(--brown-3); background: var(--cream-2); }
 .chapter summary::-webkit-details-marker { display: none; }
+.chapter summary h3 { margin: 0; font: inherit; }
 .chapter summary::before { content: ""; width: 7px; height: 7px; border: solid var(--gold); border-width: 0 2px 2px 0; transform: rotate(135deg); transition: transform .15s; }
 .chapter[open] summary::before { transform: rotate(45deg); }
 .chapter .count { margin-inline-start: auto; font-size: 13px; font-weight: 500; color: var(--muted); }
 .chapter .rows { margin: 0; }
 .panel-body > .rows:not(:last-child) { margin-bottom: 0; }
 .panel-body > .chapter:first-child { margin-top: -18px; }
+.lesson { scroll-margin: 70px 0 120px; }
 .num { min-width: 28px; text-align: center; font-weight: 700; color: var(--gold-text); }
 .lesson .i-pause, .lesson.playing .i-play { display: none; }
 .lesson.playing .i-pause { display: block; }
@@ -309,6 +311,7 @@ button.round-btn { border: 0; cursor: pointer; font: inherit; }
 body.has-player { padding-bottom: 110px; }
 .player[hidden] { display: none; }
 .player.failed .player-title { color: #a33a1c; }
+.player.failed .player-title a { color: inherit; text-decoration: underline; }
 :root[data-theme="dark"] .lesson.heard .row-title::after { color: #8fd6a6; }
 :root[data-theme="dark"] .pbtn:hover { color: #1d140d; }
 
@@ -325,9 +328,17 @@ body.has-player { padding-bottom: 110px; }
 .results .rows { margin: 0 -18px; border-top: 1px solid var(--row-line); }
 @media (max-width: 720px) {
   .row { gap: 10px; }
-  .lesson .round-btn { width: 34px; height: 34px; }
+  .lesson .round-btn { width: 44px; height: 44px; }
   .num { min-width: 20px; }
   .player-controls { flex-basis: 100%; }
+}
+/* Narrow phones: the audio bar gets its own full line, the three buttons sit below it. */
+@media (max-width: 560px) {
+  .player-controls { flex-wrap: wrap; justify-content: center; }
+  .player audio { order: -1; flex: 1 0 100%; }
+  .pbtn { height: 44px; padding: 0 12px; }
+  body.has-player { padding-bottom: 160px; }
+  .lesson { scroll-margin-bottom: 170px; }
 }
 
 /* The brother's inbox page (/inbox/). */

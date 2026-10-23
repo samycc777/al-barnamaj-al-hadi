@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-البرنامج الهادي لتأصيل العلم: an Arabic (RTL) Islamic study site whose lessons are grouped into categories (العقيدة، الآداب، الحديث، علوم الحديث، الفقه، أصول وقواعد الفقه، التفسير، أصول وقواعد التفسير، السيرة، علوم العربية، الأذكار، تزكية النفس). Look follows rabee.net: cream parchment with a geometric pattern, brown/gold nav bar, panels with brown headers and round gold badges, Tajawal for text, Aref Ruqaa for the site name, Amiri for Qur'an and ḥadīth. The user adds content little by little.
+البرنامج الهادي لتأصيل العلم: an Arabic (RTL) Islamic study site whose lessons are grouped into categories (العقيدة، الآداب، الحديث، علوم الحديث، الفقه، أصول وقواعد الفقه، التفسير، أصول وقواعد التفسير، السيرة، علوم العربية، الأذكار، تزكية النفس). Look follows rabee.net: cream parchment with a geometric pattern, brown/gold nav bar, panels with brown headers and round gold badges, Tajawal for text, Aref Ruqaa for the site name, Amiri for Qur'an and ḥadīth (deliberate, to match rabee.net: never swap in another Arabic font, e.g. Naskh). The user adds content little by little.
 
 Live at https://al-barnamaj-al-hadi.pages.dev (Cloudflare Pages project `al-barnamaj-al-hadi`, linked to GitHub `samycc777/al-barnamaj-al-hadi`: every push to `main` rebuilds and deploys it).
 
@@ -10,6 +10,7 @@ Live at https://al-barnamaj-al-hadi.pages.dev (Cloudflare Pages project `al-barn
 - Before adding a scholar's or author's death date: read `docs/notes/death-dates.md` (dates already checked).
 - Before adding a book from a scholar whose commentaries were already checked (Ibn Baz, al-Albani, Muqbil, al-Fawzan, al-Abbad, al-Jabiri, al-Jami, al-Hilali, al-Ghudayan…) or answering the brother about completeness: read `docs/notes/commentaries-research.md` (what is complete, series ids, copies to avoid).
 - Open questions to the brother and unfinished checks: `docs/notes/pending.md`.
+- Fable review (10 suggestions) status: `docs/notes/fable-review.md`.
 - Build, CSP, player, web app, fonts, audio hosts and R2 upload steps: `docs/notes/site-internals.md`.
 
 ## Layout

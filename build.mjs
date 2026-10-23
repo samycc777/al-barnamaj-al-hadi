@@ -1,5 +1,5 @@
 // Builds the static site into dist/ from src/content.mjs. No dependencies.
-import { mkdirSync, rmSync, writeFileSync, cpSync, readFileSync } from 'node:fs';
+import { mkdirSync, rmSync, writeFileSync, cpSync, readFileSync, readdirSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { site, categories, itemsOf } from './src/content.mjs';
 
@@ -145,7 +145,7 @@ const THEME_HASH = createHash('sha256').update(THEME).digest('base64');
 const PRELOAD = ['tajawal-400-arabic', 'aref-ruqaa-700-arabic']
   .map((f) => `<link rel="preload" href="/assets/fonts/${f}.woff2" as="font" type="font/woff2" crossorigin>`).join('\n');
 
-function layout({ title, active, main, extra = '', path = '/', app = true }) {
+function layout({ title, active, main, extra = '', path = '/', app = true, description = site.description }) {
   const pageTitle = title ? `${title} — ${site.name}` : site.name;
   // The icons the template itself uses, so the sprite holds them too.
   ['menu', 'moon', 'sun', 'search'].forEach((n) => usedIcons.add(n));
@@ -164,9 +164,9 @@ function layout({ title, active, main, extra = '', path = '/', app = true }) {
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(pageTitle)}</title>
 <meta property="og:title" content="${esc(pageTitle)}">
-<meta name="description" content="${esc(site.description)}">
-<meta property="og:description" content="${esc(site.description)}">
-<meta property="og:locale" content="ar_AR">
+<meta name="description" content="${esc(description)}">
+<meta property="og:description" content="${esc(description)}">
+<meta property="og:locale" content="ar_SA">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="${esc(site.name)}">
 <meta property="og:url" content="${site.url}${path}">
@@ -246,7 +246,7 @@ function homePage() {
 // One audio player bar per page: a lesson's play button loads it here. The
 // audio streams from the Shaykh's site (or miraath.net).
 const PLAYER = () => `<div class="player" hidden>
-  <div class="player-title"></div>
+  <div class="player-title" role="status"></div>
   <div class="player-controls" dir="ltr">
     <button class="pbtn back" type="button" title="رجوع ١٥ ثانية" aria-label="رجوع 15 ثانية">${icon('back')}<span>15</span></button>
     <audio controls preload="none"></audio>
@@ -262,20 +262,22 @@ function categoryPage(c) {
   startPage([c.name, `/${c.slug}/`, '', 0]);
   const rows = (items) => `<ul class="rows">${items.map((it) => itemRow(it, c)).join('')}</ul>`;
   const body = (c.items.length ? rows(c.items) : '') + (c.sections || []).map((s) => (startChapter(s.title), `<details class="chapter">
-        <summary><span>${txt(s.title)}</span><span class="count">${s.items.length}</span></summary>
+        <summary><h3>${txt(s.title)}</h3><span class="count">${s.items.length}</span></summary>
         ${rows(s.items)}
       </details>`)).join('');
   return layout({ title: c.name, active: c.slug, path: `/${c.slug}/`, main: panel(c.name, c.icon, body), extra: itemsOf(c).some((it) => it.audio) ? PLAYER() : '' });
 }
 
-function lessonRow(l, i) {
+// Numbered across the whole book, like the row ids (#l-<n>) that search links use.
+function lessonRow(l) {
   const id = nextRow(/^\d+_[\d-]+$/.test(l.title) ? '' : l.title);
+  const n = page.rows;
   // Some lessons on the Shaykh's site are titled with their file name only.
-  const title = /^\d+_[\d-]+$/.test(l.title) ? `الدرس ${i + 1}` : l.title;
+  const title = /^\d+_[\d-]+$/.test(l.title) ? `الدرس ${n}` : l.title;
   const meta = [l.date && `<span>${esc(l.date)}</span>`, l.size && `<span dir="ltr">${esc(l.size)}</span>`]
     .filter(Boolean).join('<i class="dot"></i>');
   return `<li class="row lesson" id="${id}" data-src="${esc(l.audio)}">
-      <span class="num">${i + 1}</span>
+      <span class="num">${n}</span>
       <div class="row-body"><div class="row-title">${txt(title)}</div>${meta ? `<div class="row-meta">${meta}</div>` : ''}</div>
       <a class="round-btn dl" href="${esc(l.download || l.audio)}" title="تحميل" aria-label="تحميل: ${esc(title)}">${icon('download')}</a>
       <button class="round-btn play" type="button" title="استماع" aria-label="استماع: ${esc(title)}">${icon('play', 'ic i-play')}${icon('pause', 'ic i-pause')}</button>
@@ -287,11 +289,11 @@ function lessonRow(l, i) {
 function bookPage(c, it) {
   startPage([it.title, `/${c.slug}/${it.slug}/`, it.note || c.name, 1]);
   const book = lessonsOf(it);
-  const list = (ls) => `<ul class="rows">${ls.map(lessonRow).join('')}</ul>`;
+  const list = (ls) => `<ul class="rows">${ls.map((l) => lessonRow(l)).join('')}</ul>`;
   const body = book.chapters.length === 1
     ? list(book.chapters[0].lessons)
     : book.chapters.map((ch, i) => (startChapter(ch.title), `<details class="chapter"${i === 0 ? ' open' : ''}>
-        <summary><span>${txt(ch.title)}</span><span class="count">${ch.lessons.length}</span></summary>
+        <summary><h3>${txt(ch.title)}</h3><span class="count">${ch.lessons.length}</span></summary>
         ${list(ch.lessons)}
       </details>`)).join('');
   const head = `<div class="book-head">
@@ -299,7 +301,7 @@ function bookPage(c, it) {
       ${it.note ? `<div class="book-note">${txt(it.note)}</div>` : ''}
     </div>`;
 
-  return layout({ title: it.title, active: c.slug, path: `/${c.slug}/${it.slug}/`, main: panel(it.title, c.icon, head + body), extra: PLAYER() });
+  return layout({ title: it.title, active: c.slug, path: `/${c.slug}/${it.slug}/`, main: panel(it.title, c.icon, head + body), extra: PLAYER(), description: [it.title, it.note].filter(Boolean).join(' — ') });
 }
 
 // The brother's inbox: where he sends new additions (text and files). Not
@@ -380,6 +382,14 @@ for (const [c, it] of books) {
   mkdirSync(`${OUT}/${c.slug}/${it.slug}`, { recursive: true });
   write(`${OUT}/${c.slug}/${it.slug}/index.html`, bookPage(c, it));
 }
+// For search engines: every page worth finding (not the inbox or the 404).
+const pagePaths = ['/', '/search/', ...categories.map((c) => `/${c.slug}/`), ...books.map(([c, it]) => `/${c.slug}/${it.slug}/`)];
+writeFileSync(`${OUT}/sitemap.xml`, `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${pagePaths.map((p) => `<url><loc>${site.url}${p}</loc></url>`).join('\n')}
+</urlset>
+`);
+writeFileSync(`${OUT}/robots.txt`, `User-agent: *\nAllow: /\nSitemap: ${site.url}/sitemap.xml\n`);
 // Lessons titled with a file name only ("الدرس ٣" on the page) aren't worth finding.
 writeFileSync(`${OUT}/assets/search.json`, JSON.stringify({ pages: search.pages, chapters: search.chapters, lessons: search.lessons.filter((l) => l[0]) }));
 
@@ -392,10 +402,16 @@ const CSP = [
   "font-src 'self'", 'media-src https:', "connect-src 'self'", "worker-src 'self'", "manifest-src 'self'",
   "object-src 'none'", "base-uri 'none'", "form-action 'self'", "frame-ancestors 'none'",
 ].join('; ');
+// Fonts never change under the same name; the rest is kept an hour (not
+// search.json, which changes with the lessons, and not the fonts folder).
+const assetFiles = readdirSync('assets', { withFileTypes: true }).filter((e) => e.isFile() && e.name !== 'search.json').map((e) => e.name);
 writeFileSync(`${OUT}/_headers`, `/*
   Content-Security-Policy: ${CSP}
   X-Frame-Options: DENY
   Permissions-Policy: camera=(), microphone=(), geolocation=()
+/assets/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+${assetFiles.map((f) => `/assets/${f}\n  Cache-Control: public, max-age=3600`).join('\n')}
 /inbox/*
   X-Robots-Tag: noindex, nofollow
   Referrer-Policy: no-referrer
