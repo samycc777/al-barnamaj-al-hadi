@@ -8,7 +8,7 @@ Live at https://al-barnamaj-al-hadi.pages.dev (Cloudflare Pages project `al-barn
 
 - Before adding, changing or checking a book, or adding one from a host already used: read `docs/notes/book-sources.md` (per-scholar/per-book sources, copies to avoid, completeness checks, tape-order fixes, books left out and why, category sections and their order).
 - Before adding a scholar's or author's death date: read `docs/notes/death-dates.md` (dates already checked).
-- Before adding a book from a scholar whose commentaries were already checked (Ibn Baz, al-Albani, Muqbil, al-Fawzan, al-Abbad, al-Jabiri, al-Jami, al-Hilali, al-Ghudayan…) or answering the brother about completeness: read `docs/notes/commentaries-research.md` (what is complete, series ids, copies to avoid).
+- Before adding a book from a scholar whose commentaries were already checked (Ibn Baz, al-Albani, Muqbil, al-Fawzan, al-Abbad, al-Jabiri, al-Jami, al-Hilali, al-Ghudayan…) or answering the brother about completeness: read `docs/notes/commentaries-research.md` (what is complete, series ids, copies to avoid) and `docs/notes/completeness-audit.md` (each book checked to its end, gaps and fuller recordings found).
 - Open questions to the brother and unfinished checks: `docs/notes/pending.md`.
 - Fable review (10 suggestions) status: `docs/notes/fable-review.md`.
 - Build, CSP, player, web app, fonts, audio hosts and R2 upload steps: `docs/notes/site-internals.md`.
