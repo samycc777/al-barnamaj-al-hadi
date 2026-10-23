@@ -5,11 +5,12 @@
 // - On a book's page the next lesson plays when one ends.
 // - The bar has 15-second back/forward and speed buttons (the speed is kept).
 // - The phone's lock screen shows the lesson and book and has the same buttons.
-// - The last lesson played is kept ("last") for the home page's card.
+// - The last lesson played is kept ("last", once it starts playing) for the
+//   home page's card. A failed load offers the lesson's download link.
 // - A link ending in #l-12 (search) or #play=<audio> (the home page's card)
 //   opens that lesson.
 (function () {
-  var bar = document.querySelector('.player'), au = bar.querySelector('audio'), cur = null, saved = 0;
+  var bar = document.querySelector('.player'), au = bar.querySelector('audio'), cur = null, saved = 0, lastInfo = null;
   var titleBox = bar.querySelector('.player-title'), rateBtn = bar.querySelector('.rate');
   var bookPage = !!document.querySelector('.book-head');
   var RATES = [1, 1.25, 1.5, 1.75, 2];
@@ -72,7 +73,8 @@
     var d = r.closest('details'); if (d) d.open = true;
     var who = document.querySelector('.book-note') || r.querySelector('.row-meta span:last-child');
     var book = bookPage ? document.querySelector('.panel-head h2').textContent : '';
-    set('last', JSON.stringify({ src: r.dataset.src, title: title, book: book || (who ? who.textContent : ''), path: location.pathname }));
+    // Kept for the home page's card only once the file really plays.
+    lastInfo = JSON.stringify({ src: r.dataset.src, title: title, book: book || (who ? who.textContent : ''), path: location.pathname });
     if ('mediaSession' in navigator) {
       navigator.mediaSession.metadata = new MediaMetadata({
         title: title,
@@ -115,11 +117,21 @@
     mark(cur);
     if (!bookPage || !step(1)) del('last');
   });
+  au.addEventListener('playing', function () {
+    if (lastInfo) { set('last', lastInfo); lastInfo = null; }
+  });
   au.addEventListener('error', function () {
     if (!au.getAttribute('src')) return;
+    var dl = cur && cur.querySelector('.dl');
     bar.classList.add('failed');
     titleBox.textContent = 'تعذر تشغيل هذا الدرس، حاول مرة أخرى';
-    cur = null; sync();
+    if (dl) {
+      var a = document.createElement('a');
+      a.href = dl.href; a.textContent = 'تحميل';
+      titleBox.appendChild(document.createTextNode(' '));
+      titleBox.appendChild(a);
+    }
+    lastInfo = null; cur = null; sync();
   });
   ['play', 'pause', 'ended'].forEach(function (ev) { au.addEventListener(ev, sync); });
 
