@@ -9,21 +9,22 @@ minutes). Status per slug; "elsewhere" = a fuller recording found, not yet on th
   (`barak-fitan`, RealMedia; also YouTube); Mustafa Mubram `AhadithFiAlfitanWaAlhawadith` (23 files, unchecked).
 - ighathat-al-lahfan (al-Fawzan, 110): ~49 pages short; nothing more found, no other complete sharh found.
 - al-husam-al-mahiq (al-Hilali): tape 9 cut in the original; YouTube X3aP2KjnAnQ cut at the same point.
-- alfiyyat-ibn-malik-kouni: lesson 42 missing everywhere (ajurry's 42 is a copy of 41).
-- tafsir-as-saadi (al-Arfaj): Baqarah 253–258 and Maidah 15–19 missing; IslamHouse and archive.org `TfseerYaseen` have the same gaps.
+- alfiyyat-ibn-malik-kouni: lesson 42 missing everywhere: archive `kawni-alphiah` 42 = 41 (same length and size), ajurry's 42 is that copy, mimham cha-684 has only 1–40.
+- tafsir-as-saadi (al-Arfaj): Baqarah 253–258 and Maidah 15–19 are missing from every copy of his reading; already filled on the site from al-Subhan's reading (cb8a0b3).
 - as-sirah-fi-daw-al-masadir (al-Hudaythi, 26): الشمائل not covered; no more lessons exist.
 - umdat-al-ahkam (al-Abbad): باب صدقة الفطر not explained in any copy; nearest: his Bulugh lesson (YouTube oh-jGYd8HVQ, on the site).
 - al-kafi (Ibn Uthaymin): his recording ends at البيوع; al-Wa'ili's «النبع الصافي» said complete (audio unchecked).
-- mukhtasar-as-seerah (al-Faqihi): lesson 1 starts after the building of the House (no المقدمة, Adam, Ibrahim).
-  His older course archive.org `fawaid_03` (21 mp3, 20.8 h; also `raj3elsada-serah1`) probably has the start (unchecked; metadata fetch failed).
-- at-tahqiq-wal-idah (al-Faqihi, miraath 1434, 13): lesson 13 ends «نكتفي بهذا» mid-book. Complete 17-lesson course by him: archive.org `001_20230902` (016 «خاتمة الكتاب»).
-- risalah-ahl-al-qasim (al-Faqihi): missing «الجنة والنار ورؤية المؤمنين ربهم» (archive `Risalat-Qasim` 017 =
-  miraath …/2021/04/64قوله-وأمن-بأن-الجنة-و-النار-مخلوقتان.mp3), after الشفاعة, before خاتم النبيين. Archive 028–035 are al-Fawzan's.
-- sunan-an-nasai (al-Abbad) lesson 8 «أركان الإيمان»: found in YouTube etEQVXt9nbw, 19603–22372 s (from «باب نعت الإسلام»).
-- sahih-al-bukhari (al-Abbad): complete, but the khatm file (archive.org `20191116_20191116_2205`, 65:40) has ~280 s
-  around 55:00 (Ibn Hajar's and al-Kirmani's closing words, then the adhan) that lesson 624 lacks.
 - Ibn Uthaymin, ended by the shaykh himself (binothaimeen has no more): ad-durrah-al-yatimah (stops in الاستثناء),
   taqrir-al-qawaid (18 lessons, mid-book on الضمان). qawaid-al-usul: last lesson ends with Q&A, end not confirmable.
+
+## Filled (Oct 2026)
+- mukhtasar-as-seerah (al-Faqihi): start (المقدمة, Adam, Nuh, Hud, Ibrahim) added as 0.1–0.4 from his older course archive `fawaid_03`
+  07–09 and 10 cut at 3169.3 s (R2 `mukhtasar-as-seerah/10.mp3`), just before «فصارت ولاية البيت…» where lesson 1 starts.
+- at-tahqiq-wal-idah (al-Faqihi): miraath 1434 course (13, stops mid-book) replaced by his complete 17-lesson course, archive `001_20230902`; no `source`.
+- risalah-ahl-al-qasim (al-Faqihi): «الجنة والنار مخلوقتان» added as 18.5 (miraath; archive `Risalat-Qasim` 017).
+- sahih-al-bukhari (al-Abbad): lesson 624 plays the full khatm file (archive `20191116_20191116_2205`, 65:40; old file `Sharh_Sahih_al_Bukhari_al-Abbaad_2/624.mp3` lacked ~280 s).
+- sunan-an-nasai (al-Abbad): nothing missing at 048008: YouTube etEQVXt9nbw 19603–22372 s is the same recording as 048009
+  (same length and words), and 048007's end leads straight into it.
 
 ## Confirmed complete (end heard)
 zad-al-mustaqni, al-usul-as-sittah, al-jami-li-ibadatillah, tafsir-kalimat-at-tawhid, mana-at-taghut, fawaid-al-fatihah,

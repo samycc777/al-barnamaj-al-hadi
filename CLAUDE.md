@@ -67,3 +67,6 @@ The brother (Zayd bin Ibrahim al-Jazairi, runs the programme; the user says "the
 - The summary is a short report, like the one you give the user: one sentence with the outcome, then `• ` lines naming what changed (counts, dates, titles), problems met and how they were solved, and what was checked; say plainly when nothing changed. One quoted argument with real line breaks.
 - Short, plain Arabic that names the site; never prompts, paths, code or logs. The script ignores every other project.
 - Zaid also talks to Claude directly through @mawqi_bot (group replies/mentions, or a private chat): `tool-progress-bot/listener.mjs` runs each conversation as a headless Claude session in the site's folder; treat him as the user for his sites.
+
+## Mistakes to avoid
+- Before calling a lesson missing, check the book's extra/R2 lessons and `docs/notes/` (the Sa'di gaps were already filled), and compare a "found" recording with the neighbouring lessons (Nasa'i's YouTube "lesson 8" was 048009 again).
