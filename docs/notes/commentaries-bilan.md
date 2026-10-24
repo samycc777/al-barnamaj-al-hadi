@@ -208,4 +208,49 @@ No scholar in my scope covers it.
 - Alfiyyah جمع التكسير/التصغير: nothing in scope.
 - NOT searched in detail (time): Jami, Hudaythi, Qusayr, Wusaifi, Barjas, Muqbil, Albani, Ghudayan, Hilali; a second pass is needed for them.
 
-Not searched in depth: Jami, Hudaythi, Qusayr, Wusaifi, Barjas. Muqbil, Albani, Ghudayan, Hilali: nothing more complete (commentaries-research.md).
+
+## Second pass: Jami, Hudaythi, Qusayr, Wusaifi, Ibn Barjas
+Method: archive.org metadata (file counts, durations, file names) and alathar.net tape counts. No audio listened. COMPLETE is only claimed where lesson-structure evidence exists; "likely" = whole-book series by tape count but no lesson titles seen.
+
+### محمد أمان الجامي
+- al-aqidah-al-wasitiyyah — الجامي (sharh of Harras's Wasitiyyah) — UNSURE (likely complete) — 34 tapes, 51.2 h — https://archive.org/details/23_20230124 (copy: khaled_alridwany_23) — alathar.net lists the same 34 tapes as a full course; files named "الشريط 01..34"
+- at-tadmuriyyah — الجامي — UNSURE (likely complete) — 32 tapes (alathar), archive copy 152 files/27.7 h with Q&A mixed in — https://archive.org/details/hqdefault_202409
+- al-hamawiyyah (Hamawiyyah Kubra; site's item is Uthaymeen's fath rabb al-bariyyah, same text) — الجامي — UNSURE — 28 tapes — https://archive.org/details/25_20211104_202111 and https://archive.org/details/shr7_ftwa_7mwya---Mouhamad_Aman_Aljami___uploaded_by_Abu-Ahmad-S-A
+- kitab-at-tawhid — الجامي — UNSURE (likely complete) — 22 tapes (alathar), 48 files/24.8 h — https://archive.org/details/abo-sarh-61
+- qurrat-uyun-al-muwahhidin — الجامي — UNSURE — 29 files, 23.3 h (another upload is titled "أبواب من قرة عيون": some copies are partial) — https://archive.org/details/abo-sarh-63
+- al-qawaid-al-muthla — الجامي — UNSURE — 15 tapes (alathar), 16 files/23.8 h — https://archive.org/details/khaled_alridwany_19
+- sharh-at-tahawiyyah (Ibn Abi al-Izz; site has Adani's) — الجامي — UNSURE — 75 tapes (alathar), 91 files/69.4 h — https://archive.org/details/abo-sarh-66 (another upload says it starts at the end of the shafa'ah section: partial copy)
+- al-usul-as-sittah — الجامي — INCOMPLETE/UNSURE — 8 files, 2.7 h — https://archive.org/details/el-asl-5
+- al-qawaid-al-arba — الجامي — INCOMPLETE — one lesson only — https://archive.org/details/1_20260316_20260316_0602
+- al-arbain (Nawawi) — الجامي — UNSURE — item exists (khaled_alridwany_03_201410), server timed out, not examined
+
+### صالح بن عبد الله الحديثي (Haram courses; creator field on archive.org confirms the name)
+- kitab-at-tawhid — الحديثي — COMPLETE (likely; three full yearly courses at the Haram) — 64 lessons/55.6 h (1433-34), 61/56.8 h (1434-35), 58/52.5 h (1435-36) — https://archive.org/details/Sharh_Kitab_Tawheed_1433-1434h ; https://archive.org/details/Sharh_Kitab_Tawheed_1434-1435h ; https://archive.org/details/Sharh_Kitab_Tawheed_1435-1436h — each is a full-year course; chapter coverage not checked
+- riyad-as-salihin — الحديثي — UNSURE — 224 lessons, 187.8 h — https://archive.org/details/Sharh_Riyad_Saliheen — long, may not reach the end of the book
+- al-arbain — الحديثي — UNSURE (likely complete) — 27 lessons, 24.6 h — https://archive.org/details/Sharh__40_Nawawiya
+- adab-al-mashy — الحديثي — UNSURE (likely complete) — 46 lessons, 38.2 h — https://archive.org/details/sharh_kitab_adab_almashi_ila_salah
+- fadl-al-islam — الحديثي — UNSURE (likely complete, short book) — 10 lessons, 8.9 h — https://archive.org/details/Sharh__Fadhl_Islam
+- shurut-as-salah — الحديثي — UNSURE (likely complete, short book) — 4 lessons, 3.9 h — https://archive.org/details/Sharh_Risalat_Shourout_Salah
+- al-qawaid-al-arba — الحديثي — UNSURE (likely complete, short book) — 4 lessons, 3.6 h — https://archive.org/details/Sharh_Qwaeed_4
+- at-tahqiq-wal-idah — الحديثي — UNSURE — 10 lessons, 9.6 h — https://archive.org/details/Sharh_tahkik_w_idah
+- bulugh-al-maram — الحديثي — UNSURE — "شرح متعدد لبلوغ المرام" index item (links to the Haram site, no files on archive) — https://archive.org/details/hodaithee-boloog
+- (other, not a site book: الدروس المهمة 22 lessons/20.4 h; تفسير الفاتحة 2 lessons)
+
+### عبد الله بن صالح القصير
+- kitab-at-tawhid — القصير — UNSURE (probably near the end) — 70 files, 71.4 h, 1439 to 1443 H; last file is on "باب ما جاء في ذمة الله وذمة رسوله" (one of the last chapters) — https://archive.org/details/islami-876_202601
+- al-aqidah-al-wasitiyyah — القصير — UNSURE/INCOMPLETE — "الفوائد السنية" 14 lessons, 17.1 h (comments, not a line-by-line course) — https://archive.org/details/islami-667_202507
+- sharh-at-tahawiyyah — القصير — INCOMPLETE (likely) — 8 lessons, 8.8 h — https://archive.org/details/islami-509_202506 (same: 2_20240817_20240817_1726)
+- al-arbain — القصير — INCOMPLETE (likely) — 14 files, 6.4 h of selected topics — https://archive.org/details/islami-257_202505
+- al-usul-as-sittah — القصير — UNSURE (likely complete) — single session "في مجلس واحد", 2.0 h (another 1.4 h) — https://archive.org/details/tefla_1_hotmail_1435 ; https://archive.org/details/tefla_1_hotmail_201809
+- sittat-mawadi-as-seerah — القصير — UNSURE (likely complete) — single session, 0.8 h — https://archive.org/details/tefla_1_hotmail
+- (not a site book: التعليق على شرح السنة للمزني, one session 2.4 h, sakir-mozani)
+
+### علي بن السيد الوصيفي
+- lumat-al-itiqad — الوصيفي — INCOMPLETE — about 9 dated lessons (2013-2014), 12 h; not the whole book — https://archive.org/details/14-6_20240721
+- (not a site book: شرح الشريعة للآجري, 37 lessons, about 40 h, same item; may be worth adding if wanted)
+- Nothing else: no Tahawiyyah or other sharh found.
+
+### عبد السلام بن برجس آل عبد الكريم
+- no recorded sharh of any site book found. Only his own book المعتقد الصحيح (not on the site), explained by other shaykhs (e.g. al-Suhaymi, still ongoing).
+
+Checked with nothing found: archive.org (title/creator searches for Burjes, Wasifi), alathar.net catalog (Jami tape counts only), web search for miraath.net / mimham.net (no usable results; miraath scholar pages not reachable by guessed URLs), YouTube not searched.
