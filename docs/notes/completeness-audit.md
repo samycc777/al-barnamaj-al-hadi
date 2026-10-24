@@ -43,7 +43,7 @@ End heard: iqtida-as-sirat, ar-radd-ala-al-jahmiyyah, al-haiyyah, lumat-al-itiqa
 al-muwatta («آخر حديث أورده مالك»), shurut-as-salah, ikhtisar-ulum-al-hadith, tafsir-al-muyassar, ad-daa-wad-dawaa, durus-al-balaghah
 (براعة الاختتام, the book's closing line), sharh-as-sudur, al-arbain, riyad-as-salihin (last chapter, رؤية الله), adab-al-mashy (title «إلى آخر الكتاب»).
 Reaches the last section: sarih-as-sunnah-at-tabari, usul-as-sunnah-al-humaydi, nawaqid-al-islam (10th), hilyat-talib-al-ilm («نختم الكتاب»).
-Not confirmable (Q&A, noise or silence at the end; lesson numbering has no gap): usul-wa-qawaid-jabiri, mafhum-as-salafiyyah,
+Not confirmable (Q&A, noise or silence at the end; lesson numbering has no gap): mafhum-as-salafiyyah,
 usul-al-aqaid-ad-diniyyah, usul-as-sunnah-ahmad (silent end), itiqad-ahl-al-hadith, usul-as-sunnah-ibn-abi-zamanin, at-tawassul-wal-wasilah,
 usul-al-iman, muqaddimat-al-majmu, qawaid-al-usul, manzumat-al-qawaid-al-fiqhiyyah, al-qawaid-wal-usul-al-jamiah, qatr-an-nada,
 al-ajurrumiyyah-kouni, mutammimat-al-ajurrumiyyah, unwan-az-zarf, al-wabil-as-sayyib.
@@ -57,7 +57,8 @@ al-ajurrumiyyah-kouni, mutammimat-al-ajurrumiyyah, unwan-az-zarf, al-wabil-as-sa
   al-wabil-as-sayyib (last duʿāʾs, then Q&A; Ibn Baz reads selected fusūl), usul-al-iman (last ḥadīth on التجوّز في القول; the file stops
   mid-comment), qatr-an-nada (lesson 23: همزة الوصل and the author's closing duʿāʾ; 24 is a closing talk on the Arabic sciences).
 - Not finished in the recordings: usul-as-sunnah-ibn-abi-zamanin (tape 25 stops mid-sentence in باب خروج الدجال), qawaid-al-usul
-  (lesson 14 ends in القياس, then Q&A), usul-wa-qawaid-jabiri (tape 2 stops just as the list of beliefs begins).
+  (lesson 14 ends in القياس, then Q&A).
+- usul-wa-qawaid-jabiri: complete; the cut «list of beliefs» was the tape's filler by another speaker, now trimmed (book-sources.md).
 - muqaddimat-al-majmu: a selection («منتقى مما كتبه النووي»): lesson 1 opens on the last words of his intro (first seconds missing),
   then reading starts at «فصل في الإخلاص والصدق وإحضار النية», not the book's start; lesson 12 ends on the فصل about ʿAmr b. Shuʿayb, then the same tape goes on
   with al-Shawkānī's رفع الأساطين (~16 min, left in place). usul-as-sunnah-ahmad: poor transcript, ends normally with Q&A.

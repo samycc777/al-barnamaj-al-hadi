@@ -70,3 +70,4 @@ The brother (Zayd bin Ibrahim al-Jazairi, runs the programme; the user says "the
 
 ## Mistakes to avoid
 - Before calling a lesson missing, check the book's extra/R2 lessons and `docs/notes/` (the Sa'di gaps were already filled), and compare a "found" recording with the neighbouring lessons (Nasa'i's YouTube "lesson 8" was 048009 again).
+- A tape that seems cut at its end may be the publisher's filler (after «انتهت مادة هذا الشريط» or the host's closing): listen to the minutes before the cut before calling it incomplete, and trim the filler.
