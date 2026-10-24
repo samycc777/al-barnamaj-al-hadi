@@ -302,12 +302,9 @@ function lessonRow(l) {
 function choice(c, it) {
   const all = commentaries(c, it);
   if (all.length < 2) return '';
-  return `<nav class="variants" aria-label="الشروح"><span class="variants-label">الشروح:</span>${all.map((x) => {
-    const inner = `<span class="variant-name">${txt(x.note)}</span><span class="variant-count">عدد الدروس: ${lessonCount(lessonsOf(x))}</span>`;
-    return x === it
-      ? `<span class="variant active" aria-current="page">${inner}</span>`
-      : `<a class="variant" href="/${c.slug}/${x.slug}/">${inner}</a>`;
-  }).join('')}</nav>`;
+  return `<nav class="variants" aria-label="الشروح"><span class="variants-label">الشروح:</span><ul>${all.map((x) => x === it
+    ? `<li><span class="variant active" aria-current="page">${txt(x.note)}</span></li>`
+    : `<li><a class="variant" href="/${c.slug}/${x.slug}/">${txt(x.note)}</a></li>`).join('')}</ul></nav>`;
 }
 
 // One page per book: its chapters and lessons, each playable here. The audio
