@@ -176,7 +176,7 @@ export const categories = [
   },
   {
     slug: 'usul-al-fiqh', name: 'أصول وقواعد الفقه', icon: 'columns', items: [
-      { title: 'شرح منظومة القواعد الفقهية للإمام عبد الرحمن بن ناصر السعدي (ت 1376هـ)', type: 'audio', slug: 'manzumat-al-qawaid-al-fiqhiyyah', note: 'فضيلة الشيخ العلامة عبيد بن عبد الله بن سليمان الحمداني الجابري (ت 1444هـ)' },
+      { title: 'شرح منظومة القواعد الفقهية للإمام عبد الرحمن بن ناصر السعدي (ت 1376هـ)', type: 'audio', slug: 'manzumat-al-qawaid-al-fiqhiyyah', fix: { 7: { audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/manzumat-al-qawaid-al-fiqhiyyah/07.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/manzumat-al-qawaid-al-fiqhiyyah/07.mp3', size: '2.2 MB' } }, note: 'فضيلة الشيخ العلامة عبيد بن عبد الله بن سليمان الحمداني الجابري (ت 1444هـ)' },
       { title: 'شرح القواعد والأصول الجامعة والفروق والتقاسيم البديعة النافعة للإمام عبد الرحمن بن ناصر السعدي (ت 1376هـ)', type: 'audio', slug: 'al-qawaid-wal-usul-al-jamiah', source: 'https://miraath.net/%d8%b4%d8%b1%d8%ad-%d8%a7%d9%84%d9%82%d9%88%d8%a7%d8%b9%d8%af-%d9%88%d8%a7%d9%84%d8%a3%d8%b5%d9%88%d9%84-%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a9-%d9%88%d8%a7%d9%84%d9%81%d8%b1%d9%88%d9%82-%d9%88/', note: 'فضيلة الشيخ العلامة عبيد بن عبد الله بن سليمان الحمداني الجابري (ت 1444هـ)' },
       { title: 'شرح الأصول من علم الأصول', type: 'audio', slug: 'al-usul-min-ilm-al-usul', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين (ت 1421هـ)' },
       { title: 'شرح منظومة أصول الفقه وقواعده', type: 'audio', slug: 'manzumat-usul-al-fiqh', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين (ت 1421هـ)' },

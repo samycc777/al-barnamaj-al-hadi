@@ -47,3 +47,17 @@ Not confirmable (Q&A, noise or silence at the end; lesson numbering has no gap):
 usul-al-aqaid-ad-diniyyah, usul-as-sunnah-ahmad (silent end), itiqad-ahl-al-hadith, usul-as-sunnah-ibn-abi-zamanin, at-tawassul-wal-wasilah,
 usul-al-iman, muqaddimat-al-majmu, qawaid-al-usul, manzumat-al-qawaid-al-fiqhiyyah, al-qawaid-wal-usul-al-jamiah, qatr-an-nada,
 al-ajurrumiyyah-kouni, mutammimat-al-ajurrumiyyah, unwan-az-zarf, al-wabil-as-sayyib.
+
+## Whisper round 3 (start of lesson 1, part before the Q&A of the last lesson)
+- Book's end reached: mafhum-as-salafiyyah, usul-al-aqaid-ad-diniyyah, al-ajurrumiyyah-kouni (both courses), unwan-az-zarf,
+  mutammimat-al-ajurrumiyyah (باب الوقف, closing advice), manzumat-al-qawaid-al-fiqhiyyah (closing verses; the tape's filler,
+  Ubayd's كشف الشبهات, cut off lesson 7 → R2 `manzumat-al-qawaid-al-fiqhiyyah/07.mp3`, `fix` in content.mjs),
+  al-qawaid-wal-usul-al-jamiah («القاعدة الستون هي الأخيرة»), itiqad-ahl-al-hadith (closing words), ijma-as-salaf-al-kirmani
+  (book finished; lesson 1 opens with his own intro on ijmāʿ), at-tawassul-wal-wasilah (book's first words; closing praise of the book),
+  al-wabil-as-sayyib (last duʿāʾs, then Q&A; Ibn Baz reads selected fusūl), usul-al-iman (last ḥadīth on التجوّز في القول; the file stops
+  mid-comment).
+- Not finished in the recordings: usul-as-sunnah-ibn-abi-zamanin (tape 25 stops mid-sentence in باب خروج الدجال), qawaid-al-usul
+  (lesson 14 ends in القياس, then Q&A), usul-wa-qawaid-jabiri (tape 2 stops just as the list of beliefs begins).
+- muqaddimat-al-majmu: lesson 1 starts mid-sentence; lesson 12 ends on the فصل about ʿAmr b. Shuʿayb, then the same tape goes on
+  with al-Shawkānī's رفع الأساطين (~16 min, left in place). usul-as-sunnah-ahmad: poor transcript, ends normally with Q&A.
+- Seerah start: fawaid_03 files 01–06 are the editor's introduction, not the book; the book starts at file 07.
