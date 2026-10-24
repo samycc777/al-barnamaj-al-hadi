@@ -49,6 +49,7 @@ for (const { it } of books) {
     if (!l.title || !/^https:\/\/(.+\.mp3|www\.mimham\.net\/aud[a-z]+-[\d-]+)$/i.test(l.audio)) fail(`${f}: a lesson has no title or audio address`);
   }
 }
+for (const { c, it } of books) if (it.variantOf && !itemsOf(c).some((x) => x.slug === it.variantOf && !x.variantOf)) fail(`${it.slug}: variantOf names no book of ${c.name}`);
 const bookSlugs = books.map(({ c, it }) => `${c.slug}/${it.slug}`);
 if (new Set(bookSlugs).size !== bookSlugs.length) fail('two books share the same slug');
 

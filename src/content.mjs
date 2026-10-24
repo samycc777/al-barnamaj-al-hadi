@@ -21,6 +21,9 @@
 //                      `npm run import` leaves them out
 //   fix                { <lesson number>: { field: value } } for fields the
 //                      source has wrong (a broken download link)
+//   variantOf          another shaykh's commentary on the same book: the first
+//                      one's slug. Put it right after that item; the category
+//                      lists the book once and each page offers the choice.
 //   warning            text of a «تنبيه:» box on the book's page: what the
 //                      shaykh did not explain or what no recording has
 //
@@ -80,6 +83,7 @@ export const categories = [
         { title: 'شرح فتح المجيد شرح كتاب التوحيد للإمام عبد الرحمن بن حسن بن محمد بن عبد الوهاب التميمي (ت 1285هـ)', type: 'audio', slug: 'fath-al-majid-adani', note: 'فضيلة الشيخ ياسين بن علي الحوشبي العدني (ت 1439هـ)' },
         { title: 'شرح مسائل الجاهلية', type: 'audio', slug: 'masail-al-jahiliyyah', note: 'فضيلة الشيخ العلامة صالح بن فوزان بن عبد الله الفوزان' },
         { title: 'شرح أصول الإيمان', type: 'audio', slug: 'usul-al-iman', warning: 'ينقطع تسجيل الدرس الأخير في أثناء التعليق على آخر حديث في الكتاب: «أمرت أن أتجوز في القول»، ولم توجد نسخة أكمل منه.', note: 'فضيلة الشيخ العلامة زيد بن محمد بن هادي المدخلي (ت 1435هـ)' },
+        { title: 'شرح أصول الإيمان', type: 'audio', slug: 'usul-al-iman-fawzan', variantOf: 'usul-al-iman', note: 'فضيلة الشيخ العلامة صالح بن فوزان بن عبد الله الفوزان' },
         { title: 'شرح كتاب الكبائر', type: 'audio', slug: 'al-kabair', note: 'فضيلة الشيخ العلامة علي بن محمد بن ناصر الفقيهي (ت 1446هـ)' },
         { title: 'شرح كتاب الفتن والحوادث', type: 'audio', slug: 'al-fitan-wal-hawadith', warning: 'توقف شرح الشيخ عند باب قصة الجساسة، ولم يشرح ما بعده إلى آخر الكتاب، ومنه: نزول عيسى عليه السلام، وما جاء في المهدي، وخروج الدابة.', note: 'فضيلة الشيخ العلامة صالح بن فوزان بن عبد الله الفوزان' },
         ],
@@ -137,6 +141,7 @@ export const categories = [
       { title: 'شرح الأربعين في مباني الإسلام وقواعد الأحكام للإمام النووي (ت 676هـ)', type: 'audio', slug: 'al-arbain', source: 'https://al-abbaad.com/lecture/hadith/arbain-annawawi?type=files', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد البدر' },
       { title: 'شرح الأربعين وتتمة الخمسين للإمامين النووي (ت 676هـ) وابن رجب (ت 795هـ)', type: 'audio', slug: 'fath-al-qawi', source: 'https://al-abbaad.com/lecture/hadith/fathul-qowiy?type=files', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد البدر' },
       { title: 'شرح عمدة الأحكام من كلام خير الأنام ﷺ للإمام عبد الغني المقدسي (ت 600هـ)', type: 'audio', slug: 'umdat-al-ahkam', source: 'https://al-abbaad.com/lecture/hadith/umadtul-ahkam?type=dir', warning: 'لم يُشرح في الدروس المسجلة باب صدقة الفطر (حديثان)، في آخر كتاب الزكاة.', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد البدر' },
+      { title: 'شرح عمدة الأحكام من كلام خير الأنام ﷺ للإمام عبد الغني المقدسي (ت 600هـ)', type: 'audio', slug: 'umdat-al-ahkam-fawzan', variantOf: 'umdat-al-ahkam', note: 'فضيلة الشيخ العلامة صالح بن فوزان بن عبد الله الفوزان' },
       { title: 'شرح بلوغ المرام من أدلة الأحكام للإمام ابن حجر العسقلاني (ت 852هـ)', type: 'audio', slug: 'bulugh-al-maram', source: 'https://al-abbaad.com/lecture/hadith/bulugh-almaram?type=dir', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد البدر' },
       { title: 'كيفية الاستفادة من كتب الحديث', type: 'audio', audio: 'https://al-abbaad.com/jdownloads/muhadharah/kaifiyah-alistifadah-min-kutub-alhadith.mp3', download: 'https://al-abbaad.com/download/?type=audio&ids=243742', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد البدر' },
       { title: 'شرح الموطأ للإمام مالك بن أنس الحميري المدني (ت 179هـ)', type: 'audio', slug: 'al-muwatta', source: 'https://al-abbaad.com/lecture/hadith/sharh-almuwatto?type=files', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد البدر' },

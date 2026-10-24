@@ -234,6 +234,7 @@ main.container { padding: 28px 0 40px; }
 .paren { display: inline-block; }
 .row-meta { font-size: 13px; color: var(--muted); display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
 .row-meta a { color: var(--link-soft); }
+.notes { display: flex; flex-direction: column; gap: 2px; }
 .dot { width: 4px; height: 4px; border-radius: 50%; background: var(--dot); display: inline-block; }
 .round-btn {
   width: 38px; height: 38px; border-radius: 50%; display: grid; place-items: center; flex: none;
@@ -276,7 +277,13 @@ main.container { padding: 28px 0 40px; }
 .book-head { margin: -18px -18px 0; padding: 12px 18px; border-bottom: 1px solid var(--row-line); display: flex; flex-wrap: wrap; align-items: center; gap: 6px 16px; font-size: 14px; }
 .crumb::before { content: "‹ "; }
 .book-note { color: var(--ink-2); flex: 1; }
-.book-head + .rows, .book-warning + .rows { margin-top: 0; }
+.book-head + .rows, .book-warning + .rows, .variants + .rows { margin-top: 0; }
+.variants { margin: 0 -18px; padding: 12px 18px; border-bottom: 1px solid var(--row-line); display: flex; flex-wrap: wrap; align-items: stretch; gap: 8px 10px; font-size: 14px; }
+.variants-label { flex-basis: 100%; font-weight: 700; color: var(--brown-3); }
+.variant { flex: 1 1 220px; display: flex; flex-direction: column; gap: 2px; padding: 9px 12px; border: 1px solid var(--line); border-radius: 10px; color: var(--ink); text-decoration: none; background: var(--cream-2); }
+a.variant:hover { border-color: var(--gold); }
+.variant.active { border: 2px solid var(--brown-3); padding: 8px 11px; background: transparent; }
+.variant-count { font-size: 13px; color: var(--muted); }
 .book-warning { margin: 0 -18px; padding: 10px 18px; border-bottom: 1px solid var(--row-line); background: var(--warn-bg); color: var(--ink); font-size: 14px; line-height: 1.8; }
 .book-warning b { color: var(--warn-ink); }
 .chapter { margin: 0 -18px; border-bottom: 1px solid var(--line); }

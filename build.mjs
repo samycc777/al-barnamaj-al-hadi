@@ -100,14 +100,27 @@ const TYPE = {
 const lessonsOf = (it) => JSON.parse(readFileSync(`src/lessons/${it.slug}.json`, 'utf8'));
 const lessonCount = (book) => book.chapters.reduce((n, c) => n + c.lessons.length, 0);
 
+// Another shaykh's commentary on the same book is its own item, right after
+// the first, with `variantOf: '<first one's slug>'`. The category lists the
+// book once; each commentary's page lets the visitor switch between them.
+const listed = (items) => items.filter((it) => !it.variantOf);
+const commentaries = (c, it) => {
+  const first = it.variantOf || it.slug;
+  return itemsOf(c).filter((x) => x.slug && (x.slug === first || x.variantOf === first));
+};
+
 function itemRow(it, c) {
   const t = TYPE[it.type] || TYPE.link;
   const book = it.slug && lessonsOf(it);
-  const meta = [
+  const all = book ? commentaries(c, it) : [];
+  const meta = (all.length > 1 ? [
+    `<span>عدد الشروح: ${all.length}</span>`,
+    `<span class="notes">${all.map((x) => `<span>${txt(x.note)}</span>`).join('')}</span>`,
+  ] : [
     book && `<span>عدد الدروس: ${lessonCount(book)}</span>`,
     it.date && `<span>${esc(it.date)}</span>`,
     it.note && `<span>${txt(it.note)}</span>`,
-  ].filter(Boolean).join('<i class="dot"></i>');
+  ]).filter(Boolean).join('<i class="dot"></i>');
   const btn = book
     ? `<a class="round-btn" href="/${c.slug}/${it.slug}/" title="الدروس" aria-label="الدروس">${icon('chevron')}</a>`
     : it.audio
@@ -260,9 +273,9 @@ const PLAYER = () => `<div class="player" hidden>
 // branch like النحو) as a foldable group, closed until tapped.
 function categoryPage(c) {
   startPage([c.name, `/${c.slug}/`, '', 0]);
-  const rows = (items) => `<ul class="rows">${items.map((it) => itemRow(it, c)).join('')}</ul>`;
+  const rows = (items) => `<ul class="rows">${listed(items).map((it) => itemRow(it, c)).join('')}</ul>`;
   const body = (c.items.length ? rows(c.items) : '') + (c.sections || []).map((s) => (startChapter(s.title), `<details class="chapter">
-        <summary><h3>${txt(s.title)}</h3><span class="count">${s.items.length}</span></summary>
+        <summary><h3>${txt(s.title)}</h3><span class="count">${listed(s.items).length}</span></summary>
         ${rows(s.items)}
       </details>`)).join('');
   return layout({ title: c.name, active: c.slug, path: `/${c.slug}/`, main: panel(c.name, c.icon, body), extra: itemsOf(c).some((it) => it.audio) ? PLAYER() : '' });
@@ -284,6 +297,19 @@ function lessonRow(l) {
     </li>`;
 }
 
+// The commentaries of this page's book, this one marked: tapping another
+// opens its page.
+function choice(c, it) {
+  const all = commentaries(c, it);
+  if (all.length < 2) return '';
+  return `<nav class="variants" aria-label="الشروح"><span class="variants-label">الشروح:</span>${all.map((x) => {
+    const inner = `<span class="variant-name">${txt(x.note)}</span><span class="variant-count">عدد الدروس: ${lessonCount(lessonsOf(x))}</span>`;
+    return x === it
+      ? `<span class="variant active" aria-current="page">${inner}</span>`
+      : `<a class="variant" href="/${c.slug}/${x.slug}/">${inner}</a>`;
+  }).join('')}</nav>`;
+}
+
 // One page per book: its chapters and lessons, each playable here. The audio
 // streams from the Shaykh's site.
 function bookPage(c, it) {
@@ -299,7 +325,7 @@ function bookPage(c, it) {
   const head = `<div class="book-head">
       <a class="crumb" href="/${c.slug}/">${esc(c.name)}</a>
       ${it.note ? `<div class="book-note">${txt(it.note)}</div>` : ''}
-    </div>${it.warning ? `<p class="book-warning"><b>تنبيه:</b> ${txt(it.warning)}</p>` : ''}`;
+    </div>${choice(c, it)}${it.warning ? `<p class="book-warning"><b>تنبيه:</b> ${txt(it.warning)}</p>` : ''}`;
 
   return layout({ title: it.title, active: c.slug, path: `/${c.slug}/${it.slug}/`, main: panel(it.title, c.icon, head + body), extra: PLAYER(), description: [it.title, it.note].filter(Boolean).join(' — ') });
 }

@@ -1,0 +1,591 @@
+{
+  "chapters": [
+    {
+      "title": "كتاب الطهارة",
+      "lessons": [
+        {
+          "n": 1,
+          "title": "كتاب الطهارة (1)",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/001.mp3",
+          "download": "https://archive.org/download/063_20210818/001.mp3",
+          "size": "15.0 MB"
+        },
+        {
+          "n": 2,
+          "title": "كتاب الطهارة (2)",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/002.mp3",
+          "download": "https://archive.org/download/063_20210818/002.mp3",
+          "size": "14.7 MB"
+        },
+        {
+          "n": 3,
+          "title": "كتاب الطهارة (3)",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/003.mp3",
+          "download": "https://archive.org/download/063_20210818/003.mp3",
+          "size": "14.8 MB"
+        },
+        {
+          "n": 4,
+          "title": "باب دخول الخلاء والاستطابة",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/004.mp3",
+          "download": "https://archive.org/download/063_20210818/004.mp3",
+          "size": "14.3 MB"
+        },
+        {
+          "n": 5,
+          "title": "باب السواك والمسح على الخفين",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/005.mp3",
+          "download": "https://archive.org/download/063_20210818/005.mp3",
+          "size": "14.8 MB"
+        },
+        {
+          "n": 6,
+          "title": "كتاب الطهارة (6)",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/006.mp3",
+          "download": "https://archive.org/download/063_20210818/006.mp3",
+          "size": "17.1 MB"
+        },
+        {
+          "n": 7,
+          "title": "باب الغسل من الجنابة",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/007.mp3",
+          "download": "https://archive.org/download/063_20210818/007.mp3",
+          "size": "14.6 MB"
+        },
+        {
+          "n": 8,
+          "title": "كتاب الطهارة (8)",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/008.mp3",
+          "download": "https://archive.org/download/063_20210818/008.mp3",
+          "size": "15.4 MB"
+        },
+        {
+          "n": 9,
+          "title": "باب الحيض",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/009.mp3",
+          "download": "https://archive.org/download/063_20210818/009.mp3",
+          "size": "14.3 MB"
+        }
+      ]
+    },
+    {
+      "title": "كتاب الصلاة",
+      "lessons": [
+        {
+          "n": 10,
+          "title": "باب المواقيت",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/010.mp3",
+          "download": "https://archive.org/download/063_20210818/010.mp3",
+          "size": "12.8 MB"
+        },
+        {
+          "n": 11,
+          "title": "تابع باب المواقيت",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/011.mp3",
+          "download": "https://archive.org/download/063_20210818/011.mp3",
+          "size": "9.7 MB"
+        },
+        {
+          "n": 12,
+          "title": "باب صلاة الجماعة",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/012.mp3",
+          "download": "https://archive.org/download/063_20210818/012.mp3",
+          "size": "15.5 MB"
+        },
+        {
+          "n": 13,
+          "title": "باب الأذان",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/013.mp3",
+          "download": "https://archive.org/download/063_20210818/013.mp3",
+          "size": "14.8 MB"
+        },
+        {
+          "n": 14,
+          "title": "باب القبلة",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/014.mp3",
+          "download": "https://archive.org/download/063_20210818/014.mp3",
+          "size": "17.1 MB"
+        },
+        {
+          "n": 15,
+          "title": "باب الإمامة",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/015.mp3",
+          "download": "https://archive.org/download/063_20210818/015.mp3",
+          "size": "15.7 MB"
+        },
+        {
+          "n": 16,
+          "title": "باب صفة الصلاة (1)",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/016.mp3",
+          "download": "https://archive.org/download/063_20210818/016.mp3",
+          "size": "15.9 MB"
+        },
+        {
+          "n": 17,
+          "title": "باب صفة الصلاة (2)",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/017.mp3",
+          "download": "https://archive.org/download/063_20210818/017.mp3",
+          "size": "15.8 MB"
+        },
+        {
+          "n": 18,
+          "title": "باب صفة الصلاة (3)",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/018.mp3",
+          "download": "https://archive.org/download/063_20210818/018.mp3",
+          "size": "12.4 MB"
+        },
+        {
+          "n": 19,
+          "title": "كتاب الصلاة",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/019.mp3",
+          "download": "https://archive.org/download/063_20210818/019.mp3",
+          "size": "12.9 MB"
+        },
+        {
+          "n": 20,
+          "title": "الوتر وذكر الصلاة",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/020.mp3",
+          "download": "https://archive.org/download/063_20210818/020.mp3",
+          "size": "11.6 MB"
+        },
+        {
+          "n": 21,
+          "title": "الجمعة والسفر",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/021.mp3",
+          "download": "https://archive.org/download/063_20210818/021.mp3",
+          "size": "16.8 MB"
+        },
+        {
+          "n": 22,
+          "title": "باب صلاة العيدين",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/022.mp3",
+          "download": "https://archive.org/download/063_20210818/022.mp3",
+          "size": "12.9 MB"
+        },
+        {
+          "n": 23,
+          "title": "باب صلاة الكسوف",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/023.mp3",
+          "download": "https://archive.org/download/063_20210818/023.mp3",
+          "size": "10.6 MB"
+        },
+        {
+          "n": 24,
+          "title": "الاستسقاء والخوف",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/024.mp3",
+          "download": "https://archive.org/download/063_20210818/024.mp3",
+          "size": "17.0 MB"
+        }
+      ]
+    },
+    {
+      "title": "كتاب الجنائز",
+      "lessons": [
+        {
+          "n": 25,
+          "title": "باب صلاة الجنائز (1)",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/025.mp3",
+          "download": "https://archive.org/download/063_20210818/025.mp3",
+          "size": "12.6 MB"
+        },
+        {
+          "n": 26,
+          "title": "باب صلاة الجنائز (2)",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/026.mp3",
+          "download": "https://archive.org/download/063_20210818/026.mp3",
+          "size": "12.4 MB"
+        }
+      ]
+    },
+    {
+      "title": "كتاب الزكاة",
+      "lessons": [
+        {
+          "n": 27,
+          "title": "كتاب الزكاة (1)",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/027.mp3",
+          "download": "https://archive.org/download/063_20210818/027.mp3",
+          "size": "12.2 MB"
+        },
+        {
+          "n": 28,
+          "title": "كتاب الزكاة (2)",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/028.mp3",
+          "download": "https://archive.org/download/063_20210818/028.mp3",
+          "size": "16.1 MB"
+        }
+      ]
+    },
+    {
+      "title": "كتاب الصيام",
+      "lessons": [
+        {
+          "n": 29,
+          "title": "كتاب الصيام (1)",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/029.mp3",
+          "download": "https://archive.org/download/063_20210818/029.mp3",
+          "size": "14.5 MB"
+        },
+        {
+          "n": 30,
+          "title": "كتاب الصيام (2)",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/030.mp3",
+          "download": "https://archive.org/download/063_20210818/030.mp3",
+          "size": "11.4 MB"
+        },
+        {
+          "n": 31,
+          "title": "كتاب الصيام (3) – أفضل الصيام",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/031.mp3",
+          "download": "https://archive.org/download/063_20210818/031.mp3",
+          "size": "14.2 MB"
+        },
+        {
+          "n": 32,
+          "title": "كتاب الصيام (4) – باب الاعتكاف",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/032.mp3",
+          "download": "https://archive.org/download/063_20210818/032.mp3",
+          "size": "7.4 MB"
+        }
+      ]
+    },
+    {
+      "title": "كتاب الحج",
+      "lessons": [
+        {
+          "n": 33,
+          "title": "كتاب الحج",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/033.mp3",
+          "download": "https://archive.org/download/063_20210818/033.mp3",
+          "size": "13.8 MB"
+        },
+        {
+          "n": 34,
+          "title": "الفدية وحرمة مكة",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/034.mp3",
+          "download": "https://archive.org/download/063_20210818/034.mp3",
+          "size": "10.9 MB"
+        },
+        {
+          "n": 35,
+          "title": "باب دخول مكة",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/035.mp3",
+          "download": "https://archive.org/download/063_20210818/035.mp3",
+          "size": "14.1 MB"
+        },
+        {
+          "n": 36,
+          "title": "التمتع والهدي",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/036.mp3",
+          "download": "https://archive.org/download/063_20210818/036.mp3",
+          "size": "13.5 MB"
+        },
+        {
+          "n": 37,
+          "title": "الغسل للمحرم",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/037.mp3",
+          "download": "https://archive.org/download/063_20210818/037.mp3",
+          "size": "12.6 MB"
+        },
+        {
+          "n": 38,
+          "title": "فسخ الحج إلى العمرة",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/038.mp3",
+          "download": "https://archive.org/download/063_20210818/038.mp3",
+          "size": "12.8 MB"
+        }
+      ]
+    },
+    {
+      "title": "كتاب البيوع",
+      "lessons": [
+        {
+          "n": 39,
+          "title": "كتاب البيوع (1)",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/039.mp3",
+          "download": "https://archive.org/download/063_20210818/039.mp3",
+          "size": "11.2 MB"
+        },
+        {
+          "n": 40,
+          "title": "كتاب البيوع (2)",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/040.mp3",
+          "download": "https://archive.org/download/063_20210818/040.mp3",
+          "size": "12.7 MB"
+        },
+        {
+          "n": 41,
+          "title": "كتاب البيوع (3)",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/041.mp3",
+          "download": "https://archive.org/download/063_20210818/041.mp3",
+          "size": "12.4 MB"
+        },
+        {
+          "n": 42,
+          "title": "كتاب البيوع (4) – الربا والصرف",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/042.mp3",
+          "download": "https://archive.org/download/063_20210818/042.mp3",
+          "size": "11.2 MB"
+        },
+        {
+          "n": 43,
+          "title": "كتاب البيوع (5) – الرهن",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/043.mp3",
+          "download": "https://archive.org/download/063_20210818/043.mp3",
+          "size": "10.8 MB"
+        },
+        {
+          "n": 44,
+          "title": "كتاب البيوع (6)",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/044.mp3",
+          "download": "https://archive.org/download/063_20210818/044.mp3",
+          "size": "11.8 MB"
+        },
+        {
+          "n": 45,
+          "title": "كتاب الفرائض",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/045.mp3",
+          "download": "https://archive.org/download/063_20210818/045.mp3",
+          "size": "13.4 MB"
+        }
+      ]
+    },
+    {
+      "title": "كتاب النكاح",
+      "lessons": [
+        {
+          "n": 46,
+          "title": "باب النكاح (1)",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/046.mp3",
+          "download": "https://archive.org/download/063_20210818/046.mp3",
+          "size": "11.1 MB"
+        },
+        {
+          "n": 47,
+          "title": "باب النكاح (2)",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/047.mp3",
+          "download": "https://archive.org/download/063_20210818/047.mp3",
+          "size": "13.7 MB"
+        }
+      ]
+    },
+    {
+      "title": "كتاب الطلاق",
+      "lessons": [
+        {
+          "n": 48,
+          "title": "كتاب الطلاق",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/048.mp3",
+          "download": "https://archive.org/download/063_20210818/048.mp3",
+          "size": "11.5 MB"
+        }
+      ]
+    },
+    {
+      "title": "كتاب اللعان",
+      "lessons": [
+        {
+          "n": 49,
+          "title": "اللعان – الرضاع (1)",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/049.mp3",
+          "download": "https://archive.org/download/063_20210818/049.mp3",
+          "size": "10.8 MB"
+        },
+        {
+          "n": 50,
+          "title": "اللعان – الرضاع (2)",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/050.mp3",
+          "download": "https://archive.org/download/063_20210818/050.mp3",
+          "size": "12.8 MB"
+        },
+        {
+          "n": 51,
+          "title": "اللعان – الرضاع (3)",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/051.mp3",
+          "download": "https://archive.org/download/063_20210818/051.mp3",
+          "size": "6.3 MB"
+        }
+      ]
+    },
+    {
+      "title": "كتاب القصاص",
+      "lessons": [
+        {
+          "n": 52,
+          "title": "كتاب القصاص",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/052.mp3",
+          "download": "https://archive.org/download/063_20210818/052.mp3",
+          "size": "11.5 MB"
+        }
+      ]
+    },
+    {
+      "title": "كتاب الحدود",
+      "lessons": [
+        {
+          "n": 53,
+          "title": "الحدود (1)",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/053.mp3",
+          "download": "https://archive.org/download/063_20210818/053.mp3",
+          "size": "11.8 MB"
+        },
+        {
+          "n": 54,
+          "title": "الحدود (2)",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/054.mp3",
+          "download": "https://archive.org/download/063_20210818/054.mp3",
+          "size": "12.0 MB"
+        },
+        {
+          "n": 55,
+          "title": "باب حد الخمر",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/055.mp3",
+          "download": "https://archive.org/download/063_20210818/055.mp3",
+          "size": "11.2 MB"
+        }
+      ]
+    },
+    {
+      "title": "كتاب الأيمان والنذور",
+      "lessons": [
+        {
+          "n": 56,
+          "title": "الأيمان والنذور",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/056.mp3",
+          "download": "https://archive.org/download/063_20210818/056.mp3",
+          "size": "17.0 MB"
+        },
+        {
+          "n": 57,
+          "title": "النذور والقضاء",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/057.mp3",
+          "download": "https://archive.org/download/063_20210818/057.mp3",
+          "size": "16.9 MB"
+        },
+        {
+          "n": 58,
+          "title": "القضاء",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/058.mp3",
+          "download": "https://archive.org/download/063_20210818/058.mp3",
+          "size": "16.8 MB"
+        }
+      ]
+    },
+    {
+      "title": "كتاب الأطعمة",
+      "lessons": [
+        {
+          "n": 59,
+          "title": "باب الأطعمة",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/059.mp3",
+          "download": "https://archive.org/download/063_20210818/059.mp3",
+          "size": "17.1 MB"
+        },
+        {
+          "n": 60,
+          "title": "باب الصيد",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/060.mp3",
+          "download": "https://archive.org/download/063_20210818/060.mp3",
+          "size": "16.6 MB"
+        },
+        {
+          "n": 61,
+          "title": "كتاب الأشربة وكتاب اللباس",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/061.mp3",
+          "download": "https://archive.org/download/063_20210818/061.mp3",
+          "size": "17.8 MB"
+        },
+        {
+          "n": 62,
+          "title": "تابع كتاب اللباس",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/062.mp3",
+          "download": "https://archive.org/download/063_20210818/062.mp3",
+          "size": "18.2 MB"
+        }
+      ]
+    },
+    {
+      "title": "كتاب الجهاد",
+      "lessons": [
+        {
+          "n": 63,
+          "title": "كتاب الجهاد (1)",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/063.mp3",
+          "download": "https://archive.org/download/063_20210818/063.mp3",
+          "size": "18.4 MB"
+        },
+        {
+          "n": 64,
+          "title": "كتاب الجهاد (2)",
+          "date": "",
+          "audio": "https://archive.org/download/063_20210818/064.mp3",
+          "download": "https://archive.org/download/063_20210818/064.mp3",
+          "size": "18.1 MB"
+        }
+      ]
+    }
+  ]
+}
