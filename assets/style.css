@@ -31,6 +31,8 @@
   --pattern-light: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60'%3E%3Cg fill='none' stroke='%23a27019' stroke-opacity='.28' stroke-width='1'%3E%3Cpath d='M20.64 20.64h18.72v18.72h-18.72z'/%3E%3Cpath d='M30 17L43 30L30 43L17 30z'/%3E%3Cpath d='M0 0L20 20M60 0L40 20M0 60L20 40M60 60L40 40M30 0v17M30 60V43M0 30h17M60 30H43'/%3E%3Ccircle cx='30' cy='30' r='4'/%3E%3C/g%3E%3C/svg%3E");
   --pattern-dark: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60'%3E%3Cg fill='none' stroke='%23f3d9a4' stroke-opacity='.13' stroke-width='1'%3E%3Cpath d='M20.64 20.64h18.72v18.72h-18.72z'/%3E%3Cpath d='M30 17L43 30L30 43L17 30z'/%3E%3Cpath d='M0 0L20 20M60 0L40 20M0 60L20 40M60 60L40 40M30 0v17M30 60V43M0 30h17M60 30H43'/%3E%3Ccircle cx='30' cy='30' r='4'/%3E%3C/g%3E%3C/svg%3E");
   --row-line: #efe8da;
+  --warn-bg: #fbf1dc;
+  --warn-ink: #8a5a00;
   --row-hover: #fdf8ec;
   --card-bg: linear-gradient(180deg, #fffaf0, #f6eedc);
   --card-ring: #efe2c4;
@@ -62,6 +64,8 @@
   --gold-text: var(--gold);
   --pattern-light: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60'%3E%3Cg fill='none' stroke='%23c9973f' stroke-opacity='.10' stroke-width='1'%3E%3Cpath d='M20.64 20.64h18.72v18.72h-18.72z'/%3E%3Cpath d='M30 17L43 30L30 43L17 30z'/%3E%3Cpath d='M0 0L20 20M60 0L40 20M0 60L20 40M60 60L40 40M30 0v17M30 60V43M0 30h17M60 30H43'/%3E%3Ccircle cx='30' cy='30' r='4'/%3E%3C/g%3E%3C/svg%3E");
   --row-line: #33261a;
+  --warn-bg: #2e2416;
+  --warn-ink: #e3b766;
   --row-hover: #2c2016;
   --card-bg: linear-gradient(180deg, #2a1e14, #211710);
   --card-ring: #3d2d1f;
@@ -272,7 +276,9 @@ main.container { padding: 28px 0 40px; }
 .book-head { margin: -18px -18px 0; padding: 12px 18px; border-bottom: 1px solid var(--row-line); display: flex; flex-wrap: wrap; align-items: center; gap: 6px 16px; font-size: 14px; }
 .crumb::before { content: "‹ "; }
 .book-note { color: var(--ink-2); flex: 1; }
-.book-head + .rows { margin-top: 0; }
+.book-head + .rows, .book-warning + .rows { margin-top: 0; }
+.book-warning { margin: 0 -18px; padding: 10px 18px; border-bottom: 1px solid var(--row-line); background: var(--warn-bg); color: var(--ink); font-size: 14px; line-height: 1.8; }
+.book-warning b { color: var(--warn-ink); }
 .chapter { margin: 0 -18px; border-bottom: 1px solid var(--line); }
 .chapter:last-child { margin-bottom: -18px; border-bottom: 0; }
 .chapter summary { cursor: pointer; list-style: none; display: flex; align-items: center; gap: 10px; padding: 13px 18px; font-weight: 700; color: var(--brown-3); background: var(--cream-2); }
