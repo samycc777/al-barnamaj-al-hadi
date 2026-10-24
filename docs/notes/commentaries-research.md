@@ -67,3 +67,4 @@ Checked muqbel.net, muqbel.al3ilm.net/alddurus, mimham.net/che-4, archive.org (`
 - عمدة الأحكام: al-Fawzan 64 (`063_20210818`), end heard (بيع المدبر, then Q&A). Live as a second commentary (`umdat-al-ahkam-fawzan`, audio from archive.org).
 - None complete by on-site scholars: ألفية ابن مالك (Ibn Uthaymeen's 415 clips stop in التصريف; al-Ityubi's 99 files `040islamicstart0154_201510` stop at لولا ولوما), أصول السنة لابن أبي زمنين (al-Badr not on site and stops at القدر), الكافي، الدرة اليتيمة، تقرير القواعد، قواعد الأصول، السيرة (رزق الله)، الفتن والحوادث، إغاثة اللهفان، الحسام الماحق.
 - رياض الصالحين: Ibn Uthaymeen's 96 lessons (alfiqh.net, 192 files, last 96ب = ḥadīths 1884–1890), end not heard.
+- Full bilan of other on-site scholars' commentaries per book: `docs/notes/commentaries-bilan.md`.
