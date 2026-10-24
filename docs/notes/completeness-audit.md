@@ -55,7 +55,7 @@ al-ajurrumiyyah-kouni, mutammimat-al-ajurrumiyyah, unwan-az-zarf, al-wabil-as-sa
   al-qawaid-wal-usul-al-jamiah («القاعدة الستون هي الأخيرة»), itiqad-ahl-al-hadith (closing words), ijma-as-salaf-al-kirmani
   (book finished; lesson 1 opens with his own intro on ijmāʿ), at-tawassul-wal-wasilah (book's first words; closing praise of the book),
   al-wabil-as-sayyib (last duʿāʾs, then Q&A; Ibn Baz reads selected fusūl), usul-al-iman (last ḥadīth on التجوّز في القول; the file stops
-  mid-comment).
+  mid-comment), qatr-an-nada (lesson 23: همزة الوصل and the author's closing duʿāʾ; 24 is a closing talk on the Arabic sciences).
 - Not finished in the recordings: usul-as-sunnah-ibn-abi-zamanin (tape 25 stops mid-sentence in باب خروج الدجال), qawaid-al-usul
   (lesson 14 ends in القياس, then Q&A), usul-wa-qawaid-jabiri (tape 2 stops just as the list of beliefs begins).
 - muqaddimat-al-majmu: lesson 1 starts mid-sentence; lesson 12 ends on the فصل about ʿAmr b. Shuʿayb, then the same tape goes on
