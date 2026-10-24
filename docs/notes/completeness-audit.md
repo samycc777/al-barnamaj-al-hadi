@@ -65,3 +65,11 @@ al-ajurrumiyyah-kouni, mutammimat-al-ajurrumiyyah, unwan-az-zarf, al-wabil-as-sa
 - Seerah start: fawaid_03 files 01–06 are al-Faqihi's own first lessons of this course (01–02 sources of the seerah, then the editor's intro: the shaykh's letter to أهل القصيم); added as 0.01–0.06 (Zaid). The book text starts at file 07.
 - qawaid-al-usul: every online copy (binothaimeen.net, the official YouTube «N - 14», archive.org Last_12, kawaid_fusul_kasimi, 023_2021…) ends at lesson 14 (in القياس); nothing more exists online.
 - usul-as-sunnah-ibn-abi-zamanin: every copy (archive.org Zayd_Usul-Sunah-Zamanin, mimham cha-512, YouTube «قلعة السنة», «قناة العلم التأصيلية») has the same 25 tapes, ending in باب الدجال; ~19 chapters (نزول عيسى … استتابة أهل الأهواء) never recorded online.
+
+## Round 4 (Zaid's 7 points, Oct 2026): «تنبيه» boxes (`warning` in content.mjs) on the 12 books below
+- Searched again, nothing more found: Kouni Alfiyyah 42 (kawni-alphiah 42 = 41 byte-for-byte but the tag; ajurry threads 16122/34128, mimham, YouTube; 42 = end of جمع التكسير + start of التصغير);
+  Zayd's Ibn Abi Zamanin (UsulSunahZamanin01, ajurry 39153, Wayback zaidalmadkhali.com, t.me/zaid_almadkhali: same 25 tapes; first uncovered bāb الإيمان بالقدر);
+  Zayd's Usul al-Iman (YouTube «إذاعة طريق السلف» 25 parts = same recording, cut at the same point).
+- Stop points heard: al-Kafi lesson 36 in باب الوقف; Sirah lesson 26 = المرض والوفاة then أمهات المؤمنين, cut mid-reading at صفية (الشمائل، المعجزات، الخصائص uncovered);
+  qawaid-al-usul in أركان القياس; Durrah in الاستثناء; Husam tape 9 cut in الفصل الثالث (Shatibi on «نعمت البدعة»), tape 10 opens الفصل الرابع.
+- Umdat: باب صدقة الفطر (2 ḥadīths) is neither read nor explained (zakat 4 ends after the Hunayn ḥadīth with the closing duʿāʾ; siyam 1 opens كتاب الصيام): a recording gap, so it got a box too.
