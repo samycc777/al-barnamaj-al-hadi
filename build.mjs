@@ -115,7 +115,7 @@ function itemRow(it, c) {
   const all = book ? commentaries(c, it) : [];
   const meta = (all.length > 1 ? [
     `<span>عدد الشروح: ${all.length}</span>`,
-    `<span class="notes">${all.map((x) => `<span>${txt(x.note)}</span>`).join('')}</span>`,
+    `<span class="notes">${all.map((x) => `<span>${txt(x.note)}</span>`).join(' ')}</span>`,
   ] : [
     book && `<span>عدد الدروس: ${lessonCount(book)}</span>`,
     it.date && `<span>${esc(it.date)}</span>`,
