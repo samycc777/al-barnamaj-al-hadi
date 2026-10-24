@@ -37,3 +37,13 @@ Probable (ends near the book's end, closing words not heard): aqidat-as-salaf-as
 manzumat-usul-al-fiqh, alfiyyat-as-suyuti; the other Ibn Uthaymin books match his site's lesson counts.
 End not confirmable (last minutes are Q&A): usul-al-iman, muqaddimat-al-majmu, hilyat-talib-al-ilm, at-tawassul-wal-wasilah.
 Riyad as-Salihin (binbaz): hadiths 531–532 may be skipped by the shaykh between lessons 184 and 185.
+
+## Whisper round 2 (last 4 min of the last lesson)
+End heard: iqtida-as-sirat, ar-radd-ala-al-jahmiyyah, al-haiyyah, lumat-al-itiqad (last paragraph, المذاهب), muqaddimat-ar-risalah,
+al-muwatta («آخر حديث أورده مالك»), shurut-as-salah, ikhtisar-ulum-al-hadith, tafsir-al-muyassar, ad-daa-wad-dawaa, durus-al-balaghah
+(براعة الاختتام, the book's closing line), sharh-as-sudur, al-arbain, riyad-as-salihin (last chapter, رؤية الله), adab-al-mashy (title «إلى آخر الكتاب»).
+Reaches the last section: sarih-as-sunnah-at-tabari, usul-as-sunnah-al-humaydi, nawaqid-al-islam (10th), hilyat-talib-al-ilm («نختم الكتاب»).
+Not confirmable (Q&A, noise or silence at the end; lesson numbering has no gap): usul-wa-qawaid-jabiri, mafhum-as-salafiyyah,
+usul-al-aqaid-ad-diniyyah, usul-as-sunnah-ahmad (silent end), itiqad-ahl-al-hadith, usul-as-sunnah-ibn-abi-zamanin, at-tawassul-wal-wasilah,
+usul-al-iman, muqaddimat-al-majmu, qawaid-al-usul, manzumat-al-qawaid-al-fiqhiyyah, al-qawaid-wal-usul-al-jamiah, qatr-an-nada,
+al-ajurrumiyyah-kouni, mutammimat-al-ajurrumiyyah, unwan-az-zarf, al-wabil-as-sayyib.
