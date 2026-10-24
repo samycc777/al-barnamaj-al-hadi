@@ -638,3 +638,12 @@ No sharh found for: all other 120 books.
 - shurut-as-salah (khaled_alridwany_05_201411, 8 files): COMPLETE.
 - al-arbain (khaled_alridwany_03_201410, 4 lessons): INCOMPLETE, lesson 4 is at hadith 10; the other set (1-01_20260822) is 3 shorter lessons.
 - al-usul-as-sittah, al-qawaid-al-arba: fragments only.
+
+## Al-Jami: deep search for the gaps (web, YouTube, 16 Telegram channels; ends listened to with whisper)
+- Tadmuriyyah: a 44-lesson set (28 h, مشروع كبار العلماء) whose lesson 44 covers the book's last passage (دين الرسل واحد … ومن يبتغ غير الإسلام دينا … ومن كفر فإن الله غني عن العالمين). YouTube PLeCp8nYy43kZ3-6xa5f11jam52eeSPIR1 (last rDxlqBR_Kd4); Telegram t.me/UsefulLif/67… and t.me/gsyjuu/157–177 (pairs of lessons). Not proven to be the same course as the 32 tapes (its lesson 43 does not end with tape 32's words).
+- Hamawiyyah: complete 29-tape set (دار ابن رجب), YouTube PLaPg-n4RU--y7UpfmDw5hS1xRifbZWDde; tape 1 = introduction and opening, ends exactly where abo-sarh-64 file 1 starts; tape 29 «الأخير». Same as archive.org 17_20211104/25_20211104; also t.me/Medamanjami/204–428.
+- Qurrat 'Uyun: every copy found stops at الرقى والتمائم (YouTube 41-, 40- and 27-lesson sets, archive.org re-cuts, mimham cha-875). Nothing later exists online.
+- Kitab at-Tawhid: 43-lesson set (18.5 h, مشروع كبار العلماء), YouTube PLeCp8nYy43kbspIw27wBgJgfXyH7VbAHX; lesson 43 = باب «يعرفون نعمة الله ثم ينكرونها», far past abo-sarh-61 (الشفاعة), still not the end. Telegram t.me/gsyjuu/64–106, t.me/durus_rod/64–106.
+- Tahawiyyah: the 120-lesson set (PLaPg-n4RU--yndt_mqOtg0Xm3XD6zF_uO) stops at the same place («ولا نفرط في حب أحد منهم»).
+- Arba'in: 7-lesson set (PLeCp8nYy43kY9wN83lgh4cEE-eoTeuSM7) ends at hadith 11 (دع ما يريبك), then questions.
+- Usul Sittah: an 8-part set (2.7 h, PLV40Jcxpv29zUxUu-D16tjO9B_8qWDxij), said to be complete, not listened to. Qawa'id Arba': one lesson only, everywhere.
