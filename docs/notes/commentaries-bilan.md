@@ -626,3 +626,15 @@ No sharh found for: all the other 120 books (searched archive.org by name; only 
 - al-usul-as-sittah — ابن برجس — UNSURE — a video/lecture titled «الأصول الستة» (video only, no mp3 listing) — https://archive.org/details/1_20240112_20240112tytyt ; https://archive.org/details/1_20230527_20230527_1012
 - (not site books: شرح المعتقد الصحيح by others; his own «المعتقد الصحيح»; «أصول الدعوة السلفية» lecture https://archive.org/details/AsoolSalafia is the content of mafhum-as-salafiyyah's topic, not a sharh of a site book)
 No sharh found for: all other 120 books.
+
+## Al-Jami: last lessons listened to (whisper samples)
+- al-hamawiyyah (abo-sarh-64, 52 files): COMPLETE, file 52 reads the book's last paragraph.
+- shurut-as-salah (khaled_alridwany_05_201411, 8 files): COMPLETE, file 08 closes the shurut, arkan and wajibat.
+- al-wasitiyyah, Harras sharh (khaled_alridwany_23, 34 tapes): COMPLETE (very probably), 34 is on al-firqah an-najiyah, the book's last section.
+- al-qawaid-al-muthla (khaled_alridwany_19, 16 files): COMPLETE (very probably), 16 is in the khatimah on the Ash'aris.
+- kitab-at-tawhid (abo-sarh-61, 48 files): INCOMPLETE, 48 is around باب الشفاعة.
+- at-tadmuriyyah (khaled_alridwany_25_201512, 32 tapes): INCOMPLETE, 32 is still in the part on the attributes (الصفتان المتقابلتان).
+- at-tahawiyyah (abo-sarh-66, 91 files): INCOMPLETE, 91 is at «ولا نفرط في حب أحد منهم» (the Companions); the caliphate, awliya, signs of the Hour and the end are missing.
+- qurrat-uyun-al-muwahhidin (abo-sarh-63, 29 files): INCOMPLETE, stops at باب ما جاء في الرقى والتمائم.
+- al-arbain (khaled_alridwany_03_201410, 4 lessons): INCOMPLETE, lesson 4 is at hadith 10; the other set (1-01_20260822) is 3 shorter lessons.
+- al-usul-as-sittah, al-qawaid-al-arba: fragments only.
