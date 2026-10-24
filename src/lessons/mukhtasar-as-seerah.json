@@ -5,6 +5,60 @@
       "title": "",
       "lessons": [
         {
+          "n": 0.01,
+          "title": "نبذة عن مصادر السيرة المعتمدة",
+          "date": "",
+          "audio": "https://archive.org/download/fawaid_03/01.mp3",
+          "download": "https://archive.org/download/fawaid_03/01.mp3",
+          "size": "11.8 MB",
+          "extra": true
+        },
+        {
+          "n": 0.02,
+          "title": "مصادر السيرة، ومن قوله أشهد الله ومن حضرني من الملائكة",
+          "date": "",
+          "audio": "https://archive.org/download/fawaid_03/02.mp3",
+          "download": "https://archive.org/download/fawaid_03/02.mp3",
+          "size": "13.7 MB",
+          "extra": true
+        },
+        {
+          "n": 0.03,
+          "title": "من قوله وأؤمن بأن الله تعالى فعال لما يريد",
+          "date": "",
+          "audio": "https://archive.org/download/fawaid_03/03.mp3",
+          "download": "https://archive.org/download/fawaid_03/03.mp3",
+          "size": "15.9 MB",
+          "extra": true
+        },
+        {
+          "n": 0.04,
+          "title": "من قوله وهذا بيان مطول لمعتقد الشيخ",
+          "date": "",
+          "audio": "https://archive.org/download/fawaid_03/04.mp3",
+          "download": "https://archive.org/download/fawaid_03/04.mp3",
+          "size": "14.7 MB",
+          "extra": true
+        },
+        {
+          "n": 0.05,
+          "title": "من قوله وأؤمن بأن الجنة والنار مخلوقتان",
+          "date": "",
+          "audio": "https://archive.org/download/fawaid_03/05.mp3",
+          "download": "https://archive.org/download/fawaid_03/05.mp3",
+          "size": "13.0 MB",
+          "extra": true
+        },
+        {
+          "n": 0.06,
+          "title": "من قوله وأرى وجوب السمع والطاعة لأئمة المسلمين",
+          "date": "",
+          "audio": "https://archive.org/download/fawaid_03/06.mp3",
+          "download": "https://archive.org/download/fawaid_03/06.mp3",
+          "size": "13.5 MB",
+          "extra": true
+        },
+        {
           "n": 0.1,
           "title": "من قوله اعلم رحمك الله أن أفرض ما فرض الله عليك معرفة دينك",
           "date": "",

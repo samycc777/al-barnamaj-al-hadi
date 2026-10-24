@@ -61,4 +61,6 @@ al-ajurrumiyyah-kouni, mutammimat-al-ajurrumiyyah, unwan-az-zarf, al-wabil-as-sa
 - muqaddimat-al-majmu: a selection («منتقى مما كتبه النووي»): lesson 1 opens on the last words of his intro (first seconds missing),
   then reading starts at «فصل في الإخلاص والصدق وإحضار النية», not the book's start; lesson 12 ends on the فصل about ʿAmr b. Shuʿayb, then the same tape goes on
   with al-Shawkānī's رفع الأساطين (~16 min, left in place). usul-as-sunnah-ahmad: poor transcript, ends normally with Q&A.
-- Seerah start: fawaid_03 files 01–06 are the editor's introduction, not the book; the book starts at file 07.
+- Seerah start: fawaid_03 files 01–06 are al-Faqihi's own first lessons of this course (01–02 sources of the seerah, then the editor's intro: the shaykh's letter to أهل القصيم); added as 0.01–0.06 (Zaid). The book text starts at file 07.
+- qawaid-al-usul: every online copy (binothaimeen.net, the official YouTube «N - 14», archive.org Last_12, kawaid_fusul_kasimi, 023_2021…) ends at lesson 14 (in القياس); nothing more exists online.
+- usul-as-sunnah-ibn-abi-zamanin: every copy (archive.org Zayd_Usul-Sunah-Zamanin, mimham cha-512, YouTube «قلعة السنة», «قناة العلم التأصيلية») has the same 25 tapes, ending in باب الدجال; ~19 chapters (نزول عيسى … استتابة أهل الأهواء) never recorded online.
