@@ -58,6 +58,7 @@ al-ajurrumiyyah-kouni, mutammimat-al-ajurrumiyyah, unwan-az-zarf, al-wabil-as-sa
   mid-comment), qatr-an-nada (lesson 23: همزة الوصل and the author's closing duʿāʾ; 24 is a closing talk on the Arabic sciences).
 - Not finished in the recordings: usul-as-sunnah-ibn-abi-zamanin (tape 25 stops mid-sentence in باب خروج الدجال), qawaid-al-usul
   (lesson 14 ends in القياس, then Q&A), usul-wa-qawaid-jabiri (tape 2 stops just as the list of beliefs begins).
-- muqaddimat-al-majmu: lesson 1 starts mid-sentence; lesson 12 ends on the فصل about ʿAmr b. Shuʿayb, then the same tape goes on
+- muqaddimat-al-majmu: a selection («منتقى مما كتبه النووي»): lesson 1 opens on the last words of his intro (first seconds missing),
+  then reading starts at «فصل في الإخلاص والصدق وإحضار النية», not the book's start; lesson 12 ends on the فصل about ʿAmr b. Shuʿayb, then the same tape goes on
   with al-Shawkānī's رفع الأساطين (~16 min, left in place). usul-as-sunnah-ahmad: poor transcript, ends normally with Q&A.
 - Seerah start: fawaid_03 files 01–06 are the editor's introduction, not the book; the book starts at file 07.
