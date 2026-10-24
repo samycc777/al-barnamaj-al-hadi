@@ -63,7 +63,7 @@ Checked muqbel.net, muqbel.al3ilm.net/alddurus, mimham.net/che-4, archive.org (`
 - Site order decisions: العقيدة = ابن عبد الوهاب, ابن تيمية, «مؤلفات العلماء المتقدمين إلى المتأخرين», «مؤلفات ومحاضرات العلماء المعاصرين»; السيرة = الحديثي, الفقيهي, الفوزان; categories end ... الأذكار, تزكية النفس (last). Site description: «مكتبة صوتية تهدف إلى تأصيل العلم الشرعي عبر تتبع شروح العلماء على المتون المعتمدة». Brother declined another مختصر سيرة الرسول commentary; al-Faqihi's stays.
 
 ## Complete alternatives by on-site scholars (Zaid's point 6, Oct 2026; offered, not added)
-- أصول الإيمان: al-Fawzan, 15 lessons, YouTube «العلامة الدكتور صالح الفوزان» (lesson 1 hd5uCWYnRYw, 15 OhP4GfOkB3o «التجوز في القول»; end of book by title, last minutes Q&A). Abd al-Razzaq al-Badr's 30 (Pwas6XtJdLQ, end heard) is complete but he is not on the site.
-- عمدة الأحكام: al-Fawzan 64 (`063_20210818`), end heard (بيع المدبر, then Q&A).
+- أصول الإيمان: al-Fawzan, 15 lessons, YouTube «العلامة الدكتور صالح الفوزان» (lesson 1 hd5uCWYnRYw, 15 OhP4GfOkB3o «التجوز في القول»; end of book by title, last minutes Q&A). Abd al-Razzaq al-Badr's 30 (Pwas6XtJdLQ, end heard) is complete but he is not on the site. Live as a second commentary (`usul-al-iman-fawzan`, R2, 64k mono; YouTube opens with a short reading of the book's name and a recitation).
+- عمدة الأحكام: al-Fawzan 64 (`063_20210818`), end heard (بيع المدبر, then Q&A). Live as a second commentary (`umdat-al-ahkam-fawzan`, audio from archive.org).
 - None complete by on-site scholars: ألفية ابن مالك (Ibn Uthaymeen's 415 clips stop in التصريف; al-Ityubi's 99 files `040islamicstart0154_201510` stop at لولا ولوما), أصول السنة لابن أبي زمنين (al-Badr not on site and stops at القدر), الكافي، الدرة اليتيمة، تقرير القواعد، قواعد الأصول، السيرة (رزق الله)، الفتن والحوادث، إغاثة اللهفان، الحسام الماحق.
 - رياض الصالحين: Ibn Uthaymeen's 96 lessons (alfiqh.net, 192 files, last 96ب = ḥadīths 1884–1890), end not heard.
