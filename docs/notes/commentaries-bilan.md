@@ -627,14 +627,14 @@ No sharh found for: all the other 120 books (searched archive.org by name; only 
 - (not site books: شرح المعتقد الصحيح by others; his own «المعتقد الصحيح»; «أصول الدعوة السلفية» lecture https://archive.org/details/AsoolSalafia is the content of mafhum-as-salafiyyah's topic, not a sharh of a site book)
 No sharh found for: all other 120 books.
 
-## Al-Jami: last lessons listened to (whisper samples)
-- al-hamawiyyah (abo-sarh-64, 52 files): COMPLETE, file 52 reads the book's last paragraph.
-- shurut-as-salah (khaled_alridwany_05_201411, 8 files): COMPLETE, file 08 closes the shurut, arkan and wajibat.
-- al-wasitiyyah, Harras sharh (khaled_alridwany_23, 34 tapes): COMPLETE (very probably), 34 is on al-firqah an-najiyah, the book's last section.
-- al-qawaid-al-muthla (khaled_alridwany_19, 16 files): COMPLETE (very probably), 16 is in the khatimah on the Ash'aris.
+## Al-Jami: last lessons listened to (whisper samples; the four below re-checked file by file)
+- al-wasitiyyah (khaled_alridwany_23, 34 tapes, al-Ibanah Jeddah tapes 75–108, consecutive): COMPLETE, starts at the book's start; tape 34 reads the last sentence, says the book is finished and opens the Hamawiyyah.
+- al-hamawiyyah (abo-sarh-64, 52 files): the end is COMPLETE, but the first lesson (introduction on Ibn Taymiyyah and the book, opening pages) is missing: file 1 starts at «ثم من المحال أيضا أن تكون القرون الفاضلة». It is on tape 01 of the tape copy https://archive.org/details/17_20211104_202111 (disc 2; disc 1 is 25_20211104), whose tape 28 also reaches the end. Files 1–12 of abo-sarh-64 are out of order (e.g. 8 = al-Ja'd, before 5 = the verses on 'uluww); from 13 on they follow the book.
+- at-tadmuriyyah (khaled_alridwany_25_201512, 32 tapes; copies jami-tadmor, Aljami_Tadmoria, khaled_alridwany_27_201512 identical; 0002_20230928_202309 and hqdefault_202409 are cuts of it): from the start to the four categories of «إياك نعبد وإياك نستعين» (tape 25 opens al-asl ath-thani). INCOMPLETE by one lesson: at 30 min of tape 32 he says «لنواصل في درسنا الآتي بقية الحديث ونختم بذلك الكتاب»; the rest of tape 32 is an earlier lesson. That last lesson is in no copy found.
+- qurrat-uyun-al-muwahhidin (abo-sarh-63, 29 files, Masjid an-Nabawi 1415): INCOMPLETE, stops at باب ما جاء في الرقى والتمائم (chapter 8 of 66). The 30-tape copy (22_20211031, many near-silent stretches) stops at the same place.
 - kitab-at-tawhid (abo-sarh-61, 48 files): INCOMPLETE, 48 is around باب الشفاعة.
-- at-tadmuriyyah (khaled_alridwany_25_201512, 32 tapes): INCOMPLETE, 32 is still in the part on the attributes (الصفتان المتقابلتان).
-- at-tahawiyyah (abo-sarh-66, 91 files): INCOMPLETE, 91 is at «ولا نفرط في حب أحد منهم» (the Companions); the caliphate, awliya, signs of the Hour and the end are missing.
-- qurrat-uyun-al-muwahhidin (abo-sarh-63, 29 files): INCOMPLETE, stops at باب ما جاء في الرقى والتمائم.
+- at-tahawiyyah (abo-sarh-66, 91 files): INCOMPLETE, 91 is at «ولا نفرط في حب أحد منهم» (the Companions).
+- al-qawaid-al-muthla (khaled_alridwany_19, 16 files): very probably COMPLETE, 16 is in the khatimah on the Ash'aris.
+- shurut-as-salah (khaled_alridwany_05_201411, 8 files): COMPLETE.
 - al-arbain (khaled_alridwany_03_201410, 4 lessons): INCOMPLETE, lesson 4 is at hadith 10; the other set (1-01_20260822) is 3 shorter lessons.
 - al-usul-as-sittah, al-qawaid-al-arba: fragments only.
