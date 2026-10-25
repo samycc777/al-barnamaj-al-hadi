@@ -7,3 +7,4 @@ The rule is in CLAUDE.md (Conventions). These are the dates already checked, mov
 - سعيد بن علي بن وهف القحطاني: 21 Muharram 1440 (alyaum.com, al-madina.com news reports).
 - ابن أبي العز الحنفي 792 (Arabic Wikipedia, al-Zirikli).
 - أبو جعفر الطحاوي 321 (Arabic Wikipedia, al-Dhahabi's Siyar).
+- محمد خليل هراس (author of the شرح العقيدة الواسطية al-Jami comments on) 1395 (1334–1395 هـ = 1916–1975, ketabonline / al-Zirikli).
