@@ -83,3 +83,7 @@ al-ajurrumiyyah-kouni, mutammimat-al-ajurrumiyyah, unwan-az-zarf, al-wabil-as-sa
   al-Faqihi (24 files, stops at the ḥadīth «يضحك الله إلى رجلين»); al-Faqihi mudhakkirah (8, at صفة الوجه); al-Qusayr (2025, 14, at صفة الرحمة);
   al-Jabiri 1425 (mimham 1241, 8, at «فلا تجعلوا لله أندادا»); al-Fawzan 1437–38 (12 scattered dates); Yasin al-Adani Tadmuriyyah (24, at مسألة الشبه والتقابل).
 - Khaza'in ar-Rahman items (005_20210819, 020_20210810_202108): files sorted by the Arabic lesson name, not number (005/001 = lesson 40, 002 = 1, 009 = 43 «الأخير»; 020/012 = start, 001 = last). islamweb sharh-hamawiyyah-fawzan is reversed (01 = last).
+
+## al-Najmi's other commentaries on the site's books (Whisper of starts, ends, transitions)
+- Complete: لمعة الاعتقاد, mimham `cha-113` (3 lessons, 4 h 18; lesson 3 reads to «وهذا آخر المعتقد» and comments on it; transitions continuous). نواقض الإسلام (Ibn Baz's wording), mimham `cha-112` (2 lessons, 1 h 28; ends on the closing paragraph with «وبالله التوفيق»); alnajmi.net `talq1–2` is shorter.
+- Incomplete: ثلاثة الأصول (alnajmi.net `ossol1–4`, stops in the first principle at the kinds of worship); أصول السنة لأحمد (`sharhalsunnahA–B`, a phone lesson covering only the opening lines, then questions); شرح السنة للبربهاري (first tape lost everywhere: mimham `cha-114` has 2–9, archive.org `charh_sunna_brbahari_najmi` says «مخروم من الأول»); البيقونية (`sd1–2`, stops at the verse on tadlīs); الملخص الفقهي (`cha-920`, 3 lessons). القواعد الأربع (`cha-927`) is someone reading his written sharh, not his voice.
