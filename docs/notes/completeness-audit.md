@@ -73,3 +73,13 @@ al-ajurrumiyyah-kouni, mutammimat-al-ajurrumiyyah, unwan-az-zarf, al-wabil-as-sa
 - Stop points heard: al-Kafi lesson 36 in باب الوقف; Sirah lesson 26 = المرض والوفاة then أمهات المؤمنين, cut mid-reading at صفية (الشمائل، المعجزات، الخصائص uncovered);
   qawaid-al-usul in أركان القياس; Durrah in الاستثناء; Husam tape 9 cut in الفصل الثالث (Shatibi on «نعمت البدعة»), tape 10 opens الفصل الرابع.
 - Umdat: باب صدقة الفطر (2 ḥadīths) is neither read nor explained (zakat 4 ends after the Hunayn ḥadīth with the closing duʿāʾ; siyam 1 opens كتاب الصيام): a recording gap, so it got a box too.
+
+## Wasitiyyah / Tadmuriyyah / Hamawiyyah: first and last lesson heard (all site scholars, Oct 2026)
+- Complete (book's last words heard): Ibn Baz Wasitiyyah (binbaz 95, 4) and Hamawiyyah (96, 6); Ibn Uthaymeen Wasitiyyah 1 (32), Tadmuriyyah (20), talkhis al-Hamawiyyah (14);
+  al-Jami Wasitiyyah (34) and Hamawiyyah (34); al-Fawzan Wasitiyyah (WaseteyyaNew 13, WaseteyyaOld 36, 020_20210810_202108 51) and Hamawiyyah
+  (005_20210819 43, islamweb 13); al-Luhaydan (17 files of 20); al-Ityubi (13); Zayd (mimham 185, 22); al-Jabiri 2015 (163, 21); an-Najmi (111: book ends in 7, 8 = Q&A);
+  Yasin al-Adani: both Harras courses, Aal ash-Shaykh, Hamawiyyah.
+- Incomplete: al-Jami Tadmuriyyah (last lesson missing); Ibn Uthaymeen Wasitiyyah 2 (19 tapes, still in the verses on the attributes);
+  al-Faqihi (24 files, stops at the ḥadīth «يضحك الله إلى رجلين»); al-Faqihi mudhakkirah (8, at صفة الوجه); al-Qusayr (2025, 14, at صفة الرحمة);
+  al-Jabiri 1425 (mimham 1241, 8, at «فلا تجعلوا لله أندادا»); al-Fawzan 1437–38 (12 scattered dates); Yasin al-Adani Tadmuriyyah (24, at مسألة الشبه والتقابل).
+- Khaza'in ar-Rahman items (005_20210819, 020_20210810_202108): files sorted by the Arabic lesson name, not number (005/001 = lesson 40, 002 = 1, 009 = 43 «الأخير»; 020/012 = start, 001 = last). islamweb sharh-hamawiyyah-fawzan is reversed (01 = last).
