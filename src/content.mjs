@@ -59,6 +59,7 @@ export const categories = [
         { title: 'شرح منظومة الفروق بين الكفر والشرك والنفاق والظلم والفسوق', type: 'audio', slug: 'manzumat-al-furuq', note: 'فضيلة الشيخ العلامة زيد بن محمد بن هادي المدخلي (ت 1435هـ)' },
         { title: 'شرح عقيدة أهل السنة والجماعة', type: 'audio', slug: 'aqidat-ahl-as-sunnah', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين (ت 1421هـ)' },
         { title: 'شرح القواعد المثلى في صفات الله وأسمائه الحسنى', type: 'audio', slug: 'al-qawaid-al-muthla', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين (ت 1421هـ)' },
+        { title: 'تاريخ الإسلام في الجزائر', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/tarikh-al-islam-fi-al-jazair/tarikh-al-islam-fi-al-jazair.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/tarikh-al-islam-fi-al-jazair/tarikh-al-islam-fi-al-jazair.mp3', note: 'فضيلة الشيخ العلامة محمد البشير الإبراهيمي (ت 1385هـ)' },
         { title: 'شرح الحسام الماحق لكل مشرك ومنافق', type: 'audio', slug: 'al-husam-al-mahiq', warning: 'ينقطع الشريط التاسع في أصل التسجيل في أواخر الفصل الثالث (في بيان أن كل بدعة ضلالة)، فلم يُسجَّل باقي هذا الفصل.', note: 'فضيلة الشيخ العلامة محمد تقي الدين بن عبد القادر الهلالي (ت 1407هـ)' },
         ],
       },
