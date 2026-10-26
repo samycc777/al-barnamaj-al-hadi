@@ -160,7 +160,7 @@ Listing order: by site book.
 - sahih-al-bukhari — Zayd (كتاب العلم 9 lessons 10.8 h), Rabee (كتاب الإيمان 2 lessons), Jabiri (several short parts): parts only, not complete.
 
 ## Fiqh, adab, others
-- umdat-al-fiqh — Jabiri — UNSURE — 52 lessons, 43.6 h (Morocco 1437) — https://mimham.net/cha-383; earlier sets cha-1300 (13 lessons 15.8 h) and cha-1298 (12 lessons 10.4 h) are partial
+- umdat-al-fiqh — Jabiri — INCOMPLETE (lesson 52 heard: السبق and الوديعة, mid-book) — 52 lessons, 43.6 h (Morocco 1437) — https://mimham.net/cha-383; earlier sets cha-1300 (13 lessons 15.8 h) and cha-1298 (12 lessons 10.4 h) are partial
 - mukhtasar-zad-al-maad — Zayd — UNSURE — 10 lessons, 5.2 h — https://mimham.net/cha-941
 - al-kabair — Zayd — INCOMPLETE (probably) — 8 lessons, 3.5 h on al-Dhahabi's Kabair — https://mimham.net/cha-944
 - al-wabil-as-sayyib — Zayd — UNSURE — 34 lessons, 14.6 h — https://mimham.net/cha-572
@@ -480,7 +480,7 @@ Many re-uploads (same course in several mimham pages); only the main set is give
 - sharh-as-sunnah-al-barbahari — Jabiri — UNSURE — 12 lessons, 8.9 h cha-409; 6 lessons 6.9 h cha-1236.
 - usul-as-sunnah-ahmad — Jabiri — UNSURE — 5 lessons 5.9 h cha-168; 5 lessons 3.5 h cha-1455 (Rabee is on site for this slug).
 - manhaj-as-salikin — Jabiri — UNSURE (probably parts) — 9 lessons 7.5 h cha-407; 6 lessons 8.4 h cha-1418; 5 lessons 2.8 h cha-1410; 3 lessons 2.7 h cha-1239 (Zayd is on site; NEW vs first pass).
-- umdat-al-fiqh — Jabiri — UNSURE — 52 lessons, 43.6 h (Morocco 1437) cha-383; partial earlier sets cha-1298 (12 lessons 10.4 h), cha-1300 (13 lessons 15.8 h).
+- umdat-al-fiqh — Jabiri — INCOMPLETE (lesson 52 heard: السبق and الوديعة, mid-book) — 52 lessons, 43.6 h (Morocco 1437) cha-383; partial earlier sets cha-1298 (12 lessons 10.4 h), cha-1300 (13 lessons 15.8 h).
 - usul-fi-at-tafsir — Jabiri — UNSURE — 5 lessons, 3.7 h — mimham cha-340 (last «الدرس الخامس»).
 - sittat-mawadi-as-seerah — Jabiri — UNSURE — 2 lessons, 1.9 h — mimham cha-346.
 - fawaid-al-fatihah — Jabiri — UNSURE (may be another text: «شرح تفسير الفاتحة») — 3 lessons, 2.8 h — mimham cha-1240 (NEW vs first pass; check it is the same matn).

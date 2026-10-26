@@ -1,0 +1,73 @@
+{
+  "chapters": [
+    {
+      "title": "",
+      "lessons": [
+        {
+          "n": 1,
+          "title": "الدرس الأول",
+          "date": "",
+          "audio": "https://archive.org/download/khaled_alridwany_05_201411/01.mp3",
+          "download": "https://archive.org/download/khaled_alridwany_05_201411/01.mp3",
+          "size": "2.2 MB"
+        },
+        {
+          "n": 2,
+          "title": "الدرس الثاني",
+          "date": "",
+          "audio": "https://archive.org/download/khaled_alridwany_05_201411/02.mp3",
+          "download": "https://archive.org/download/khaled_alridwany_05_201411/02.mp3",
+          "size": "2.4 MB"
+        },
+        {
+          "n": 3,
+          "title": "الدرس الثالث",
+          "date": "",
+          "audio": "https://archive.org/download/khaled_alridwany_05_201411/03.mp3",
+          "download": "https://archive.org/download/khaled_alridwany_05_201411/03.mp3",
+          "size": "2.4 MB"
+        },
+        {
+          "n": 4,
+          "title": "الدرس الرابع",
+          "date": "",
+          "audio": "https://archive.org/download/khaled_alridwany_05_201411/04.mp3",
+          "download": "https://archive.org/download/khaled_alridwany_05_201411/04.mp3",
+          "size": "1.8 MB"
+        },
+        {
+          "n": 5,
+          "title": "الدرس الخامس",
+          "date": "",
+          "audio": "https://archive.org/download/khaled_alridwany_05_201411/05.mp3",
+          "download": "https://archive.org/download/khaled_alridwany_05_201411/05.mp3",
+          "size": "5.0 MB"
+        },
+        {
+          "n": 6,
+          "title": "الدرس السادس",
+          "date": "",
+          "audio": "https://archive.org/download/khaled_alridwany_05_201411/06.mp3",
+          "download": "https://archive.org/download/khaled_alridwany_05_201411/06.mp3",
+          "size": "2.3 MB"
+        },
+        {
+          "n": 7,
+          "title": "الدرس السابع",
+          "date": "",
+          "audio": "https://archive.org/download/khaled_alridwany_05_201411/07.mp3",
+          "download": "https://archive.org/download/khaled_alridwany_05_201411/07.mp3",
+          "size": "1.1 MB"
+        },
+        {
+          "n": 8,
+          "title": "الدرس الثامن",
+          "date": "",
+          "audio": "https://archive.org/download/khaled_alridwany_05_201411/08.mp3",
+          "download": "https://archive.org/download/khaled_alridwany_05_201411/08.mp3",
+          "size": "0.5 MB"
+        }
+      ]
+    }
+  ]
+}
