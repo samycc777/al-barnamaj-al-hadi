@@ -8,3 +8,4 @@ The rule is in CLAUDE.md (Conventions). These are the dates already checked, mov
 - ابن أبي العز الحنفي 792 (Arabic Wikipedia, al-Zirikli).
 - أبو جعفر الطحاوي 321 (Arabic Wikipedia, al-Dhahabi's Siyar).
 - محمد خليل هراس (author of the شرح العقيدة الواسطية al-Jami comments on) 1395 (1334–1395 هـ = 1916–1975, ketabonline / al-Zirikli).
+- Abd al-Aziz bin Nasir al-Rashid (التنبيهات السنية) 1408 (4 Rabi' al-Awwal 1408, tarajm.com / areq.net)
