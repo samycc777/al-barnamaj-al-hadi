@@ -69,7 +69,7 @@ Checked muqbel.net, muqbel.al3ilm.net/alddurus, mimham.net/che-4, archive.org (`
 - رياض الصالحين: Ibn Uthaymeen's 96 lessons (alfiqh.net, 192 files, last 96ب = ḥadīths 1884–1890), end not heard.
 - Full bilan of other on-site scholars' commentaries per book: `docs/notes/commentaries-bilan.md`.
 
-## Abd Allah b. Abd al-Aziz al-Aqil (d. 1432H; Zaid asked for his complete commentaries, Oct 2026; he then asked for the incomplete ones too: منهج السالكين (variant), نور البصائر and التسهيل are live in الفقه with a «تنبيه», R2 `<slug>/NN.mp3`, slugs `*-ibn-aqil`; every YouTube file of this channel opens with the same 5.0 s music jingle, cut)
+## Abd Allah b. Abd al-Aziz al-Aqil (d. 1432H; Zaid asked for his complete commentaries, Oct 2026; he then had the incomplete ones added and removed them again (Oct 2026); none is on the site. Every YouTube file of this channel opens with the same 5.0 s music jingle)
 - Online audio is only what his Alukah site (alukah.net/web/alaqeel, صوتيات) and the YouTube channel «مختارات الشيخ عبدالله بن عقيل رحمه الله» (UC8m47_h8p_wkXIjNRIw8ZvQ, same recordings) carry; archive.org has nothing. No complete commentary of a book:
   - منهج السالكين: 2 sessions (QURMLQIIJSg, ewZHXKrG1pU), only الطهارة (ends on ghusl questions).
   - نور البصائر والألباب: 4 sessions (2ONqufOngOY, 9T1H6xsIlwg, fDewpa5c8Ag, 4OKb2_o43zk), ends at الإحداد/العزاء.
@@ -77,7 +77,7 @@ Checked muqbel.net, muqbel.al3ilm.net/alddurus, mimham.net/che-4, archive.org (`
   - الأربعون في فضائل الحج (aqyr4kSutos): a riwayah reading on him with isnad, not a sharh.
 - Single lectures: «شرح كتاب الصيام» (R_boBM1Hmso), «شرح بعض الأحاديث في فضل المساجد» (gWn9z2yhmk4), «الشيخ عبدالرحمن السعدي كما عرفته» (Y_EZhkgo5Gw), «صفحات من حياتي» (2 parts).
 
-## Hammad b. Muhammad al-Ansari (d. 1418H; Zaid asked for his complete lectures, Oct 2026; all three live in العقيدة «مؤلفات ومحاضرات العلماء المعاصرين», R2 `<slug>/<slug>.mp3`, slugs `*-hammad`)
+## Hammad b. Muhammad al-Ansari (d. 1418H; Zaid asked for his complete lectures, Oct 2026; الفاتحة and التوحيد في القرآن live in العقيدة «مؤلفات ومحاضرات العلماء المعاصرين», R2 `<slug>/<slug>.mp3`, slugs `*-hammad`; Zaid had «قسمت الصلاة» removed)
 - No book commentary in his voice online; archive.org has only his books and others' commentaries on them. Whole lectures (start and end heard):
   - «تفسير سورة الفاتحة وبيان ما تضمنته من أنواع التوحيد», ~1 h 54: gZegYW1lpSk (also lgOTFezRfBU, which has a channel intro and outro).
   - «التوحيد في القرآن», ~59 min: UmuLPN1mR30 (his channel UCNK4Z2DcofZsACfwEcHpvQA), also xMYYeVYFge0.
