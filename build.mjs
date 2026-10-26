@@ -299,12 +299,16 @@ function lessonRow(l) {
 
 // The commentaries of this page's book, this one marked: tapping another
 // opens its page.
+// `label` names a commentary on another sharh beside its scholar, since the
+// same scholar can appear twice.
+const variantName = (x) => txt(x.label ? `${x.note} «${x.label}»` : x.note);
+
 function choice(c, it) {
   const all = commentaries(c, it);
   if (all.length < 2) return '';
   return `<nav class="variants" aria-label="الشروح"><span class="variants-label">الشروح:</span><ul>${all.map((x) => x === it
-    ? `<li><span class="variant active" aria-current="page">${txt(x.note)}</span></li>`
-    : `<li><a class="variant" href="/${c.slug}/${x.slug}/">${txt(x.note)}</a></li>`).join('')}</ul></nav>`;
+    ? `<li><span class="variant active" aria-current="page">${variantName(x)}</span></li>`
+    : `<li><a class="variant" href="/${c.slug}/${x.slug}/">${variantName(x)}</a></li>`).join('')}</ul></nav>`;
 }
 
 // One page per book: its chapters and lessons, each playable here. The audio
