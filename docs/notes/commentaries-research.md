@@ -75,7 +75,7 @@ Checked muqbel.net, muqbel.al3ilm.net/alddurus, mimham.net/che-4, archive.org (`
   - نور البصائر والألباب: 4 sessions (2ONqufOngOY, 9T1H6xsIlwg, fDewpa5c8Ag, 4OKb2_o43zk), ends at الإحداد/العزاء.
   - التسهيل للبعلي: 4 sessions of reading with his sharh (HbG5m7647kc, YyjDq8BOUaQ, FGICTKzvAmc, 1_1IXq7CMRU, from the start to prayer on a mount), then كتاب المناسك 3 sessions (Tltpl08t2S0, aICpHPnRioE, QjgyoafruI8) complete for Hajj (closing thanks heard).
   - الأربعون في فضائل الحج (aqyr4kSutos): a riwayah reading on him with isnad, not a sharh.
-- Single lectures: «شرح كتاب الصيام» (R_boBM1Hmso), «شرح بعض الأحاديث في فضل المساجد» (gWn9z2yhmk4), «الشيخ عبدالرحمن السعدي كما عرفته» (Y_EZhkgo5Gw), «صفحات من حياتي» (2 parts).
+- Single lectures: «شرح كتاب الصيام» (R_boBM1Hmso, 45 min: only باب الصوم في السفر وغيره of عمدة الأحكام, to الوصال, then questions; Whisper), «شرح بعض الأحاديث في فضل المساجد» (gWn9z2yhmk4), «الشيخ عبدالرحمن السعدي كما عرفته» (Y_EZhkgo5Gw), «صفحات من حياتي» (2 parts).
 
 ## Hammad b. Muhammad al-Ansari (d. 1418H; Zaid asked for his complete lectures, Oct 2026; all three live in العقيدة «مؤلفات ومحاضرات العلماء المعاصرين», «قسمت الصلاة» last (Zaid's order), R2 `<slug>/<slug>.mp3`, slugs `*-hammad`)
 - No book commentary in his voice online; archive.org has only his books and others' commentaries on them. Whole lectures (start and end heard):
