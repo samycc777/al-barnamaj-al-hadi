@@ -76,3 +76,10 @@ Checked muqbel.net, muqbel.al3ilm.net/alddurus, mimham.net/che-4, archive.org (`
   - التسهيل للبعلي: reading 4 sessions (HbG5m7647kc, YyjDq8BOUaQ, FGICTKzvAmc, 1_1IXq7CMRU, from the start to prayer on a mount), then كتاب المناسك 3 sessions (Tltpl08t2S0, aICpHPnRioE, QjgyoafruI8) complete for Hajj (closing thanks heard).
   - الأربعون في فضائل الحج (aqyr4kSutos): a riwayah reading on him with isnad, not a sharh.
 - Single lectures: «شرح كتاب الصيام» (R_boBM1Hmso), «شرح بعض الأحاديث في فضل المساجد» (gWn9z2yhmk4), «الشيخ عبدالرحمن السعدي كما عرفته» (Y_EZhkgo5Gw), «صفحات من حياتي» (2 parts).
+
+## Hammad b. Muhammad al-Ansari (d. 1418H; Zaid asked for his complete lectures, Oct 2026; offered, not added)
+- No book commentary in his voice online; archive.org has only his books and others' commentaries on them. Whole lectures (start and end heard):
+  - «تفسير سورة الفاتحة وبيان ما تضمنته من أنواع التوحيد», ~1 h 54: gZegYW1lpSk (also lgOTFezRfBU, which has a channel intro and outro).
+  - «التوحيد في القرآن», ~59 min: UmuLPN1mR30 (his channel UCNK4Z2DcofZsACfwEcHpvQA), also xMYYeVYFge0.
+  - «شرح حديث قسمت الصلاة بيني وبين عبدي», ~1 h 18: KEZyHUGqnQk (also JUDJFiP2K1w); ends with his closing, then the host's thanks.
+- Not used: «التوحيد» 8YIlekCKmP8 (87 min, stops mid-sentence); «الإخلاص وبر الوالدين» DwQ_Dhmfr6I (a different speaker's Egyptian khutbah).
