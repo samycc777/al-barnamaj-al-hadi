@@ -276,3 +276,11 @@ export const categories = [
 
 // A category's items, including those in its sections.
 export const itemsOf = (c) => [...c.items, ...(c.sections || []).flatMap((s) => s.items)];
+
+// Books taken off the site: their old address goes to the category page, since
+// the pages.dev edge cache can keep serving a deleted page for days.
+export const removed = [
+  ['/fiqh/manhaj-as-salikin-ibn-aqil/', '/fiqh/manhaj-as-salikin/'],
+  ['/fiqh/nur-al-basair-ibn-aqil/', '/fiqh/'],
+  ['/fiqh/at-tashil-ibn-aqil/', '/fiqh/'],
+];

@@ -1,7 +1,7 @@
 // Builds the static site into dist/ from src/content.mjs. No dependencies.
 import { mkdirSync, rmSync, writeFileSync, cpSync, readFileSync, readdirSync } from 'node:fs';
 import { createHash } from 'node:crypto';
-import { site, categories, itemsOf } from './src/content.mjs';
+import { site, categories, itemsOf, removed } from './src/content.mjs';
 
 // `npm run check` builds into its own folder so it never races the preview,
 // which rebuilds dist/ whenever a file changes.
@@ -442,4 +442,5 @@ ${assetFiles.map((f) => `/assets/${f}\n  Cache-Control: public, max-age=3600`).j
   X-Robots-Tag: noindex, nofollow
   Referrer-Policy: no-referrer
 `);
+writeFileSync(`${OUT}/_redirects`, removed.map(([from, to]) => `${from} ${to} 301\n${from.slice(0, -1)} ${to} 301`).join('\n') + '\n');
 console.log(`Built ${categories.length + books.length + 4} pages into ${OUT}/`);

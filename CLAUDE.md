@@ -69,6 +69,7 @@ The brother (Zayd bin Ibrahim al-Jazairi, runs the programme; the user says "the
 - Zaid also talks to Claude directly through @mawqi_bot (group replies/mentions, or a private chat): `tool-progress-bot/listener.mjs` runs each conversation as a headless Claude session in the site's folder; treat him as the user for his sites.
 
 ## Mistakes to avoid
+- Taking a book off the site: add its address to `removed` in `src/content.mjs` (redirect); the pages.dev edge cache keeps serving a deleted page for days.
 - An archive.org item can sit on a dead or very slow server while others play: when a book "doesn't play", fetch its files several times; if they time out, copy them into R2.
 - Before calling a lesson missing, check the book's extra/R2 lessons and `docs/notes/` (the Sa'di gaps were already filled), and compare a "found" recording with the neighbouring lessons (Nasa'i's YouTube "lesson 8" was 048009 again).
 - A tape that seems cut at its end may be the publisher's filler (after «انتهت مادة هذا الشريط» or the host's closing): listen to the minutes before the cut before calling it incomplete, and trim the filler.
