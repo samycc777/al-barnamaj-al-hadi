@@ -77,7 +77,7 @@ Checked muqbel.net, muqbel.al3ilm.net/alddurus, mimham.net/che-4, archive.org (`
   - الأربعون في فضائل الحج (aqyr4kSutos): a riwayah reading on him with isnad, not a sharh.
 - Single lectures: «شرح كتاب الصيام» (R_boBM1Hmso), «شرح بعض الأحاديث في فضل المساجد» (gWn9z2yhmk4), «الشيخ عبدالرحمن السعدي كما عرفته» (Y_EZhkgo5Gw), «صفحات من حياتي» (2 parts).
 
-## Hammad b. Muhammad al-Ansari (d. 1418H; Zaid asked for his complete lectures, Oct 2026; الفاتحة and التوحيد في القرآن live in العقيدة «مؤلفات ومحاضرات العلماء المعاصرين», R2 `<slug>/<slug>.mp3`, slugs `*-hammad`; Zaid had «قسمت الصلاة» removed)
+## Hammad b. Muhammad al-Ansari (d. 1418H; Zaid asked for his complete lectures, Oct 2026; all three live in العقيدة «مؤلفات ومحاضرات العلماء المعاصرين», «قسمت الصلاة» last (Zaid's order), R2 `<slug>/<slug>.mp3`, slugs `*-hammad`)
 - No book commentary in his voice online; archive.org has only his books and others' commentaries on them. Whole lectures (start and end heard):
   - «تفسير سورة الفاتحة وبيان ما تضمنته من أنواع التوحيد», ~1 h 54: gZegYW1lpSk (also lgOTFezRfBU, which has a channel intro and outro).
   - «التوحيد في القرآن», ~59 min: UmuLPN1mR30 (his channel UCNK4Z2DcofZsACfwEcHpvQA), also xMYYeVYFge0.
