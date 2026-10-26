@@ -11,3 +11,6 @@ The rule is in CLAUDE.md (Conventions). These are the dates already checked, mov
 - Abd al-Aziz bin Nasir al-Rashid (التنبيهات السنية) 1408 (4 Rabi' al-Awwal 1408, tarajm.com / areq.net)
 - محمد البشير الإبراهيمي 1385
 - محمد الأمين الشنقيطي (أضواء البيان) 1393 (17 Dhu al-Hijjah 1393, Mecca, Arabic Wikipedia)
+- عبد الله بن عبد العزيز بن عقيل 1432 (Zaid; 8 Shawwal 1432)
+- حماد بن محمد الأنصاري 1418 (1344–1418 هـ = 1925–1997, midad.com / Wikipedia)
+- محمد بن علي البعلي ابن أسباسلار (التسهيل في الفقه) 778 (sifatusafwa.com)

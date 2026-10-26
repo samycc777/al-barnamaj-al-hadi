@@ -1,0 +1,41 @@
+{
+  "chapters": [
+    {
+      "title": "",
+      "lessons": [
+        {
+          "n": 1,
+          "title": "الدرس الأول",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/nur-al-basair-ibn-aqil/01.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/nur-al-basair-ibn-aqil/01.mp3",
+          "size": "38.93 MB"
+        },
+        {
+          "n": 2,
+          "title": "الدرس الثاني",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/nur-al-basair-ibn-aqil/02.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/nur-al-basair-ibn-aqil/02.mp3",
+          "size": "6.03 MB"
+        },
+        {
+          "n": 3,
+          "title": "الدرس الثالث",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/nur-al-basair-ibn-aqil/03.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/nur-al-basair-ibn-aqil/03.mp3",
+          "size": "9.78 MB"
+        },
+        {
+          "n": 4,
+          "title": "الدرس الرابع",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/nur-al-basair-ibn-aqil/04.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/nur-al-basair-ibn-aqil/04.mp3",
+          "size": "18.16 MB"
+        }
+      ]
+    }
+  ]
+}
