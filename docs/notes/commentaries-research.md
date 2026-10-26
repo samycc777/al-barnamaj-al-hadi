@@ -69,11 +69,11 @@ Checked muqbel.net, muqbel.al3ilm.net/alddurus, mimham.net/che-4, archive.org (`
 - رياض الصالحين: Ibn Uthaymeen's 96 lessons (alfiqh.net, 192 files, last 96ب = ḥadīths 1884–1890), end not heard.
 - Full bilan of other on-site scholars' commentaries per book: `docs/notes/commentaries-bilan.md`.
 
-## Abd Allah b. Abd al-Aziz al-Aqil (d. 1432H; Zaid asked for his complete commentaries, Oct 2026; he then asked for the incomplete ones too: منهاج السالكين (variant), نور البصائر and التسهيل are live in الفقه with a «تنبيه», R2 `<slug>/NN.mp3`, slugs `*-ibn-aqil`; every YouTube file of this channel opens with the same 5.0 s music jingle, cut)
+## Abd Allah b. Abd al-Aziz al-Aqil (d. 1432H; Zaid asked for his complete commentaries, Oct 2026; he then asked for the incomplete ones too: منهج السالكين (variant), نور البصائر and التسهيل are live in الفقه with a «تنبيه», R2 `<slug>/NN.mp3`, slugs `*-ibn-aqil`; every YouTube file of this channel opens with the same 5.0 s music jingle, cut)
 - Online audio is only what his Alukah site (alukah.net/web/alaqeel, صوتيات) and the YouTube channel «مختارات الشيخ عبدالله بن عقيل رحمه الله» (UC8m47_h8p_wkXIjNRIw8ZvQ, same recordings) carry; archive.org has nothing. No complete commentary of a book:
-  - منهاج السالكين: 2 sessions (QURMLQIIJSg, ewZHXKrG1pU), only الطهارة (ends on ghusl questions).
+  - منهج السالكين: 2 sessions (QURMLQIIJSg, ewZHXKrG1pU), only الطهارة (ends on ghusl questions).
   - نور البصائر والألباب: 4 sessions (2ONqufOngOY, 9T1H6xsIlwg, fDewpa5c8Ag, 4OKb2_o43zk), ends at الإحداد/العزاء.
-  - التسهيل للبعلي: reading 4 sessions (HbG5m7647kc, YyjDq8BOUaQ, FGICTKzvAmc, 1_1IXq7CMRU, from the start to prayer on a mount), then كتاب المناسك 3 sessions (Tltpl08t2S0, aICpHPnRioE, QjgyoafruI8) complete for Hajj (closing thanks heard).
+  - التسهيل للبعلي: 4 sessions of reading with his sharh (HbG5m7647kc, YyjDq8BOUaQ, FGICTKzvAmc, 1_1IXq7CMRU, from the start to prayer on a mount), then كتاب المناسك 3 sessions (Tltpl08t2S0, aICpHPnRioE, QjgyoafruI8) complete for Hajj (closing thanks heard).
   - الأربعون في فضائل الحج (aqyr4kSutos): a riwayah reading on him with isnad, not a sharh.
 - Single lectures: «شرح كتاب الصيام» (R_boBM1Hmso), «شرح بعض الأحاديث في فضل المساجد» (gWn9z2yhmk4), «الشيخ عبدالرحمن السعدي كما عرفته» (Y_EZhkgo5Gw), «صفحات من حياتي» (2 parts).
 
