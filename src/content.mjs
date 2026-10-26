@@ -111,7 +111,6 @@ export const categories = [
         { title: 'شرح العقيدة الواسطية', type: 'audio', slug: 'al-aqidah-al-wasitiyyah-ibn-baz', variantOf: 'al-aqidah-al-wasitiyyah', note: 'سماحة المفتي السابق الشيخ عبد العزيز بن عبد الله بن باز (ت 1420هـ)' },
         { title: 'شرح العقيدة الواسطية', type: 'audio', slug: 'al-aqidah-al-wasitiyyah-najmi', variantOf: 'al-aqidah-al-wasitiyyah', note: 'فضيلة الشيخ العلامة أحمد بن يحيى النجمي (ت 1429هـ)' },
         { title: 'التعليق على شرح العقيدة الواسطية لسماحة المفتي السابق الشيخ محمد بن إبراهيم آل الشيخ (ت 1389هـ)', type: 'audio', slug: 'al-aqidah-al-wasitiyyah-adani', variantOf: 'al-aqidah-al-wasitiyyah', note: 'فضيلة الشيخ العالم ياسين بن علي الحوشبي العدني (ت 1439هـ)' },
-        { title: 'التعليق على التنبيهات السنية على العقيدة الواسطية للشيخ عبد العزيز بن ناصر الرشيد (ت 1408هـ)', type: 'audio', slug: 'at-tanbihat-as-saniyyah-adani', variantOf: 'al-aqidah-al-wasitiyyah', warning: 'الدرس الخامس عشر آخر درس ألقاه الشيخ، ثم اغتيل بعده بقليل رحمه الله، فلم يُكمل التعليق على الكتاب: انتهى فيه في أوائل الكتاب عند قول المصنف: «فلا عدول لأهل السنة والجماعة عما جاء به المرسلون»، وبقي ما بعده إلى آخر الكتاب.', note: 'فضيلة الشيخ العالم ياسين بن علي الحوشبي العدني (ت 1439هـ)' },
         { title: 'شرح فتح رب البرية بتلخيص الحموية', type: 'audio', slug: 'al-hamawiyyah', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين (ت 1421هـ)' },
         { title: 'شرح الفتوى الحموية الكبرى', type: 'audio', slug: 'al-fatwa-al-hamawiyyah-al-kubra', note: 'فضيلة الشيخ العلامة محمد أمان بن علي الجامي (ت 1416هـ)' },
         { title: 'شرح الفتوى الحموية الكبرى', type: 'audio', slug: 'al-fatwa-al-hamawiyyah-ibn-baz', variantOf: 'al-fatwa-al-hamawiyyah-al-kubra', note: 'سماحة المفتي السابق الشيخ عبد العزيز بن عبد الله بن باز (ت 1420هـ)' },
@@ -196,7 +195,6 @@ export const categories = [
       { title: 'شرح الملخص الفقهي', type: 'audio', slug: 'al-mulakhkhas-al-fiqhi', note: 'سماحة المفتي الشيخ صالح بن فوزان بن عبد الله الفوزان' },
       { title: 'شرح عمدة الفقه للإمام عبد الله بن أحمد بن محمد بن قدامة المقدسي (ت 620هـ)', type: 'audio', slug: 'umdat-al-fiqh', note: 'فضيلة الشيخ العلامة صالح بن محمد اللحيدان (ت 1443هـ)' },
       { title: 'شرح أخصر المختصرات للإمام محمد بن بدر الدين بن بلبان الدمشقي الحنبلي (ت 1083هـ)', type: 'audio', slug: 'akhsar-al-mukhtasarat', note: 'سماحة المفتي الشيخ صالح بن فوزان بن عبد الله الفوزان' },
-      { title: 'شرح كتاب المناسك من التسهيل في الفقه للإمام محمد بن علي البعلي (ت 778هـ)', type: 'audio', slug: 'kitab-al-manasik-at-tashil', warning: 'يبدأ تسجيل الدرس الثالث في أثناء الكلام على الوقوف بعرفة، فلم يوجد شرح ما قبله من أول صفة الحج.', note: 'فضيلة الشيخ العلامة عبد الله بن عبد العزيز بن عقيل (ت 1432هـ)' },
       { title: 'شرح منهج السالكين وتوضيح الفقه في الدين للإمام عبد الرحمن بن ناصر السعدي (ت 1376هـ)', type: 'audio', slug: 'manhaj-as-salikin', note: 'فضيلة الشيخ العلامة زيد بن محمد بن هادي المدخلي (ت 1435هـ)' },
       { title: 'شرح زاد المستقنع في اختصار المقنع للإمام موسى بن أحمد الحجاوي (ت 968هـ)', type: 'audio', slug: 'zad-al-mustaqni', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين (ت 1421هـ)' },
       { title: 'التعليق على الكافي للإمام عبد الله بن أحمد بن محمد بن قدامة المقدسي (ت 620هـ)', type: 'audio', slug: 'al-kafi', warning: 'لم يُكمل الشيخ شرح الكتاب: انتهى الشرح في باب الوقف، ولم يشرح ما بعده إلى آخر الكتاب: الهبة، والوصايا، والفرائض، والعتق، والنكاح، والطلاق، والجنايات، والحدود، والجهاد، والأيمان، والأقضية، والشهادات، والإقرار.', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين (ت 1421هـ)' },
@@ -285,5 +283,7 @@ export const itemsOf = (c) => [...c.items, ...(c.sections || []).flatMap((s) => 
 export const removed = [
   ['/fiqh/manhaj-as-salikin-ibn-aqil/', '/fiqh/manhaj-as-salikin/'],
   ['/fiqh/nur-al-basair-ibn-aqil/', '/fiqh/'],
-  ['/fiqh/at-tashil-ibn-aqil/', '/fiqh/kitab-al-manasik-at-tashil/'],
+  ['/fiqh/at-tashil-ibn-aqil/', '/fiqh/'],
+  ['/fiqh/kitab-al-manasik-at-tashil/', '/fiqh/'],
+  ['/aqeedah/at-tanbihat-as-saniyyah-adani/', '/aqeedah/al-aqidah-al-wasitiyyah/'],
 ];
