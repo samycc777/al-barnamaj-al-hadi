@@ -69,7 +69,7 @@ Checked muqbel.net, muqbel.al3ilm.net/alddurus, mimham.net/che-4, archive.org (`
 - رياض الصالحين: Ibn Uthaymeen's 96 lessons (alfiqh.net, 192 files, last 96ب = ḥadīths 1884–1890), end not heard.
 - Full bilan of other on-site scholars' commentaries per book: `docs/notes/commentaries-bilan.md`.
 
-## Abd Allah b. Abd al-Aziz al-Aqil (d. 1432H; Zaid asked for his complete commentaries, Oct 2026; he then had the incomplete ones added and removed them again (Oct 2026); none is on the site. Every YouTube file of this channel opens with the same 5.0 s music jingle)
+## Abd Allah b. Abd al-Aziz al-Aqil (d. 1432H; Zaid asked for his complete commentaries, Oct 2026; he then had the incomplete ones added and removed them again (Oct 2026); only التسهيل's كتاب المناسك is on the site (Zaid: in الفقه after أخصر المختصرات, slug `kitab-al-manasik-at-tashil`, R2 `01–03.mp3`). Its session 3 starts mid-sentence at the wuquf in Arafah («…راكبًا أفضل ويكثر من الدعاء»), on YouTube and on Alukah alike (same recordings, dl.alukah.net/swtyat/3bdala_al3qil/albs_aleslami/5/1–3.mp3); session 2 ends at the end of the umrah, so the start of صفة الحج is missing (warning on the page). Every YouTube file of this channel opens with the same 5.0 s music jingle)
 - Online audio is only what his Alukah site (alukah.net/web/alaqeel, صوتيات) and the YouTube channel «مختارات الشيخ عبدالله بن عقيل رحمه الله» (UC8m47_h8p_wkXIjNRIw8ZvQ, same recordings) carry; archive.org has nothing. No complete commentary of a book:
   - منهج السالكين: 2 sessions (QURMLQIIJSg, ewZHXKrG1pU), only الطهارة (ends on ghusl questions).
   - نور البصائر والألباب: 4 sessions (2ONqufOngOY, 9T1H6xsIlwg, fDewpa5c8Ag, 4OKb2_o43zk), ends at الإحداد/العزاء.
