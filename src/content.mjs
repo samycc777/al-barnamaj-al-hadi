@@ -102,6 +102,7 @@ export const categories = [
         { title: 'التعليق على شرح العقيدة الواسطية للشيخ محمد خليل هراس (ت 1395هـ)', type: 'audio', slug: 'al-aqidah-al-wasitiyyah-jami', variantOf: 'al-aqidah-al-wasitiyyah', note: 'فضيلة الشيخ العلامة محمد أمان بن علي الجامي (ت 1416هـ)' },
         { title: 'شرح العقيدة الواسطية', type: 'audio', slug: 'al-aqidah-al-wasitiyyah-ibn-baz', variantOf: 'al-aqidah-al-wasitiyyah', note: 'فضيلة الشيخ العلامة عبد العزيز بن عبد الله بن باز (ت 1420هـ)' },
         { title: 'شرح العقيدة الواسطية', type: 'audio', slug: 'al-aqidah-al-wasitiyyah-najmi', variantOf: 'al-aqidah-al-wasitiyyah', note: 'فضيلة الشيخ العلامة أحمد بن يحيى النجمي (ت 1429هـ)' },
+        { title: 'التعليق على شرح العقيدة الواسطية للشيخ محمد بن إبراهيم آل الشيخ (ت 1389هـ)', type: 'audio', slug: 'al-aqidah-al-wasitiyyah-adani', variantOf: 'al-aqidah-al-wasitiyyah', note: 'فضيلة الشيخ ياسين بن علي الحوشبي العدني (ت 1439هـ)' },
         { title: 'شرح فتح رب البرية بتلخيص الحموية', type: 'audio', slug: 'al-hamawiyyah', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين (ت 1421هـ)' },
         { title: 'شرح الفتوى الحموية الكبرى', type: 'audio', slug: 'al-fatwa-al-hamawiyyah-al-kubra', note: 'فضيلة الشيخ العلامة محمد أمان بن علي الجامي (ت 1416هـ)' },
         { title: 'شرح الفتوى الحموية الكبرى', type: 'audio', slug: 'al-fatwa-al-hamawiyyah-ibn-baz', variantOf: 'al-fatwa-al-hamawiyyah-al-kubra', note: 'فضيلة الشيخ العلامة عبد العزيز بن عبد الله بن باز (ت 1420هـ)' },
