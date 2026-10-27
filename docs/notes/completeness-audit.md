@@ -34,9 +34,14 @@ nukhbat-al-fikar, sharh-as-sunnah-al-barbahari, al-hamawiyyah, mansak-al-hajj, a
 wujub-al-amr-bil-maruf, al-ubudiyyah, masail-al-jahiliyyah, al-alfiyyah-fil-adab, an-nuniyyah, as-saffariniyyah,
 the six hadith collections of al-Abbad, bulugh-al-maram (القضاء and العتق one lesson each).
 Probable (ends near the book's end, closing words not heard): aqidat-as-salaf-as-sabuni, sarih-as-sunnah-at-tabari,
-manzumat-usul-al-fiqh, alfiyyat-as-suyuti; the other Ibn Uthaymin books match his site's lesson counts.
+manzumat-usul-al-fiqh; the other Ibn Uthaymin books match his site's lesson counts.
 End not confirmable (last minutes are Q&A): usul-al-iman, muqaddimat-al-majmu, hilyat-talib-al-ilm, at-tawassul-wal-wasilah.
 Riyad as-Salihin (binbaz): hadiths 531–532 may be skipped by the shaykh between lessons 184 and 185.
+
+## علوم الحديث (Zaid asked, 27 Oct 2026): every book complete
+muqaddimat-sahih-muslim-muqbil (to «وعليه التكلان»), al-bayquniyyah (lesson 7 ~20–32 min: the closing verses «وقد أتت كالجوهر المكنون…», then revision Q&A),
+nuzhat-an-nazar (lesson 16 ends «وإلى هنا انتهت هذه العجالة»), alfiyyat-as-suyuti (lesson 110 explains the closing verses on the date it was
+finished, 881; 111–146 are the Q&A parts of lessons 17–110), plus ikhtisar-ulum-al-hadith, muqaddimat-sahih-muslim and nukhbat-al-fikar above.
 
 ## Whisper round 2 (last 4 min of the last lesson)
 End heard: iqtida-as-sirat, ar-radd-ala-al-jahmiyyah, al-haiyyah, lumat-al-itiqad (last paragraph, المذاهب), muqaddimat-ar-risalah,
