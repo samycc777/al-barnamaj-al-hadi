@@ -273,7 +273,7 @@ export const categories = [
         title: 'البلاغة', items: [
         { title: 'شرح البلاغة من كتاب قواعد اللغة العربية', type: 'audio', slug: 'durus-al-balaghah', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين (ت 1421هـ)' },
         { title: 'التاج المكلل بكتاب دروس البلاغة المجلل', type: 'audio', slug: 'durus-al-balaghah-kouni', variantOf: 'durus-al-balaghah', source: 'https://miraath.net/%D8%B3%D9%84%D8%B3%D9%84%D8%A9-%D8%AF%D8%B1%D9%88%D8%B3-%D8%A7%D9%84%D8%AA%D8%A7%D8%AC-%D8%A7%D9%84%D9%85%D9%83%D9%84%D9%91%D9%84-%D8%A8%D9%83%D8%AA%D8%A7%D8%A8-%D8%AF%D8%B1%D9%88%D8%B3-%D8%A7%D9%84/', fix: { 42: { date: '1443/06/01' } }, note: 'فضيلة الشيخ العلامة عبد الرحمن بن عوف كوني' },
-        { title: 'شرح موجز البلاغة للإمام محمد الطاهر ابن عاشور (ت 1393هـ)', type: 'audio', slug: 'mujaz-al-balaghah', note: 'فضيلة الشيخ العلامة عبد الرحمن بن عوف كوني' },
+        { title: 'شرح موجز البلاغة للشيخ محمد الطاهر ابن عاشور (ت 1393هـ)', type: 'audio', slug: 'mujaz-al-balaghah', note: 'فضيلة الشيخ العلامة عبد الرحمن بن عوف كوني' },
         ],
       },
       {
