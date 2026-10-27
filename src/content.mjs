@@ -192,9 +192,9 @@ export const categories = [
   {
     slug: 'ulum-al-hadith', name: 'علوم الحديث', icon: 'chain', items: [
       { title: 'مقدمة في علم الحديث', type: 'audio', audio: 'https://rabee.net/wp-content/uploads/bulk-files/sounds/mostalah.mp3', note: 'فضيلة الشيخ العلامة ربيع بن هادي عمير المدخلي (ت 1447هـ)' },
-      { title: 'شرح مقدمة صحيح الإمام مسلم بن الحجاج (ت 261هـ)', type: 'audio', slug: 'muqaddimat-sahih-muslim-muqbil', note: 'فضيلة الشيخ العلامة مقبل بن هادي الوادعي (ت 1422هـ)' },
-      { title: 'شرح مقدمة صحيح الإمام مسلم بن الحجاج (ت 261هـ)', type: 'audio', slug: 'muqaddimat-sahih-muslim', variantOf: 'muqaddimat-sahih-muslim-muqbil', note: 'فضيلة الشيخ العلامة محمد بن علي بن آدم الإتيوبي (ت 1442هـ)' },
-      { title: 'شرح مقدمة صحيح الإمام مسلم بن الحجاج (ت 261هـ)', type: 'audio', slug: 'muqaddimat-sahih-muslim-abbad', variantOf: 'muqaddimat-sahih-muslim-muqbil', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد البدر' },
+      { title: 'شرح مقدمة صحيح الإمام مسلم بن الحجاج (ت 261هـ)', type: 'audio', slug: 'muqaddimat-sahih-muslim-abbad', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد البدر' },
+      { title: 'شرح مقدمة صحيح الإمام مسلم بن الحجاج (ت 261هـ)', type: 'audio', slug: 'muqaddimat-sahih-muslim-muqbil', variantOf: 'muqaddimat-sahih-muslim-abbad', note: 'فضيلة الشيخ العلامة مقبل بن هادي الوادعي (ت 1422هـ)' },
+      { title: 'شرح مقدمة صحيح الإمام مسلم بن الحجاج (ت 261هـ)', type: 'audio', slug: 'muqaddimat-sahih-muslim', variantOf: 'muqaddimat-sahih-muslim-abbad', note: 'فضيلة الشيخ العلامة محمد بن علي بن آدم الإتيوبي (ت 1442هـ)' },
       { title: 'شرح المنظومة البيقونية للإمام عمر بن محمد البيقوني (ت نحو 1080هـ)', type: 'audio', slug: 'al-bayquniyyah', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين (ت 1421هـ)' },
       { title: 'شرح نزهة النظر في توضيح نخبة الفكر للإمام أحمد بن علي بن حجر العسقلاني (ت 852هـ)', type: 'audio', slug: 'nuzhat-an-nazar-ibn-baz', note: 'سماحة المفتي السابق الشيخ عبد العزيز بن عبد الله بن باز (ت 1420هـ)' },
       { title: 'شرح نزهة النظر في توضيح نخبة الفكر للإمام أحمد بن علي بن حجر العسقلاني (ت 852هـ)', type: 'audio', slug: 'nuzhat-an-nazar', variantOf: 'nuzhat-an-nazar-ibn-baz', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين (ت 1421هـ)' },
