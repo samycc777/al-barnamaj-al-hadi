@@ -99,6 +99,8 @@ const TYPE = {
 // A book's lessons, copied from the Shaykh's site by `npm run import`.
 const lessonsOf = (it) => JSON.parse(readFileSync(`src/lessons/${it.slug}.json`, 'utf8'));
 const lessonCount = (book) => book.chapters.reduce((n, c) => n + c.lessons.length, 0);
+// Shown after each commentator's name wherever the commentaries are listed (Zaid).
+const countNote = (x) => `<span class="v-count">(عدد الدروس: ${lessonCount(lessonsOf(x))})</span>`;
 
 // Another shaykh's commentary on the same book is its own item, right after
 // the first, with `variantOf: '<first one's slug>'`. The category lists the
@@ -115,7 +117,7 @@ function itemRow(it, c) {
   const all = book ? commentaries(c, it) : [];
   const meta = (all.length > 1 ? [
     `<span>عدد الشروح: ${all.length}</span>`,
-    `<span class="notes">${all.map((x) => `<span>${txt(x.note)}</span>`).join(' ')}</span>`,
+    `<span class="notes">${all.map((x) => `<span>${txt(x.note)} ${countNote(x)}</span>`).join(' ')}</span>`,
   ] : [
     book && `<span>عدد الدروس: ${lessonCount(book)}</span>`,
     it.date && `<span>${esc(it.date)}</span>`,
@@ -307,8 +309,8 @@ function choice(c, it) {
   const all = commentaries(c, it);
   if (all.length < 2) return '';
   return `<nav class="variants" aria-label="الشروح"><span class="variants-label">الشروح:</span><ul>${all.map((x) => x === it
-    ? `<li><span class="variant active" aria-current="page">${variantName(x)}</span></li>`
-    : `<li><a class="variant" href="/${c.slug}/${x.slug}/">${variantName(x)}</a></li>`).join('')}</ul></nav>`;
+    ? `<li><span class="variant active" aria-current="page">${variantName(x)}</span> ${countNote(x)}</li>`
+    : `<li><a class="variant" href="/${c.slug}/${x.slug}/">${variantName(x)}</a> ${countNote(x)}</li>`).join('')}</ul></nav>`;
 }
 
 // One page per book: its chapters and lessons, each playable here. The audio

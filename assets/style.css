@@ -286,6 +286,7 @@ main.container { padding: 28px 0 40px; }
 a.variant { color: var(--brown-3); text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 4px; }
 a.variant:hover { text-decoration-color: var(--gold); }
 .variant.active { font-weight: 700; }
+.v-count { color: var(--muted); white-space: nowrap; }
 .book-warning { margin: 0 -18px; padding: 10px 18px; border-bottom: 1px solid var(--row-line); background: var(--warn-bg); color: var(--ink); font-size: 14px; line-height: 1.8; }
 .book-warning b { color: var(--warn-ink); }
 .chapter { margin: 0 -18px; border-bottom: 1px solid var(--line); }
