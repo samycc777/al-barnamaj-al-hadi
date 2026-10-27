@@ -63,7 +63,7 @@
   function load(r) {
     cur = r;
     saved = 0;
-    au.src = r.dataset.src;
+    au.src = r.dataset.file || r.dataset.src; // data-file: our R2 copy; data-src stays the lesson's id
     au.defaultPlaybackRate = au.playbackRate = rate;
     var title = titleOf(r);
     titleBox.textContent = title;

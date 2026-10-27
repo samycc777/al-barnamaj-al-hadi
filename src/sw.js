@@ -3,7 +3,7 @@
 // at once) and from the cache only when the network fails. A page never
 // visited shows the home page when offline. Audio, the inbox and other sites
 // are left alone. The cache keeps the most recent MAX files.
-const CACHE = 'site-v2';
+const CACHE = 'site-v3';
 const MAX = 300;
 
 self.addEventListener('install', () => self.skipWaiting());
@@ -26,7 +26,7 @@ self.addEventListener('fetch', (e) => {
   const req = e.request;
   const url = new URL(req.url);
   if (req.method !== 'GET' || url.origin !== location.origin) return;
-  if (url.pathname.startsWith('/api/') || url.pathname.startsWith('/inbox/') || req.headers.has('range')) return;
+  if (url.pathname.startsWith('/api/') || url.pathname.startsWith('/inbox/') || url.pathname.startsWith('/media/') || req.headers.has('range')) return;
   e.respondWith(
     fetch(req)
       .then((res) => {

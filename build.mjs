@@ -2,6 +2,7 @@
 import { mkdirSync, rmSync, writeFileSync, cpSync, readFileSync, readdirSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { site, categories, itemsOf, removed } from './src/content.mjs';
+import { mirrorKey } from './scripts/mirror-key.mjs';
 
 // `npm run check` builds into its own folder so it never races the preview,
 // which rebuilds dist/ whenever a file changes.
@@ -96,6 +97,23 @@ const TYPE = {
   link: { icon: 'link', label: 'فتح', action: 'play' },
 };
 
+// Audio copied into our R2 bucket plays from there (/media/, functions/media/):
+// files listed in src/mirrored.json (copied by ~/dev/tool-r2-mirror) and the
+// bucket's own files on its r2.dev address. Anything else plays from its host.
+// The original address stays the lesson's id (data-src), so listeners keep
+// their saved place; data-file is what actually plays.
+const R2_PUBLIC = 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/';
+const mirrored = new Set(JSON.parse(readFileSync('src/mirrored.json', 'utf8')));
+const encodeKey = (key) => '/media/' + key.split('/').map(encodeURIComponent).join('/');
+const fileOf = (url) => {
+  if (!url) return url;
+  if (url.startsWith(R2_PUBLIC)) return encodeKey(decodeURIComponent(url.slice(R2_PUBLIC.length)));
+  const key = mirrorKey(url);
+  return mirrored.has(key) ? encodeKey(key) : url;
+};
+const downloadOf = (x) => (fileOf(x.audio) !== x.audio ? fileOf(x.audio) + '?download' : x.download || x.audio);
+const audioAttrs = (x) => ` data-src="${esc(x.audio)}"${fileOf(x.audio) !== x.audio ? ` data-file="${esc(fileOf(x.audio))}"` : ''}`;
+
 // A book's lessons, copied from the Shaykh's site by `npm run import`.
 const lessonsOf = (it) => JSON.parse(readFileSync(`src/lessons/${it.slug}.json`, 'utf8'));
 const lessonCount = (book) => book.chapters.reduce((n, c) => n + c.lessons.length, 0);
@@ -126,13 +144,13 @@ function itemRow(it, c) {
   const btn = book
     ? `<a class="round-btn" href="/${c.slug}/${it.slug}/" title="الدروس" aria-label="الدروس">${icon('chevron')}</a>`
     : it.audio
-    ? `<a class="round-btn dl" href="${esc(it.download || it.audio)}" title="تحميل" aria-label="تحميل: ${esc(it.title)}">${icon('download')}</a>
+    ? `<a class="round-btn dl" href="${esc(downloadOf(it))}" title="تحميل" aria-label="تحميل: ${esc(it.title)}">${icon('download')}</a>
       <button class="round-btn play" type="button" title="استماع" aria-label="استماع: ${esc(it.title)}">${icon('play', 'ic i-play')}${icon('pause', 'ic i-pause')}</button>`
     : it.url
     ? `<a class="round-btn" href="${esc(it.url)}" target="_blank" rel="noopener" title="${t.label}" aria-label="${t.label}">${icon(t.action)}</a>`
     : '';
   const id = !book && it.audio ? ` id="${nextRow(it.title)}"` : '';
-  return `<li class="row${it.audio ? ' lesson' : ''}"${id}${it.audio ? ` data-src="${esc(it.audio)}"` : ''}>
+  return `<li class="row${it.audio ? ' lesson' : ''}"${id}${it.audio ? audioAttrs(it) : ''}>
       <span class="row-ic">${icon(t.icon)}</span>
       <div class="row-body"><div class="row-title">${book ? `<a href="/${c.slug}/${it.slug}/">${txt(it.title)}</a>` : txt(it.title)}</div>${meta ? `<div class="row-meta">${meta}</div>` : ''}</div>
       ${btn}
@@ -259,7 +277,7 @@ function homePage() {
 }
 
 // One audio player bar per page: a lesson's play button loads it here. The
-// audio streams from the Shaykh's site (or miraath.net).
+// audio streams from our R2 copy (/media/), or from its host if not copied yet.
 const PLAYER = () => `<div class="player" hidden>
   <div class="player-title" role="status"></div>
   <div class="player-controls" dir="ltr">
@@ -291,10 +309,10 @@ function lessonRow(l) {
   const title = /^\d+_[\d-]+$/.test(l.title) ? `الدرس ${n}` : l.title;
   const meta = [l.date && `<span>${esc(l.date)}</span>`, l.size && `<span dir="ltr">${esc(l.size)}</span>`]
     .filter(Boolean).join('<i class="dot"></i>');
-  return `<li class="row lesson" id="${id}" data-src="${esc(l.audio)}">
+  return `<li class="row lesson" id="${id}"${audioAttrs(l)}>
       <span class="num">${n}</span>
       <div class="row-body"><div class="row-title">${txt(title)}</div>${meta ? `<div class="row-meta">${meta}</div>` : ''}</div>
-      <a class="round-btn dl" href="${esc(l.download || l.audio)}" title="تحميل" aria-label="تحميل: ${esc(title)}">${icon('download')}</a>
+      <a class="round-btn dl" href="${esc(downloadOf(l))}" title="تحميل" aria-label="تحميل: ${esc(title)}">${icon('download')}</a>
       <button class="round-btn play" type="button" title="استماع" aria-label="استماع: ${esc(title)}">${icon('play', 'ic i-play')}${icon('pause', 'ic i-pause')}</button>
     </li>`;
 }
@@ -423,12 +441,12 @@ writeFileSync(`${OUT}/robots.txt`, `User-agent: *\nAllow: /\nSitemap: ${site.url
 writeFileSync(`${OUT}/assets/search.json`, JSON.stringify({ pages: search.pages, chapters: search.chapters, lessons: search.lessons.filter((l) => l[0]) }));
 
 // Cloudflare Pages headers. Scripts, styles, fonts and pictures come only from
-// this site (the theme snippet above by its hash); audio plays from the
-// Shaykhs' sites and the other hosts, so any https address. No other site may
+// this site (the theme snippet above by its hash); audio plays from /media/ or,
+// if not copied there yet, from its host, so any https address. No other site may
 // show these pages in a frame. The inbox stays out of search engines.
 const CSP = [
   "default-src 'self'", `script-src 'self' 'sha256-${THEME_HASH}'`, "style-src 'self'", "img-src 'self' data:",
-  "font-src 'self'", 'media-src https:', "connect-src 'self'", "worker-src 'self'", "manifest-src 'self'",
+  "font-src 'self'", "media-src 'self' https:", "connect-src 'self'", "worker-src 'self'", "manifest-src 'self'",
   "object-src 'none'", "base-uri 'none'", "form-action 'self'", "frame-ancestors 'none'",
 ].join('; ');
 // Fonts never change under the same name; the rest is kept an hour (not

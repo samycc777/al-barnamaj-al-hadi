@@ -12,3 +12,9 @@ NODE_VERSION = "22"
 [[r2_buckets]]
 binding = "INBOX"
 bucket_name = "al-barnamaj-al-hadi-inbox"
+
+# The lessons' audio: files added by hand and copies of the hosts' files made by
+# ~/dev/tool-r2-mirror, served at /media/ by functions/media/.
+[[r2_buckets]]
+binding = "MEDIA"
+bucket_name = "al-barnamaj-al-hadi-media"

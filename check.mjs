@@ -20,6 +20,7 @@ for (const p of pages) {
   if (!existsSync(p)) { fail(`missing ${p}`); continue; }
   const html = readFileSync(p, 'utf8');
   for (const [, href] of html.matchAll(/(?:href|src)="(\/[^"]*)"/g)) {
+    if (href.startsWith('/media/')) continue; // R2 files, served by functions/media/
     const target = join(OUT, href.endsWith('/') ? `${href}index.html` : href);
     if (!existsSync(target)) fail(`${p} links to ${href}, which does not exist`);
   }

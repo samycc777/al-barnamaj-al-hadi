@@ -20,7 +20,7 @@ Live at https://al-barnamaj-al-hadi.pages.dev (Cloudflare Pages project `al-barn
   - A book with many lessons gets `slug` and `source` (its lessons page on the Shaykh's site, al-abbaad.com, or miraath.net for scholars with no official site) and its own page at `/<category>/<slug>/`. `source` is only for the importer; the site never shows it. A lesson the source files under the wrong book (miraath.net does this) goes in the book's `skip` list when the user reports it, so a later import doesn't bring it back.
   - A book with no `source` has a hand-written lesson list (the importer skips it). When a host numbers sessions in the wrong order, write the list by hand in the right order (the importer sorts by file number).
   - A category can group books into `sections` (`{ title, items }`), shown as foldable groups that start closed. Code that walks all books uses `itemsOf(c)`. الآداب's slug is still `adab-at-talib`.
-- `src/lessons/<slug>.json`: each book's chapters and lessons (title, date, audio address, download link, size). The audio stays on its host; the book page plays it with one player bar at the bottom.
+- `src/lessons/<slug>.json`: each book's chapters and lessons (title, date, audio address, download link, size). The audio plays from our R2 copy when `src/mirrored.json` lists it (else from its host), with one player bar at the bottom; copying steps in `docs/notes/site-internals.md`.
 - `scripts/import-lessons.mjs`: the importer. Lessons the source lacks can be added by hand with `"extra": true`; the importer keeps them.
 - `build.mjs` builds the static pages into `dist/`; `check.mjs` checks every page, internal link and lesson list. `assets/` holds styles, scripts, fonts, icons. Details in `docs/notes/site-internals.md`.
 
