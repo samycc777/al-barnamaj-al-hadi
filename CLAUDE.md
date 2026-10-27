@@ -64,7 +64,7 @@ The brother (Zayd bin Ibrahim al-Jazairi, runs the programme; the user says "the
 
 ## Progress for Zaid
 - In Zaid's sites (the 5 `archive-*` folders and `site-tasil-ilm-study-program`), every task that changes the site posts a live card to his Telegram group: `~/dev/tool-progress-bot/progress.sh start "<title>"` when it begins, `step "<text>"` as each step begins, `done "<live url>" "<summary>"` after deploying, `fail "<reason>" "<summary>"` if it stops. Reading or answering only: no card.
-- The summary is a short report, like the one you give the user: one sentence with the outcome, then `• ` lines naming what changed (counts, dates, titles), problems met and how they were solved, and what was checked; say plainly when nothing changed. One quoted argument with real line breaks.
+- The summary is at most 4 short lines (about 400 characters): one sentence with the outcome, then at most 2 `• ` lines naming what changed (counts, titles), then a question or a problem still open if there is one. Leave out what was checked and problems already solved; say plainly when nothing changed. One quoted argument with real line breaks.
 - Short, plain Arabic that names the site; never prompts, paths, code or logs. The script ignores every other project.
 - Zaid also talks to Claude directly through @mawqi_bot (group replies/mentions, or a private chat): `tool-progress-bot/listener.mjs` runs each conversation as a headless Claude session in the site's folder; treat him as the user for his sites.
 
