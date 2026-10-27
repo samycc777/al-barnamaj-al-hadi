@@ -100,7 +100,7 @@ const TYPE = {
 const lessonsOf = (it) => JSON.parse(readFileSync(`src/lessons/${it.slug}.json`, 'utf8'));
 const lessonCount = (book) => book.chapters.reduce((n, c) => n + c.lessons.length, 0);
 // Shown after each commentator's name wherever the commentaries are listed (Zaid).
-const countNote = (x) => `<span class="v-count">(عدد الدروس: ${lessonCount(lessonsOf(x))})</span>`;
+const countNote = (x) => `<span class="v-count">عدد الدروس: ${lessonCount(lessonsOf(x))}</span>`;
 
 // Another shaykh's commentary on the same book is its own item, right after
 // the first, with `variantOf: '<first one's slug>'`. The category lists the
