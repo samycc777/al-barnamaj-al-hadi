@@ -1,5 +1,6 @@
 # Bilan: complete commentaries by on-site scholars (Oct 2026)
 Research for Zaid's request "toutes les explications complètes de chaque livre par d'autres cheikh présent sur le site". Sent to him; he chooses what to add. Nothing heard unless stated; COMPLETE = from titles, printed books or transcripts.
+Aqeedah variants that were heard and added: completeness-audit.md, section «Aqeedah المتقدمين إلى المتأخرين».
 
 ## Yasin al-Adani (audio already in R2 bucket yasin-aladani-media, see ~/dev/archive-shaykh-yasin-adani docs/notes/course-status.md)
 - Complete on the matn: lumat (10), usul-as-sittah (11), qurrat-uyun (81), qawaid-muthla (33), hamawiyyah original (48), tathir (17), usul-min-ilm-al-usul (59).

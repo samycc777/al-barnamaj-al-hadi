@@ -91,3 +91,14 @@ al-ajurrumiyyah-kouni, mutammimat-al-ajurrumiyyah, unwan-az-zarf, al-wabil-as-sa
 ## al-Jabiri's other commentaries on the site's books (Whisper of starts, ends, transitions)
 - Complete, added as variants: القواعد الأربع `cha-676` (Tue 11 Sha'ban 1427, 1 h 17; cha-169 is the same recording in 5 pieces); ستة مواضع `cha-346` (Dar Ibn Rajab, 2 lessons, lesson 2 = الغرانيق to the Riddah and the end); نواقض الإسلام `cha-1402` (Jeddah 1433, 7 lessons, miraath intro on each; 7 = 10th nāqiḍ + «إلا المكره», then Q&A); كشف الشبهات `cha-1238` (a dawrah, 5 lessons, 4.9 h; whole transcript placed against the matn: 1 = start to «اجعل لنا إلهاً», 2 = «واعلم أنه سبحانه من حكمته» to the third objection «سواء بسواء», 3 = «أنا لا أعبد إلا الله» to the awliyāʾ and karāmāt (explains «بنات الله»), 4 = «شرك الأولين أخف» to ذات أنواط, 5 = Usāmah to «إلا المكره» and the end; only the linking lines «واعلم أن هذه الشبه الثلاث» and «ودين الله وسط» are not read out). Not used: `cha-1255` (4 lessons; 2 stops at «وسر المسألة», 3 starts at «فإن قال إنهم لا يكفرون بدعاء الملائكة»: that paragraph is not explained; Zaid asked for another series), `cha-408` (5, odd mid-sentence starts).
 - Incomplete: كتاب التوحيد (`cha-164`, 1752, 1405+1412), ثلاثة الأصول (`cha-167` = YouTube «إتحاف العقول» 9 parts, ends at الإحسان), البربهاري (`cha-409`, 1236: ~first fifth), الأصول الستة (`cha-694`: principles 1–2, ~1.5 min intro sound).
+
+## Aqeedah «المتقدمين إلى المتأخرين»: other site scholars' commentaries (Oct 2026, Whisper of each course's last lesson)
+- Complete, added as variants: al-Abbad Tathir (7) and Muqaddimat ar-Risalah (11; last title «نهاية الرسالة», then Q&A); Ibn Baz Tahawiyyah (32);
+  al-Faqihi Lumat (30, on al-Fawzan's sharh, «نكتفي بهذا» after the last line) and Muqaddimah (11, «وبهذا تم الشرح»);
+  Zayd: Raziyyayn mimham 173 and 910 (both reach «وبه أقول»; الأقصر/الأطول by hours), Usul as-Sunnah 177 (912 = same recording in 8 files),
+  Lumat 261 («وهذا آخر المعتقد»), Saffariniyyah 244 (khatimah verses), Tathir 725; Yasin al-Adani's 5 courses (copied to the site's R2);
+  al-Fawzan Haiyyah (archive 05_20200218, 7; lesson 7 «تمت المنظومة»).
+- Incomplete: al-Jabiri Barbahari (409 stops at qadar, «تنتهي المجموعة الأولى»; 1236 at the sahabah); an-Najmi Usul as-Sunnah; Aal ash-Shaykh Lumat
+  (11 radio lessons, last at ru'yah); Ibn Uthaymeen Saffariniyyah (31 ends mid-sentence before the end of the poem); Zayd Muqaddimah (mimham 181,
+  lesson 8 still at the angels); Ibn Uthaymeen Nuniyyah 2 (34, end not reached in the last file).
+- Unclear, not added: al-Fawzan Muqaddimah (archive 004_20210823: 008 starts at the last section, 009 restarts at «باب ما تعتقده القلوب»; Zaid declined it 9 Oct).
