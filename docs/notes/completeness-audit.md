@@ -98,6 +98,7 @@ al-ajurrumiyyah-kouni, mutammimat-al-ajurrumiyyah, unwan-az-zarf, al-wabil-as-sa
   Zayd: Raziyyayn mimham 173 and 910 (both reach «وبه أقول»; الأقصر/الأطول by hours), Usul as-Sunnah 177 (912 = same recording in 8 files),
   Lumat 261 («وهذا آخر المعتقد»), Saffariniyyah 244 (khatimah verses), Tathir 725; Yasin al-Adani's 5 courses (copied to the site's R2);
   al-Fawzan Haiyyah (archive 05_20200218, 7; lesson 7 «تمت المنظومة»).
+  Taken off again by Zaid: Yasin al-Adani's Lumat on the matn and his shorter comments on Ibn Uthaymeen's (the longer one stays, labelled without «الأطول»).
 - Incomplete: al-Jabiri Barbahari (409 stops at qadar, «تنتهي المجموعة الأولى»; 1236 at the sahabah); an-Najmi Usul as-Sunnah; Aal ash-Shaykh Lumat
   (11 radio lessons, last at ru'yah); Ibn Uthaymeen Saffariniyyah (31 ends mid-sentence before the end of the poem); Zayd Muqaddimah (mimham 181,
   lesson 8 still at the angels); Ibn Uthaymeen Nuniyyah 2 (34, end not reached in the last file).

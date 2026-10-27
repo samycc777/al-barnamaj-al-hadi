@@ -148,9 +148,7 @@ export const categories = [
         { title: 'شرح لمعة الاعتقاد للإمام عبد الله بن أحمد بن محمد بن قدامة المقدسي (ت 620هـ)', type: 'audio', slug: 'lumat-al-itiqad-najmi', variantOf: 'lumat-al-itiqad', note: 'فضيلة الشيخ العلامة أحمد بن يحيى النجمي (ت 1429هـ)' },
         { title: 'شرح لمعة الاعتقاد للإمام عبد الله بن أحمد بن محمد بن قدامة المقدسي (ت 620هـ)', type: 'audio', slug: 'lumat-al-itiqad-zayd', variantOf: 'lumat-al-itiqad', note: 'فضيلة الشيخ العلامة زيد بن محمد بن هادي المدخلي (ت 1435هـ)' },
         { title: 'شرح لمعة الاعتقاد للإمام عبد الله بن أحمد بن محمد بن قدامة المقدسي (ت 620هـ)', type: 'audio', slug: 'lumat-al-itiqad-faqihi', variantOf: 'lumat-al-itiqad', label: 'التعليق على شرح الشيخ الفوزان', note: 'فضيلة الشيخ العلامة علي بن محمد بن ناصر الفقيهي (ت 1446هـ)' },
-        { title: 'شرح لمعة الاعتقاد للإمام عبد الله بن أحمد بن محمد بن قدامة المقدسي (ت 620هـ)', type: 'audio', slug: 'lumat-al-itiqad-adani', variantOf: 'lumat-al-itiqad', label: 'شرح المتن', note: 'فضيلة الشيخ العالم ياسين بن علي الحوشبي العدني (ت 1439هـ)' },
-        { title: 'شرح لمعة الاعتقاد للإمام عبد الله بن أحمد بن محمد بن قدامة المقدسي (ت 620هـ)', type: 'audio', slug: 'lumat-al-itiqad-adani-taliq', variantOf: 'lumat-al-itiqad', label: 'التعليق الأقصر على شرح الشيخ العثيمين', note: 'فضيلة الشيخ العالم ياسين بن علي الحوشبي العدني (ت 1439هـ)' },
-        { title: 'شرح لمعة الاعتقاد للإمام عبد الله بن أحمد بن محمد بن قدامة المقدسي (ت 620هـ)', type: 'audio', slug: 'lumat-al-itiqad-adani-taliq-2', variantOf: 'lumat-al-itiqad', label: 'التعليق الأطول على شرح الشيخ العثيمين', note: 'فضيلة الشيخ العالم ياسين بن علي الحوشبي العدني (ت 1439هـ)' },
+        { title: 'شرح لمعة الاعتقاد للإمام عبد الله بن أحمد بن محمد بن قدامة المقدسي (ت 620هـ)', type: 'audio', slug: 'lumat-al-itiqad-adani-taliq-2', variantOf: 'lumat-al-itiqad', label: 'التعليق على شرح الشيخ العثيمين', note: 'فضيلة الشيخ العالم ياسين بن علي الحوشبي العدني (ت 1439هـ)' },
         { title: 'شرح الكافية الشافية في الانتصار للفرقة الناجية (القصيدة النونية) للإمام محمد بن أبي بكر ابن قيم الجوزية (ت 751هـ)', type: 'audio', slug: 'an-nuniyyah', note: 'سماحة المفتي الشيخ صالح بن فوزان بن عبد الله الفوزان' },
         { title: 'شرح الدرة المضية في عقد أهل الفرقة المرضية (العقيدة السفارينية) للإمام محمد بن أحمد السفاريني (ت 1188هـ)', type: 'audio', slug: 'as-saffariniyyah', note: 'سماحة المفتي الشيخ صالح بن فوزان بن عبد الله الفوزان' },
         { title: 'شرح الدرة المضية في عقد أهل الفرقة المرضية (العقيدة السفارينية) للإمام محمد بن أحمد السفاريني (ت 1188هـ)', type: 'audio', slug: 'as-saffariniyyah-zayd', variantOf: 'as-saffariniyyah', note: 'فضيلة الشيخ العلامة زيد بن محمد بن هادي المدخلي (ت 1435هـ)' },
@@ -301,6 +299,8 @@ export const itemsOf = (c) => [...c.items, ...(c.sections || []).flatMap((s) => 
 // Books taken off the site: their old address goes to the category page, since
 // the pages.dev edge cache can keep serving a deleted page for days.
 export const removed = [
+  ['/aqeedah/lumat-al-itiqad-adani/', '/aqeedah/lumat-al-itiqad/'],
+  ['/aqeedah/lumat-al-itiqad-adani-taliq/', '/aqeedah/lumat-al-itiqad/'],
   ['/fiqh/manhaj-as-salikin-ibn-aqil/', '/fiqh/manhaj-as-salikin/'],
   ['/fiqh/nur-al-basair-ibn-aqil/', '/fiqh/'],
   ['/fiqh/at-tashil-ibn-aqil/', '/fiqh/'],
