@@ -69,6 +69,7 @@ export const categories = [
         { title: 'شرح حديث «قسمت الصلاة بيني وبين عبدي»', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/hadith-qusimat-as-salah-hammad/hadith-qusimat-as-salah-hammad.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/hadith-qusimat-as-salah-hammad/hadith-qusimat-as-salah-hammad.mp3', note: 'فضيلة الشيخ العلامة حماد بن محمد الأنصاري (ت 1418هـ)' },
         { title: 'كلمة توجيهية', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/kalimah-tawjihiyyah-ibn-aqil/kalimah-tawjihiyyah-ibn-aqil.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/kalimah-tawjihiyyah-ibn-aqil/kalimah-tawjihiyyah-ibn-aqil.mp3', note: 'فضيلة الشيخ العلامة عبد الله بن عبد العزيز بن عقيل (ت 1432هـ)' },
         { title: 'شرح الحسام الماحق لكل مشرك ومنافق', type: 'audio', slug: 'al-husam-al-mahiq', warning: 'ينقطع الشريط التاسع في أصل التسجيل في أواخر الفصل الثالث (في بيان أن كل بدعة ضلالة)، فلم يُسجَّل باقي هذا الفصل.', note: 'فضيلة الشيخ العلامة محمد تقي الدين بن عبد القادر الهلالي (ت 1407هـ)' },
+        { title: 'جهود أئمة اللغة في تقرير العقيدة', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/juhud-aimmat-al-lughah-kouni/juhud-aimmat-al-lughah-kouni.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/juhud-aimmat-al-lughah-kouni/juhud-aimmat-al-lughah-kouni.mp3', note: 'فضيلة الشيخ العلامة عبد الرحمن بن عوف كوني' },
         ],
       },
       {
