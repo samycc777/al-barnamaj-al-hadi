@@ -154,7 +154,6 @@ export const categories = [
         { title: 'شرح الدرة المضية في عقد أهل الفرقة المرضية (العقيدة السفارينية) للإمام محمد بن أحمد السفاريني (ت 1188هـ)', type: 'audio', slug: 'as-saffariniyyah-zayd', variantOf: 'as-saffariniyyah', note: 'فضيلة الشيخ العلامة زيد بن محمد بن هادي المدخلي (ت 1435هـ)' },
         { title: 'شرح تطهير الاعتقاد عن أدران الإلحاد للإمام محمد بن إسماعيل الأمير الصنعاني (ت 1182هـ)', type: 'audio', slug: 'tathir-al-itiqad-fawzan', note: 'سماحة المفتي الشيخ صالح بن فوزان بن عبد الله الفوزان' },
         { title: 'شرح تطهير الاعتقاد عن أدران الإلحاد للإمام محمد بن إسماعيل الأمير الصنعاني (ت 1182هـ)', type: 'audio', slug: 'tathir-al-itiqad-abbad', variantOf: 'tathir-al-itiqad-fawzan', source: 'https://al-abbaad.com/lecture/aqedah/tathir-itiqod?type=files', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد البدر' },
-        { title: 'شرح تطهير الاعتقاد عن أدران الإلحاد للإمام محمد بن إسماعيل الأمير الصنعاني (ت 1182هـ)', type: 'audio', slug: 'tathir-al-itiqad-adani', variantOf: 'tathir-al-itiqad-fawzan', note: 'فضيلة الشيخ العالم ياسين بن علي الحوشبي العدني (ت 1439هـ)' },
         { title: 'شرح تطهير الاعتقاد عن أدران الإلحاد للإمام محمد بن إسماعيل الأمير الصنعاني (ت 1182هـ)', type: 'audio', slug: 'tathir-al-itiqad-zayd', variantOf: 'tathir-al-itiqad-fawzan', note: 'فضيلة الشيخ العلامة زيد بن محمد بن هادي المدخلي (ت 1435هـ)' },
         { title: 'شرح التحف في مذاهب السلف للإمام محمد بن علي الشوكاني (ت 1250هـ)', type: 'audio', slug: 'at-tuhaf-fi-madhahib-as-salaf', note: 'فضيلة الشيخ العلامة عبيد بن عبد الله بن سليمان الحمداني الجابري (ت 1444هـ)' },
         { title: 'شرح كتاب شرح الصدور بتحريم رفع القبور للإمام محمد بن علي الشوكاني (ت 1250هـ)', type: 'audio', slug: 'sharh-as-sudur', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد البدر' },
@@ -299,6 +298,7 @@ export const itemsOf = (c) => [...c.items, ...(c.sections || []).flatMap((s) => 
 // Books taken off the site: their old address goes to the category page, since
 // the pages.dev edge cache can keep serving a deleted page for days.
 export const removed = [
+  ['/aqeedah/tathir-al-itiqad-adani/', '/aqeedah/tathir-al-itiqad-fawzan/'],
   ['/aqeedah/lumat-al-itiqad-adani/', '/aqeedah/lumat-al-itiqad/'],
   ['/aqeedah/lumat-al-itiqad-adani-taliq/', '/aqeedah/lumat-al-itiqad/'],
   ['/fiqh/manhaj-as-salikin-ibn-aqil/', '/fiqh/manhaj-as-salikin/'],
