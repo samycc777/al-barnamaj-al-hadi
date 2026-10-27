@@ -15,3 +15,4 @@ The rule is in CLAUDE.md (Conventions). These are the dates already checked, mov
 - حماد بن محمد الأنصاري 1418 (1344–1418 هـ = 1925–1997, midad.com / Wikipedia)
 - محمد بن علي البعلي ابن أسباسلار (التسهيل في الفقه) 778 (sifatusafwa.com)
 - محمد الطاهر ابن عاشور (موجز البلاغة) 1393 (13 Rajab 1393 = 12 Aug 1973, Tunis, Arabic Wikipedia)
+- عبد العظيم بن عبد القوي المنذري (الأربعين في الأحكام) 656 (4 Dhu al-Qa'dah 656, Cairo, al-Dhahabi's Siyar / Arabic Wikipedia); Khalid bin Qasim al-Raddadi alive

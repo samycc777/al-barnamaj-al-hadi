@@ -89,6 +89,12 @@ function miraathLessons(html) {
   if (prefix && out.length > 1 && out.every((l) => l.title.startsWith(prefix) && l.title.length > prefix.length)) {
     for (const l of out) l.title = l.title.slice(prefix.length);
   }
+  // "الدرس السادس والأخير في شرح الأربعين في الأحكام" → n 6, "الدرس السادس".
+  for (const l of out) {
+    const w = l.n == null && l.title.match(/^الدرس (.+?)(?: والأخير)?(?: في .*)?$/);
+    const k = w && Array.from({ length: 100 }, (_, i) => i + 1).find((i) => ordinal(i) === w[1]);
+    if (k) Object.assign(l, { n: k, title: `الدرس ${ordinal(k)}` });
+  }
   // Every lesson titled with just the book's name and no number: number them in page order.
   if (out.length > 1 && out.every((l) => l.n == null && l.title === out[0].title)) {
     out.forEach((l, i) => Object.assign(l, { n: i + 1, title: `الدرس ${ordinal(i + 1)}` }));
