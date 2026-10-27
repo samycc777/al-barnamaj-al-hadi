@@ -274,6 +274,20 @@ export const categories = [
         { title: 'شرح البلاغة من كتاب قواعد اللغة العربية', type: 'audio', slug: 'durus-al-balaghah', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين (ت 1421هـ)' },
         ],
       },
+      {
+        title: 'الشعر', items: [
+        { title: 'شرح معلقة امرئ القيس بن حجر الكندي', type: 'audio', slug: 'muallaqat-imri-al-qays', note: 'فضيلة الشيخ العلامة عبد الرحمن بن عوف كوني' },
+        { title: 'شرح معلقة طرفة بن العبد', type: 'audio', slug: 'muallaqat-tarafah', note: 'فضيلة الشيخ العلامة عبد الرحمن بن عوف كوني' },
+        { title: 'شرح معلقة زهير بن أبي سلمى', type: 'audio', slug: 'muallaqat-zuhayr', warning: 'انتهى الشرح عند قوله: «وأعلم ما في اليوم والأمس قبله»، ولم يُشرح ما بعده إلى آخر المعلقة.', note: 'فضيلة الشيخ العلامة عبد الرحمن بن عوف كوني' },
+        { title: 'شرح معلقة لبيد بن ربيعة', type: 'audio', slug: 'muallaqat-labid', note: 'فضيلة الشيخ العلامة عبد الرحمن بن عوف كوني' },
+        { title: 'شرح معلقة عمرو بن كلثوم التغلبي', type: 'audio', slug: 'muallaqat-amr-ibn-kulthum', warning: 'انتهى الشرح عند قوله: «ملأنا البر حتى ضاق عنا»، ولم يُشرح البيت الأخير من المعلقة.', note: 'فضيلة الشيخ العلامة عبد الرحمن بن عوف كوني' },
+        { title: 'شرح معلقة عنترة بن شداد العبسي', type: 'audio', slug: 'muallaqat-antarah', note: 'فضيلة الشيخ العلامة عبد الرحمن بن عوف كوني' },
+        { title: 'شرح معلقة النابغة الذبياني', type: 'audio', slug: 'muallaqat-an-nabighah', note: 'فضيلة الشيخ العلامة عبد الرحمن بن عوف كوني' },
+        { title: 'شرح معلقة الأعشى', type: 'audio', slug: 'muallaqat-al-asha', note: 'فضيلة الشيخ العلامة عبد الرحمن بن عوف كوني' },
+        { title: 'شرح لامية العرب للشنفرى', type: 'audio', slug: 'lamiyyat-al-arab', note: 'فضيلة الشيخ العلامة عبد الرحمن بن عوف كوني' },
+        { title: 'شرح لامية أبي طالب في نصرة النبي ﷺ', type: 'audio', slug: 'lamiyyat-abi-talib', note: 'فضيلة الشيخ العلامة عبد الرحمن بن عوف كوني' },
+        ],
+      },
     ],
   },
   {

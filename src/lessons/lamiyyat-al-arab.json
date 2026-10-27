@@ -1,0 +1,49 @@
+{
+  "chapters": [
+    {
+      "title": "",
+      "lessons": [
+        {
+          "n": 1,
+          "title": "الدرس الأول",
+          "date": "",
+          "audio": "https://archive.org/download/kawni-lamiah-shanfari/01.mp3",
+          "download": "https://archive.org/download/kawni-lamiah-shanfari/01.mp3",
+          "size": "29.3 MB"
+        },
+        {
+          "n": 2,
+          "title": "الدرس الثاني",
+          "date": "",
+          "audio": "https://archive.org/download/kawni-lamiah-shanfari/02.mp3",
+          "download": "https://archive.org/download/kawni-lamiah-shanfari/02.mp3",
+          "size": "31.8 MB"
+        },
+        {
+          "n": 3,
+          "title": "الدرس الثالث",
+          "date": "",
+          "audio": "https://archive.org/download/kawni-lamiah-shanfari/03.mp3",
+          "download": "https://archive.org/download/kawni-lamiah-shanfari/03.mp3",
+          "size": "24.8 MB"
+        },
+        {
+          "n": 4,
+          "title": "الدرس الرابع",
+          "date": "",
+          "audio": "https://archive.org/download/kawni-lamiah-shanfari/04.mp3",
+          "download": "https://archive.org/download/kawni-lamiah-shanfari/04.mp3",
+          "size": "22.6 MB"
+        },
+        {
+          "n": 5,
+          "title": "الدرس الخامس",
+          "date": "",
+          "audio": "https://archive.org/download/kawni-lamiah-shanfari/05.mp3",
+          "download": "https://archive.org/download/kawni-lamiah-shanfari/05.mp3",
+          "size": "21.7 MB"
+        }
+      ]
+    }
+  ]
+}
