@@ -8,7 +8,7 @@ All 61 series under https://binbaz.org.sa/audios/kind/1 (5 pages) were checked; 
 - **Complete (start to the book's last words):** كتاب التوحيد series 83 (one lesson per bāb, 67 + 8 extra clips; series 44 «قراءة محمد إلياس» skips التنجيم and the three bābs من أطاع العلماء/يزعمون/من جحد; 84 «1415» has no audio for 6–9); ثلاثة الأصول 98, 126, 132 (3 lessons each; 104 starts at «بم عرفت ربك»); كشف الشبهات 99 (3); الواسطية 95 (4); الحموية 96 (6); شرح الطحاوية لابن أبي العز 51 (31, read to him); عمدة الأحكام 125 (20, ends at باب بيع المدبر); رياض الصالحين الشرح الثاني 86 (593, no gaps); نزهة النظر 70 (6; lessons 1–2 unlinked but `nozha_nazar01.mp3`/`02.mp3` exist); الفوائد الجلية 27 (his own فرائض book, 11); الوابل الصيب الشرح الأول 42 (22, to فصل 75); وظائف رمضان 75 (4).
 - **Unsure:** بلوغ المرام الشرح الثاني 23 (57, to the last ḥadīth, but start of كتاب الصيام and التفليس–القرض may be missing; file 33 unlinked); التبصير للطبري 97 (ending not verified).
 - **Incomplete:** الرحبية القديم 88 (file 10 = باب السهام missing, 404), الجديد 80 (stops at المشركة), بلوغ الشرح الأول 1 (كتاب الصلاة has one lesson), الطحاوية الطائف 77, الروض المربع, زاد المعاد, الكبائر (from the 17th), ابن خزيمة, فتح المجيد, أجزاء… series, Bukhari/Muslim/Sunan, tafsir Ibn Kathir (selected sūrahs).
-- On the site: رياض الصالحين (595 lessons, 20 كتب) in الآداب; الفوائد الجلية in الفقه; الوابل الصيب (series 42) in الأذكار; lecture «عقيدة أهل السنة والجماعة» (binbaz /audios/821) first in المعاصرين.
+- On the site: رياض الصالحين (595 lessons, 20 كتب) in الآداب; الفوائد الجلية in الفقه; الوابل الصيب (series 42) in الأذكار; lecture «عقيدة أهل السنة والجماعة» (binbaz /audios/821) first in المعاصرين. نزهة النظر (series 70, files `shroh_alkotob/nozha_nazar/nozha_nazar01–06.mp3`; lesson 6 transcript reaches the خاتمة «وحصرها متعسر…») as a second commentary after Ibn Uthaymeen's in علوم الحديث (Zaid, 27 Oct 2026).
 
 ## al-Albani
 al-Albani has no complete commentary (al-albany.com/audios ~1,840 tapes, alathar.net, archive.org, YouTube, ajurry.com checked). Only real book series:
@@ -38,6 +38,7 @@ Checked muqbel.net, muqbel.al3ilm.net/alddurus, mimham.net/che-4, archive.org (`
 - Bukhari 284–624: al-abbaad.com's «تكملات» belong to the OLD commentary; archive.org kept. Bukhari stays as is.
 - شرح الصدور: complete (every copy swaps sessions 3 and 4; play 01, 02, 04, 03); on the site (slug `sharh-as-sudur`, hand-written list).
 - عمدة الأحكام: see al-Fawzan above.
+- مقدمة صحيح مسلم: the «00 - المقدمة» chapter of his Sahih Muslim course (10 lessons, last = باب صحة الاحتجاج بالحديث المعنعن, the introduction's last bāb) is also a choice on Muqbil's مقدمة page (slug `muqaddimat-sahih-muslim-abbad`, hand-written list copied from `sahih-muslim.json`; Zaid, 27 Oct 2026).
 
 ## al-Jabiri
 - الأمر بالمعروف: complete 8 lessons (mimham cha-1428). أصول السنة (Riyadh 1433, miraath, 5 lessons) and عقيدة الرازيين (Madinah 1433–1434, miraath, 8 lessons) live.
