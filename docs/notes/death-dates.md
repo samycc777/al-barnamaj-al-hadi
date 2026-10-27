@@ -14,3 +14,4 @@ The rule is in CLAUDE.md (Conventions). These are the dates already checked, mov
 - عبد الله بن عبد العزيز بن عقيل 1432 (Zaid; 8 Shawwal 1432)
 - حماد بن محمد الأنصاري 1418 (1344–1418 هـ = 1925–1997, midad.com / Wikipedia)
 - محمد بن علي البعلي ابن أسباسلار (التسهيل في الفقه) 778 (sifatusafwa.com)
+- محمد الطاهر ابن عاشور (موجز البلاغة) 1393 (13 Rajab 1393 = 12 Aug 1973, Tunis, Arabic Wikipedia)

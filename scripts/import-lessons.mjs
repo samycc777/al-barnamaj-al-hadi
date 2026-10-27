@@ -73,7 +73,13 @@ function miraathLessons(html) {
     // "0009-0010قدم وفد عبدالقيس" (the ḥadīth numbers a lesson covers, كتاب الإيمان لابن منده)
     // → n 9, "(9–10) قدم وفد عبدالقيس".
     const h = clean(raw).match(/^(\d{4})(?:-(\d{4}))?\s*(\D.*)$/);
-    if (h) {
+    // "التاج_المكلل_ش_عبدالرحمن_كوني_12_4_3_1443هـ" (the file name: lesson, day, month, year)
+    // → n 12, "الدرس الثاني عشر", date "1443/03/04".
+    const f = clean(raw).match(/_(\d+)_(\d{1,2})_(\d{1,2})_(1\d{3})هـ$/);
+    if (f) {
+      const [n, d, m, y] = f.slice(1).map(Number);
+      out.push({ n, title: `الدرس ${ordinal(n)}`, date: `${y}/${String(m).padStart(2, '0')}/${String(d).padStart(2, '0')}`, audio: encodeURI(mp3), download: '', size: '' });
+    } else if (h) {
       const [a, b] = [Number(h[1]), h[2] && Number(h[2])];
       out.push({ n: a, title: `(${b ? `${a}–${b}` : a}) ${h[3].trim()}`, date: '', audio: encodeURI(mp3), download: '', size: '' });
     } else out.push({ ...parseTitle(raw), audio: encodeURI(mp3), download: '', size: '' });
