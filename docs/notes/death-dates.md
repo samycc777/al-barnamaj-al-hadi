@@ -22,3 +22,7 @@ The rule is in CLAUDE.md (Conventions). These are the dates already checked, mov
 - أحمد البدوي بن محمدا المجلسي الشنقيطي (نظم عمود النسب) 1208 (Arabic Wikipedia, elmpedia).
 - محمد بن أبّ المزمري (نظم الآجرومية) 1160 (asjp.cerist.dz / univ-adrar article).
 - محمد بن عبد الله بن مالك الطائي الأندلسي (لامية الأفعال) 672.
+- القاسم بن علي الحريري (ملحة الإعراب) 516 (well known; Basra).
+- محمد بن يوسف أبو حيان الأندلسي (الشذرة الذهبية) 745 (printed on the Dar Ghiras edition; widely attested).
+- عبد الرحمن بن محمد الأخضري (مختصر الأخضري) 953 chosen (Arabic Wikipedia, Midad: the majority view); Dar al-Ifta al-Misriyyah and Marefa say 983. Ask Zaid if he prefers the other.
+- عبيد ربه الشنقيطي: the nazm of the Ajurrumiyyah is the same as al-Muzmiri's (ت 1160); some sources say «early 12th century» (about 1100).

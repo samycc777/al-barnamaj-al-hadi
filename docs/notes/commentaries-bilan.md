@@ -650,9 +650,6 @@ No sharh found for: all other 120 books.
 - Usul Sittah: an 8-part set (2.7 h, PLV40Jcxpv29zUxUu-D16tjO9B_8qWDxij), said to be complete, not listened to. Qawa'id Arba': one lesson only, everywhere.
 
 ## Kouni: more courses not on the site (searched 28 Oct 2026, titles only, nothing heard)
-- نظم المقصود (sarf): archive `kawni-nazm-elmaksood`, 49 mp3, 11.8 h, numbered only; UNSURE (check end of 49).
-- الشذرة الذهبية لابن هشام (دورة الخليفة الراشد الأولى): YouTube PL_aTUV9Mq8fe9TiDtRF9QYSJhvEbI8WuC («كاملا»), 10 parts, 10.5 h; likely COMPLETE (part 9 only 15 min).
-- نظم الآجرومية لعبيد ربه: YouTube PL_SRzub3Wl-T72WbbYe4XmPfpr21pRQwX, 7 lessons, 9.4 h, uploader says «مكتمل».
-- ملحة الإعراب: YouTube PLwlXp17rLNq8_KKNpqTam9nSR6DLddNAW, 7 videos, 11.4 h; UNSURE.
-- مختصر الأخضري: YouTube PLEZD3rU7ug_5latwHjFeNcsBJ3XUnDBWA, 13 sessions (10 is «10(2)»), Telegram 12; UNSURE.
+- ADDED after listening (28 Oct 2026, Whisper -mc 0 on heads, tails and the key files; Kouni's «الشذرة الذهبية» is Abu Hayyan's, not Ibn Hisham's): الشذرة الذهبية (archive.org `Sharh_Shadra_Dahabiya`, 10 files, matn = Dar Ghiras edition OCR; file 10 explains the last chapter, الوقف, and closes; order of المنصوبات / المجزوم / التوابع confirmed across 4-5, 7, 8); نظم الآجرومية (Telegram 7, closing verses and du'a heard); ملحة الإعراب (Kuwait 1437 set, 7 files, contiguous, closing heard); مختصر الأخضري (Senegal Telegram 1-12 + archive.org 13th, boundaries 10/11/12/13 matched against the matn, 13 ends at «فيترك يقينه ويرجع إليهم», the matn's last sentence).
+- NOT added: نظم المقصود (archive `kawni-nazm-elmaksood`, 49 mp3, no matn found online to match against). Order is irregular: file 08 starts in the middle of a lesson with Q&A and teaches الإعلال (ends «مجرى… مدعا»), yet files 07 and 09 both teach «باب المصدر» one after the other, and file 49 starts on the early verse «وإن يحرك هو فقط» and ends on a closing du'a. So a lesson may be missing or misplaced between 07 and 09; unresolved.
 - Partial: المرشد المعين (كتاب الزكاة only, PLA1lSplApO-eRRBFag8FcER2K0ubQ3e7t), إرشاد الصغار (stops early), الفصيح لثعلب (not counted), single sessions (تحفة الإخوان، صيام مواهب المنان). Not found: ديوان جرير، العشماوية، مدخل علم اللغة، مراقي السعود.

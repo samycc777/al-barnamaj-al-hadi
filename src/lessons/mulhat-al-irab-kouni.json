@@ -1,0 +1,65 @@
+{
+  "chapters": [
+    {
+      "title": "",
+      "lessons": [
+        {
+          "n": 1,
+          "title": "الدرس الأول",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/mulhat-al-irab-kouni/01.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/mulhat-al-irab-kouni/01.mp3",
+          "size": "41.4 MB"
+        },
+        {
+          "n": 2,
+          "title": "الدرس الثاني",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/mulhat-al-irab-kouni/02.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/mulhat-al-irab-kouni/02.mp3",
+          "size": "45.2 MB"
+        },
+        {
+          "n": 3,
+          "title": "الدرس الثالث",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/mulhat-al-irab-kouni/03.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/mulhat-al-irab-kouni/03.mp3",
+          "size": "46.0 MB"
+        },
+        {
+          "n": 4,
+          "title": "الدرس الرابع",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/mulhat-al-irab-kouni/04.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/mulhat-al-irab-kouni/04.mp3",
+          "size": "46.3 MB"
+        },
+        {
+          "n": 5,
+          "title": "الدرس الخامس",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/mulhat-al-irab-kouni/05.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/mulhat-al-irab-kouni/05.mp3",
+          "size": "35.4 MB"
+        },
+        {
+          "n": 6,
+          "title": "الدرس السادس",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/mulhat-al-irab-kouni/06.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/mulhat-al-irab-kouni/06.mp3",
+          "size": "57.9 MB"
+        },
+        {
+          "n": 7,
+          "title": "الدرس السابع",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/mulhat-al-irab-kouni/07.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/mulhat-al-irab-kouni/07.mp3",
+          "size": "40.3 MB"
+        }
+      ]
+    }
+  ]
+}
