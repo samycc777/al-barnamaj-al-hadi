@@ -648,3 +648,11 @@ No sharh found for: all other 120 books.
 - Tahawiyyah: the 120-lesson set (PLaPg-n4RU--yndt_mqOtg0Xm3XD6zF_uO) stops at the same place («ولا نفرط في حب أحد منهم»).
 - Arba'in: 7-lesson set (PLeCp8nYy43kY9wN83lgh4cEE-eoTeuSM7) ends at hadith 11 (دع ما يريبك), then questions.
 - Usul Sittah: an 8-part set (2.7 h, PLV40Jcxpv29zUxUu-D16tjO9B_8qWDxij), said to be complete, not listened to. Qawa'id Arba': one lesson only, everywhere.
+
+## Kouni: more courses not on the site (searched 28 Oct 2026, titles only, nothing heard)
+- نظم المقصود (sarf): archive `kawni-nazm-elmaksood`, 49 mp3, 11.8 h, numbered only; UNSURE (check end of 49).
+- الشذرة الذهبية لابن هشام (دورة الخليفة الراشد الأولى): YouTube PL_aTUV9Mq8fe9TiDtRF9QYSJhvEbI8WuC («كاملا»), 10 parts, 10.5 h; likely COMPLETE (part 9 only 15 min).
+- نظم الآجرومية لعبيد ربه: YouTube PL_SRzub3Wl-T72WbbYe4XmPfpr21pRQwX, 7 lessons, 9.4 h, uploader says «مكتمل».
+- ملحة الإعراب: YouTube PLwlXp17rLNq8_KKNpqTam9nSR6DLddNAW, 7 videos, 11.4 h; UNSURE.
+- مختصر الأخضري: YouTube PLEZD3rU7ug_5latwHjFeNcsBJ3XUnDBWA, 13 sessions (10 is «10(2)»), Telegram 12; UNSURE.
+- Partial: المرشد المعين (كتاب الزكاة only, PLA1lSplApO-eRRBFag8FcER2K0ubQ3e7t), إرشاد الصغار (stops early), الفصيح لثعلب (not counted), single sessions (تحفة الإخوان، صيام مواهب المنان). Not found: ديوان جرير، العشماوية، مدخل علم اللغة، مراقي السعود.

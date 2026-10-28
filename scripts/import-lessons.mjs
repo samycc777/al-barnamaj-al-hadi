@@ -95,6 +95,11 @@ function miraathLessons(html) {
     const k = w && Array.from({ length: 100 }, (_, i) => i + 1).find((i) => ordinal(i) === w[1]);
     if (k) Object.assign(l, { n: k, title: `الدرس ${ordinal(k)}` });
   }
+  // "التعليق على الحيدة والاعتذار 01" (the book's name and the lesson number) → n 1, "الدرس الأول".
+  const num = out.map((l) => l.n == null && l.title.match(/^(.+?)\s+0*(\d{1,3})$/));
+  if (out.length > 1 && num.every((m) => m && m[1] === num[0][1])) {
+    out.forEach((l, i) => Object.assign(l, { n: Number(num[i][2]), title: `الدرس ${ordinal(Number(num[i][2]))}` }));
+  }
   // Every lesson titled with just the book's name and no number: number them in page order.
   if (out.length > 1 && out.every((l) => l.n == null && l.title === out[0].title)) {
     out.forEach((l, i) => Object.assign(l, { n: i + 1, title: `الدرس ${ordinal(i + 1)}` }));

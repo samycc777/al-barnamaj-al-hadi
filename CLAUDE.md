@@ -69,6 +69,7 @@ The brother (Zayd bin Ibrahim al-Jazairi, runs the programme; the user says "the
 - Zaid also talks to Claude directly through @mawqi_bot (group replies/mentions, or a private chat): `tool-progress-bot/listener.mjs` runs each conversation as a headless Claude session in the site's folder; treat him as the user for his sites.
 
 ## Mistakes to avoid
+- Before noting a scholar as alive, search his name with «توفي»/«رحمه الله» and his lesson channels: al-Raddadi (d. 1443) was wrongly noted alive.
 - Every gap gets a `warning` on the book, however small (one missing session start included): Zaid asked «لماذا ما في تنبيه؟».
 - Remove only the book Zaid names: «كذلك احذف X» means delete X as well as what he removed before, not the book just discussed (the Manasik was wrongly deleted with al-Adeni's Tanbihat). Ask when unsure.
 - Taking a book off the site: add its address to `removed` in `src/content.mjs` (redirect); the pages.dev edge cache keeps serving a deleted page for days.

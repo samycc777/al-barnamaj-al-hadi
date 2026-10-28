@@ -14,6 +14,15 @@ minutes). Status per slug; "elsewhere" = a fuller recording found, not yet on th
 - as-sirah-fi-daw-al-masadir (al-Hudaythi, 26): الشمائل not covered; no more lessons exist.
 - umdat-al-ahkam (al-Abbad): باب صدقة الفطر not explained in any copy; nearest: his Bulugh lesson (YouTube oh-jGYd8HVQ, on the site).
 - al-kafi (Ibn Uthaymin): his recording ends at البيوع; al-Wa'ili's «النبع الصافي» said complete (audio unchecked).
+  Other commentaries (searched 28 Oct 2026, none confirmed complete): al-Wa'ili archive.org `376_20211102`, 850 mp3 (~72 min each,
+  all titled «شرح الكافي»; end unknown; the printed «النبع الصافي» says its editor completed parts he did not explain; next: Whisper the
+  start of 850, after asking). al-Ajlan (Abd al-Rahman b. Abdullah) archive `Sharh_al-Kaafi` / YouTube channel UCeBpXTeI3saYTEZBqMIimrA,
+  612 lessons, stops at «كتاب العتق 6» (covers الهبة–العتق beyond Ibn Uthaymin). Majid Shahin (Egyptian «د.», standing unknown) YouTube
+  UCsM-33_emka1mhv5Njun62A, 289 lessons to «كتاب الإقرار، باب الاستثناء» (281 missing). Partial only: Sami al-Suqayr, Salih Al ash-Shaykh,
+  Ahmad Mahrous al-Baltimi, Abd al-Muhsin al-Zamil (count unknown). None by al-Fawzan, al-Abbad, Ibn Baz, al-Ghudayan, Ibn Aqil.
+- taqrir-al-qawaid elsewhere: al-Ghudayan (alukah / archive `0027a46502671426`, 28 lessons in 56 halves) stops near rule 47–50 of 160;
+  al-Wa'ili `Sharh_Takrir_Qawaeed` 27 lessons to rule 22. qawaid-al-usul elsewhere: Mahmud al-Kabsh `Qawaed-Osool-Al-Kabsh` 23 sessions,
+  last titled «المجلس الأخير» (end and creed unchecked); al-Hazimi's versions unchecked.
 - Ibn Uthaymin, ended by the shaykh himself (binothaimeen has no more): ad-durrah-al-yatimah (stops in الاستثناء),
   taqrir-al-qawaid (18 lessons, mid-book on الضمان). qawaid-al-usul: last lesson ends with Q&A, end not confirmable.
 
