@@ -10,3 +10,4 @@
   - Ibn Baz series that are verified complete but not on the site: waiting for the brother.
   - Option: rename al-Abbad's عمدة الأحكام lesson 55 / add a كتاب العتق chapter (needs an importer title override).
 - Cloudflare's edge cache may still serve the removed `tathir-al-itiqad-abbad` page for a while (nothing links to it).
+- Ibn Adud's متن الأخضري: probably his son Abd al-Rahman's recording, gap in سجود السهو; asked Zaid whether to add it with a warning in «الفقه المالكي».

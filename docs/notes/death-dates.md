@@ -19,3 +19,6 @@ The rule is in CLAUDE.md (Conventions). These are the dates already checked, mov
 - عبد العظيم بن عبد القوي المنذري (الأربعين في الأحكام) 656 (4 Dhu al-Qa'dah 656, Cairo, al-Dhahabi's Siyar / Arabic Wikipedia); Khalid bin Qasim al-Raddadi 1443 (Thursday 3 Dhu al-Qa'dah 1443 = 2 June 2022, Madinah; t.me/drosalmadina announcement and al-Suhaymi's eulogy)
 - أحمد بن علي بن مشرف الأحسائي (المنظومة الأحسائية) 1285 (1203–1285 هـ, Arabic Wikipedia «أحمد بن مشرف»)
 - محمد سالم بن محمد عالي بن عبد الودود (ابن عدود) الشنقيطي 1430 (1348–1430، أبريل 2009؛ shamela author 3121, echoroukonline).
+- أحمد البدوي بن محمدا المجلسي الشنقيطي (نظم عمود النسب) 1208 (Arabic Wikipedia, elmpedia).
+- محمد بن أبّ المزمري (نظم الآجرومية) 1160 (asjp.cerist.dz / univ-adrar article).
+- محمد بن عبد الله بن مالك الطائي الأندلسي (لامية الأفعال) 672.
