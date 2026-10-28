@@ -304,9 +304,18 @@ a.variant:hover { text-decoration-color: var(--gold); }
 .num { min-width: 28px; text-align: center; font-weight: 700; color: var(--gold-text); }
 .lesson .i-pause, .lesson.playing .i-play { display: none; }
 .lesson.playing .i-pause { display: block; }
-.lesson.playing { background: var(--row-hover); }
-.lesson.playing .play { background: var(--brown); color: #fff6e7; }
-.round-btn.dl { color: var(--muted); }
+/* The lesson in the player stays marked, playing or paused: a gold edge and
+   a tinted row. */
+.lesson.current { background: var(--row-hover); box-shadow: inset -4px 0 0 var(--gold); }
+.lesson.current .row-title { color: var(--brown-3); font-weight: 700; }
+/* Play is the main button: bigger and gold. Download is small and plain. */
+.round-btn.play { width: 44px; height: 44px; background: radial-gradient(circle at 35% 30%, #ffd76e, #e3a42c 60%, #b8791a); color: #4a2708; }
+.round-btn.play .ic { width: 20px; height: 20px; }
+.round-btn.play:hover, .lesson.playing .play { background: radial-gradient(circle at 35% 30%, #ffe08a, #eab040 60%, #c4841f); color: #4a2708; }
+.round-btn.dl { width: 32px; height: 32px; background: none; box-shadow: none; color: var(--muted); }
+.round-btn.dl .ic { width: 17px; height: 17px; }
+.round-btn.dl:hover { background: var(--btn-bg); color: var(--brown); }
+:root[data-theme="dark"] .round-btn.dl:hover { color: var(--gold-2); }
 button.round-btn { border: 0; cursor: pointer; font: inherit; }
 .player { position: fixed; inset-inline: 0; bottom: 0; z-index: 20; background: var(--paper); border-top: 3px solid var(--gold); box-shadow: 0 -2px 12px rgba(0, 0, 0, .15); padding: 8px 16px calc(8px + env(safe-area-inset-bottom)); display: flex; flex-wrap: wrap; align-items: center; gap: 4px 14px; }
 .player-title { flex: 1 1 200px; min-width: 0; font-weight: 500; color: var(--brown-3); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
@@ -344,7 +353,8 @@ body.has-player { padding-bottom: 110px; }
 .results .rows { margin: 0 -18px; border-top: 1px solid var(--row-line); }
 @media (max-width: 720px) {
   .row { gap: 10px; }
-  .lesson .round-btn { width: 44px; height: 44px; }
+  .lesson .round-btn.play { width: 44px; height: 44px; }
+  .lesson .round-btn.dl { width: 40px; height: 40px; }
   .num { min-width: 20px; }
   .player-controls { flex-basis: 100%; }
 }

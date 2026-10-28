@@ -37,6 +37,7 @@
   function sync() {
     rows().forEach(function (r) {
       var on = r === cur && !au.paused;
+      r.classList.toggle('current', r === cur); // stays marked while paused
       r.classList.toggle('playing', on);
       r.querySelector('.play').setAttribute('aria-label', (on ? 'إيقاف: ' : 'استماع: ') + titleOf(r));
     });
@@ -71,6 +72,7 @@
     bar.hidden = false;
     document.body.classList.add('has-player');
     var d = r.closest('details'); if (d) d.open = true;
+    sync();
     var who = document.querySelector('.book-note') || r.querySelector('.row-meta span:last-child');
     var book = bookPage ? document.querySelector('.panel-head h2').textContent : '';
     // Kept for the home page's card only once the file really plays.
