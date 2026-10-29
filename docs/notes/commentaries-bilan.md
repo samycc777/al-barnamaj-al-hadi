@@ -663,3 +663,11 @@ No sharh found for: all other 120 books.
   - الأخضري PLVjPyMBH-qN4el60Chm_pFMYH1aFxbzL0, 29 lessons, no gap in numbering; lesson 29 (7dVRFGuCOnI) reaches the last passage (سهو المأموم) but the video ends mid-word while explaining «وإن شك في خبرهم سأل عدلين», before the matn's last sentence. Lessons 13 and 24 are short, unheard.
   - ابن عاشر «العرف الناشر» PLVjPyMBH-qN5HDtLGoBCrwlb_m3nmBqP_, 28 radio parts: ح28 is still at مندوبات/مكروهات الصلاة. Separate sets on مؤسسة ابن تاشفين: كتاب الزكاة (4) and كتاب الحج (6). Rest of the prayer, الصيام and التصوف not found: incomplete.
   - Also incomplete: الرسالة (stops at صلاة المسافر), الآجرومية (ح01–17, before الحال), Muwatta siyam, short-surah tafsir. Nawawi's Forty (10 + تتمة) unchecked.
+
+## عبد السلام بن عبد الله السليمان (living; Zaid asked for his complete lessons)
+All on YouTube «دروس المسجد الحرام» (UC3QAoXf9GN9xeQYhk-AZbTg; audio also soundcloud/t.me twjehdm, unchecked). His site alsuliman.af.org.sa has no sharh series. Nothing heard.
+- الأصول الثلاثة — LIKELY COMPLETE — 5 lessons, 291 min, Rabi I 1443 — playlist PLgaTRTylCbZAs9aW4Ti35LC6dQ2wNFF2K; gph.gov.sa news says he finished it.
+- كلمة الإخلاص لابن رجب — LIKELY COMPLETE — 2 sessions (KBeZpO27dC0 73 min, 2wFrfmwrU7A 103 min); a 226-min copy vOIQB6GKExI on another channel.
+- الأصول الستة + القواعد الأربع — PROBABLY COMPLETE — 4 lessons, 260 min — playlist PLgaTRTylCbZD96y8tfy8KSaDf406NCqPh.
+- كتاب التوحيد — INCOMPLETE — 4 sessions, 3.3 h (Dhu al-Hijjah 1444).
+- منظومة القواعد الفقهية للسعدي — ONGOING (lessons 10–11, Safar 1448).
