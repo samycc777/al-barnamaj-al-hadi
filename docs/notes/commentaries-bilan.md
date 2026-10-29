@@ -654,3 +654,11 @@ No sharh found for: all other 120 books.
 - ADDED later the same day: نظم المقصود (the order worry below was wrong: 07 masdar, 08 masdar mimi of the naqis, 09 of the mahmuz/mudaaf; 49 opens on «وإن يحرك هو فقط», a late verse) and ابن عاشر (archive.org `Charh_Nadhm_Ibn-Ashir`, 85 lessons, complete). العشماوية: incomplete (5 lessons, ends at فرائض الصلاة).
 - Earlier note, NOT added: نظم المقصود (archive `kawni-nazm-elmaksood`, 49 mp3, no matn found online to match against). Order is irregular: file 08 starts in the middle of a lesson with Q&A and teaches الإعلال (ends «مجرى… مدعا»), yet files 07 and 09 both teach «باب المصدر» one after the other, and file 49 starts on the early verse «وإن يحرك هو فقط» and ends on a closing du'a. So a lesson may be missing or misplaced between 07 and 09; unresolved.
 - Partial: المرشد المعين (كتاب الزكاة only, PLA1lSplApO-eRRBFag8FcER2K0ubQ3e7t), إرشاد الصغار (stops early), الفصيح لثعلب (not counted), single sessions (تحفة الإخوان، صيام مواهب المنان). Not found: ديوان جرير، العشماوية، مدخل علم اللغة، مراقي السعود.
+
+## Maliki matns by others (searched 29 Oct 2026 for Zaid; nothing added)
+- Kouni's العشماوية: only the 5 Senegal lessons (23–27 Dec 2021) exist; the 6th live session (30 Dec) was never published anywhere (miraath, his channel, archive.org, YouTube, mimham).
+- Complete العشماوية by another: د. عبد الرحمن حامد آل نابت, YouTube PLBpx7_YlMBb4g8qIT_CTNSXOvTgB49FpM, 16 lessons, «16 والأخير»; not heard yet.
+- مختار بن العربي مؤمن (الجزائري ثم الشنقيطي), قناة الأنيس:
+  - الأخضري PLVjPyMBH-qN4el60Chm_pFMYH1aFxbzL0, 29 lessons, no gap in numbering; lesson 29 (7dVRFGuCOnI) reaches the last passage (سهو المأموم) but the video ends mid-word while explaining «وإن شك في خبرهم سأل عدلين», before the matn's last sentence. Lessons 13 and 24 are short, unheard.
+  - ابن عاشر «العرف الناشر» PLVjPyMBH-qN5HDtLGoBCrwlb_m3nmBqP_, 28 radio parts: ح28 is still at مندوبات/مكروهات الصلاة. Separate sets on مؤسسة ابن تاشفين: كتاب الزكاة (4) and كتاب الحج (6). Rest of the prayer, الصيام and التصوف not found: incomplete.
+  - Also incomplete: الرسالة (stops at صلاة المسافر), الآجرومية (ح01–17, before الحال), Muwatta siyam, short-surah tafsir. Nawawi's Forty (10 + تتمة) unchecked.
