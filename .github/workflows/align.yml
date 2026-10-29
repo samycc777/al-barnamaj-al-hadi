@@ -1,0 +1,29 @@
+# Temporary: aligns al-Subayyil's two Qurrat Uyun copies by sound (branch only, deleted after use).
+name: align
+on:
+  push:
+    branches: [align-subayyil]
+    paths: ['.github/align/*.py', '.github/align/files.tsv', '.github/workflows/align.yml']
+permissions:
+  contents: write
+jobs:
+  align:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg && pip install -q numpy
+      - name: download
+        run: |
+          mkdir dl
+          cut -f1,2 .github/align/files.tsv | xargs -P 8 -L 1 sh -c 'curl -sfL --retry 5 -o dl/$0.mp3 "$1" || echo "FAIL $0"'
+          ls dl | wc -l; du -sh dl
+      - run: python .github/align/featall.py feats.npz dl
+      - run: python .github/align/align.py feats.npz a b ra.json
+      - run: python .github/align/align.py feats.npz b b rb.json
+      - name: save
+        run: |
+          mkdir -p .github/align/out && mv feats.npz ra.json rb.json .github/align/out/
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add .github/align/out && git commit -q -m "Alignment results" && git push -q
