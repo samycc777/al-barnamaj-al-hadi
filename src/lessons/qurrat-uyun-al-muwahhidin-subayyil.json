@@ -1,0 +1,593 @@
+{
+  "chapters": [
+    {
+      "title": "",
+      "lessons": [
+        {
+          "n": 1,
+          "title": "مقدمة",
+          "date": "",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0000%D9%85%D9%82%D8%AF%D9%85%D8%A9%20%D9%82%D8%B1%D8%A9%20%D8%B9%D9%8A%D9%88%D9%86%20%D8%A7%D9%84%D9%85%D9%88%D8%AD%D8%AF%D9%8A%D9%86.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0000%D9%85%D9%82%D8%AF%D9%85%D8%A9%20%D9%82%D8%B1%D8%A9%20%D8%B9%D9%8A%D9%88%D9%86%20%D8%A7%D9%84%D9%85%D9%88%D8%AD%D8%AF%D9%8A%D9%86.mp3",
+          "size": "5.5 MB"
+        },
+        {
+          "n": 2,
+          "title": "كتاب التوحيد (1)",
+          "date": "1409/05/02",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0001%D9%83%D8%AA%D8%A7%D8%A8%20%D8%A7%D9%84%D8%AA%D9%88%D8%AD%D9%8A%D8%AF%20%201%202-5-1409%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0001%D9%83%D8%AA%D8%A7%D8%A8%20%D8%A7%D9%84%D8%AA%D9%88%D8%AD%D9%8A%D8%AF%20%201%202-5-1409%D9%87%D9%80.mp3",
+          "size": "23.5 MB"
+        },
+        {
+          "n": 3,
+          "title": "كتاب التوحيد (2)",
+          "date": "1409/05/04",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0002%D9%83%D8%AA%D8%A7%D8%A8%20%D8%A7%D9%84%D8%AA%D9%88%D8%AD%D9%8A%D8%AF%20%202%204-5-1409%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0002%D9%83%D8%AA%D8%A7%D8%A8%20%D8%A7%D9%84%D8%AA%D9%88%D8%AD%D9%8A%D8%AF%20%202%204-5-1409%D9%87%D9%80.mp3",
+          "size": "22.2 MB"
+        },
+        {
+          "n": 4,
+          "title": "باب فضل التوحيد وما يكفر من الذنوب (1)",
+          "date": "1409/05/09",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0003%D8%A8%D8%A7%D8%A8%20%D9%81%D8%B6%D9%84%20%D8%A7%D9%84%D8%AA%D9%88%D8%AD%D9%8A%D8%AF%201%20%209-5-1409%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0003%D8%A8%D8%A7%D8%A8%20%D9%81%D8%B6%D9%84%20%D8%A7%D9%84%D8%AA%D9%88%D8%AD%D9%8A%D8%AF%201%20%209-5-1409%D9%87%D9%80.mp3",
+          "size": "23.6 MB"
+        },
+        {
+          "n": 5,
+          "title": "باب فضل التوحيد وما يكفر من الذنوب (2)",
+          "date": "1409/05/15",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0004%D8%A8%D8%A7%D8%A8%20%D9%81%D8%B6%D9%84%20%D8%A7%D9%84%D8%AA%D9%88%D8%AD%D9%8A%D8%AF%202%2015-5-1409%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0004%D8%A8%D8%A7%D8%A8%20%D9%81%D8%B6%D9%84%20%D8%A7%D9%84%D8%AA%D9%88%D8%AD%D9%8A%D8%AF%202%2015-5-1409%D9%87%D9%80.mp3",
+          "size": "22.2 MB"
+        },
+        {
+          "n": 6,
+          "title": "باب فضل التوحيد وما يكفر من الذنوب (3)",
+          "date": "1409/05/17",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0005%D8%A8%D8%A7%D8%A8%20%D9%81%D8%B6%D9%84%20%D8%A7%D9%84%D8%AA%D9%88%D8%AD%D9%8A%D8%AF3%20%2017-5-1409%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0005%D8%A8%D8%A7%D8%A8%20%D9%81%D8%B6%D9%84%20%D8%A7%D9%84%D8%AA%D9%88%D8%AD%D9%8A%D8%AF3%20%2017-5-1409%D9%87%D9%80.mp3",
+          "size": "23.6 MB"
+        },
+        {
+          "n": 7,
+          "title": "باب من حقق التوحيد دخل الجنة بغير حساب (1)",
+          "date": "1409/06/07",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0006%D8%AD%D9%82%D9%82%20%D8%A7%D9%84%D8%AA%D9%88%D8%AD%D9%8A%D8%AF%20%D8%AF%D8%AE%D9%84%20%D8%A7%D9%84%D8%AC%D9%86%D8%A9%20%D8%A8%D8%BA%D9%8A%D8%B1%20%D8%AD%D8%B3%D8%A7%D8%A81%20-7-6-1409%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0006%D8%AD%D9%82%D9%82%20%D8%A7%D9%84%D8%AA%D9%88%D8%AD%D9%8A%D8%AF%20%D8%AF%D8%AE%D9%84%20%D8%A7%D9%84%D8%AC%D9%86%D8%A9%20%D8%A8%D8%BA%D9%8A%D8%B1%20%D8%AD%D8%B3%D8%A7%D8%A81%20-7-6-1409%D9%87%D9%80.mp3",
+          "size": "30.2 MB"
+        },
+        {
+          "n": 8,
+          "title": "باب من حقق التوحيد دخل الجنة بغير حساب (2)",
+          "date": "1409/06/15",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0007%D8%A8%D8%A7%D8%A8%20%D9%85%D9%86%20%D8%AD%D9%82%D9%82%20%D8%A7%D9%84%D8%AA%D9%88%D8%AD%D9%8A%D8%AF%20%D8%AF%D8%AE%D9%84%20%D8%A7%D9%84%D8%AC%D9%86%D8%A9%20%D8%A8%D8%BA%D9%8A%D8%B1%20%D8%AD%D8%B3%D8%A7%D8%A8%202%2015-6-1409%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0007%D8%A8%D8%A7%D8%A8%20%D9%85%D9%86%20%D8%AD%D9%82%D9%82%20%D8%A7%D9%84%D8%AA%D9%88%D8%AD%D9%8A%D8%AF%20%D8%AF%D8%AE%D9%84%20%D8%A7%D9%84%D8%AC%D9%86%D8%A9%20%D8%A8%D8%BA%D9%8A%D8%B1%20%D8%AD%D8%B3%D8%A7%D8%A8%202%2015-6-1409%D9%87%D9%80.mp3",
+          "size": "22.1 MB"
+        },
+        {
+          "n": 9,
+          "title": "باب الخوف من الشرك",
+          "date": "1409/06/29",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0008%D8%A8%D8%A7%D8%A8%20%D8%A7%D9%84%D8%AE%D9%88%D9%81%20%D9%85%D9%86%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%20%20%2029-6-1409%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0008%D8%A8%D8%A7%D8%A8%20%D8%A7%D9%84%D8%AE%D9%88%D9%81%20%D9%85%D9%86%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%20%20%2029-6-1409%D9%87%D9%80.mp3",
+          "size": "22.9 MB"
+        },
+        {
+          "n": 10,
+          "title": "باب الدعاء إلى شهادة أن لا إله إلا الله (1)",
+          "date": "1409/08/11",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0009%D8%A8%D8%A7%D8%A8%20%D8%A7%D9%84%D8%AF%D8%B9%D8%A7%D8%A1%20%D8%A5%D9%84%D9%89%20%D8%B4%D9%87%D8%A7%D8%AF%D8%A9%20%D8%A3%D9%86%20%D9%84%D8%A7%20%D8%A7%D9%84%D9%87%20%D8%A5%D9%84%D8%A7%20%D8%A7%D9%84%D9%84%D9%87%20%201%2011-8-1409%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0009%D8%A8%D8%A7%D8%A8%20%D8%A7%D9%84%D8%AF%D8%B9%D8%A7%D8%A1%20%D8%A5%D9%84%D9%89%20%D8%B4%D9%87%D8%A7%D8%AF%D8%A9%20%D8%A3%D9%86%20%D9%84%D8%A7%20%D8%A7%D9%84%D9%87%20%D8%A5%D9%84%D8%A7%20%D8%A7%D9%84%D9%84%D9%87%20%201%2011-8-1409%D9%87%D9%80.mp3",
+          "size": "19.8 MB"
+        },
+        {
+          "n": 11,
+          "title": "باب الدعاء إلى شهادة أن لا إله إلا الله (2)",
+          "date": "1409/09/06",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0010%D8%A8%D8%A7%D8%A8%20%D8%A7%D9%84%D8%AF%D8%B9%D8%A7%D8%A1%20%D8%A5%D9%84%D9%89%20%D8%B4%D9%87%D8%A7%D8%AF%D8%A9%20%D8%A3%D9%86%20%D9%84%D8%A7%20%D8%A7%D9%84%D9%87%20%D8%A5%D9%84%D8%A7%20%D8%A7%D9%84%D9%84%D9%87%202%206-9-1409%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0010%D8%A8%D8%A7%D8%A8%20%D8%A7%D9%84%D8%AF%D8%B9%D8%A7%D8%A1%20%D8%A5%D9%84%D9%89%20%D8%B4%D9%87%D8%A7%D8%AF%D8%A9%20%D8%A3%D9%86%20%D9%84%D8%A7%20%D8%A7%D9%84%D9%87%20%D8%A5%D9%84%D8%A7%20%D8%A7%D9%84%D9%84%D9%87%202%206-9-1409%D9%87%D9%80.mp3",
+          "size": "17.7 MB"
+        },
+        {
+          "n": 12,
+          "title": "باب تفسير التوحيد وشهادة أن لا إله إلا الله (1)",
+          "date": "1409/09/10",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0011%D8%A8%D8%A7%D8%A8%20%D8%AA%D9%81%D8%B3%D9%8A%D8%B1%20%D8%A7%D9%84%D8%AA%D9%88%D8%AD%D9%8A%D8%AF%20%D9%88%D8%B4%D9%87%D8%A7%D8%AF%D8%A9%20%D8%A3%D9%86%20%D9%84%D8%A7%20%D8%A7%D9%84%D9%87%20%D8%A5%D9%84%D8%A7%20%D8%A7%D9%84%D9%84%D9%87%201%2010-9-1409%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0011%D8%A8%D8%A7%D8%A8%20%D8%AA%D9%81%D8%B3%D9%8A%D8%B1%20%D8%A7%D9%84%D8%AA%D9%88%D8%AD%D9%8A%D8%AF%20%D9%88%D8%B4%D9%87%D8%A7%D8%AF%D8%A9%20%D8%A3%D9%86%20%D9%84%D8%A7%20%D8%A7%D9%84%D9%87%20%D8%A5%D9%84%D8%A7%20%D8%A7%D9%84%D9%84%D9%87%201%2010-9-1409%D9%87%D9%80.mp3",
+          "size": "20.3 MB"
+        },
+        {
+          "n": 13,
+          "title": "باب تفسير التوحيد وشهادة أن لا إله إلا الله (2)",
+          "date": "1409/09/17",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0012%D8%A8%D8%A7%D8%A8%20%D8%AA%D9%81%D8%B3%D9%8A%D8%B1%20%D8%A7%D9%84%D8%AA%D9%88%D8%AD%D9%8A%D8%AF%20%D9%88%D8%B4%D9%87%D8%A7%D8%AF%D8%A9%20%D8%A3%D9%86%20%D9%84%D8%A7%20%D8%A7%D9%84%D9%87%20%D8%A5%D9%84%D8%A7%20%D8%A7%D9%84%D9%84%D9%87%202%2017-9-1409%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0012%D8%A8%D8%A7%D8%A8%20%D8%AA%D9%81%D8%B3%D9%8A%D8%B1%20%D8%A7%D9%84%D8%AA%D9%88%D8%AD%D9%8A%D8%AF%20%D9%88%D8%B4%D9%87%D8%A7%D8%AF%D8%A9%20%D8%A3%D9%86%20%D9%84%D8%A7%20%D8%A7%D9%84%D9%87%20%D8%A5%D9%84%D8%A7%20%D8%A7%D9%84%D9%84%D9%87%202%2017-9-1409%D9%87%D9%80.mp3",
+          "size": "19.9 MB"
+        },
+        {
+          "n": 14,
+          "title": "باب من الشرك لبس الحلقة والخيط ونحوهما",
+          "date": "1409/11/01",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0013%D8%A8%D8%A7%D8%A8%20%D9%85%D9%86%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%20%D9%84%D8%A8%D8%B3%20%D8%A7%D9%84%D8%AD%D9%84%D9%82%D8%A9%20%D9%88%D8%A7%D9%84%D8%AE%D9%8A%D8%B7%20%D9%88%D9%86%D8%AD%D9%88%D9%87%D9%85%D8%A7%201-11-1409%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0013%D8%A8%D8%A7%D8%A8%20%D9%85%D9%86%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%20%D9%84%D8%A8%D8%B3%20%D8%A7%D9%84%D8%AD%D9%84%D9%82%D8%A9%20%D9%88%D8%A7%D9%84%D8%AE%D9%8A%D8%B7%20%D9%88%D9%86%D8%AD%D9%88%D9%87%D9%85%D8%A7%201-11-1409%D9%87%D9%80.mp3",
+          "size": "22.3 MB"
+        },
+        {
+          "n": 15,
+          "title": "باب ما جاء في الرقى والتمائم",
+          "date": "1409/11/08",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0014%D8%A8%D8%A7%D8%A8%20%D9%85%D8%A7%20%D8%AC%D8%A7%D8%A1%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%B1%D9%82%D9%89%20%D9%88%D8%A7%D9%84%D8%AA%D9%85%D8%A7%D8%A6%D9%858-11-1409%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0014%D8%A8%D8%A7%D8%A8%20%D9%85%D8%A7%20%D8%AC%D8%A7%D8%A1%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%B1%D9%82%D9%89%20%D9%88%D8%A7%D9%84%D8%AA%D9%85%D8%A7%D8%A6%D9%858-11-1409%D9%87%D9%80.mp3",
+          "size": "22.9 MB"
+        },
+        {
+          "n": 16,
+          "title": "باب من تبرك بشجرة أو حجر ونحوهما",
+          "date": "1409/11/16",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0015%D8%A8%D8%A7%D8%A8%20%D9%85%D9%86%20%D8%AA%D8%A8%D8%B1%D9%83%20%D8%A8%D8%B4%D8%AC%D8%B1%D8%A9%20%D8%A3%D9%88%20%D8%AD%D8%AC%D8%B1%20%D9%88%D9%86%D8%AD%D9%88%D9%87%D9%85%D8%A7%20%2016-11-1409%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0015%D8%A8%D8%A7%D8%A8%20%D9%85%D9%86%20%D8%AA%D8%A8%D8%B1%D9%83%20%D8%A8%D8%B4%D8%AC%D8%B1%D8%A9%20%D8%A3%D9%88%20%D8%AD%D8%AC%D8%B1%20%D9%88%D9%86%D8%AD%D9%88%D9%87%D9%85%D8%A7%20%2016-11-1409%D9%87%D9%80.mp3",
+          "size": "26.0 MB"
+        },
+        {
+          "n": 17,
+          "title": "باب ما جاء في الذبح لغير الله",
+          "date": "1409/11/22",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0016%D8%A8%D8%A7%D8%A8%20%D9%85%D8%A7%20%D8%AC%D8%A7%D8%A1%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%B0%D8%A8%D8%AD%20%D9%84%D8%BA%D9%8A%D8%B1%20%D8%A7%D9%84%D9%84%D9%87%2022-11-1409%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0016%D8%A8%D8%A7%D8%A8%20%D9%85%D8%A7%20%D8%AC%D8%A7%D8%A1%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%B0%D8%A8%D8%AD%20%D9%84%D8%BA%D9%8A%D8%B1%20%D8%A7%D9%84%D9%84%D9%87%2022-11-1409%D9%87%D9%80.mp3",
+          "size": "24.4 MB"
+        },
+        {
+          "n": 18,
+          "title": "باب لا يذبح لله بمكان يذبح فيه لغير الله",
+          "date": "1409/11/25",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0017%D8%A8%D8%A7%D8%A8%20%D9%84%D8%A7%D9%8A%D8%B0%D8%A8%D8%AD%20%D9%84%D9%84%D9%87%20%D8%A8%D9%85%D9%83%D8%A7%D9%86%20%D9%8A%D8%B0%D8%A8%D8%AD%20%D9%81%D9%8A%D9%87%20%D9%84%D8%BA%D9%8A%D8%B1%20%D9%84%D9%84%D9%87%2025-11-1409%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0017%D8%A8%D8%A7%D8%A8%20%D9%84%D8%A7%D9%8A%D8%B0%D8%A8%D8%AD%20%D9%84%D9%84%D9%87%20%D8%A8%D9%85%D9%83%D8%A7%D9%86%20%D9%8A%D8%B0%D8%A8%D8%AD%20%D9%81%D9%8A%D9%87%20%D9%84%D8%BA%D9%8A%D8%B1%20%D9%84%D9%84%D9%87%2025-11-1409%D9%87%D9%80.mp3",
+          "size": "15.4 MB"
+        },
+        {
+          "n": 19,
+          "title": "باب من الشرك النذر لغير الله",
+          "date": "1409/11/28",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0018%D8%A8%D8%A7%D8%A8%20%D9%85%D9%86%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%20%D8%A7%D9%84%D9%86%D8%B0%D8%B1%20%D9%84%D8%BA%D9%8A%D8%B1%20%D8%A7%D9%84%D9%84%D9%87%2028-11-1409%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0018%D8%A8%D8%A7%D8%A8%20%D9%85%D9%86%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%20%D8%A7%D9%84%D9%86%D8%B0%D8%B1%20%D9%84%D8%BA%D9%8A%D8%B1%20%D8%A7%D9%84%D9%84%D9%87%2028-11-1409%D9%87%D9%80.mp3",
+          "size": "17.5 MB"
+        },
+        {
+          "n": 20,
+          "title": "باب من الشرك الاستعاذة بغير الله",
+          "date": "1409/11/30",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0019%D8%A8%D8%A7%D8%A8%20%D9%85%D9%86%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B9%D8%A7%D8%B0%D8%A9%20%D8%A8%D8%BA%D9%8A%D8%B1%20%D8%A7%D9%84%D9%84%D9%87%2030-11-1409%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0019%D8%A8%D8%A7%D8%A8%20%D9%85%D9%86%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B9%D8%A7%D8%B0%D8%A9%20%D8%A8%D8%BA%D9%8A%D8%B1%20%D8%A7%D9%84%D9%84%D9%87%2030-11-1409%D9%87%D9%80.mp3",
+          "size": "10.4 MB"
+        },
+        {
+          "n": 21,
+          "title": "باب من الشرك أن يستغيث بغير الله أو يدعو غيره",
+          "date": "1409/11/20",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0020%D8%A8%D8%A7%D8%A8%20%D9%85%D9%86%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%20%D8%A3%D9%86%20%D9%8A%D8%B3%D8%AA%D8%BA%D9%8A%D8%AB%20%D8%A8%D8%BA%D9%8A%D8%B1%20%D8%A7%D9%84%D9%84%D9%87%20%D8%A3%D9%88%20%D9%8A%D8%AF%D8%B9%D9%88%D8%A7%20%D8%BA%D9%8A%D8%B1%D9%87%2020-11-1409%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0020%D8%A8%D8%A7%D8%A8%20%D9%85%D9%86%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%20%D8%A3%D9%86%20%D9%8A%D8%B3%D8%AA%D8%BA%D9%8A%D8%AB%20%D8%A8%D8%BA%D9%8A%D8%B1%20%D8%A7%D9%84%D9%84%D9%87%20%D8%A3%D9%88%20%D9%8A%D8%AF%D8%B9%D9%88%D8%A7%20%D8%BA%D9%8A%D8%B1%D9%87%2020-11-1409%D9%87%D9%80.mp3",
+          "size": "29.2 MB"
+        },
+        {
+          "n": 22,
+          "title": "باب قول الله تعالى: ﴿أيشركون ما لا يخلق شيئا وهم يخلقون﴾ (1)",
+          "date": "1409/12/23",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0021%D8%A8%D8%A7%D8%A8%20%D9%82%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%28%20%D8%A3%D9%8A%D8%B4%D8%B1%D9%83%D9%88%D9%86%20%D9%85%D8%A7%D9%84%D8%A7%20%D9%8A%D8%AE%D9%84%D9%82%20%D8%B4%D9%8A%D8%A6%D8%A7%20%D9%88%D9%87%D9%85%20%D9%8A%D8%AE%D9%84%D9%82%D9%88%D9%86%20%291%2023-12-1409%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0021%D8%A8%D8%A7%D8%A8%20%D9%82%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%28%20%D8%A3%D9%8A%D8%B4%D8%B1%D9%83%D9%88%D9%86%20%D9%85%D8%A7%D9%84%D8%A7%20%D9%8A%D8%AE%D9%84%D9%82%20%D8%B4%D9%8A%D8%A6%D8%A7%20%D9%88%D9%87%D9%85%20%D9%8A%D8%AE%D9%84%D9%82%D9%88%D9%86%20%291%2023-12-1409%D9%87%D9%80.mp3",
+          "size": "11.8 MB"
+        },
+        {
+          "n": 23,
+          "title": "باب قول الله تعالى: ﴿أيشركون ما لا يخلق شيئا وهم يخلقون﴾ (2)",
+          "date": "1409/12/26",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0022%D8%A8%D8%A7%D8%A8%20%D9%82%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%28%20%D8%A3%D9%8A%D8%B4%D8%B1%D9%83%D9%88%D9%86%20%D9%85%D8%A7%D9%84%D8%A7%20%D9%8A%D8%AE%D9%84%D9%82%20%D8%B4%D9%8A%D8%A6%D8%A7%20%D9%88%D9%87%D9%85%20%D9%8A%D8%AE%D9%84%D9%82%D9%88%D9%86%20%292%20%2026-12-1409%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0022%D8%A8%D8%A7%D8%A8%20%D9%82%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%28%20%D8%A3%D9%8A%D8%B4%D8%B1%D9%83%D9%88%D9%86%20%D9%85%D8%A7%D9%84%D8%A7%20%D9%8A%D8%AE%D9%84%D9%82%20%D8%B4%D9%8A%D8%A6%D8%A7%20%D9%88%D9%87%D9%85%20%D9%8A%D8%AE%D9%84%D9%82%D9%88%D9%86%20%292%20%2026-12-1409%D9%87%D9%80.mp3",
+          "size": "18.9 MB"
+        },
+        {
+          "n": 24,
+          "title": "باب قول الله تعالى: ﴿أيشركون ما لا يخلق شيئا وهم يخلقون﴾ (3)",
+          "date": "1409/12/27",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0023%D8%A8%D8%A7%D8%A8%20%D9%82%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%28%20%D8%A3%D9%8A%D8%B4%D8%B1%D9%83%D9%88%D9%86%20%D9%85%D8%A7%D9%84%D8%A7%20%D9%8A%D8%AE%D9%84%D9%82%20%D8%B4%D9%8A%D8%A6%D8%A7%20%D9%88%D9%87%D9%85%20%D9%8A%D8%AE%D9%84%D9%82%D9%88%D9%86%20%293%20%2027-12-1409%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0023%D8%A8%D8%A7%D8%A8%20%D9%82%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%28%20%D8%A3%D9%8A%D8%B4%D8%B1%D9%83%D9%88%D9%86%20%D9%85%D8%A7%D9%84%D8%A7%20%D9%8A%D8%AE%D9%84%D9%82%20%D8%B4%D9%8A%D8%A6%D8%A7%20%D9%88%D9%87%D9%85%20%D9%8A%D8%AE%D9%84%D9%82%D9%88%D9%86%20%293%20%2027-12-1409%D9%87%D9%80.mp3",
+          "size": "13.3 MB"
+        },
+        {
+          "n": 25,
+          "title": "باب قول الله تعالى: ﴿حتى إذا فزع عن قلوبهم قالوا ماذا قال ربكم﴾",
+          "date": "1410/01/05",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0024%D8%A8%D8%A7%D8%A8%20%D9%82%D9%88%D9%84%D9%87%20%28%D8%AD%D8%AA%D9%89%20%D8%A5%D8%B0%D8%A7%20%D9%81%D8%B2%D8%B9%20%D8%B9%D9%86%20%D9%82%D9%84%D9%88%D8%A8%D9%87%D9%85%20%D9%82%D8%A7%D9%84%D9%88%D8%A7%20%D9%85%D8%A7%D8%B0%D8%A7%20%D9%82%D8%A7%D9%84%20%D8%B1%D8%A8%D9%83%D9%85%29%20%20%205-1-1410%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0024%D8%A8%D8%A7%D8%A8%20%D9%82%D9%88%D9%84%D9%87%20%28%D8%AD%D8%AA%D9%89%20%D8%A5%D8%B0%D8%A7%20%D9%81%D8%B2%D8%B9%20%D8%B9%D9%86%20%D9%82%D9%84%D9%88%D8%A8%D9%87%D9%85%20%D9%82%D8%A7%D9%84%D9%88%D8%A7%20%D9%85%D8%A7%D8%B0%D8%A7%20%D9%82%D8%A7%D9%84%20%D8%B1%D8%A8%D9%83%D9%85%29%20%20%205-1-1410%D9%87%D9%80.mp3",
+          "size": "22.8 MB"
+        },
+        {
+          "n": 26,
+          "title": "باب الشفاعة",
+          "date": "1410/01/17",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0025%D8%A8%D8%A7%D8%A8%20%D8%A7%D9%84%D8%B4%D9%81%D8%A7%D8%B9%D8%A9%2017-1-1410%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0025%D8%A8%D8%A7%D8%A8%20%D8%A7%D9%84%D8%B4%D9%81%D8%A7%D8%B9%D8%A9%2017-1-1410%D9%87%D9%80.mp3",
+          "size": "26.7 MB"
+        },
+        {
+          "n": 27,
+          "title": "باب قول الله تعالى: ﴿إنك لا تهدي من أحببت﴾",
+          "date": "1410/01/18",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0026%D8%A8%D8%A7%D8%A8%20%D9%82%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%28%D8%A7%D9%86%D9%83%20%D9%84%D8%A7%20%D8%AA%D9%87%D8%AF%D9%8A%20%D9%85%D9%86%20%D8%A7%D8%AD%D8%A8%D8%A8%D8%AA%29%2018-1-1410%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0026%D8%A8%D8%A7%D8%A8%20%D9%82%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%28%D8%A7%D9%86%D9%83%20%D9%84%D8%A7%20%D8%AA%D9%87%D8%AF%D9%8A%20%D9%85%D9%86%20%D8%A7%D8%AD%D8%A8%D8%A8%D8%AA%29%2018-1-1410%D9%87%D9%80.mp3",
+          "size": "21.2 MB"
+        },
+        {
+          "n": 28,
+          "title": "باب ما جاء أن سبب كفر بني آدم وتركهم دينهم هو الغلو في الصالحين",
+          "date": "1410/01/27",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0027%D8%A8%D8%A7%D8%A8%20%D9%85%D8%A7%D8%AC%D8%A7%D8%A1%20%D8%A3%D9%86%20%20%D9%83%D9%81%D8%B1%20%D8%A8%D9%86%D9%8A%20%D8%A7%D8%AF%D9%85%20%D9%88%D8%AA%D8%B1%D9%83%D9%87%D9%85%20%D8%AF%D9%8A%D9%86%D9%87%D9%85%20%D9%87%D9%88%20%D8%A7%D9%84%D8%BA%D9%84%D9%88%2027-1-1410%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0027%D8%A8%D8%A7%D8%A8%20%D9%85%D8%A7%D8%AC%D8%A7%D8%A1%20%D8%A3%D9%86%20%20%D9%83%D9%81%D8%B1%20%D8%A8%D9%86%D9%8A%20%D8%A7%D8%AF%D9%85%20%D9%88%D8%AA%D8%B1%D9%83%D9%87%D9%85%20%D8%AF%D9%8A%D9%86%D9%87%D9%85%20%D9%87%D9%88%20%D8%A7%D9%84%D8%BA%D9%84%D9%88%2027-1-1410%D9%87%D9%80.mp3",
+          "size": "29.3 MB"
+        },
+        {
+          "n": 29,
+          "title": "باب ما جاء في التغليظ فيمن عبد الله عند قبر رجل صالح فكيف إذا عبده",
+          "date": "1410/02/03",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0028%D8%A8%D8%A7%D8%A8%20%D9%85%D8%A7%20%D8%AC%D8%A7%D8%A1%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%AA%D8%BA%D9%84%D9%8A%D8%B8%20%D9%81%D9%8A%D9%85%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%84%D9%87%20%D8%B9%D9%86%D8%AF%20%D9%82%D8%A8%D8%B1%20%D8%B1%D8%AC%D9%84%20%D8%B5%D8%A7%D9%84%D8%AD%203-2-1410%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0028%D8%A8%D8%A7%D8%A8%20%D9%85%D8%A7%20%D8%AC%D8%A7%D8%A1%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%AA%D8%BA%D9%84%D9%8A%D8%B8%20%D9%81%D9%8A%D9%85%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%84%D9%87%20%D8%B9%D9%86%D8%AF%20%D9%82%D8%A8%D8%B1%20%D8%B1%D8%AC%D9%84%20%D8%B5%D8%A7%D9%84%D8%AD%203-2-1410%D9%87%D9%80.mp3",
+          "size": "16.7 MB"
+        },
+        {
+          "n": 30,
+          "title": "باب ما جاء أن الغلو في قبور الصالحين يصيرها أوثانا تعبد من دون الله",
+          "date": "1410/02/24",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0029%D9%85%D8%A7%D8%AC%D8%A7%D8%A1%20%D8%A7%D9%86%20%D8%A7%D9%84%D8%BA%D9%84%D9%88%20%D9%81%D9%8A%20%D9%82%D8%A8%D9%88%D8%B1%20%D8%A7%D9%84%D8%B5%D8%A7%D9%84%D8%AD%D9%8A%D9%86%20%D9%8A%D8%B5%D9%8A%D8%B1%D9%87%D8%A7%20%D8%A7%D9%88%D8%AB%D8%A7%D9%86%D8%A7%20%D8%AA%D8%B9%D8%A8%D8%AF%20%D9%85%D9%86%20%D8%AF%D9%88%D9%86%20%D8%A7%D9%84%D9%84%D9%87%2024-2-1410%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0029%D9%85%D8%A7%D8%AC%D8%A7%D8%A1%20%D8%A7%D9%86%20%D8%A7%D9%84%D8%BA%D9%84%D9%88%20%D9%81%D9%8A%20%D9%82%D8%A8%D9%88%D8%B1%20%D8%A7%D9%84%D8%B5%D8%A7%D9%84%D8%AD%D9%8A%D9%86%20%D9%8A%D8%B5%D9%8A%D8%B1%D9%87%D8%A7%20%D8%A7%D9%88%D8%AB%D8%A7%D9%86%D8%A7%20%D8%AA%D8%B9%D8%A8%D8%AF%20%D9%85%D9%86%20%D8%AF%D9%88%D9%86%20%D8%A7%D9%84%D9%84%D9%87%2024-2-1410%D9%87%D9%80.mp3",
+          "size": "12.8 MB"
+        },
+        {
+          "n": 31,
+          "title": "باب ما جاء في حماية المصطفى ﷺ جناب التوحيد",
+          "date": "1410/02/24",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0030%D9%85%D8%A7%D8%AC%D8%A7%D8%A1%20%D9%81%D9%8A%20%D8%AD%D9%85%D8%A7%D9%8A%D8%A9%20%D8%AC%D9%86%D8%A7%D8%A8%20%D8%A7%D9%84%D8%AA%D9%88%D8%AD%D9%8A%D8%AF%2024-2-1410%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0030%D9%85%D8%A7%D8%AC%D8%A7%D8%A1%20%D9%81%D9%8A%20%D8%AD%D9%85%D8%A7%D9%8A%D8%A9%20%D8%AC%D9%86%D8%A7%D8%A8%20%D8%A7%D9%84%D8%AA%D9%88%D8%AD%D9%8A%D8%AF%2024-2-1410%D9%87%D9%80.mp3",
+          "size": "17.8 MB"
+        },
+        {
+          "n": 32,
+          "title": "باب ما جاء أن بعض هذه الأمة يعبد الأوثان",
+          "date": "1410/06/10",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0031%D8%A8%D8%A7%D8%A8%20%D9%85%D8%A7%D8%AC%D8%A7%D8%A1%20%D8%A7%D9%86%20%D8%A8%D8%B9%D8%B6%20%D9%87%D8%B0%D9%87%20%D8%A7%D9%84%D8%A3%D9%85%D8%A9%20%D9%8A%D8%B9%D8%A8%D8%AF%D9%88%D9%86%20%D8%A7%D9%84%D8%A3%D9%88%D8%AB%D8%A7%D9%86%20%2010-6-1410%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0031%D8%A8%D8%A7%D8%A8%20%D9%85%D8%A7%D8%AC%D8%A7%D8%A1%20%D8%A7%D9%86%20%D8%A8%D8%B9%D8%B6%20%D9%87%D8%B0%D9%87%20%D8%A7%D9%84%D8%A3%D9%85%D8%A9%20%D9%8A%D8%B9%D8%A8%D8%AF%D9%88%D9%86%20%D8%A7%D9%84%D8%A3%D9%88%D8%AB%D8%A7%D9%86%20%2010-6-1410%D9%87%D9%80.mp3",
+          "size": "17.7 MB"
+        },
+        {
+          "n": 33,
+          "title": "باب ما جاء في السحر",
+          "date": "1410/06/14",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0032%D9%85%D8%A7%20%D8%AC%D8%A7%D8%A1%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%B3%D8%AD%D8%B1%2014-6-1410%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0032%D9%85%D8%A7%20%D8%AC%D8%A7%D8%A1%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%B3%D8%AD%D8%B1%2014-6-1410%D9%87%D9%80.mp3",
+          "size": "16.5 MB"
+        },
+        {
+          "n": 34,
+          "title": "باب بيان شيء من أنواع السحر",
+          "date": "",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0033%D8%A8%D9%8A%D8%A7%D9%86%20%D8%B4%D9%8A%20%D9%85%D9%86%20%D8%A7%D9%86%D9%88%D8%A7%D8%B9%20%D8%A7%D9%84%D8%B3%D8%AD%D8%B1.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0033%D8%A8%D9%8A%D8%A7%D9%86%20%D8%B4%D9%8A%20%D9%85%D9%86%20%D8%A7%D9%86%D9%88%D8%A7%D8%B9%20%D8%A7%D9%84%D8%B3%D8%AD%D8%B1.mp3",
+          "size": "44.5 MB"
+        },
+        {
+          "n": 35,
+          "title": "باب ما جاء في الكهان ونحوهم",
+          "date": "1410/07",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0034%D8%A8%D8%A7%D8%A8%20%D9%85%D8%A7%D8%AC%D8%A7%D8%A1%20%D9%81%D9%8A%20%D8%A7%D9%84%D9%83%D9%87%D8%A7%D9%86%20%D9%88%D9%86%D8%AD%D9%88%D9%87%D9%85-7-1410%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0034%D8%A8%D8%A7%D8%A8%20%D9%85%D8%A7%D8%AC%D8%A7%D8%A1%20%D9%81%D9%8A%20%D8%A7%D9%84%D9%83%D9%87%D8%A7%D9%86%20%D9%88%D9%86%D8%AD%D9%88%D9%87%D9%85-7-1410%D9%87%D9%80.mp3",
+          "size": "11.1 MB"
+        },
+        {
+          "n": 36,
+          "title": "باب ما جاء في النشرة",
+          "date": "1410/07/23",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0035%D8%A8%D8%A7%D8%A8%20%D9%85%D8%A7%D8%AC%D8%A7%D8%A1%20%D9%81%D9%8A%20%D8%A7%D9%84%D9%86%D8%B4%D8%B1%D8%A9%2023-7-1410%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0035%D8%A8%D8%A7%D8%A8%20%D9%85%D8%A7%D8%AC%D8%A7%D8%A1%20%D9%81%D9%8A%20%D8%A7%D9%84%D9%86%D8%B4%D8%B1%D8%A9%2023-7-1410%D9%87%D9%80.mp3",
+          "size": "8.6 MB"
+        },
+        {
+          "n": 37,
+          "title": "باب ما جاء في التطير",
+          "date": "1410/07/29",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0036%D8%A8%D8%A7%D8%A8%20%D9%85%D8%A7%D8%AC%D8%A7%D8%A1%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%AA%D8%B7%D9%8A%D8%B1%2029-7-1410%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0036%D8%A8%D8%A7%D8%A8%20%D9%85%D8%A7%D8%AC%D8%A7%D8%A1%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%AA%D8%B7%D9%8A%D8%B1%2029-7-1410%D9%87%D9%80.mp3",
+          "size": "62.9 MB"
+        },
+        {
+          "n": 38,
+          "title": "باب ما جاء في التنجيم",
+          "date": "1410/08/10",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0037%D8%A8%D8%A7%D8%A8%20%D9%85%D8%A7%D8%AC%D8%A7%D8%A1%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%AA%D9%86%D8%AC%D9%8A%D9%85%2010-8-1410%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0037%D8%A8%D8%A7%D8%A8%20%D9%85%D8%A7%D8%AC%D8%A7%D8%A1%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%AA%D9%86%D8%AC%D9%8A%D9%85%2010-8-1410%D9%87%D9%80.mp3",
+          "size": "29.0 MB"
+        },
+        {
+          "n": 39,
+          "title": "باب ما جاء في الاستسقاء بالأنواء",
+          "date": "1410/08/13",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0038%D8%A8%D8%A7%D8%A8%20%D9%85%D8%A7%D8%AC%D8%A7%D8%A1%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B3%D9%82%D8%A7%D8%A1%20%D8%A8%D8%A7%D9%84%D8%A3%D9%86%D9%88%D8%A7%D8%A1%2013-8-1410%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0038%D8%A8%D8%A7%D8%A8%20%D9%85%D8%A7%D8%AC%D8%A7%D8%A1%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B3%D9%82%D8%A7%D8%A1%20%D8%A8%D8%A7%D9%84%D8%A3%D9%86%D9%88%D8%A7%D8%A1%2013-8-1410%D9%87%D9%80.mp3",
+          "size": "16.0 MB"
+        },
+        {
+          "n": 40,
+          "title": "باب قول الله تعالى: ﴿ومن الناس من يتخذ من دون الله أندادا﴾",
+          "date": "1410/08/21",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0039%D8%A8%D8%A7%D8%A8%20%D9%82%D9%88%D9%84%D9%87%20%D8%AA%D8%B9%D8%A7%D9%84%D9%89%20%28%20%D9%88%D9%85%D9%86%20%D8%A7%D9%84%D9%86%D8%A7%D8%B3%20%D9%85%D9%86%20%D9%8A%D8%AA%D8%AE%D8%B0%20%D9%85%D9%86%20%D8%AF%D9%88%D9%86%20%D8%A7%D9%84%D9%84%D9%87%20%D8%A3%D9%86%D8%AF%D8%A7%D8%AF%D8%A7%D9%8B%20%29%2021-8-1410%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0039%D8%A8%D8%A7%D8%A8%20%D9%82%D9%88%D9%84%D9%87%20%D8%AA%D8%B9%D8%A7%D9%84%D9%89%20%28%20%D9%88%D9%85%D9%86%20%D8%A7%D9%84%D9%86%D8%A7%D8%B3%20%D9%85%D9%86%20%D9%8A%D8%AA%D8%AE%D8%B0%20%D9%85%D9%86%20%D8%AF%D9%88%D9%86%20%D8%A7%D9%84%D9%84%D9%87%20%D8%A3%D9%86%D8%AF%D8%A7%D8%AF%D8%A7%D9%8B%20%29%2021-8-1410%D9%87%D9%80.mp3",
+          "size": "12.3 MB"
+        },
+        {
+          "n": 41,
+          "title": "باب قول الله تعالى: ﴿إنما ذلكم الشيطان يخوف أولياءه﴾",
+          "date": "1410/08/27",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0040%D8%A8%D8%A7%D8%A8%20%D9%82%D9%88%D9%84%D9%87%20%D8%AA%D8%B9%D8%A7%D9%84%D9%89%20%28%D8%A5%D9%86%D9%85%D8%A7%20%D8%B0%D8%A7%D9%84%D9%83%D9%85%20%D8%A7%D9%84%D8%B4%D9%8A%D8%B7%D8%A7%D9%86%20%D9%8A%D8%AE%D9%88%D9%81%20%D8%A3%D9%88%D9%84%D9%8A%D8%A7%D8%A1%D9%87%20%29%20%2027-8-1410%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0040%D8%A8%D8%A7%D8%A8%20%D9%82%D9%88%D9%84%D9%87%20%D8%AA%D8%B9%D8%A7%D9%84%D9%89%20%28%D8%A5%D9%86%D9%85%D8%A7%20%D8%B0%D8%A7%D9%84%D9%83%D9%85%20%D8%A7%D9%84%D8%B4%D9%8A%D8%B7%D8%A7%D9%86%20%D9%8A%D8%AE%D9%88%D9%81%20%D8%A3%D9%88%D9%84%D9%8A%D8%A7%D8%A1%D9%87%20%29%20%2027-8-1410%D9%87%D9%80.mp3",
+          "size": "20.1 MB"
+        },
+        {
+          "n": 42,
+          "title": "باب قول الله تعالى: ﴿وعلى الله فتوكلوا إن كنتم مؤمنين﴾",
+          "date": "1410/09/05",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0041%D8%A8%D8%A7%D8%A8%20%D9%82%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%28%20%D9%88%D8%B9%D9%84%D9%89%20%D8%A7%D9%84%D9%84%D9%87%20%D9%81%D8%AA%D9%88%D9%83%D9%84%D9%88%D8%A7%20%D8%A5%D9%86%20%D9%83%D9%86%D8%AA%D9%85%20%D9%85%D8%A4%D9%85%D9%86%D9%8A%D9%86%20%29%20%20%205-9-1410%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0041%D8%A8%D8%A7%D8%A8%20%D9%82%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%28%20%D9%88%D8%B9%D9%84%D9%89%20%D8%A7%D9%84%D9%84%D9%87%20%D9%81%D8%AA%D9%88%D9%83%D9%84%D9%88%D8%A7%20%D8%A5%D9%86%20%D9%83%D9%86%D8%AA%D9%85%20%D9%85%D8%A4%D9%85%D9%86%D9%8A%D9%86%20%29%20%20%205-9-1410%D9%87%D9%80.mp3",
+          "size": "17.8 MB"
+        },
+        {
+          "n": 43,
+          "title": "باب قول الله تعالى: ﴿أفأمنوا مكر الله﴾",
+          "date": "",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0042%D8%A8%D8%A7%D8%A8%20%D9%82%D9%88%D9%84%D9%87%20%D8%A7%D9%81%D8%A3%D9%85%D9%86%D9%88%D8%A7%20%D9%85%D9%83%D8%B1%20%D8%A7%D9%84%D9%84%D9%87.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0042%D8%A8%D8%A7%D8%A8%20%D9%82%D9%88%D9%84%D9%87%20%D8%A7%D9%81%D8%A3%D9%85%D9%86%D9%88%D8%A7%20%D9%85%D9%83%D8%B1%20%D8%A7%D9%84%D9%84%D9%87.mp3",
+          "size": "28.2 MB"
+        },
+        {
+          "n": 44,
+          "title": "باب من الإيمان بالله الصبر على أقدار الله",
+          "date": "",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0043%D8%A8%D8%A7%D8%A8%20%D9%85%D9%86%20%D8%A7%D9%84%D8%A5%D9%8A%D9%85%D8%A7%D9%86%20%D8%A8%D8%A7%D9%84%D9%84%D9%87%20%D8%A7%D9%84%D8%B5%D8%A8%D8%B1%20%D8%B9%D9%84%D9%8A%20%D8%A3%D9%82%D8%AF%D8%A7%D8%B1%20%D8%A7%D9%84%D9%84%D9%87.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0043%D8%A8%D8%A7%D8%A8%20%D9%85%D9%86%20%D8%A7%D9%84%D8%A5%D9%8A%D9%85%D8%A7%D9%86%20%D8%A8%D8%A7%D9%84%D9%84%D9%87%20%D8%A7%D9%84%D8%B5%D8%A8%D8%B1%20%D8%B9%D9%84%D9%8A%20%D8%A3%D9%82%D8%AF%D8%A7%D8%B1%20%D8%A7%D9%84%D9%84%D9%87.mp3",
+          "size": "58.1 MB"
+        },
+        {
+          "n": 45,
+          "title": "باب ما جاء في الرياء",
+          "date": "1410/09/12",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0044%D8%A8%D8%A7%D8%A8%20%D9%85%D8%A7%D8%AC%D8%A7%D8%A1%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%A1%2012-9-1410%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0044%D8%A8%D8%A7%D8%A8%20%D9%85%D8%A7%D8%AC%D8%A7%D8%A1%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%A1%2012-9-1410%D9%87%D9%80.mp3",
+          "size": "11.6 MB"
+        },
+        {
+          "n": 46,
+          "title": "باب من الشرك إرادة الإنسان بعمله الدنيا",
+          "date": "1410/10/18",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0045%D8%A8%D8%A7%D8%A8%20%D9%85%D9%86%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%20%D8%A5%D8%B1%D8%A7%D8%AF%D8%A9%20%D8%A7%D9%84%D8%A5%D9%86%D8%B3%D8%A7%D9%86%20%D8%A8%D8%B9%D9%85%D9%84%D9%87%20%D8%A7%D9%84%D8%AF%D9%86%D9%8A%D8%A7%2018-10-1410%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0045%D8%A8%D8%A7%D8%A8%20%D9%85%D9%86%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%20%D8%A5%D8%B1%D8%A7%D8%AF%D8%A9%20%D8%A7%D9%84%D8%A5%D9%86%D8%B3%D8%A7%D9%86%20%D8%A8%D8%B9%D9%85%D9%84%D9%87%20%D8%A7%D9%84%D8%AF%D9%86%D9%8A%D8%A7%2018-10-1410%D9%87%D9%80.mp3",
+          "size": "12.0 MB"
+        },
+        {
+          "n": 47,
+          "title": "باب من أطاع العلماء والأمراء في تحريم ما أحل الله أو تحليل ما حرم الله فقد اتخذهم أربابا",
+          "date": "1410/10/26",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0046%D9%85%D9%86%20%D8%A3%D8%B7%D8%A7%D8%B9%20%D8%A7%D9%84%D8%B9%D9%84%D9%85%D8%A7%D8%A1%20%D9%88%D8%A7%D9%84%D8%A3%D9%85%D8%B1%D8%A7%D8%A1%20%D9%81%D9%8A%20%D8%AA%D8%AD%D9%84%D9%8A%D9%84%20%D9%85%D8%A7%20%D8%AD%D8%B1%D9%85%20%D8%A7%D9%84%D9%84%D9%87%2026-10-1410%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0046%D9%85%D9%86%20%D8%A3%D8%B7%D8%A7%D8%B9%20%D8%A7%D9%84%D8%B9%D9%84%D9%85%D8%A7%D8%A1%20%D9%88%D8%A7%D9%84%D8%A3%D9%85%D8%B1%D8%A7%D8%A1%20%D9%81%D9%8A%20%D8%AA%D8%AD%D9%84%D9%8A%D9%84%20%D9%85%D8%A7%20%D8%AD%D8%B1%D9%85%20%D8%A7%D9%84%D9%84%D9%87%2026-10-1410%D9%87%D9%80.mp3",
+          "size": "18.4 MB"
+        },
+        {
+          "n": 48,
+          "title": "باب قول الله تعالى: ﴿ألم تر إلى الذين يزعمون﴾ … ﴿يريدون أن يتحاكموا إلى الطاغوت﴾",
+          "date": "1410/11/11",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0047%D8%A8%D8%A7%D8%A8%20%D9%82%D9%88%D9%84%D9%87%20%28%D9%8A%D8%B1%D9%8A%D8%AF%D9%88%D9%86%20%D8%A7%D9%86%20%D9%8A%D8%AA%D8%AD%D8%A7%D9%83%D9%85%D9%88%D8%A7%20%D8%A7%D9%84%D9%89%20%D8%A7%D9%84%D8%B7%D8%A7%D8%BA%D9%88%D8%AA%29%2011-11-1410%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0047%D8%A8%D8%A7%D8%A8%20%D9%82%D9%88%D9%84%D9%87%20%28%D9%8A%D8%B1%D9%8A%D8%AF%D9%88%D9%86%20%D8%A7%D9%86%20%D9%8A%D8%AA%D8%AD%D8%A7%D9%83%D9%85%D9%88%D8%A7%20%D8%A7%D9%84%D9%89%20%D8%A7%D9%84%D8%B7%D8%A7%D8%BA%D9%88%D8%AA%29%2011-11-1410%D9%87%D9%80.mp3",
+          "size": "8.1 MB"
+        },
+        {
+          "n": 49,
+          "title": "باب من جحد شيئا من الأسماء والصفات",
+          "date": "1411/01/13",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0048%D8%A8%D8%A7%D8%A8%20%D9%85%D9%86%20%D8%AC%D8%AD%D8%AF%20%D8%B4%D9%8A%D8%A6%D8%A7%D9%8B%20%D9%85%D9%86%20%D8%A7%D9%84%D8%A3%D8%B3%D9%85%D8%A7%D8%A1%20%D9%88%D8%A7%D9%84%D8%B5%D9%81%D8%A7%D8%AA%2013-1-1411%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0048%D8%A8%D8%A7%D8%A8%20%D9%85%D9%86%20%D8%AC%D8%AD%D8%AF%20%D8%B4%D9%8A%D8%A6%D8%A7%D9%8B%20%D9%85%D9%86%20%D8%A7%D9%84%D8%A3%D8%B3%D9%85%D8%A7%D8%A1%20%D9%88%D8%A7%D9%84%D8%B5%D9%81%D8%A7%D8%AA%2013-1-1411%D9%87%D9%80.mp3",
+          "size": "19.2 MB"
+        },
+        {
+          "n": 50,
+          "title": "باب قول الله تعالى: ﴿يعرفون نعمت الله ثم ينكرونها﴾",
+          "date": "",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0049%D8%A8%D8%A7%D8%A8%20%D9%82%D9%88%D9%84%D9%87%20%D9%8A%D8%B9%D8%B1%D9%81%D9%88%D9%86%20%D9%86%D8%B9%D9%85%D8%A9%20%D8%A7%D9%84%D9%84%D9%87%20%D8%AB%D9%85%20%D9%8A%D9%86%D9%83%D8%B1%D9%88%D9%86%D9%87%D8%A7.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0049%D8%A8%D8%A7%D8%A8%20%D9%82%D9%88%D9%84%D9%87%20%D9%8A%D8%B9%D8%B1%D9%81%D9%88%D9%86%20%D9%86%D8%B9%D9%85%D8%A9%20%D8%A7%D9%84%D9%84%D9%87%20%D8%AB%D9%85%20%D9%8A%D9%86%D9%83%D8%B1%D9%88%D9%86%D9%87%D8%A7.mp3",
+          "size": "28.3 MB"
+        },
+        {
+          "n": 51,
+          "title": "باب قول الله تعالى: ﴿فلا تجعلوا لله أندادا﴾",
+          "date": "1411/01/21",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0050%D8%A8%D8%A7%D8%A8%20%D9%82%D9%88%D9%84%D9%87%20%D8%AA%D8%B9%D8%A7%D9%84%D9%89%20%28%20%D9%81%D9%84%D8%A7%20%D8%AA%D8%AC%D8%B9%D9%84%D9%88%D8%A7%20%D9%84%D9%84%D9%87%20%D8%A3%D9%86%D8%AF%D8%A7%D8%AF%D8%A7%20%2921-1-1411%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0050%D8%A8%D8%A7%D8%A8%20%D9%82%D9%88%D9%84%D9%87%20%D8%AA%D8%B9%D8%A7%D9%84%D9%89%20%28%20%D9%81%D9%84%D8%A7%20%D8%AA%D8%AC%D8%B9%D9%84%D9%88%D8%A7%20%D9%84%D9%84%D9%87%20%D8%A3%D9%86%D8%AF%D8%A7%D8%AF%D8%A7%20%2921-1-1411%D9%87%D9%80.mp3",
+          "size": "11.4 MB"
+        },
+        {
+          "n": 52,
+          "title": "باب ما جاء فيمن لم يقنع بالحلف بالله",
+          "date": "1411/01/27",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0051%D8%A8%D8%A7%D8%A8%20%D9%81%D9%8A%D9%85%D9%86%20%D9%84%D9%85%20%D9%8A%D9%82%D9%86%D8%B9%20%D8%A8%D8%A7%D9%84%D8%AD%D9%84%D9%81%20%D8%A8%D8%A7%D9%84%D9%84%D9%87%2027-1-1411%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0051%D8%A8%D8%A7%D8%A8%20%D9%81%D9%8A%D9%85%D9%86%20%D9%84%D9%85%20%D9%8A%D9%82%D9%86%D8%B9%20%D8%A8%D8%A7%D9%84%D8%AD%D9%84%D9%81%20%D8%A8%D8%A7%D9%84%D9%84%D9%87%2027-1-1411%D9%87%D9%80.mp3",
+          "size": "10.7 MB"
+        },
+        {
+          "n": 53,
+          "title": "باب قول: ما شاء الله وشئت",
+          "date": "1411/02/04",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0052%D8%A8%D8%A7%D8%A8%20%D9%82%D9%88%D9%84%20%D9%85%D8%A7%20%D8%B4%D8%A7%D8%A1%20%D8%A7%D9%84%D9%84%D9%87%20%D9%88%D8%B4%D8%A6%D8%AA%204-2-1411%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0052%D8%A8%D8%A7%D8%A8%20%D9%82%D9%88%D9%84%20%D9%85%D8%A7%20%D8%B4%D8%A7%D8%A1%20%D8%A7%D9%84%D9%84%D9%87%20%D9%88%D8%B4%D8%A6%D8%AA%204-2-1411%D9%87%D9%80.mp3",
+          "size": "19.4 MB"
+        },
+        {
+          "n": 54,
+          "title": "باب من سب الدهر فقد آذى الله",
+          "date": "1411/02/11",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0053%D8%A8%D8%A7%D8%A8%20%D9%85%D9%86%20%D8%A7%D9%84%D8%B3%D8%A8%20%D8%A7%D9%84%D8%AF%D9%87%D8%B1%20%D9%81%D9%82%D8%AF%20%D8%A7%D8%B0%D9%89%20%D8%A7%D9%84%D9%84%D9%87%2011-2-1411%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0053%D8%A8%D8%A7%D8%A8%20%D9%85%D9%86%20%D8%A7%D9%84%D8%B3%D8%A8%20%D8%A7%D9%84%D8%AF%D9%87%D8%B1%20%D9%81%D9%82%D8%AF%20%D8%A7%D8%B0%D9%89%20%D8%A7%D9%84%D9%84%D9%87%2011-2-1411%D9%87%D9%80.mp3",
+          "size": "8.1 MB"
+        },
+        {
+          "n": 55,
+          "title": "باب التسمي بقاضي القضاة ونحوه",
+          "date": "",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0055%D8%A8%D8%A7%D8%A8%20%D8%A7%D9%84%D8%AA%D8%B3%D9%85%D9%8A%20%D8%A8%D9%82%D8%A7%D8%B6%D9%8A%20%D8%A7%D9%84%D9%82%D8%B6%D8%A7%D8%A9.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0055%D8%A8%D8%A7%D8%A8%20%D8%A7%D9%84%D8%AA%D8%B3%D9%85%D9%8A%20%D8%A8%D9%82%D8%A7%D8%B6%D9%8A%20%D8%A7%D9%84%D9%82%D8%B6%D8%A7%D8%A9.mp3",
+          "size": "20.5 MB"
+        },
+        {
+          "n": 56,
+          "title": "باب احترام أسماء الله تعالى وتغيير الاسم لأجل ذلك",
+          "date": "1411/02/20",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0054%D8%A8%D8%A7%D8%A8%20%D8%A7%D8%AD%D8%AA%D8%B1%D8%A7%D9%85%20%D8%A3%D8%B3%D9%85%D8%A7%D8%A1%20%D8%A7%D9%84%D9%84%D9%87%20%D8%AA%D8%B9%D8%A7%D9%84%D9%89%20%D9%88%D8%AA%D8%BA%D9%8A%D9%8A%D8%B1%20%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%D9%84%D8%A3%D8%AC%D9%84%20%D8%B0%D9%84%D9%83%2020-2-1411%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0054%D8%A8%D8%A7%D8%A8%20%D8%A7%D8%AD%D8%AA%D8%B1%D8%A7%D9%85%20%D8%A3%D8%B3%D9%85%D8%A7%D8%A1%20%D8%A7%D9%84%D9%84%D9%87%20%D8%AA%D8%B9%D8%A7%D9%84%D9%89%20%D9%88%D8%AA%D8%BA%D9%8A%D9%8A%D8%B1%20%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%D9%84%D8%A3%D8%AC%D9%84%20%D8%B0%D9%84%D9%83%2020-2-1411%D9%87%D9%80.mp3",
+          "size": "10.8 MB"
+        },
+        {
+          "n": 57,
+          "title": "باب من هزل بشيء فيه ذكر الله أو القرآن أو الرسول",
+          "date": "1411/04/09",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0056%D8%A8%D8%A7%D8%A8%20%D9%85%D9%86%20%D9%87%D8%B2%D9%84%20%D8%A8%D8%B4%D9%8A%D8%A1%20%D9%81%D9%8A%D9%87%20%D8%B0%D9%83%D8%B1%20%D8%A7%D9%84%D9%84%D9%87%209-4-1411%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0056%D8%A8%D8%A7%D8%A8%20%D9%85%D9%86%20%D9%87%D8%B2%D9%84%20%D8%A8%D8%B4%D9%8A%D8%A1%20%D9%81%D9%8A%D9%87%20%D8%B0%D9%83%D8%B1%20%D8%A7%D9%84%D9%84%D9%87%209-4-1411%D9%87%D9%80.mp3",
+          "size": "11.9 MB"
+        },
+        {
+          "n": 58,
+          "title": "باب قول الله تعالى: ﴿ولئن أذقناه رحمة منا من بعد ضراء مسته﴾",
+          "date": "1411/04/10",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0057%D8%A8%D8%A7%D8%A8%20%D9%82%D9%88%D9%84%D9%87%20%D8%AA%D8%B9%D8%A7%D9%84%D9%89%20%28%20%D9%88%D9%84%D8%A6%D9%86%20%D8%A3%D8%B0%D9%82%D9%86%D8%A7%D9%87%20%D8%B1%D8%AD%D9%85%D8%A9%20%D9%85%D9%86%D8%A7%20%D8%A8%D8%B9%D8%AF%20%D8%B6%D8%B1%D8%A7%D8%A1%20%D9%85%D8%B3%D8%AA%D9%87%20%29%2010-4-1411%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0057%D8%A8%D8%A7%D8%A8%20%D9%82%D9%88%D9%84%D9%87%20%D8%AA%D8%B9%D8%A7%D9%84%D9%89%20%28%20%D9%88%D9%84%D8%A6%D9%86%20%D8%A3%D8%B0%D9%82%D9%86%D8%A7%D9%87%20%D8%B1%D8%AD%D9%85%D8%A9%20%D9%85%D9%86%D8%A7%20%D8%A8%D8%B9%D8%AF%20%D8%B6%D8%B1%D8%A7%D8%A1%20%D9%85%D8%B3%D8%AA%D9%87%20%29%2010-4-1411%D9%87%D9%80.mp3",
+          "size": "13.1 MB"
+        },
+        {
+          "n": 59,
+          "title": "باب قول الله تعالى: ﴿فلما آتاهما صالحا جعلا له شركاء فيما آتاهما﴾",
+          "date": "1411/04/17",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0058%D8%A8%D8%A7%D8%A8%20%D9%82%D9%88%D9%84%D9%87%20%D8%AA%D8%B9%D8%A7%D9%84%D9%89%20%28%20%D9%81%D9%84%D9%85%D8%A7%20%D8%A3%D8%AA%D8%A7%D9%87%D9%85%D8%A7%20%D8%B5%D8%A7%D9%84%D8%AD%D8%A7%D9%8B%20%D8%AC%D8%B9%D9%84%D8%A7%20%D9%84%D9%87%20%D8%B4%D8%B1%D9%83%D8%A7%D8%A1%29%2017-4-1411%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0058%D8%A8%D8%A7%D8%A8%20%D9%82%D9%88%D9%84%D9%87%20%D8%AA%D8%B9%D8%A7%D9%84%D9%89%20%28%20%D9%81%D9%84%D9%85%D8%A7%20%D8%A3%D8%AA%D8%A7%D9%87%D9%85%D8%A7%20%D8%B5%D8%A7%D9%84%D8%AD%D8%A7%D9%8B%20%D8%AC%D8%B9%D9%84%D8%A7%20%D9%84%D9%87%20%D8%B4%D8%B1%D9%83%D8%A7%D8%A1%29%2017-4-1411%D9%87%D9%80.mp3",
+          "size": "12.9 MB"
+        },
+        {
+          "n": 60,
+          "title": "باب قول الله تعالى: ﴿ولله الأسماء الحسنى فادعوه بها﴾",
+          "date": "1411/04/23",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0059%D8%A8%D8%A7%D8%A8%20%D9%82%D9%88%D9%84%D9%87%20%D8%AA%D8%B9%D8%A7%D9%84%D9%89%20%28%20%D9%88%D9%84%D9%84%D9%87%20%D8%A7%D9%84%D8%A3%D8%B3%D9%85%D8%A7%D8%A1%20%D8%A7%D9%84%D8%AD%D8%B3%D9%86%D9%89%20%D9%81%D8%A7%D8%AF%D8%B9%D9%88%D9%87%20%D8%A8%D9%87%D8%A7%20%29%2023-4-1411%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0059%D8%A8%D8%A7%D8%A8%20%D9%82%D9%88%D9%84%D9%87%20%D8%AA%D8%B9%D8%A7%D9%84%D9%89%20%28%20%D9%88%D9%84%D9%84%D9%87%20%D8%A7%D9%84%D8%A3%D8%B3%D9%85%D8%A7%D8%A1%20%D8%A7%D9%84%D8%AD%D8%B3%D9%86%D9%89%20%D9%81%D8%A7%D8%AF%D8%B9%D9%88%D9%87%20%D8%A8%D9%87%D8%A7%20%29%2023-4-1411%D9%87%D9%80.mp3",
+          "size": "22.0 MB"
+        },
+        {
+          "n": 61,
+          "title": "باب لا يقال: السلام على الله",
+          "date": "",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0060%D8%A8%D8%A7%D8%A8%20%D9%84%D8%A7%20%D9%8A%D9%82%D8%A7%D9%84%20%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%89%20%D8%A7%D9%84%D9%84%D9%87%20.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0060%D8%A8%D8%A7%D8%A8%20%D9%84%D8%A7%20%D9%8A%D9%82%D8%A7%D9%84%20%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%89%20%D8%A7%D9%84%D9%84%D9%87%20.mp3",
+          "size": "32.6 MB"
+        },
+        {
+          "n": 62,
+          "title": "باب قول: اللهم اغفر لي إن شئت",
+          "date": "",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0061%D8%A8%D8%A7%D8%A8%20%D9%82%D9%88%D9%84%D9%87%20%D8%A7%D9%84%D9%84%D9%87%D9%85%20%D8%A7%D8%BA%D9%81%D8%B1%20%D9%84%D9%8A%20%D8%A7%D9%86%20%D8%B4%D8%A6%D8%AA.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0061%D8%A8%D8%A7%D8%A8%20%D9%82%D9%88%D9%84%D9%87%20%D8%A7%D9%84%D9%84%D9%87%D9%85%20%D8%A7%D8%BA%D9%81%D8%B1%20%D9%84%D9%8A%20%D8%A7%D9%86%20%D8%B4%D8%A6%D8%AA.mp3",
+          "size": "20.0 MB"
+        },
+        {
+          "n": 63,
+          "title": "باب لا يقول: عبدي وأمتي، وباب لا يرد من سأل بالله",
+          "date": "1411/05/01",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0062%D8%A8%D8%A7%D8%A8%20%D9%84%D8%A7%20%D9%8A%D9%82%D9%88%D9%84%20%D8%B9%D8%A8%D8%AF%D9%8A%20%20%D9%88%D8%A8%D8%A7%D8%A8%20%D9%84%D8%A7%20%D9%8A%D8%B1%D8%AF%20%D9%85%D9%86%20%D8%B3%D8%A7%D9%84%20%D8%A8%D8%A7%D9%84%D9%84%D9%87%201-5-1411%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0062%D8%A8%D8%A7%D8%A8%20%D9%84%D8%A7%20%D9%8A%D9%82%D9%88%D9%84%20%D8%B9%D8%A8%D8%AF%D9%8A%20%20%D9%88%D8%A8%D8%A7%D8%A8%20%D9%84%D8%A7%20%D9%8A%D8%B1%D8%AF%20%D9%85%D9%86%20%D8%B3%D8%A7%D9%84%20%D8%A8%D8%A7%D9%84%D9%84%D9%87%201-5-1411%D9%87%D9%80.mp3",
+          "size": "12.6 MB"
+        },
+        {
+          "n": 64,
+          "title": "باب لا يسأل بوجه الله إلا الجنة، وباب ما جاء في اللو",
+          "date": "1411/05/07",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0063%D8%A8%D8%A7%D8%A8%20%D9%84%D8%A7%20%D9%8A%D8%B3%D8%A7%D9%84%20%D8%A8%D9%88%D8%AC%D9%87%20%D8%A7%D9%84%D9%84%D9%87%20%D8%A5%D9%84%D8%A7%20%D8%A7%D9%84%D8%AC%D9%86%D8%A9%20%207-5-1411%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0063%D8%A8%D8%A7%D8%A8%20%D9%84%D8%A7%20%D9%8A%D8%B3%D8%A7%D9%84%20%D8%A8%D9%88%D8%AC%D9%87%20%D8%A7%D9%84%D9%84%D9%87%20%D8%A5%D9%84%D8%A7%20%D8%A7%D9%84%D8%AC%D9%86%D8%A9%20%207-5-1411%D9%87%D9%80.mp3",
+          "size": "12.6 MB"
+        },
+        {
+          "n": 65,
+          "title": "باب النهي عن سب الريح، وباب قول الله تعالى: ﴿يظنون بالله غير الحق ظن الجاهلية﴾",
+          "date": "1411/05/08",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0064%D8%A8%D8%A7%D8%A8%20%D8%A7%D9%84%D9%86%D9%87%D9%8A%20%D8%B9%D9%86%20%D8%B3%D8%A8%20%D8%A7%D9%84%D8%B1%D9%8A%D8%AD%20%208-5-1411%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0064%D8%A8%D8%A7%D8%A8%20%D8%A7%D9%84%D9%86%D9%87%D9%8A%20%D8%B9%D9%86%20%D8%B3%D8%A8%20%D8%A7%D9%84%D8%B1%D9%8A%D8%AD%20%208-5-1411%D9%87%D9%80.mp3",
+          "size": "13.0 MB"
+        },
+        {
+          "n": 66,
+          "title": "باب ما جاء في منكري القدر",
+          "date": "",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0065%D8%A8%D8%A7%D8%A8%20%D9%85%D8%A7%D8%AC%D8%A7%D8%A1%20%D9%81%D9%8A%20%D9%85%D9%86%D9%83%D8%B1%D9%8A%20%D8%A7%D9%84%D9%82%D8%AF%D8%B1.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0065%D8%A8%D8%A7%D8%A8%20%D9%85%D8%A7%D8%AC%D8%A7%D8%A1%20%D9%81%D9%8A%20%D9%85%D9%86%D9%83%D8%B1%D9%8A%20%D8%A7%D9%84%D9%82%D8%AF%D8%B1.mp3",
+          "size": "53.5 MB"
+        },
+        {
+          "n": 67,
+          "title": "باب ما جاء في المصورين",
+          "date": "1411/06/12",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0066%D8%A8%D8%A7%D8%A8%20%D9%85%D8%A7%D8%AC%D8%A7%D8%A1%20%D9%81%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D9%88%D8%B1%D9%8A%D9%86%20%2012-6-1411%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0066%D8%A8%D8%A7%D8%A8%20%D9%85%D8%A7%D8%AC%D8%A7%D8%A1%20%D9%81%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D9%88%D8%B1%D9%8A%D9%86%20%2012-6-1411%D9%87%D9%80.mp3",
+          "size": "12.0 MB"
+        },
+        {
+          "n": 68,
+          "title": "باب ما جاء في كثرة الحلف",
+          "date": "1411/06/13",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0067%D8%A8%D8%A7%D8%A8%20%D9%85%D8%A7%D8%AC%D8%A7%D8%A1%20%D9%81%D9%8A%20%D9%83%D8%AB%D8%B1%D8%A9%20%D8%A7%D9%84%D8%AD%D9%84%D9%81%2013-6-1411%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0067%D8%A8%D8%A7%D8%A8%20%D9%85%D8%A7%D8%AC%D8%A7%D8%A1%20%D9%81%D9%8A%20%D9%83%D8%AB%D8%B1%D8%A9%20%D8%A7%D9%84%D8%AD%D9%84%D9%81%2013-6-1411%D9%87%D9%80.mp3",
+          "size": "12.0 MB"
+        },
+        {
+          "n": 69,
+          "title": "باب ما جاء في ذمة الله وذمة نبيه",
+          "date": "1411/06/20",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0068%D8%A8%D8%A7%D8%A8%20%D9%85%D8%A7%D8%AC%D8%A7%D8%A1%20%D9%81%D9%8A%20%D8%B0%D9%85%D8%A9%20%D8%A7%D9%84%D9%84%D9%87%20%D9%88%D8%B0%D9%85%D8%A9%20%D9%86%D8%A8%D9%8A%D9%87%2020-6-1411%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0068%D8%A8%D8%A7%D8%A8%20%D9%85%D8%A7%D8%AC%D8%A7%D8%A1%20%D9%81%D9%8A%20%D8%B0%D9%85%D8%A9%20%D8%A7%D9%84%D9%84%D9%87%20%D9%88%D8%B0%D9%85%D8%A9%20%D9%86%D8%A8%D9%8A%D9%87%2020-6-1411%D9%87%D9%80.mp3",
+          "size": "12.6 MB"
+        },
+        {
+          "n": 70,
+          "title": "باب ما جاء في الإقسام على الله",
+          "date": "1411/06/26",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0069%D8%A8%D8%A7%D8%A8%20%D9%85%D8%A7%D8%AC%D8%A7%D8%A1%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%A7%D9%82%D8%B3%D8%A7%D9%85%20%D8%B9%D9%84%D9%89%20%D8%A7%D9%84%D9%84%D9%8726-6-1411%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0069%D8%A8%D8%A7%D8%A8%20%D9%85%D8%A7%D8%AC%D8%A7%D8%A1%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%A7%D9%82%D8%B3%D8%A7%D9%85%20%D8%B9%D9%84%D9%89%20%D8%A7%D9%84%D9%84%D9%8726-6-1411%D9%87%D9%80.mp3",
+          "size": "10.7 MB"
+        },
+        {
+          "n": 71,
+          "title": "باب لا يستشفع بالله على خلقه",
+          "date": "1411/06/27",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0070%D8%A8%D8%A7%D8%A8%20%D9%85%D8%A7%D8%AC%D8%A7%D8%A1%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B4%D9%81%D8%A7%D8%B9%20%D8%B9%D9%84%D9%89%20%D8%AE%D9%84%D9%82%D9%87%2027-6-1411%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0070%D8%A8%D8%A7%D8%A8%20%D9%85%D8%A7%D8%AC%D8%A7%D8%A1%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B4%D9%81%D8%A7%D8%B9%20%D8%B9%D9%84%D9%89%20%D8%AE%D9%84%D9%82%D9%87%2027-6-1411%D9%87%D9%80.mp3",
+          "size": "10.7 MB"
+        },
+        {
+          "n": 72,
+          "title": "باب ما جاء في حماية النبي ﷺ حمى التوحيد وسده طرق الشرك",
+          "date": "1411/07/05",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0071%D8%A8%D8%A7%D8%A8%20%D9%85%D8%A7%D8%AC%D8%A7%D8%A1%20%D9%81%D9%8A%20%D8%AD%D9%85%D8%A7%D9%8A%D8%A9%20%D8%A7%D9%84%D9%86%D8%A8%D9%8A%20%D8%AD%D9%85%D9%89%20%D8%A7%D9%84%D8%AA%D9%88%D8%AD%D9%8A%D8%AF%205-7-1411%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0071%D8%A8%D8%A7%D8%A8%20%D9%85%D8%A7%D8%AC%D8%A7%D8%A1%20%D9%81%D9%8A%20%D8%AD%D9%85%D8%A7%D9%8A%D8%A9%20%D8%A7%D9%84%D9%86%D8%A8%D9%8A%20%D8%AD%D9%85%D9%89%20%D8%A7%D9%84%D8%AA%D9%88%D8%AD%D9%8A%D8%AF%205-7-1411%D9%87%D9%80.mp3",
+          "size": "12.2 MB"
+        },
+        {
+          "n": 73,
+          "title": "باب قول الله تعالى: ﴿وما قدروا الله حق قدره﴾",
+          "date": "1411/06/27",
+          "audio": "https://archive.org/download/qurat-euyun-almuahidin/0072%D8%A8%D8%A7%D8%A8%20%D9%82%D9%88%D9%84%D9%87%20%D8%AA%D8%B9%D8%A7%D9%84%D9%89%20%28%20%D9%88%D9%85%D8%A7%20%D9%82%D8%AF%D8%B1%20%D8%A7%D9%84%D9%84%D9%87%20%D8%AD%D9%82%20%D9%82%D8%AF%D8%B1%D9%87%2927-6-1411%D9%87%D9%80.mp3",
+          "download": "https://archive.org/download/qurat-euyun-almuahidin/0072%D8%A8%D8%A7%D8%A8%20%D9%82%D9%88%D9%84%D9%87%20%D8%AA%D8%B9%D8%A7%D9%84%D9%89%20%28%20%D9%88%D9%85%D8%A7%20%D9%82%D8%AF%D8%B1%20%D8%A7%D9%84%D9%84%D9%87%20%D8%AD%D9%82%20%D9%82%D8%AF%D8%B1%D9%87%2927-6-1411%D9%87%D9%80.mp3",
+          "size": "17.1 MB"
+        }
+      ]
+    }
+  ]
+}

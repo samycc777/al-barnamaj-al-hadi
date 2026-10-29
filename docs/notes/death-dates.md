@@ -26,3 +26,5 @@ The rule is in CLAUDE.md (Conventions). These are the dates already checked, mov
 - محمد بن يوسف أبو حيان الأندلسي (الشذرة الذهبية) 745 (printed on the Dar Ghiras edition; widely attested).
 - عبد الرحمن بن محمد الأخضري (مختصر الأخضري) 953 chosen (Arabic Wikipedia, Midad: the majority view); Dar al-Ifta al-Misriyyah and Marefa say 983. Ask Zaid if he prefers the other.
 - عبيد ربه الشنقيطي: the nazm of the Ajurrumiyyah is the same as al-Muzmiri's (ت 1160); some sources say «early 12th century» (about 1100).
+- محمد بن عبد الله بن محمد السبيل (imam of the Haram) 1434 (3 Safar 1434, Arabic Wikipedia). عبد السلام بن عبد الله السليمان: alive (member of هيئة كبار العلماء).
+- ابن رجب الحنبلي 795 (already on the site).

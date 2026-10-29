@@ -8,3 +8,6 @@ dist-check/
 
 # Files downloaded from the brother's inbox by scripts/inbox.mjs.
 /inbox/
+
+# Audio waiting for its R2 upload (see docs/notes/pending.md).
+/media-pending/
