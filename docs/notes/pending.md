@@ -10,5 +10,6 @@
   - Ibn Baz series that are verified complete but not on the site: waiting for the brother.
   - Option: rename al-Abbad's عمدة الأحكام lesson 55 / add a كتاب العتق chapter (needs an importer title override).
 - Kalimat al-Ikhlas (al-Sulayman), Zaid asked to add it: files, lesson list and content line in `media-pending/kalimat-al-ikhlas/` (main folder, gitignored). Wrangler isn't logged in on this machine, so they couldn't go to R2 `kalimat-al-ikhlas/01–02.mp3`: once Bilal logs in (`wrangler login`), upload, copy the JSON to `src/lessons/`, put the line after `an-nuniyyah`, check, push.
+- al-Subayyil's قرة عيون الموحدين: the site has the abridged broadcast copy; asked Zaid whether to build a fuller one from the raw tapes (`commentaries-bilan.md`).
 - Cloudflare's edge cache may still serve the removed `tathir-al-itiqad-abbad` page for a while (nothing links to it).
 - متن الأخضري: the recording is Abd al-Rahman ibn Lebhar ibn Adud's, not Muhammad Salim's (gap in سجود السهو); asked Zaid whether he still wants it in a «الفقه المالكي» section under that shaykh's name.
