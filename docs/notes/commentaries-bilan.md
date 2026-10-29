@@ -656,6 +656,7 @@ No sharh found for: all other 120 books.
 - Partial: المرشد المعين (كتاب الزكاة only, PLA1lSplApO-eRRBFag8FcER2K0ubQ3e7t), إرشاد الصغار (stops early), الفصيح لثعلب (not counted), single sessions (تحفة الإخوان، صيام مواهب المنان). Not found: ديوان جرير، العشماوية، مدخل علم اللغة، مراقي السعود.
 
 ## Maliki matns by others (searched 29 Oct 2026 for Zaid; nothing added)
+- Zaid's answer: «لا» — don't add Mu'min's الأخضري (with a warning) nor Al Nabit's العشماوية.
 - Kouni's العشماوية: only the 5 Senegal lessons (23–27 Dec 2021) exist; the 6th live session (30 Dec) was never published anywhere (miraath, his channel, archive.org, YouTube, mimham).
 - Complete العشماوية by another: د. عبد الرحمن حامد آل نابت, YouTube PLBpx7_YlMBb4g8qIT_CTNSXOvTgB49FpM, 16 lessons, «16 والأخير»; not heard yet.
 - مختار بن العربي مؤمن (الجزائري ثم الشنقيطي), قناة الأنيس:
