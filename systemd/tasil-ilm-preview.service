@@ -1,0 +1,15 @@
+[Unit]
+Description=Tasil ilm study program: local preview
+
+[Service]
+WorkingDirectory=%h/dev/site-tasil-ilm-study-program
+ExecStart=/usr/bin/env node scripts/dev.mjs
+Environment=PATH=%h/.local/bin:/usr/local/bin:/usr/bin:/bin
+Environment=LANG=en_US.UTF-8
+Restart=always
+RestartSec=30
+StandardOutput=append:%L/tasil-ilm-preview.log
+StandardError=inherit
+
+[Install]
+WantedBy=default.target

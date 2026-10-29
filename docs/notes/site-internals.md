@@ -19,8 +19,8 @@
 
 ## Preview and link-check jobs
 
-- The preview: a LaunchAgent (`~/Library/LaunchAgents/com.samycachon.tasil-ilm-preview.plist`) runs `node scripts/dev.mjs` in the project folder at login and restarts it; log `~/Library/Logs/tasil-ilm-preview.log`. Restart: `launchctl kickstart -k gui/$(id -u)/com.samycachon.tasil-ilm-preview`. It runs `/opt/homebrew/bin/node`; if node moves, update the plist.
-- `npm run links`: re-checks failures after 3 minutes and lists broken ones by book. LaunchAgent `com.samycachon.tasil-ilm-links.plist` runs it with `--alert` on the 1st of each month at 10:00 (only if the Mac is awake); broken links send the user a Telegram message through the brother-alerts bot. Log `~/Library/Logs/tasil-ilm-links.log`.
+- The preview: a systemd user service (`systemd/tasil-ilm-preview.service`, copied to `~/.config/systemd/user/`) runs `node scripts/dev.mjs` in the project folder at login and restarts it; log `~/.local/state/log/tasil-ilm-preview.log`. Restart: `systemctl --user restart tasil-ilm-preview`. It runs the first `node` on its PATH (`~/.local/bin`, then `/usr/bin`).
+- `npm run links`: re-checks failures after 3 minutes and lists broken ones by book. `systemd/tasil-ilm-links.timer` runs it with `--alert` on the 1st of each month at 10:00 (or at the next start if the computer was off); broken links send the user a Telegram message through the brother-alerts bot. Log `~/.local/state/log/tasil-ilm-links.log`.
 
 ## Brother's inbox: key and alerts
 

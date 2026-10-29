@@ -1,0 +1,9 @@
+[Unit]
+Description=Tasil ilm study program: monthly broken-link check (*-*-01 10:00)
+
+[Timer]
+OnCalendar=*-*-01 10:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target
