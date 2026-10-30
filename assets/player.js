@@ -3,6 +3,7 @@
 // - Each lesson remembers where it was stopped ("pos:<audio>" = seconds/length)
 //   and whether it was heard to the end ("heard:<audio>"); rows show both.
 // - On a book's page the next lesson plays when one ends.
+// - Silent stretches a lesson lists (data-skip) are jumped over.
 // - The bar has 15-second back/forward and speed buttons (the speed is kept).
 // - The phone's lock screen shows the lesson and book and has the same buttons.
 // - The last lesson played is kept ("last", once it starts playing) for the
@@ -104,7 +105,16 @@
     var t = +(get('pos:' + cur.dataset.src) || '').split('/')[0] || 0;
     if (t > 15 && t < au.duration - 15) au.currentTime = t - 3;
   });
+  // data-skip="from-to,…" (seconds): silent stretches of a raw tape.
+  function skipSilence() {
+    var t = au.currentTime;
+    (cur.dataset.skip || '').split(',').forEach(function (r) {
+      var x = r.split('-');
+      if (x.length === 2 && t >= +x[0] && t < +x[1] - 1) au.currentTime = +x[1];
+    });
+  }
   au.addEventListener('timeupdate', function () {
+    if (cur && cur.dataset.skip) skipSilence();
     if (!cur || Math.abs(au.currentTime - saved) < 5) return;
     saved = au.currentTime;
     var src = cur.dataset.src;

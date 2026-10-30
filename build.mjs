@@ -112,7 +112,9 @@ const fileOf = (url) => {
   return mirrored.has(key) ? encodeKey(key) : url;
 };
 const downloadOf = (x) => (fileOf(x.audio) !== x.audio ? fileOf(x.audio) + '?download' : x.download || x.audio);
-const audioAttrs = (x) => ` data-src="${esc(x.audio)}"${fileOf(x.audio) !== x.audio ? ` data-file="${esc(fileOf(x.audio))}"` : ''}`;
+// `skip: [[from, to], …]` (seconds): silent stretches in a raw tape (the
+// side change) that the player jumps over.
+const audioAttrs = (x) => ` data-src="${esc(x.audio)}"${fileOf(x.audio) !== x.audio ? ` data-file="${esc(fileOf(x.audio))}"` : ''}${x.skip ? ` data-skip="${x.skip.map((r) => r.join('-')).join(',')}"` : ''}`;
 
 // A book's lessons, copied from the Shaykh's site by `npm run import`.
 const lessonsOf = (it) => JSON.parse(readFileSync(`src/lessons/${it.slug}.json`, 'utf8'));
