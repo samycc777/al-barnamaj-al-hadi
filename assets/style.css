@@ -126,7 +126,9 @@ a:hover { color: var(--brown-2); }
   background: var(--name-grad);
   -webkit-background-clip: text; background-clip: text; color: transparent;
   text-shadow: 0 1px 0 rgba(242, 198, 90, .25);
-  padding: 0 6px;
+  /* The gradient only paints inside the box: room below for the tails of
+     ج and م (Zaid saw them faded), taken back with the margin. */
+  padding: 0 6px .35em; margin-bottom: -.35em;
 }
 .brand-desc {
   max-width: 720px; margin: 6px auto 0; text-wrap: balance;
