@@ -292,14 +292,19 @@ const PLAYER = () => `<div class="player" hidden>
 <script src="/assets/player.js" defer></script>`
 
 // A category's lessons, then each of its sections (a scholar's works, a
-// branch like النحو) as a foldable group, closed until tapped.
+// branch like النحو) as a foldable group, closed until tapped. Sections marked
+// `first` (the lectures, Zaid) come before everything else.
 function categoryPage(c) {
   startPage([c.name, `/${c.slug}/`, '', 0]);
   const rows = (items) => `<ul class="rows">${listed(items).map((it) => itemRow(it, c)).join('')}</ul>`;
-  const body = (c.items.length ? rows(c.items) : '') + (c.sections || []).map((s) => (startChapter(s.title), `<details class="chapter">
+  const section = (s) => (startChapter(s.title), `<details class="chapter">
         <summary><h3>${txt(s.title)}</h3><span class="count">${listed(s.items).length}</span></summary>
         ${rows(s.items)}
-      </details>`)).join('');
+      </details>`);
+  const sections = c.sections || [];
+  const top = sections.filter((s) => s.first).map(section).join('');
+  const loose = c.items.length ? (startChapter(''), rows(c.items)) : '';
+  const body = top + loose + sections.filter((s) => !s.first).map(section).join('');
   return layout({ title: c.name, active: c.slug, path: `/${c.slug}/`, main: panel(c.name, c.icon, body), extra: itemsOf(c).some((it) => it.audio) ? PLAYER() : '' });
 }
 

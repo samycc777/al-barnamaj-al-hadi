@@ -30,6 +30,7 @@
 // A category can also have `sections`: [{ title, items }], groups shown under
 // their own heading on the category page (a scholar's works, النحو…). Their
 // books' pages are still at /<category>/<slug>/.
+// A section with `first: true` (each category's «المحاضرات») shows above the rest.
 
 export const site = {
   name: 'البرنامج الهادي لتأصيل العلم',
@@ -147,7 +148,7 @@ export const categories = [
         ],
       },
       {
-        title: 'المحاضرات', items: [
+        title: 'المحاضرات', first: true, items: [
         { title: 'عقيدة أهل السنة والجماعة', type: 'audio', audio: 'https://files.zadapps.info/binbaz.org.sa/sawtyaat/dros%26mohadrat/dros_aqida/aqeda_sunna.mp3', download: 'https://files.zadapps.info/binbaz.org.sa/sawtyaat/dros%26mohadrat/dros_aqida/aqeda_sunna.mp3', note: 'سماحة المفتي السابق الشيخ عبد العزيز بن عبد الله بن باز (ت 1420هـ)' },
         { title: 'شرح دعوة أهل السنة والجماعة', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/sharh-dawat-ahl-as-sunnah/sharh-dawat-ahl-as-sunnah.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/sharh-dawat-ahl-as-sunnah/sharh-dawat-ahl-as-sunnah.mp3', note: 'فضيلة الشيخ العلامة مقبل بن هادي الوادعي (ت 1422هـ)' },
         { title: 'الطائفة الناجية المنصورة', type: 'audio', audio: 'https://alnajmi.net/files/altaifh-almansoura.MP3', download: 'https://alnajmi.net/files/altaifh-almansoura.MP3', note: 'فضيلة الشيخ العلامة أحمد بن يحيى النجمي (ت 1429هـ)' },
@@ -181,7 +182,7 @@ export const categories = [
       { title: 'شرح رياض الصالحين من كلام سيد المرسلين ﷺ للإمام يحيى بن شرف النووي (ت 676هـ)', type: 'audio', slug: 'riyad-as-salihin', note: 'سماحة الشيخ العلامة عبد العزيز بن عبد الله بن باز (ت 1420هـ)' },
     ], sections: [
       {
-        title: 'المحاضرات', items: [
+        title: 'المحاضرات', first: true, items: [
         { title: 'مرحبا يا طالب العلم', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/marhaban-ya-talib-al-ilm/marhaban-ya-talib-al-ilm.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/marhaban-ya-talib-al-ilm/marhaban-ya-talib-al-ilm.mp3', note: 'فضيلة الشيخ العلامة ربيع بن هادي عمير المدخلي (ت 1447هـ)' },
         { title: 'عوائق في طريق طالب العلم', type: 'audio', audio: 'https://rabee.net/wp-content/uploads/bulk-files/sounds/awaiq.mp3', download: 'https://rabee.net/wp-content/uploads/bulk-files/sounds/awaiq.mp3', note: 'فضيلة الشيخ العلامة ربيع بن هادي عمير المدخلي (ت 1447هـ)' },
         ],
@@ -201,6 +202,7 @@ export const categories = [
       { title: 'شرح عمدة الأحكام من كلام خير الأنام ﷺ للإمام عبد الغني المقدسي (ت 600هـ)', type: 'audio', slug: 'umdat-al-ahkam-ibn-baz', variantOf: 'umdat-al-ahkam', note: 'سماحة المفتي السابق الشيخ عبد العزيز بن عبد الله بن باز (ت 1420هـ)' },
       { title: 'شرح بلوغ المرام من أدلة الأحكام للإمام ابن حجر العسقلاني (ت 852هـ)', type: 'audio', slug: 'bulugh-al-maram', source: 'https://al-abbaad.com/lecture/hadith/bulugh-almaram?type=dir', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد البدر' },
       { title: 'شرح بلوغ المرام من أدلة الأحكام للإمام ابن حجر العسقلاني (ت 852هـ)', type: 'audio', slug: 'bulugh-al-maram-fawzan', variantOf: 'bulugh-al-maram', note: 'سماحة المفتي الشيخ صالح بن فوزان بن عبد الله الفوزان' },
+      { title: 'كيفية الاستفادة من كتب الحديث', type: 'audio', audio: 'https://al-abbaad.com/jdownloads/muhadharah/kaifiyah-alistifadah-min-kutub-alhadith.mp3', download: 'https://al-abbaad.com/download/?type=audio&ids=243742', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد البدر' },
       { title: 'شرح الموطأ للإمام مالك بن أنس الحميري المدني (ت 179هـ)', type: 'audio', slug: 'al-muwatta', source: 'https://al-abbaad.com/lecture/hadith/sharh-almuwatto?type=files', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد البدر' },
       { title: 'شرح الجامع المسند الصحيح المختصر من أمور رسول الله ﷺ وسننه وأيامه للإمام محمد بن إسماعيل البخاري (ت 256هـ)', type: 'audio', slug: 'sahih-al-bukhari', source: 'https://al-abbaad.com/lecture/hadith/syarh-shahih-albukhari?type=dir', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد البدر' },
       { title: 'شرح الجامع المسند الصحيح المختصر من أمور رسول الله ﷺ وسننه وأيامه للإمام محمد بن إسماعيل البخاري (ت 256هـ)', type: 'audio', slug: 'sahih-al-bukhari-ityubi', variantOf: 'sahih-al-bukhari', warning: 'في كتاب الأحكام نقص يسير لم توجد نسخة أكمل منه: سقط من التسجيل أول شرح الحديث رقم 7175 (باب استقضاء الموالي واستعمالهم)، فالدرس الموجود يبدأ في أثناء شرحه.', note: 'فضيلة الشيخ العلامة محمد بن علي بن آدم الإتيوبي (ت 1442هـ)' },
@@ -209,12 +211,6 @@ export const categories = [
       { title: 'شرح السنن للإمام أبي داود سليمان بن الأشعث السجستاني (ت 275هـ)', type: 'audio', slug: 'sunan-abi-dawud', source: 'https://al-abbaad.com/lecture/hadith/syarh-sunan-abi-dawud?type=files', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد البدر' },
       { title: 'شرح الجامع المختصر من السنن عن رسول الله ﷺ ومعرفة الصحيح والمعلول وما عليه العمل للإمام محمد بن عيسى الترمذي (ت 279هـ)', type: 'audio', slug: 'jami-at-tirmidhi', source: 'https://al-abbaad.com/lecture/hadith/syarh-sunan-attirmidzi?type=files', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد البدر' },
       { title: 'شرح المجتبى من السنن للإمام أحمد بن شعيب النسائي (ت 303هـ)', type: 'audio', slug: 'sunan-an-nasai', skip: [48009], fix: { 21040: { download: 'https://al-abbaad.com/download/?type=audio&ids=242245' } }, source: 'https://al-abbaad.com/lecture/hadith/syarh-sunan-annasaiy?type=dir', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد البدر' },
-    ], sections: [
-      {
-        title: 'المحاضرات', items: [
-        { title: 'كيفية الاستفادة من كتب الحديث', type: 'audio', audio: 'https://al-abbaad.com/jdownloads/muhadharah/kaifiyah-alistifadah-min-kutub-alhadith.mp3', download: 'https://al-abbaad.com/download/?type=audio&ids=243742', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد البدر' },
-        ],
-      },
     ],
   },
   {
@@ -230,7 +226,7 @@ export const categories = [
       { title: 'شرح ألفية السيوطي في علم الحديث للإمام عبد الرحمن بن أبي بكر السيوطي (ت 911هـ)', type: 'audio', slug: 'alfiyyat-as-suyuti', source: 'https://al-abbaad.com/lecture/hadith/alfiyah-suyuthi?type=files', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد البدر' },
     ], sections: [
       {
-        title: 'المحاضرات', items: [
+        title: 'المحاضرات', first: true, items: [
         { title: 'مقدمة في علم الحديث', type: 'audio', audio: 'https://rabee.net/wp-content/uploads/bulk-files/sounds/mostalah.mp3', note: 'فضيلة الشيخ العلامة ربيع بن هادي عمير المدخلي (ت 1447هـ)' },
         ],
       },
