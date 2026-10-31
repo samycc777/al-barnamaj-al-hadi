@@ -21,7 +21,8 @@ for (const p of pages) {
   const html = readFileSync(p, 'utf8');
   for (const [, href] of html.matchAll(/(?:href|src)="(\/[^"]*)"/g)) {
     if (href.startsWith('/media/')) continue; // R2 files, served by functions/media/
-    const target = join(OUT, href.endsWith('/') ? `${href}index.html` : href);
+    const path = href.split("?")[0]; // a ?v= version is not part of the file name
+    const target = join(OUT, path.endsWith('/') ? `${path}index.html` : path);
     if (!existsSync(target)) fail(`${p} links to ${href}, which does not exist`);
   }
   for (const c of categories) if (!html.includes(`href="/${c.slug}/"`)) fail(`${p} has no link to ${c.name}`);

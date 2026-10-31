@@ -175,6 +175,9 @@ const THEME = `
   })();
 `;
 const THEME_HASH = createHash('sha256').update(THEME).digest('base64');
+// Styles and scripts are linked with a version made from their content, so a
+// phone gets a changed file at once instead of its hour-old copy.
+const v = (f) => `/assets/${f}?v=${createHash('sha256').update(readFileSync(`assets/${f}`)).digest('hex').slice(0, 8)}`;
 
 // Fonts the top of every page shows at once: fetched before the stylesheet asks.
 const PRELOAD = ['tajawal-400-arabic', 'aref-ruqaa-700-arabic']
@@ -217,9 +220,9 @@ ${app ? '<link rel="manifest" href="/assets/manifest.webmanifest">\n' : ''}<meta
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="البرنامج الهادي">
 ${PRELOAD}
-<link rel="stylesheet" href="/assets/style.css">
+<link rel="stylesheet" href="${v('style.css')}">
 <script>${THEME}</script>
-<script src="/assets/site.js" defer></script>
+<script src="${v('site.js')}" defer></script>
 </head>
 <body>
 <a class="skip" href="#main">تخطي إلى المحتوى</a>
@@ -289,7 +292,7 @@ const PLAYER = () => `<div class="player" hidden>
     <button class="pbtn rate" type="button" title="سرعة التشغيل" aria-label="سرعة التشغيل">1×</button>
   </div>
 </div>
-<script src="/assets/player.js" defer></script>`
+<script src="${v('player.js')}" defer></script>`
 
 // A category's lessons, then each of its sections (a scholar's works, a
 // branch like النحو) as a foldable group, closed until tapped. Sections marked
@@ -409,7 +412,7 @@ function searchPage() {
     <p id="search-status" class="search-status" role="status" aria-live="polite"></p>
     <div id="book-results" class="results" hidden></div>
     <div id="lesson-results" class="results" hidden></div>`;
-  return layout({ title: 'البحث', active: 'search', path: '/search/', main: panel('البحث', 'search', body), extra: '<script src="/assets/search.js" defer></script>' });
+  return layout({ title: 'البحث', active: 'search', path: '/search/', main: panel('البحث', 'search', body), extra: `<script src="${v('search.js')}" defer></script>` });
 }
 
 function notFound() {
