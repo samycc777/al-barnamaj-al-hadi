@@ -43,18 +43,6 @@ export const categories = [
     slug: 'aqeedah', name: 'العقيدة', icon: 'star', items: [], sections: [
       {
         title: 'شروح المؤلفات للعلماء المعاصرين', items: [
-        { title: 'عقيدة أهل السنة والجماعة', type: 'audio', audio: 'https://files.zadapps.info/binbaz.org.sa/sawtyaat/dros%26mohadrat/dros_aqida/aqeda_sunna.mp3', download: 'https://files.zadapps.info/binbaz.org.sa/sawtyaat/dros%26mohadrat/dros_aqida/aqeda_sunna.mp3', note: 'سماحة المفتي السابق الشيخ عبد العزيز بن عبد الله بن باز (ت 1420هـ)' },
-        { title: 'شرح دعوة أهل السنة والجماعة', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/sharh-dawat-ahl-as-sunnah/sharh-dawat-ahl-as-sunnah.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/sharh-dawat-ahl-as-sunnah/sharh-dawat-ahl-as-sunnah.mp3', note: 'فضيلة الشيخ العلامة مقبل بن هادي الوادعي (ت 1422هـ)' },
-        { title: 'الطائفة الناجية المنصورة', type: 'audio', audio: 'https://alnajmi.net/files/altaifh-almansoura.MP3', download: 'https://alnajmi.net/files/altaifh-almansoura.MP3', note: 'فضيلة الشيخ العلامة أحمد بن يحيى النجمي (ت 1429هـ)' },
-        { title: 'أهل السنة وعلاماتهم', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/ahl-as-sunnah-wa-alamatuhum/ahl-as-sunnah-wa-alamatuhum.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/ahl-as-sunnah-wa-alamatuhum/ahl-as-sunnah-wa-alamatuhum.mp3', note: 'فضيلة الشيخ العلامة ربيع بن هادي عمير المدخلي (ت 1447هـ)' },
-        { title: 'العقيدة الإسلامية وتاريخها', type: 'audio', audio: 'https://archive.org/download/muhadarat-gami/17-%D8%A7%D9%84%D8%B9%D9%82%D9%8A%D8%AF%D8%A9%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%D8%A9%20%D9%88%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE%D9%87%D8%A7%20-%20%D8%A3%D9%84%D9%82%D9%8A%D8%AA%20%D8%A8%D8%A7%D9%84%D8%AE%D8%A8%D8%B1.mp3', download: 'https://archive.org/download/muhadarat-gami/17-%D8%A7%D9%84%D8%B9%D9%82%D9%8A%D8%AF%D8%A9%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%D8%A9%20%D9%88%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE%D9%87%D8%A7%20-%20%D8%A3%D9%84%D9%82%D9%8A%D8%AA%20%D8%A8%D8%A7%D9%84%D8%AE%D8%A8%D8%B1.mp3', note: 'فضيلة الشيخ العلامة محمد أمان بن علي الجامي (ت 1416هـ)' },
-        { title: 'أصول الدعوة السلفية', type: 'audio', audio: 'https://archive.org/download/burjes-mohadarat/0044.mp3', download: 'https://archive.org/download/burjes-mohadarat/0044.mp3', note: 'فضيلة الشيخ العلامة عبد السلام بن برجس بن ناصر آل عبد الكريم (ت 1425هـ)' },
-        { title: 'أصول اعتقاد أهل السنة والجماعة', type: 'audio', audio: 'https://archive.org/download/fouzan-general/02.mp3', download: 'https://archive.org/download/fouzan-general/02.mp3', note: 'سماحة المفتي الشيخ صالح بن فوزان بن عبد الله الفوزان' },
-        { title: 'حقيقة الإيمان', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/haqiqat-al-iman/haqiqat-al-iman.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/haqiqat-al-iman/haqiqat-al-iman.mp3', note: 'سماحة المفتي السابق الشيخ عبد العزيز بن عبد الله آل الشيخ (ت 1447هـ)' },
-        { title: 'أصول أهل السنة والجماعة', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/usul-ahl-as-sunnah/usul-ahl-as-sunnah.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/usul-ahl-as-sunnah/usul-ahl-as-sunnah.mp3', note: 'فضيلة الشيخ العلامة صالح بن محمد اللحيدان (ت 1443هـ)' },
-        { title: 'الاعتصام بالكتاب والسنة', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/al-itisam-bil-kitab-was-sunnah/al-itisam-bil-kitab-was-sunnah.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/al-itisam-bil-kitab-was-sunnah/al-itisam-bil-kitab-was-sunnah.mp3', note: 'فضيلة الشيخ العلامة عبد الله بن عبد الرحمن الغديان (ت 1431هـ)' },
-        { title: 'أصول وقواعد في منهج السلف', type: 'audio', slug: 'usul-wa-qawaid-jabiri', note: 'فضيلة الشيخ العلامة عبيد بن عبد الله بن سليمان الحمداني الجابري (ت 1444هـ)' },
-        { title: 'سلسلة مفهوم السلفية (أصول الدعوة السلفية)', type: 'audio', slug: 'mafhum-as-salafiyyah', note: 'فضيلة الشيخ العلامة محمد ناصر الدين بن نوح الألباني (ت 1420هـ)' },
         { title: 'شرح وجوب الأمر بالمعروف والنهي عن المنكر للإمام عبد العزيز بن عبد الله بن باز (ت 1420هـ)', type: 'audio', slug: 'wujub-al-amr-bil-maruf', note: 'سماحة المفتي الشيخ صالح بن فوزان بن عبد الله الفوزان' },
         { title: 'شرح أصول العقائد الدينية للإمام عبد الرحمن بن ناصر السعدي (ت 1376هـ)', type: 'audio', slug: 'usul-al-aqaid-ad-diniyyah', note: 'فضيلة الشيخ العلامة زيد بن محمد بن هادي المدخلي (ت 1435هـ)' },
         { title: 'شرح منظومة منهج الحق في العقيدة والأخلاق للإمام عبد الرحمن بن ناصر السعدي (ت 1376هـ)', type: 'audio', slug: 'manhaj-al-haqq-zayd', note: 'فضيلة الشيخ العلامة زيد بن محمد بن هادي المدخلي (ت 1435هـ)' },
@@ -63,15 +51,6 @@ export const categories = [
         { title: 'شرح منظومة الفروق بين الكفر والشرك والنفاق والظلم والفسوق', type: 'audio', slug: 'manzumat-al-furuq', note: 'فضيلة الشيخ العلامة زيد بن محمد بن هادي المدخلي (ت 1435هـ)' },
         { title: 'شرح عقيدة أهل السنة والجماعة', type: 'audio', slug: 'aqidat-ahl-as-sunnah', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين (ت 1421هـ)' },
         { title: 'شرح القواعد المثلى في صفات الله وأسمائه الحسنى', type: 'audio', slug: 'al-qawaid-al-muthla', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين (ت 1421هـ)' },
-        { title: 'تاريخ الإسلام في الجزائر', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/tarikh-al-islam-fi-al-jazair/tarikh-al-islam-fi-al-jazair.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/tarikh-al-islam-fi-al-jazair/tarikh-al-islam-fi-al-jazair.mp3', note: 'فضيلة الشيخ العلامة محمد البشير الإبراهيمي (ت 1385هـ)' },
-        { title: 'يا شباب الجزائر هكذا كونوا أو لا تكونوا', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/ya-shabab-al-jazair/ya-shabab-al-jazair.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/ya-shabab-al-jazair/ya-shabab-al-jazair.mp3', note: 'فضيلة الشيخ العلامة محمد البشير الإبراهيمي (ت 1385هـ)' },
-        { title: 'كلمة في مجمع اللغة العربية', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/kalimah-fi-majma-al-lughah-al-arabiyyah/kalimah-fi-majma-al-lughah-al-arabiyyah.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/kalimah-fi-majma-al-lughah-al-arabiyyah/kalimah-fi-majma-al-lughah-al-arabiyyah.mp3', note: 'فضيلة الشيخ العلامة محمد البشير الإبراهيمي (ت 1385هـ)' },
-        { title: 'منهج ودراسات لآيات الأسماء والصفات', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/manhaj-wa-dirasat-li-ayat-al-asma-was-sifat/manhaj-wa-dirasat-li-ayat-al-asma-was-sifat.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/manhaj-wa-dirasat-li-ayat-al-asma-was-sifat/manhaj-wa-dirasat-li-ayat-al-asma-was-sifat.mp3', note: 'فضيلة الشيخ العلامة محمد الأمين الشنقيطي (ت 1393هـ)' },
-        { title: 'تفسير سورة الفاتحة وبيان ما تضمنته من أنواع التوحيد', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/tafsir-al-fatihah-hammad/tafsir-al-fatihah-hammad.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/tafsir-al-fatihah-hammad/tafsir-al-fatihah-hammad.mp3', note: 'فضيلة الشيخ العلامة حماد بن محمد الأنصاري (ت 1418هـ)' },
-        { title: 'التوحيد في القرآن', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/at-tawhid-fi-al-quran-hammad/at-tawhid-fi-al-quran-hammad.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/at-tawhid-fi-al-quran-hammad/at-tawhid-fi-al-quran-hammad.mp3', note: 'فضيلة الشيخ العلامة حماد بن محمد الأنصاري (ت 1418هـ)' },
-        { title: 'شرح حديث «قسمت الصلاة بيني وبين عبدي»', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/hadith-qusimat-as-salah-hammad/hadith-qusimat-as-salah-hammad.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/hadith-qusimat-as-salah-hammad/hadith-qusimat-as-salah-hammad.mp3', note: 'فضيلة الشيخ العلامة حماد بن محمد الأنصاري (ت 1418هـ)' },
-        { title: 'كلمة توجيهية', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/kalimah-tawjihiyyah-ibn-aqil/kalimah-tawjihiyyah-ibn-aqil.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/kalimah-tawjihiyyah-ibn-aqil/kalimah-tawjihiyyah-ibn-aqil.mp3', note: 'فضيلة الشيخ العلامة عبد الله بن عبد العزيز بن عقيل (ت 1432هـ)' },
-        { title: 'جهود أئمة اللغة في تقرير العقيدة', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/juhud-aimmat-al-lughah-kouni/juhud-aimmat-al-lughah-kouni.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/juhud-aimmat-al-lughah-kouni/juhud-aimmat-al-lughah-kouni.mp3', note: 'فضيلة الشيخ العلامة عبد الرحمن بن عوف كوني' },
         ],
       },
       {
@@ -167,16 +146,46 @@ export const categories = [
         { title: 'شرح كتاب شرح الصدور بتحريم رفع القبور للإمام محمد بن علي الشوكاني (ت 1250هـ)', type: 'audio', slug: 'sharh-as-sudur', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد البدر' },
         ],
       },
+      {
+        title: 'المحاضرات', items: [
+        { title: 'عقيدة أهل السنة والجماعة', type: 'audio', audio: 'https://files.zadapps.info/binbaz.org.sa/sawtyaat/dros%26mohadrat/dros_aqida/aqeda_sunna.mp3', download: 'https://files.zadapps.info/binbaz.org.sa/sawtyaat/dros%26mohadrat/dros_aqida/aqeda_sunna.mp3', note: 'سماحة المفتي السابق الشيخ عبد العزيز بن عبد الله بن باز (ت 1420هـ)' },
+        { title: 'شرح دعوة أهل السنة والجماعة', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/sharh-dawat-ahl-as-sunnah/sharh-dawat-ahl-as-sunnah.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/sharh-dawat-ahl-as-sunnah/sharh-dawat-ahl-as-sunnah.mp3', note: 'فضيلة الشيخ العلامة مقبل بن هادي الوادعي (ت 1422هـ)' },
+        { title: 'الطائفة الناجية المنصورة', type: 'audio', audio: 'https://alnajmi.net/files/altaifh-almansoura.MP3', download: 'https://alnajmi.net/files/altaifh-almansoura.MP3', note: 'فضيلة الشيخ العلامة أحمد بن يحيى النجمي (ت 1429هـ)' },
+        { title: 'أهل السنة وعلاماتهم', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/ahl-as-sunnah-wa-alamatuhum/ahl-as-sunnah-wa-alamatuhum.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/ahl-as-sunnah-wa-alamatuhum/ahl-as-sunnah-wa-alamatuhum.mp3', note: 'فضيلة الشيخ العلامة ربيع بن هادي عمير المدخلي (ت 1447هـ)' },
+        { title: 'العقيدة الإسلامية وتاريخها', type: 'audio', audio: 'https://archive.org/download/muhadarat-gami/17-%D8%A7%D9%84%D8%B9%D9%82%D9%8A%D8%AF%D8%A9%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%D8%A9%20%D9%88%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE%D9%87%D8%A7%20-%20%D8%A3%D9%84%D9%82%D9%8A%D8%AA%20%D8%A8%D8%A7%D9%84%D8%AE%D8%A8%D8%B1.mp3', download: 'https://archive.org/download/muhadarat-gami/17-%D8%A7%D9%84%D8%B9%D9%82%D9%8A%D8%AF%D8%A9%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%D8%A9%20%D9%88%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE%D9%87%D8%A7%20-%20%D8%A3%D9%84%D9%82%D9%8A%D8%AA%20%D8%A8%D8%A7%D9%84%D8%AE%D8%A8%D8%B1.mp3', note: 'فضيلة الشيخ العلامة محمد أمان بن علي الجامي (ت 1416هـ)' },
+        { title: 'أصول الدعوة السلفية', type: 'audio', audio: 'https://archive.org/download/burjes-mohadarat/0044.mp3', download: 'https://archive.org/download/burjes-mohadarat/0044.mp3', note: 'فضيلة الشيخ العلامة عبد السلام بن برجس بن ناصر آل عبد الكريم (ت 1425هـ)' },
+        { title: 'أصول اعتقاد أهل السنة والجماعة', type: 'audio', audio: 'https://archive.org/download/fouzan-general/02.mp3', download: 'https://archive.org/download/fouzan-general/02.mp3', note: 'سماحة المفتي الشيخ صالح بن فوزان بن عبد الله الفوزان' },
+        { title: 'حقيقة الإيمان', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/haqiqat-al-iman/haqiqat-al-iman.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/haqiqat-al-iman/haqiqat-al-iman.mp3', note: 'سماحة المفتي السابق الشيخ عبد العزيز بن عبد الله آل الشيخ (ت 1447هـ)' },
+        { title: 'أصول أهل السنة والجماعة', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/usul-ahl-as-sunnah/usul-ahl-as-sunnah.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/usul-ahl-as-sunnah/usul-ahl-as-sunnah.mp3', note: 'فضيلة الشيخ العلامة صالح بن محمد اللحيدان (ت 1443هـ)' },
+        { title: 'الاعتصام بالكتاب والسنة', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/al-itisam-bil-kitab-was-sunnah/al-itisam-bil-kitab-was-sunnah.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/al-itisam-bil-kitab-was-sunnah/al-itisam-bil-kitab-was-sunnah.mp3', note: 'فضيلة الشيخ العلامة عبد الله بن عبد الرحمن الغديان (ت 1431هـ)' },
+        { title: 'أصول وقواعد في منهج السلف', type: 'audio', slug: 'usul-wa-qawaid-jabiri', note: 'فضيلة الشيخ العلامة عبيد بن عبد الله بن سليمان الحمداني الجابري (ت 1444هـ)' },
+        { title: 'سلسلة مفهوم السلفية (أصول الدعوة السلفية)', type: 'audio', slug: 'mafhum-as-salafiyyah', note: 'فضيلة الشيخ العلامة محمد ناصر الدين بن نوح الألباني (ت 1420هـ)' },
+        { title: 'تاريخ الإسلام في الجزائر', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/tarikh-al-islam-fi-al-jazair/tarikh-al-islam-fi-al-jazair.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/tarikh-al-islam-fi-al-jazair/tarikh-al-islam-fi-al-jazair.mp3', note: 'فضيلة الشيخ العلامة محمد البشير الإبراهيمي (ت 1385هـ)' },
+        { title: 'يا شباب الجزائر هكذا كونوا أو لا تكونوا', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/ya-shabab-al-jazair/ya-shabab-al-jazair.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/ya-shabab-al-jazair/ya-shabab-al-jazair.mp3', note: 'فضيلة الشيخ العلامة محمد البشير الإبراهيمي (ت 1385هـ)' },
+        { title: 'كلمة في مجمع اللغة العربية', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/kalimah-fi-majma-al-lughah-al-arabiyyah/kalimah-fi-majma-al-lughah-al-arabiyyah.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/kalimah-fi-majma-al-lughah-al-arabiyyah/kalimah-fi-majma-al-lughah-al-arabiyyah.mp3', note: 'فضيلة الشيخ العلامة محمد البشير الإبراهيمي (ت 1385هـ)' },
+        { title: 'منهج ودراسات لآيات الأسماء والصفات', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/manhaj-wa-dirasat-li-ayat-al-asma-was-sifat/manhaj-wa-dirasat-li-ayat-al-asma-was-sifat.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/manhaj-wa-dirasat-li-ayat-al-asma-was-sifat/manhaj-wa-dirasat-li-ayat-al-asma-was-sifat.mp3', note: 'فضيلة الشيخ العلامة محمد الأمين الشنقيطي (ت 1393هـ)' },
+        { title: 'تفسير سورة الفاتحة وبيان ما تضمنته من أنواع التوحيد', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/tafsir-al-fatihah-hammad/tafsir-al-fatihah-hammad.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/tafsir-al-fatihah-hammad/tafsir-al-fatihah-hammad.mp3', note: 'فضيلة الشيخ العلامة حماد بن محمد الأنصاري (ت 1418هـ)' },
+        { title: 'التوحيد في القرآن', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/at-tawhid-fi-al-quran-hammad/at-tawhid-fi-al-quran-hammad.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/at-tawhid-fi-al-quran-hammad/at-tawhid-fi-al-quran-hammad.mp3', note: 'فضيلة الشيخ العلامة حماد بن محمد الأنصاري (ت 1418هـ)' },
+        { title: 'شرح حديث «قسمت الصلاة بيني وبين عبدي»', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/hadith-qusimat-as-salah-hammad/hadith-qusimat-as-salah-hammad.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/hadith-qusimat-as-salah-hammad/hadith-qusimat-as-salah-hammad.mp3', note: 'فضيلة الشيخ العلامة حماد بن محمد الأنصاري (ت 1418هـ)' },
+        { title: 'كلمة توجيهية', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/kalimah-tawjihiyyah-ibn-aqil/kalimah-tawjihiyyah-ibn-aqil.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/kalimah-tawjihiyyah-ibn-aqil/kalimah-tawjihiyyah-ibn-aqil.mp3', note: 'فضيلة الشيخ العلامة عبد الله بن عبد العزيز بن عقيل (ت 1432هـ)' },
+        { title: 'جهود أئمة اللغة في تقرير العقيدة', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/juhud-aimmat-al-lughah-kouni/juhud-aimmat-al-lughah-kouni.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/juhud-aimmat-al-lughah-kouni/juhud-aimmat-al-lughah-kouni.mp3', note: 'فضيلة الشيخ العلامة عبد الرحمن بن عوف كوني' },
+        ],
+      },
     ],
   },
   {
     slug: 'adab-at-talib', name: 'الآداب', icon: 'lamp', items: [
-      { title: 'مرحبا يا طالب العلم', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/marhaban-ya-talib-al-ilm/marhaban-ya-talib-al-ilm.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/marhaban-ya-talib-al-ilm/marhaban-ya-talib-al-ilm.mp3', note: 'فضيلة الشيخ العلامة ربيع بن هادي عمير المدخلي (ت 1447هـ)' },
-      { title: 'عوائق في طريق طالب العلم', type: 'audio', audio: 'https://rabee.net/wp-content/uploads/bulk-files/sounds/awaiq.mp3', download: 'https://rabee.net/wp-content/uploads/bulk-files/sounds/awaiq.mp3', note: 'فضيلة الشيخ العلامة ربيع بن هادي عمير المدخلي (ت 1447هـ)' },
       { title: 'شرح حلية طالب العلم للشيخ بكر بن عبد الله أبي زيد (ت 1429هـ)', type: 'audio', slug: 'hilyat-talib-al-ilm', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين (ت 1421هـ)' },
       { title: 'التعليق على مقدمة المجموع شرح المهذب للإمام يحيى بن شرف النووي (ت 676هـ)', type: 'audio', slug: 'muqaddimat-al-majmu', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين (ت 1421هـ)' },
       { title: 'شرح الألفية في الآداب الشرعية للإمام محمد بن عبد القوي المرداوي (ت 699هـ)', type: 'audio', slug: 'al-alfiyyah-fil-adab', note: 'سماحة المفتي الشيخ صالح بن فوزان بن عبد الله الفوزان' },
       { title: 'شرح رياض الصالحين من كلام سيد المرسلين ﷺ للإمام يحيى بن شرف النووي (ت 676هـ)', type: 'audio', slug: 'riyad-as-salihin', note: 'سماحة الشيخ العلامة عبد العزيز بن عبد الله بن باز (ت 1420هـ)' },
+    ], sections: [
+      {
+        title: 'المحاضرات', items: [
+        { title: 'مرحبا يا طالب العلم', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/marhaban-ya-talib-al-ilm/marhaban-ya-talib-al-ilm.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/marhaban-ya-talib-al-ilm/marhaban-ya-talib-al-ilm.mp3', note: 'فضيلة الشيخ العلامة ربيع بن هادي عمير المدخلي (ت 1447هـ)' },
+        { title: 'عوائق في طريق طالب العلم', type: 'audio', audio: 'https://rabee.net/wp-content/uploads/bulk-files/sounds/awaiq.mp3', download: 'https://rabee.net/wp-content/uploads/bulk-files/sounds/awaiq.mp3', note: 'فضيلة الشيخ العلامة ربيع بن هادي عمير المدخلي (ت 1447هـ)' },
+        ],
+      },
     ],
   },
   {
@@ -192,7 +201,6 @@ export const categories = [
       { title: 'شرح عمدة الأحكام من كلام خير الأنام ﷺ للإمام عبد الغني المقدسي (ت 600هـ)', type: 'audio', slug: 'umdat-al-ahkam-ibn-baz', variantOf: 'umdat-al-ahkam', note: 'سماحة المفتي السابق الشيخ عبد العزيز بن عبد الله بن باز (ت 1420هـ)' },
       { title: 'شرح بلوغ المرام من أدلة الأحكام للإمام ابن حجر العسقلاني (ت 852هـ)', type: 'audio', slug: 'bulugh-al-maram', source: 'https://al-abbaad.com/lecture/hadith/bulugh-almaram?type=dir', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد البدر' },
       { title: 'شرح بلوغ المرام من أدلة الأحكام للإمام ابن حجر العسقلاني (ت 852هـ)', type: 'audio', slug: 'bulugh-al-maram-fawzan', variantOf: 'bulugh-al-maram', note: 'سماحة المفتي الشيخ صالح بن فوزان بن عبد الله الفوزان' },
-      { title: 'كيفية الاستفادة من كتب الحديث', type: 'audio', audio: 'https://al-abbaad.com/jdownloads/muhadharah/kaifiyah-alistifadah-min-kutub-alhadith.mp3', download: 'https://al-abbaad.com/download/?type=audio&ids=243742', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد البدر' },
       { title: 'شرح الموطأ للإمام مالك بن أنس الحميري المدني (ت 179هـ)', type: 'audio', slug: 'al-muwatta', source: 'https://al-abbaad.com/lecture/hadith/sharh-almuwatto?type=files', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد البدر' },
       { title: 'شرح الجامع المسند الصحيح المختصر من أمور رسول الله ﷺ وسننه وأيامه للإمام محمد بن إسماعيل البخاري (ت 256هـ)', type: 'audio', slug: 'sahih-al-bukhari', source: 'https://al-abbaad.com/lecture/hadith/syarh-shahih-albukhari?type=dir', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد البدر' },
       { title: 'شرح الجامع المسند الصحيح المختصر من أمور رسول الله ﷺ وسننه وأيامه للإمام محمد بن إسماعيل البخاري (ت 256هـ)', type: 'audio', slug: 'sahih-al-bukhari-ityubi', variantOf: 'sahih-al-bukhari', warning: 'في كتاب الأحكام نقص يسير لم توجد نسخة أكمل منه: سقط من التسجيل أول شرح الحديث رقم 7175 (باب استقضاء الموالي واستعمالهم)، فالدرس الموجود يبدأ في أثناء شرحه.', note: 'فضيلة الشيخ العلامة محمد بن علي بن آدم الإتيوبي (ت 1442هـ)' },
@@ -201,11 +209,16 @@ export const categories = [
       { title: 'شرح السنن للإمام أبي داود سليمان بن الأشعث السجستاني (ت 275هـ)', type: 'audio', slug: 'sunan-abi-dawud', source: 'https://al-abbaad.com/lecture/hadith/syarh-sunan-abi-dawud?type=files', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد البدر' },
       { title: 'شرح الجامع المختصر من السنن عن رسول الله ﷺ ومعرفة الصحيح والمعلول وما عليه العمل للإمام محمد بن عيسى الترمذي (ت 279هـ)', type: 'audio', slug: 'jami-at-tirmidhi', source: 'https://al-abbaad.com/lecture/hadith/syarh-sunan-attirmidzi?type=files', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد البدر' },
       { title: 'شرح المجتبى من السنن للإمام أحمد بن شعيب النسائي (ت 303هـ)', type: 'audio', slug: 'sunan-an-nasai', skip: [48009], fix: { 21040: { download: 'https://al-abbaad.com/download/?type=audio&ids=242245' } }, source: 'https://al-abbaad.com/lecture/hadith/syarh-sunan-annasaiy?type=dir', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد البدر' },
+    ], sections: [
+      {
+        title: 'المحاضرات', items: [
+        { title: 'كيفية الاستفادة من كتب الحديث', type: 'audio', audio: 'https://al-abbaad.com/jdownloads/muhadharah/kaifiyah-alistifadah-min-kutub-alhadith.mp3', download: 'https://al-abbaad.com/download/?type=audio&ids=243742', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد البدر' },
+        ],
+      },
     ],
   },
   {
     slug: 'ulum-al-hadith', name: 'علوم الحديث', icon: 'chain', items: [
-      { title: 'مقدمة في علم الحديث', type: 'audio', audio: 'https://rabee.net/wp-content/uploads/bulk-files/sounds/mostalah.mp3', note: 'فضيلة الشيخ العلامة ربيع بن هادي عمير المدخلي (ت 1447هـ)' },
       { title: 'شرح مقدمة صحيح الإمام مسلم بن الحجاج (ت 261هـ)', type: 'audio', slug: 'muqaddimat-sahih-muslim-abbad', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد البدر' },
       { title: 'شرح مقدمة صحيح الإمام مسلم بن الحجاج (ت 261هـ)', type: 'audio', slug: 'muqaddimat-sahih-muslim-muqbil', variantOf: 'muqaddimat-sahih-muslim-abbad', note: 'فضيلة الشيخ العلامة مقبل بن هادي الوادعي (ت 1422هـ)' },
       { title: 'شرح مقدمة صحيح الإمام مسلم بن الحجاج (ت 261هـ)', type: 'audio', slug: 'muqaddimat-sahih-muslim', variantOf: 'muqaddimat-sahih-muslim-abbad', note: 'فضيلة الشيخ العلامة محمد بن علي بن آدم الإتيوبي (ت 1442هـ)' },
@@ -215,6 +228,12 @@ export const categories = [
       { title: 'شرح نزهة النظر في توضيح نخبة الفكر للإمام أحمد بن علي بن حجر العسقلاني (ت 852هـ)', type: 'audio', slug: 'nuzhat-an-nazar', variantOf: 'nukhbat-al-fikar', label: 'نزهة النظر', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين (ت 1421هـ)' },
       { title: 'شرح اختصار علوم الحديث للإمام إسماعيل بن عمر بن كثير (ت 774هـ)', type: 'audio', slug: 'ikhtisar-ulum-al-hadith', note: 'فضيلة الشيخ العلامة مقبل بن هادي الوادعي (ت 1422هـ)' },
       { title: 'شرح ألفية السيوطي في علم الحديث للإمام عبد الرحمن بن أبي بكر السيوطي (ت 911هـ)', type: 'audio', slug: 'alfiyyat-as-suyuti', source: 'https://al-abbaad.com/lecture/hadith/alfiyah-suyuthi?type=files', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد البدر' },
+    ], sections: [
+      {
+        title: 'المحاضرات', items: [
+        { title: 'مقدمة في علم الحديث', type: 'audio', audio: 'https://rabee.net/wp-content/uploads/bulk-files/sounds/mostalah.mp3', note: 'فضيلة الشيخ العلامة ربيع بن هادي عمير المدخلي (ت 1447هـ)' },
+        ],
+      },
     ],
   },
   {
