@@ -176,17 +176,12 @@ export const categories = [
   },
   {
     slug: 'adab-at-talib', name: 'الآداب', icon: 'lamp', items: [
+      { title: 'مرحبا يا طالب العلم', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/marhaban-ya-talib-al-ilm/marhaban-ya-talib-al-ilm.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/marhaban-ya-talib-al-ilm/marhaban-ya-talib-al-ilm.mp3', note: 'فضيلة الشيخ العلامة ربيع بن هادي عمير المدخلي (ت 1447هـ)' },
+      { title: 'عوائق في طريق طالب العلم', type: 'audio', audio: 'https://rabee.net/wp-content/uploads/bulk-files/sounds/awaiq.mp3', download: 'https://rabee.net/wp-content/uploads/bulk-files/sounds/awaiq.mp3', note: 'فضيلة الشيخ العلامة ربيع بن هادي عمير المدخلي (ت 1447هـ)' },
       { title: 'شرح حلية طالب العلم للشيخ بكر بن عبد الله أبي زيد (ت 1429هـ)', type: 'audio', slug: 'hilyat-talib-al-ilm', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين (ت 1421هـ)' },
       { title: 'التعليق على مقدمة المجموع شرح المهذب للإمام يحيى بن شرف النووي (ت 676هـ)', type: 'audio', slug: 'muqaddimat-al-majmu', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين (ت 1421هـ)' },
       { title: 'شرح الألفية في الآداب الشرعية للإمام محمد بن عبد القوي المرداوي (ت 699هـ)', type: 'audio', slug: 'al-alfiyyah-fil-adab', note: 'سماحة المفتي الشيخ صالح بن فوزان بن عبد الله الفوزان' },
       { title: 'شرح رياض الصالحين من كلام سيد المرسلين ﷺ للإمام يحيى بن شرف النووي (ت 676هـ)', type: 'audio', slug: 'riyad-as-salihin', note: 'سماحة الشيخ العلامة عبد العزيز بن عبد الله بن باز (ت 1420هـ)' },
-    ], sections: [
-      {
-        title: 'المحاضرات', first: true, items: [
-        { title: 'مرحبا يا طالب العلم', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/marhaban-ya-talib-al-ilm/marhaban-ya-talib-al-ilm.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/marhaban-ya-talib-al-ilm/marhaban-ya-talib-al-ilm.mp3', note: 'فضيلة الشيخ العلامة ربيع بن هادي عمير المدخلي (ت 1447هـ)' },
-        { title: 'عوائق في طريق طالب العلم', type: 'audio', audio: 'https://rabee.net/wp-content/uploads/bulk-files/sounds/awaiq.mp3', download: 'https://rabee.net/wp-content/uploads/bulk-files/sounds/awaiq.mp3', note: 'فضيلة الشيخ العلامة ربيع بن هادي عمير المدخلي (ت 1447هـ)' },
-        ],
-      },
     ],
   },
   {
