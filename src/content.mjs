@@ -42,7 +42,7 @@ export const categories = [
   {
     slug: 'aqeedah', name: 'العقيدة', icon: 'star', items: [], sections: [
       {
-        title: 'مؤلفات ومحاضرات العلماء المعاصرين', items: [
+        title: 'شروح المؤلفات للعلماء المعاصرين', items: [
         { title: 'عقيدة أهل السنة والجماعة', type: 'audio', audio: 'https://files.zadapps.info/binbaz.org.sa/sawtyaat/dros%26mohadrat/dros_aqida/aqeda_sunna.mp3', download: 'https://files.zadapps.info/binbaz.org.sa/sawtyaat/dros%26mohadrat/dros_aqida/aqeda_sunna.mp3', note: 'سماحة المفتي السابق الشيخ عبد العزيز بن عبد الله بن باز (ت 1420هـ)' },
         { title: 'شرح دعوة أهل السنة والجماعة', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/sharh-dawat-ahl-as-sunnah/sharh-dawat-ahl-as-sunnah.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/sharh-dawat-ahl-as-sunnah/sharh-dawat-ahl-as-sunnah.mp3', note: 'فضيلة الشيخ العلامة مقبل بن هادي الوادعي (ت 1422هـ)' },
         { title: 'الطائفة الناجية المنصورة', type: 'audio', audio: 'https://alnajmi.net/files/altaifh-almansoura.MP3', download: 'https://alnajmi.net/files/altaifh-almansoura.MP3', note: 'فضيلة الشيخ العلامة أحمد بن يحيى النجمي (ت 1429هـ)' },
@@ -75,7 +75,7 @@ export const categories = [
         ],
       },
       {
-        title: 'مؤلفات الإمام محمد بن عبد الوهاب التميمي (ت 1206هـ)', items: [
+        title: 'شروح المؤلفات للإمام محمد بن عبد الوهاب التميمي (ت 1206هـ)', items: [
         { title: 'شرح رسالة إلى أهل القصيم', type: 'audio', slug: 'risalah-ahl-al-qasim', source: 'https://miraath.net/%D8%B1%D8%B3%D8%A7%D9%84%D8%A9-%D8%A7%D9%84%D8%B4%D9%8A%D8%AE-%D9%85%D8%AD%D9%85%D8%AF-%D8%A8%D9%86-%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%88%D9%87%D8%A7%D8%A8-%D8%A5%D9%84%D9%89-%D8%A3%D9%87%D9%84-%D8%A7/', note: 'فضيلة الشيخ العلامة علي بن محمد بن ناصر الفقيهي (ت 1446هـ)' },
         { title: 'شرح شروط لا إله إلا الله', type: 'audio', slug: 'shurut-la-ilaha-illallah', note: 'فضيلة الشيخ العلامة محمد أمان بن علي الجامي (ت 1416هـ)' },
         { title: 'شرح تفسير كلمة التوحيد', type: 'audio', slug: 'tafsir-kalimat-at-tawhid', source: 'https://miraath.net/%D9%83%D8%AA%D8%A7%D8%A8-%D8%AA%D9%81%D8%B3%D9%8A%D8%B1-%D9%83%D9%84%D9%85%D8%A9-%D8%A7%D9%84%D8%AA%D9%88%D8%AD%D9%8A%D8%AF-%D8%A7%D9%84%D8%B4%D9%8A%D8%AE-%D8%B9%D9%84%D9%8A-%D9%86%D8%A7/', note: 'فضيلة الشيخ العلامة علي بن محمد بن ناصر الفقيهي (ت 1446هـ)' },
@@ -107,7 +107,7 @@ export const categories = [
         ],
       },
       {
-        title: 'مؤلفات الإمام أحمد بن عبد الحليم ابن تيمية النميري الحراني (ت 728هـ)', items: [
+        title: 'شروح المؤلفات للإمام أحمد بن عبد الحليم ابن تيمية النميري الحراني (ت 728هـ)', items: [
         { title: 'شرح القصيدة اللامية', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/al-lamiyyah/al-lamiyyah.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/al-lamiyyah/al-lamiyyah.mp3', note: 'فضيلة الشيخ العالم عبد الله بن صالح القصير (ت 1445هـ)' },
         { title: 'شرح العبودية', type: 'audio', slug: 'al-ubudiyyah', note: 'سماحة المفتي الشيخ صالح بن فوزان بن عبد الله الفوزان' },
         { title: 'شرح قاعدة جليلة في التوسل والوسيلة', type: 'audio', slug: 'at-tawassul-wal-wasilah', note: 'سماحة المفتي الشيخ صالح بن فوزان بن عبد الله الفوزان' },
@@ -126,7 +126,7 @@ export const categories = [
         ],
       },
       {
-        title: 'مؤلفات العلماء المتقدمين إلى المتأخرين', items: [
+        title: 'شروح المؤلفات للأئمة من المتقدمين إلى المتأخرين', items: [
         { title: 'شرح أصول السنة للإمام عبد الله بن الزبير الحميدي (ت 219هـ)', type: 'audio', slug: 'usul-as-sunnah-al-humaydi', note: 'فضيلة الشيخ العلامة عبيد بن عبد الله بن سليمان الحمداني الجابري (ت 1444هـ)' },
         { title: 'شرح كتاب الحيدة والاعتذار في الرد على من قال بخلق القرآن للإمام عبد العزيز بن يحيى الكناني (ت 240هـ)', type: 'audio', slug: 'al-haydah-kouni', source: 'https://miraath.net/%d8%a7%d9%84%d8%ad%d9%8a%d8%af%d8%a9-%d9%88%d8%a7%d9%84%d8%a7%d8%b9%d8%aa%d8%b0%d8%a7%d8%b1-%d9%81%d9%8a-%d8%a7%d9%84%d8%b1%d8%af-%d8%b9%d9%84%d9%89-%d9%85%d9%86-%d9%82%d8%a7%d9%84-%d8%a8%d8%ae%d9%84/', note: 'فضيلة الشيخ العلامة عبد الرحمن بن عوف كوني' },
         { title: 'شرح أصول السنة للإمام أحمد بن حنبل الشيباني (ت 241هـ)', type: 'audio', slug: 'usul-as-sunnah-ahmad', note: 'فضيلة الشيخ العلامة ربيع بن هادي عمير المدخلي (ت 1447هـ)' },
