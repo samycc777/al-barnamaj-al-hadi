@@ -33,7 +33,7 @@
 // A section with `first: true` (each category's «المحاضرات») shows above the rest.
 
 export const site = {
-  name: 'البرنامج الهادي لتأصيل العلم',
+  name: 'البرنامج الهادي لتيسير تأصيل العلم',
   // Shown under the name (the brother's wording, 2 Oct 2026).
   description: 'مكتبة صوتية تهدف إلى تأصيل العلم الشرعي عبر تتبع شروح العلماء على المتون المعتمدة',
   url: 'https://al-barnamaj-al-hadi.pages.dev',
