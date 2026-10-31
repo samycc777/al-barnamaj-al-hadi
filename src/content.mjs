@@ -148,7 +148,7 @@ export const categories = [
         ],
       },
       {
-        title: 'المحاضرات', first: true, items: [
+        title: 'محاضرات للعلماء المعاصرين', first: true, items: [
         { title: 'عقيدة أهل السنة والجماعة', type: 'audio', audio: 'https://files.zadapps.info/binbaz.org.sa/sawtyaat/dros%26mohadrat/dros_aqida/aqeda_sunna.mp3', download: 'https://files.zadapps.info/binbaz.org.sa/sawtyaat/dros%26mohadrat/dros_aqida/aqeda_sunna.mp3', note: 'سماحة المفتي السابق الشيخ عبد العزيز بن عبد الله بن باز (ت 1420هـ)' },
         { title: 'شرح دعوة أهل السنة والجماعة', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/sharh-dawat-ahl-as-sunnah/sharh-dawat-ahl-as-sunnah.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/sharh-dawat-ahl-as-sunnah/sharh-dawat-ahl-as-sunnah.mp3', note: 'فضيلة الشيخ العلامة مقبل بن هادي الوادعي (ت 1422هـ)' },
         { title: 'الطائفة الناجية المنصورة', type: 'audio', audio: 'https://alnajmi.net/files/altaifh-almansoura.MP3', download: 'https://alnajmi.net/files/altaifh-almansoura.MP3', note: 'فضيلة الشيخ العلامة أحمد بن يحيى النجمي (ت 1429هـ)' },
