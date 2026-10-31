@@ -308,10 +308,8 @@ a.variant:hover { text-decoration-color: var(--gold); }
    a tinted row. */
 .lesson.current { background: var(--row-hover); box-shadow: inset -4px 0 0 var(--gold); }
 .lesson.current .row-title { color: var(--brown-3); font-weight: 700; }
-/* Play is the main button: bigger and gold. Download is small and plain. */
-.round-btn.play { width: 44px; height: 44px; background: radial-gradient(circle at 35% 30%, #ffd76e, #e3a42c 60%, #b8791a); color: #4a2708; }
-.round-btn.play .ic { width: 20px; height: 20px; }
-.round-btn.play:hover, .lesson.playing .play { background: radial-gradient(circle at 35% 30%, #ffe08a, #eab040 60%, #c4841f); color: #4a2708; }
+/* Play keeps the plain round button (Zaid); download is small and plain. */
+.lesson.playing .play { background: var(--brown); color: #fff6e7; }
 .round-btn.dl { width: 32px; height: 32px; background: none; box-shadow: none; color: var(--muted); }
 .round-btn.dl .ic { width: 17px; height: 17px; }
 .round-btn.dl:hover { background: var(--btn-bg); color: var(--brown); }

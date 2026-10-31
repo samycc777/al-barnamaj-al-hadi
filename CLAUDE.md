@@ -45,7 +45,7 @@ The brother (Zayd bin Ibrahim al-Jazairi, runs the programme; the user says "the
 
 ## Conventions
 
-- Arabic, RTL, no framework. Keep pages static. The site opens light; dark only through the moon button.
+- Arabic, RTL, no framework. Keep pages static. The site opens light; dark only through the moon button. Play buttons stay the plain beige round ones (Zaid had the gold ones undone).
 - Religious content rules: no images of living beings or faces (icons are objects and shapes only), no music, and cite every āyah and ḥadīth (sūrah and number; ḥadīth with source and grading).
 - Every audio lesson must be listenable on the site with its own player bar. Never just link out (YouTube, the Shaykh's page or anywhere else), and never show or link where audio comes from (al-abbaad.com, miraath.net). If it exists only as video, take the audio, store it in R2 and play it from there.
 - Finding content: the user names lessons and books but sends no links; find them yourself, the scholar's official site first (al-Abbad: https://al-abbaad.com, `/lecture/<category>/`), YouTube only if it lacks it. Tell the user which page each lesson comes from; when two recordings could match, pick one and say which. Prefer the shaykh's direct explanation of a book over his commentary on someone else's explanation (the Forty: «شرح الأربعين النووية», `/lecture/hadith/arbain-annawawi`, not «التعليق على فتح القوي المتين»). When a scholar's site offers an old and a new commentary (القديم / الجديد, or الشرح الأول / الثاني marked newer), use the new one unless the user names the old (al-Abbad's Bukhari: new `syarh-shahih-albukhari`, old `shahih-albukhari-old`); two clearly separate full commentaries with no label may both be chapters.
