@@ -215,6 +215,7 @@ export const categories = [
   },
   {
     slug: 'ulum-al-hadith', name: 'علوم الحديث', icon: 'chain', items: [
+      { title: 'مقدمة في علم الحديث', type: 'audio', audio: 'https://rabee.net/wp-content/uploads/bulk-files/sounds/mostalah.mp3', note: 'فضيلة الشيخ العلامة ربيع بن هادي عمير المدخلي (ت 1447هـ)' },
       { title: 'شرح مقدمة صحيح الإمام مسلم بن الحجاج (ت 261هـ)', type: 'audio', slug: 'muqaddimat-sahih-muslim-abbad', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد البدر' },
       { title: 'شرح مقدمة صحيح الإمام مسلم بن الحجاج (ت 261هـ)', type: 'audio', slug: 'muqaddimat-sahih-muslim-muqbil', variantOf: 'muqaddimat-sahih-muslim-abbad', note: 'فضيلة الشيخ العلامة مقبل بن هادي الوادعي (ت 1422هـ)' },
       { title: 'شرح مقدمة صحيح الإمام مسلم بن الحجاج (ت 261هـ)', type: 'audio', slug: 'muqaddimat-sahih-muslim', variantOf: 'muqaddimat-sahih-muslim-abbad', note: 'فضيلة الشيخ العلامة محمد بن علي بن آدم الإتيوبي (ت 1442هـ)' },
@@ -224,12 +225,6 @@ export const categories = [
       { title: 'شرح نزهة النظر في توضيح نخبة الفكر للإمام أحمد بن علي بن حجر العسقلاني (ت 852هـ)', type: 'audio', slug: 'nuzhat-an-nazar', variantOf: 'nukhbat-al-fikar', label: 'نزهة النظر', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين (ت 1421هـ)' },
       { title: 'شرح اختصار علوم الحديث للإمام إسماعيل بن عمر بن كثير (ت 774هـ)', type: 'audio', slug: 'ikhtisar-ulum-al-hadith', note: 'فضيلة الشيخ العلامة مقبل بن هادي الوادعي (ت 1422هـ)' },
       { title: 'شرح ألفية السيوطي في علم الحديث للإمام عبد الرحمن بن أبي بكر السيوطي (ت 911هـ)', type: 'audio', slug: 'alfiyyat-as-suyuti', source: 'https://al-abbaad.com/lecture/hadith/alfiyah-suyuthi?type=files', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد البدر' },
-    ], sections: [
-      {
-        title: 'المحاضرات', first: true, items: [
-        { title: 'مقدمة في علم الحديث', type: 'audio', audio: 'https://rabee.net/wp-content/uploads/bulk-files/sounds/mostalah.mp3', note: 'فضيلة الشيخ العلامة ربيع بن هادي عمير المدخلي (ت 1447هـ)' },
-        ],
-      },
     ],
   },
   {
