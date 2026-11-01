@@ -100,3 +100,4 @@ Checked muqbel.net, muqbel.al3ilm.net/alddurus, mimham.net/che-4, archive.org (`
 
 ## Rabee on Ibn al-Qayyim's books (searched 1 Nov 2026: rabee.net, mimham che-8, YouTube)
 - Only three, all partial or selected: «التعليق على كتاب الفوائد» (rabee.net 1–8, mimham cha-312, 8 lessons ~5 h 53); «الجواب الكافي لمن سأل عن الدواء الشافي» (rabee.net 1–4, mimham cha-368, 4 lessons ~6 h); «الرؤية من حادي الأرواح» (only the chapter on seeing Allah, rabee.net 1–4, mimham cha-369, 4 lessons ~4 h 11). How far the first two reach not yet checked. «زاد المعاد» on YouTube is Rabee b. Zakariyya, another shaykh.
+- Ibn Taymiyyah and Ibn Rajab (searched 1 Nov 2026: rabee.net شروح category, all 137 items; rabee.net site search; mimham che-8, 14 series; web): no commentary by Rabee on any of their books. Only his edition (تحقيق) of Ibn Taymiyyah's «التوسل والوسيلة» (a book, not a lesson).
