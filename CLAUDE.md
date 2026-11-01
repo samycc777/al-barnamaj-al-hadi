@@ -72,6 +72,7 @@ The brother (Zayd bin Ibrahim al-Jazairi, runs the programme; the user says "the
 - Before asking Zaid whether to do something, check other worktrees, branches and their notes: a restart can cut a session after his go-ahead (the fuller Qurrat Uyun: «أنت متأخر»).
 - Before noting a scholar as alive, search his name with «توفي»/«رحمه الله» and his lesson channels: al-Raddadi (d. 1443) was wrongly noted alive.
 - Every gap gets a `warning` on the book, however small (one missing session start included): Zaid asked «لماذا ما في تنبيه؟».
+- «تحقق»/«vérifie» from Zaid = check and report, never add: Bareek's ad-Durar was added unasked and he had it removed.
 - Remove only the book Zaid names: «كذلك احذف X» means delete X as well as what he removed before, not the book just discussed (the Manasik was wrongly deleted with al-Adeni's Tanbihat). Ask when unsure.
 - Taking a book off the site: add its address to `removed` in `src/content.mjs` (redirect); the pages.dev edge cache keeps serving a deleted page for days.
 - An archive.org item can sit on a dead or very slow server while others play: when a book "doesn't play", fetch its files several times; if they time out, copy them into R2.

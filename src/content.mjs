@@ -226,9 +226,7 @@ export const categories = [
     ],
   },
   {
-    slug: 'fiqh', name: 'الفقه', icon: 'scale', items: [
-      { title: 'شرح الدرر البهية في المسائل الفقهية للإمام محمد بن علي الشوكاني (ت 1250هـ)', type: 'audio', slug: 'ad-durar-al-bahiyyah', note: 'فضيلة الشيخ عبد الله بن عمر بن مرعي بن بريك' },
-    ], sections: [
+    slug: 'fiqh', name: 'الفقه', icon: 'scale', items: [], sections: [
       {
         title: 'الفقه الحنبلي', items: [
         { title: 'شرح شروط الصلاة وأركانها وواجباتها للإمام محمد بن عبد الوهاب التميمي (ت 1206هـ)', type: 'audio', slug: 'shurut-as-salah', source: 'https://al-abbaad.com/lecture/feqh/shuruth-assalah-wa-arkaaniha?type=files', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد البدر' },
@@ -371,4 +369,5 @@ export const removed = [
   ['/fiqh/at-tashil-ibn-aqil/', '/fiqh/'],
   ['/fiqh/kitab-al-manasik-at-tashil/', '/fiqh/'],
   ['/aqeedah/at-tanbihat-as-saniyyah-adani/', '/aqeedah/al-aqidah-al-wasitiyyah/'],
+  ['/fiqh/ad-durar-al-bahiyyah/', '/fiqh/'],
 ];
