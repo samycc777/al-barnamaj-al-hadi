@@ -1,0 +1,41 @@
+{
+  "chapters": [
+    {
+      "title": "",
+      "lessons": [
+        {
+          "n": 1,
+          "title": "الدرس الأول",
+          "date": "",
+          "audio": "https://rabee.net/wp-content/uploads/bulk-files/sounds/Hadielarwah1.mp3",
+          "download": "https://rabee.net/wp-content/uploads/bulk-files/sounds/Hadielarwah1.mp3",
+          "size": "23.3 MB"
+        },
+        {
+          "n": 2,
+          "title": "الدرس الثاني",
+          "date": "",
+          "audio": "https://rabee.net/wp-content/uploads/bulk-files/sounds/Hadielarwah2.mp3",
+          "download": "https://rabee.net/wp-content/uploads/bulk-files/sounds/Hadielarwah2.mp3",
+          "size": "24.7 MB"
+        },
+        {
+          "n": 3,
+          "title": "الدرس الثالث",
+          "date": "",
+          "audio": "https://rabee.net/wp-content/uploads/bulk-files/sounds/Hadielarwah3.mp3",
+          "download": "https://rabee.net/wp-content/uploads/bulk-files/sounds/Hadielarwah3.mp3",
+          "size": "28.6 MB"
+        },
+        {
+          "n": 4,
+          "title": "الدرس الرابع",
+          "date": "",
+          "audio": "https://rabee.net/wp-content/uploads/bulk-files/sounds/Hadielarwah4.mp3",
+          "download": "https://rabee.net/wp-content/uploads/bulk-files/sounds/Hadielarwah4.mp3",
+          "size": "28.4 MB"
+        }
+      ]
+    }
+  ]
+}
