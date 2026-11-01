@@ -90,8 +90,8 @@ Checked muqbel.net, muqbel.al3ilm.net/alddurus, mimham.net/che-4, archive.org (`
 
 ## Zaid's four commentaries (1 Nov 2026), checked one by one
 - جامع العلوم والحكم: no «محمد فلاتة» commentary exists; Umar b. Hasan Fallatah's (d. 12 Ramadan 1445, Okaz/Sabq) «التعليق على جامع العلوم والحكم» (archive.org `Sharh_J_O_Hekam`, 133 files ~116 h; same 133 on audio.islamweb.net sid=2777 and Midad) stops in ḥadīth 29 of 50 (Muʿādh, part 3; lesson ends normally). Incomplete, no fuller upload; on the site anyway (Zaid) as a variant of fath-al-qawi (`jami-al-ulum-fallatah`, archive.org audio, warning, chapters per ḥadīth).
-- شرح الشريعة للآجري, Rabee: rabee.net «شرح أبواب من كتاب الشريعة» (46, lesson 40 no mp3) and mimham cha-126 (56; 49–56 loose talks): selected chapters, from الخوارج to الرؤية/الشفاعة, never reaches the Companions' virtues. Incomplete.
-- شرح فتح المجيد, Rabee: 18 lessons (mimham cha-127, rabee.net 15 with audio, archive.org `islami-111_202602`, YouTube copies), stops inside bāb 13 «من الشرك أن يستغيث بغير الله». Incomplete.
+- شرح الشريعة للآجري, Rabee: on the site as `ash-shariah-rabee` (selected chapters, from الخوارج to الشفاعة; warning). Audio mimham cha-126 1–47 in order (covers rabee.net's 46 incl. lesson 40); 48, 52–56 are copies of 8, 47, 38, 5, 46, 42; 49 = 9, 51 = 15; 50 is a separate lesson on the Qur'an, added as «درس ملحق».
+- شرح فتح المجيد, Rabee: on the site as `fath-al-majid-rabee` (warning: stops in bāb 13 «من الشرك أن يستغيث بغير الله», lesson 18). mimham cha-127, except lesson 2: mimham's is only its last 6 min, rabee.net Fath_Elmajid-2.mp3 is the full lesson (rabee.net lesson 1 is broken, 404 s).
 - Chapter ranges (Shamela 13035 index, 224 headings counted in order): Shari'ah lessons 1–47 = chapters 5–100 (ذم الخوارج → الشفاعة), in book order but skipping many; 1–4 and 101–224 not covered. Fath al-Majid: bāb 4 (الدعاء إلى شهادة أن لا إله إلا الله) → bāb 13; bābs 1–3 missing, files out of order (real order L1,L3,L4–6,L10,L8,L7,L9,L11,L12–18), no trace of bābs 7, 11, 12; L2 a 6-min fragment.
 
 ## Complete commentaries asked for (1 Nov 2026), not added yet: waiting for Zaid
