@@ -1,0 +1,777 @@
+{
+  "chapters": [
+    {
+      "title": "",
+      "lessons": [
+        {
+          "n": 1,
+          "title": "الدرس الأول",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_01.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_01.mp3",
+          "size": "77.4 MB"
+        },
+        {
+          "n": 2,
+          "title": "الدرس الثاني",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_02.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_02.mp3",
+          "size": "82.4 MB"
+        },
+        {
+          "n": 3,
+          "title": "الدرس الثالث",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_03.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_03.mp3",
+          "size": "85.0 MB"
+        },
+        {
+          "n": 4,
+          "title": "الدرس الرابع",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_04.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_04.mp3",
+          "size": "81.4 MB"
+        },
+        {
+          "n": 5,
+          "title": "الدرس الخامس",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_05.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_05.mp3",
+          "size": "84.1 MB"
+        },
+        {
+          "n": 6,
+          "title": "الدرس السادس",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_06.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_06.mp3",
+          "size": "85.5 MB"
+        },
+        {
+          "n": 7,
+          "title": "الدرس السابع",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_07.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_07.mp3",
+          "size": "84.4 MB"
+        },
+        {
+          "n": 8,
+          "title": "الدرس الثامن",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_08.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_08.mp3",
+          "size": "83.9 MB"
+        },
+        {
+          "n": 9,
+          "title": "الدرس التاسع",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_09.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_09.mp3",
+          "size": "82.8 MB"
+        },
+        {
+          "n": 10,
+          "title": "الدرس العاشر",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_10.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_10.mp3",
+          "size": "85.0 MB"
+        },
+        {
+          "n": 11,
+          "title": "الدرس الحادي عشر",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_11.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_11.mp3",
+          "size": "83.9 MB"
+        },
+        {
+          "n": 12,
+          "title": "الدرس الثاني عشر",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_12.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_12.mp3",
+          "size": "83.2 MB"
+        },
+        {
+          "n": 13,
+          "title": "الدرس الثالث عشر",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_13.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_13.mp3",
+          "size": "84.2 MB"
+        },
+        {
+          "n": 14,
+          "title": "الدرس الرابع عشر",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_14.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_14.mp3",
+          "size": "83.1 MB"
+        },
+        {
+          "n": 15,
+          "title": "الدرس الخامس عشر",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_15.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_15.mp3",
+          "size": "83.7 MB"
+        },
+        {
+          "n": 16,
+          "title": "الدرس السادس عشر",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_16.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_16.mp3",
+          "size": "83.3 MB"
+        },
+        {
+          "n": 17,
+          "title": "الدرس السابع عشر",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_17.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_17.mp3",
+          "size": "84.1 MB"
+        },
+        {
+          "n": 18,
+          "title": "الدرس الثامن عشر",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_18.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_18.mp3",
+          "size": "82.7 MB"
+        },
+        {
+          "n": 19,
+          "title": "الدرس التاسع عشر",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_19.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_19.mp3",
+          "size": "83.4 MB"
+        },
+        {
+          "n": 20,
+          "title": "الدرس العشرون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_20.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_20.mp3",
+          "size": "83.2 MB"
+        },
+        {
+          "n": 21,
+          "title": "الدرس الحادي والعشرون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_21.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_21.mp3",
+          "size": "84.2 MB"
+        },
+        {
+          "n": 22,
+          "title": "الدرس الثاني والعشرون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_22.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_22.mp3",
+          "size": "81.9 MB"
+        },
+        {
+          "n": 23,
+          "title": "الدرس الثالث والعشرون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_23.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_23.mp3",
+          "size": "82.8 MB"
+        },
+        {
+          "n": 24,
+          "title": "الدرس الرابع والعشرون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_24.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_24.mp3",
+          "size": "85.4 MB"
+        },
+        {
+          "n": 25,
+          "title": "الدرس الخامس والعشرون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_25.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_25.mp3",
+          "size": "83.9 MB"
+        },
+        {
+          "n": 26,
+          "title": "الدرس السادس والعشرون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_26.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_26.mp3",
+          "size": "81.9 MB"
+        },
+        {
+          "n": 27,
+          "title": "الدرس السابع والعشرون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_27.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_27.mp3",
+          "size": "84.7 MB"
+        },
+        {
+          "n": 28,
+          "title": "الدرس الثامن والعشرون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_28.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_28.mp3",
+          "size": "82.5 MB"
+        },
+        {
+          "n": 29,
+          "title": "الدرس التاسع والعشرون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_29.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_29.mp3",
+          "size": "82.8 MB"
+        },
+        {
+          "n": 30,
+          "title": "الدرس الثلاثون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_30.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_30.mp3",
+          "size": "82.7 MB"
+        },
+        {
+          "n": 31,
+          "title": "الدرس الحادي والثلاثون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_31.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_31.mp3",
+          "size": "82.5 MB"
+        },
+        {
+          "n": 32,
+          "title": "الدرس الثاني والثلاثون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_32.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_32.mp3",
+          "size": "82.6 MB"
+        },
+        {
+          "n": 33,
+          "title": "الدرس الثالث والثلاثون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_33.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_33.mp3",
+          "size": "83.0 MB"
+        },
+        {
+          "n": 34,
+          "title": "الدرس الرابع والثلاثون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_34.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_34.mp3",
+          "size": "82.9 MB"
+        },
+        {
+          "n": 35,
+          "title": "الدرس الخامس والثلاثون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_35.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_35.mp3",
+          "size": "80.2 MB"
+        },
+        {
+          "n": 36,
+          "title": "الدرس السادس والثلاثون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_36.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_36.mp3",
+          "size": "82.6 MB"
+        },
+        {
+          "n": 37,
+          "title": "الدرس السابع والثلاثون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_37.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_37.mp3",
+          "size": "81.5 MB"
+        },
+        {
+          "n": 38,
+          "title": "الدرس الثامن والثلاثون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_38.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_38.mp3",
+          "size": "82.0 MB"
+        },
+        {
+          "n": 39,
+          "title": "الدرس التاسع والثلاثون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_39.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_39.mp3",
+          "size": "83.2 MB"
+        },
+        {
+          "n": 40,
+          "title": "الدرس الأربعون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_40.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_40.mp3",
+          "size": "83.7 MB"
+        },
+        {
+          "n": 41,
+          "title": "الدرس الحادي والأربعون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_41.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_41.mp3",
+          "size": "81.7 MB"
+        },
+        {
+          "n": 42,
+          "title": "الدرس الثاني والأربعون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_42.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_42.mp3",
+          "size": "82.1 MB"
+        },
+        {
+          "n": 43,
+          "title": "الدرس الثالث والأربعون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_43.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_43.mp3",
+          "size": "82.8 MB"
+        },
+        {
+          "n": 44,
+          "title": "الدرس الرابع والأربعون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_44.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_44.mp3",
+          "size": "80.9 MB"
+        },
+        {
+          "n": 45,
+          "title": "الدرس الخامس والأربعون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_45.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_45.mp3",
+          "size": "79.8 MB"
+        },
+        {
+          "n": 46,
+          "title": "الدرس السادس والأربعون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_46.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_46.mp3",
+          "size": "82.7 MB"
+        },
+        {
+          "n": 47,
+          "title": "الدرس السابع والأربعون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_47.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_47.mp3",
+          "size": "82.3 MB"
+        },
+        {
+          "n": 48,
+          "title": "الدرس الثامن والأربعون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_48.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_48.mp3",
+          "size": "84.0 MB"
+        },
+        {
+          "n": 49,
+          "title": "الدرس التاسع والأربعون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_49.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_49.mp3",
+          "size": "82.8 MB"
+        },
+        {
+          "n": 50,
+          "title": "الدرس الخمسون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_50.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_50.mp3",
+          "size": "83.0 MB"
+        },
+        {
+          "n": 51,
+          "title": "الدرس الحادي والخمسون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_51.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_51.mp3",
+          "size": "83.6 MB"
+        },
+        {
+          "n": 52,
+          "title": "الدرس الثاني والخمسون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_52.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_52.mp3",
+          "size": "82.6 MB"
+        },
+        {
+          "n": 53,
+          "title": "الدرس الثالث والخمسون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_53.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_53.mp3",
+          "size": "82.6 MB"
+        },
+        {
+          "n": 54,
+          "title": "الدرس الرابع والخمسون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_54.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_54.mp3",
+          "size": "82.8 MB"
+        },
+        {
+          "n": 55,
+          "title": "الدرس الخامس والخمسون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_55.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_55.mp3",
+          "size": "82.8 MB"
+        },
+        {
+          "n": 56,
+          "title": "الدرس السادس والخمسون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_56.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_56.mp3",
+          "size": "82.8 MB"
+        },
+        {
+          "n": 57,
+          "title": "الدرس السابع والخمسون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_57.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_57.mp3",
+          "size": "81.5 MB"
+        },
+        {
+          "n": 58,
+          "title": "الدرس الثامن والخمسون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_58.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_58.mp3",
+          "size": "82.8 MB"
+        },
+        {
+          "n": 59,
+          "title": "الدرس التاسع والخمسون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_59.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_59.mp3",
+          "size": "83.1 MB"
+        },
+        {
+          "n": 60,
+          "title": "الدرس الستون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_60.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_60.mp3",
+          "size": "83.5 MB"
+        },
+        {
+          "n": 61,
+          "title": "الدرس الحادي والستون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_61.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_61.mp3",
+          "size": "83.0 MB"
+        },
+        {
+          "n": 62,
+          "title": "الدرس الثاني والستون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_62.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_62.mp3",
+          "size": "82.2 MB"
+        },
+        {
+          "n": 63,
+          "title": "الدرس الثالث والستون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_63.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_63.mp3",
+          "size": "83.3 MB"
+        },
+        {
+          "n": 64,
+          "title": "الدرس الرابع والستون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_64.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_64.mp3",
+          "size": "83.3 MB"
+        },
+        {
+          "n": 65,
+          "title": "الدرس الخامس والستون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_65.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_65.mp3",
+          "size": "81.9 MB"
+        },
+        {
+          "n": 66,
+          "title": "الدرس السادس والستون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/sounds/2024-07-08/3T3EjfnRykWKuAtyZOP6E0QVgS55vaS0c0pcx78r.mp3",
+          "download": "https://sounds.binothaimeen.net/sounds/2024-07-08/3T3EjfnRykWKuAtyZOP6E0QVgS55vaS0c0pcx78r.mp3",
+          "size": "83.0 MB"
+        },
+        {
+          "n": 67,
+          "title": "الدرس السابع والستون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/sounds/2024-07-08/uJYH8kVVjJLoLjhtpg6d0AKQuxk0src0vqS5uCOj.mp3",
+          "download": "https://sounds.binothaimeen.net/sounds/2024-07-08/uJYH8kVVjJLoLjhtpg6d0AKQuxk0src0vqS5uCOj.mp3",
+          "size": "83.3 MB"
+        },
+        {
+          "n": 68,
+          "title": "الدرس الثامن والستون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/sounds/2024-07-08/6rjDXpo3J88ZFeIdo8xXy5OUL5k14PUOXgiSlRAB.mp3",
+          "download": "https://sounds.binothaimeen.net/sounds/2024-07-08/6rjDXpo3J88ZFeIdo8xXy5OUL5k14PUOXgiSlRAB.mp3",
+          "size": "83.0 MB"
+        },
+        {
+          "n": 69,
+          "title": "الدرس التاسع والستون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/sounds/2024-07-08/5AUpN00xgy7VulcBF6iYDgp4tPb5Kth6CTJNgpQy.mp3",
+          "download": "https://sounds.binothaimeen.net/sounds/2024-07-08/5AUpN00xgy7VulcBF6iYDgp4tPb5Kth6CTJNgpQy.mp3",
+          "size": "82.1 MB"
+        },
+        {
+          "n": 70,
+          "title": "الدرس السبعون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_70.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_70.mp3",
+          "size": "82.5 MB"
+        },
+        {
+          "n": 71,
+          "title": "الدرس الحادي والسبعون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_71.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_71.mp3",
+          "size": "83.9 MB"
+        },
+        {
+          "n": 72,
+          "title": "الدرس الثاني والسبعون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_72.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_72.mp3",
+          "size": "83.0 MB"
+        },
+        {
+          "n": 73,
+          "title": "الدرس الثالث والسبعون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_73.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_73.mp3",
+          "size": "82.5 MB"
+        },
+        {
+          "n": 74,
+          "title": "الدرس الرابع والسبعون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_74.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_74.mp3",
+          "size": "84.1 MB"
+        },
+        {
+          "n": 75,
+          "title": "الدرس الخامس والسبعون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_75.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_75.mp3",
+          "size": "83.5 MB"
+        },
+        {
+          "n": 76,
+          "title": "الدرس السادس والسبعون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_76.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_76.mp3",
+          "size": "82.8 MB"
+        },
+        {
+          "n": 77,
+          "title": "الدرس السابع والسبعون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_77.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_77.mp3",
+          "size": "82.2 MB"
+        },
+        {
+          "n": 78,
+          "title": "الدرس الثامن والسبعون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_78.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_78.mp3",
+          "size": "82.5 MB"
+        },
+        {
+          "n": 79,
+          "title": "الدرس التاسع والسبعون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_79.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_79.mp3",
+          "size": "82.3 MB"
+        },
+        {
+          "n": 80,
+          "title": "الدرس الثمانون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_80.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_80.mp3",
+          "size": "81.9 MB"
+        },
+        {
+          "n": 81,
+          "title": "الدرس الحادي والثمانون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_81.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_81.mp3",
+          "size": "81.9 MB"
+        },
+        {
+          "n": 82,
+          "title": "الدرس الثاني والثمانون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_82.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_82.mp3",
+          "size": "82.3 MB"
+        },
+        {
+          "n": 83,
+          "title": "الدرس الثالث والثمانون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_83.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_83.mp3",
+          "size": "82.1 MB"
+        },
+        {
+          "n": 84,
+          "title": "الدرس الرابع والثمانون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_84.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_84.mp3",
+          "size": "82.0 MB"
+        },
+        {
+          "n": 85,
+          "title": "الدرس الخامس والثمانون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_85.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_85.mp3",
+          "size": "83.4 MB"
+        },
+        {
+          "n": 86,
+          "title": "الدرس السادس والثمانون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_86.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_86.mp3",
+          "size": "83.6 MB"
+        },
+        {
+          "n": 87,
+          "title": "الدرس السابع والثمانون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_87.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_87.mp3",
+          "size": "82.7 MB"
+        },
+        {
+          "n": 88,
+          "title": "الدرس الثامن والثمانون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_88.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_88.mp3",
+          "size": "83.3 MB"
+        },
+        {
+          "n": 89,
+          "title": "الدرس التاسع والثمانون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_89.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_89.mp3",
+          "size": "82.6 MB"
+        },
+        {
+          "n": 90,
+          "title": "الدرس التسعون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_90.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_90.mp3",
+          "size": "83.4 MB"
+        },
+        {
+          "n": 91,
+          "title": "الدرس الحادي والتسعون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_91.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_91.mp3",
+          "size": "83.0 MB"
+        },
+        {
+          "n": 92,
+          "title": "الدرس الثاني والتسعون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_92.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_92.mp3",
+          "size": "81.7 MB"
+        },
+        {
+          "n": 93,
+          "title": "الدرس الثالث والتسعون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_93.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_93.mp3",
+          "size": "83.7 MB"
+        },
+        {
+          "n": 94,
+          "title": "الدرس الرابع والتسعون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_94.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_94.mp3",
+          "size": "82.3 MB"
+        },
+        {
+          "n": 95,
+          "title": "الدرس الخامس والتسعون",
+          "date": "",
+          "audio": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_95.mp3",
+          "download": "https://sounds.binothaimeen.net/storage/uploads/uploadbin//othaimeen_E/07%20riyadh_alsaliheen/riyadh_alsaliheen_othaimeen_E_95.mp3",
+          "size": "54.7 MB"
+        },
+        {
+          "n": 96,
+          "title": "الدرس السادس والتسعون",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/riyad-as-salihin-uthaymeen/096.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/riyad-as-salihin-uthaymeen/096.mp3",
+          "size": "40.4 MB"
+        }
+      ]
+    }
+  ]
+}
