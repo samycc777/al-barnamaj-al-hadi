@@ -1,6 +1,7 @@
 # Pending items (still open; remove an item when done)
 
 - Open questions to the brother or user (details in `commentaries-research.md`):
+  - Zaid's four commentaries (1 Nov 2026): Fallatah's جامع العلوم, Rabee's الشريعة and فتح المجيد are incomplete (asked: add with a warning or leave out?); Ibn Uthaymin's رياض الصالحين is complete but lessons 66–69 are broken on his site (asked: add now with a warning, or wait for YouTube copies).
   - Ali al-Shibl's الفتن والحوادث (archive.org islami-805, 23 lessons, complete) and/or al-Badr's الكبائر: offered, no answer.
   - Hushaysh «السلفية نوعان», Rabee «النقد منهج شرعي»: not added, waiting for the brother's decision on whether/where.
   - al-Jami's تجريد التوحيد: not complete, not added; asked whether to add anyway.
