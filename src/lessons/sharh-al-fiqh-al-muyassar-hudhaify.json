@@ -1,0 +1,825 @@
+{
+  "chapters": [
+    {
+      "title": "",
+      "lessons": [
+        {
+          "n": 1,
+          "title": "الدرس الأول",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/001.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/001.mp3",
+          "size": "10.4 MB"
+        },
+        {
+          "n": 2,
+          "title": "الدرس الثاني",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/002.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/002.mp3",
+          "size": "9.2 MB"
+        },
+        {
+          "n": 3,
+          "title": "الدرس الثالث",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/003.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/003.mp3",
+          "size": "9.3 MB"
+        },
+        {
+          "n": 4,
+          "title": "الدرس الرابع",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/004.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/004.mp3",
+          "size": "9.4 MB"
+        },
+        {
+          "n": 5,
+          "title": "الدرس الخامس",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/005.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/005.mp3",
+          "size": "15.1 MB"
+        },
+        {
+          "n": 6,
+          "title": "الدرس السادس",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/006.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/006.mp3",
+          "size": "13.8 MB"
+        },
+        {
+          "n": 7,
+          "title": "الدرس السابع",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/007.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/007.mp3",
+          "size": "15.4 MB"
+        },
+        {
+          "n": 8,
+          "title": "الدرس الثامن",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/008.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/008.mp3",
+          "size": "9.5 MB"
+        },
+        {
+          "n": 9,
+          "title": "الدرس التاسع",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/009.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/009.mp3",
+          "size": "12.6 MB"
+        },
+        {
+          "n": 10,
+          "title": "الدرس العاشر",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/010.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/010.mp3",
+          "size": "9.9 MB"
+        },
+        {
+          "n": 11,
+          "title": "الدرس الحادي عشر",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/011.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/011.mp3",
+          "size": "11.4 MB"
+        },
+        {
+          "n": 12,
+          "title": "الدرس الثاني عشر",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/012.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/012.mp3",
+          "size": "11.6 MB"
+        },
+        {
+          "n": 13,
+          "title": "الدرس الثالث عشر",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/013.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/013.mp3",
+          "size": "11.2 MB"
+        },
+        {
+          "n": 14,
+          "title": "الدرس الرابع عشر",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/014.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/014.mp3",
+          "size": "10.0 MB"
+        },
+        {
+          "n": 15,
+          "title": "الدرس الخامس عشر",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/015.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/015.mp3",
+          "size": "10.5 MB"
+        },
+        {
+          "n": 16,
+          "title": "الدرس السادس عشر",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/016.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/016.mp3",
+          "size": "11.3 MB"
+        },
+        {
+          "n": 17,
+          "title": "الدرس السابع عشر",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/017.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/017.mp3",
+          "size": "10.5 MB"
+        },
+        {
+          "n": 18,
+          "title": "الدرس الثامن عشر",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/018.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/018.mp3",
+          "size": "10.3 MB"
+        },
+        {
+          "n": 19,
+          "title": "الدرس التاسع عشر",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/019.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/019.mp3",
+          "size": "10.2 MB"
+        },
+        {
+          "n": 20,
+          "title": "الدرس العشرون",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/020.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/020.mp3",
+          "size": "11.0 MB"
+        },
+        {
+          "n": 21,
+          "title": "الدرس الحادي والعشرون",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/021.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/021.mp3",
+          "size": "7.9 MB"
+        },
+        {
+          "n": 22,
+          "title": "الدرس الثاني والعشرون",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/022.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/022.mp3",
+          "size": "11.1 MB"
+        },
+        {
+          "n": 23,
+          "title": "الدرس الثالث والعشرون",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/023.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/023.mp3",
+          "size": "18.0 MB"
+        },
+        {
+          "n": 24,
+          "title": "الدرس الرابع والعشرون",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/024.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/024.mp3",
+          "size": "17.9 MB"
+        },
+        {
+          "n": 25,
+          "title": "الدرس الخامس والعشرون",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/025.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/025.mp3",
+          "size": "18.4 MB"
+        },
+        {
+          "n": 26,
+          "title": "الدرس السادس والعشرون",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/026.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/026.mp3",
+          "size": "27.1 MB"
+        },
+        {
+          "n": 27,
+          "title": "الدرس السابع والعشرون",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/027.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/027.mp3",
+          "size": "11.2 MB"
+        },
+        {
+          "n": 28,
+          "title": "الدرس الثامن والعشرون",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/028.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/028.mp3",
+          "size": "10.6 MB"
+        },
+        {
+          "n": 29,
+          "title": "الدرس التاسع والعشرون",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/029.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/029.mp3",
+          "size": "27.9 MB"
+        },
+        {
+          "n": 30,
+          "title": "الدرس الثلاثون",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/030.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/030.mp3",
+          "size": "9.6 MB"
+        },
+        {
+          "n": 31,
+          "title": "الدرس الحادي والثلاثون",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/031.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/031.mp3",
+          "size": "10.1 MB"
+        },
+        {
+          "n": 32,
+          "title": "الدرس الثاني والثلاثون",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/032.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/032.mp3",
+          "size": "11.1 MB"
+        },
+        {
+          "n": 33,
+          "title": "الدرس الثالث والثلاثون",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/033.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/033.mp3",
+          "size": "9.0 MB"
+        },
+        {
+          "n": 34,
+          "title": "الدرس الرابع والثلاثون",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/034.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/034.mp3",
+          "size": "12.0 MB"
+        },
+        {
+          "n": 35,
+          "title": "الدرس الخامس والثلاثون",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/035.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/035.mp3",
+          "size": "9.0 MB"
+        },
+        {
+          "n": 36,
+          "title": "الدرس السادس والثلاثون",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/036.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/036.mp3",
+          "size": "10.9 MB"
+        },
+        {
+          "n": 37,
+          "title": "الدرس السابع والثلاثون",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/037.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/037.mp3",
+          "size": "15.1 MB"
+        },
+        {
+          "n": 38,
+          "title": "الدرس الثامن والثلاثون",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/038.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/038.mp3",
+          "size": "8.4 MB"
+        },
+        {
+          "n": 39,
+          "title": "الدرس التاسع والثلاثون",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/039.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/039.mp3",
+          "size": "8.2 MB"
+        },
+        {
+          "n": 40,
+          "title": "الدرس الأربعون",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/040.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/040.mp3",
+          "size": "8.4 MB"
+        },
+        {
+          "n": 41,
+          "title": "الدرس الحادي والأربعون",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/041.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/041.mp3",
+          "size": "9.4 MB"
+        },
+        {
+          "n": 42,
+          "title": "الدرس الثاني والأربعون",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/042.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/042.mp3",
+          "size": "13.1 MB"
+        },
+        {
+          "n": 43,
+          "title": "الدرس الثالث والأربعون",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/043.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/043.mp3",
+          "size": "7.5 MB"
+        },
+        {
+          "n": 44,
+          "title": "الدرس الرابع والأربعون",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/044.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/044.mp3",
+          "size": "12.2 MB"
+        },
+        {
+          "n": 45,
+          "title": "كتاب الصيام: المجلس الأول",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/045.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/045.mp3",
+          "size": "14.2 MB"
+        },
+        {
+          "n": 46,
+          "title": "كتاب الصيام: المجلس الثاني",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/046.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/046.mp3",
+          "size": "16.1 MB"
+        },
+        {
+          "n": 47,
+          "title": "كتاب الصيام: المجلس الثالث",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/047.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/047.mp3",
+          "size": "13.0 MB"
+        },
+        {
+          "n": 48,
+          "title": "كتاب الصيام: المجلس الرابع والأخير",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/048.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/048.mp3",
+          "size": "8.5 MB"
+        },
+        {
+          "n": 49,
+          "title": "الدرس الخامس والأربعون: صفة الحج والعمرة",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/049.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/049.mp3",
+          "size": "8.3 MB"
+        },
+        {
+          "n": 50,
+          "title": "الدرس السادس والأربعون: الأماكن التي تشرع زيارتها في المدينة",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/050.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/050.mp3",
+          "size": "4.5 MB"
+        },
+        {
+          "n": 51,
+          "title": "الدرس السابع والأربعون: الأضحية والعقيقة",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/051.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/051.mp3",
+          "size": "7.0 MB"
+        },
+        {
+          "n": 52,
+          "title": "الدرس الثامن والأربعون: كتاب الجهاد",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/052.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/052.mp3",
+          "size": "7.1 MB"
+        },
+        {
+          "n": 53,
+          "title": "الدرس التاسع والأربعون: الأسرى والغنائم",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/053.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/053.mp3",
+          "size": "11.1 MB"
+        },
+        {
+          "n": 54,
+          "title": "الدرس الخمسون: في الهدنة والذمة والأمان",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/054.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/054.mp3",
+          "size": "8.0 MB"
+        },
+        {
+          "n": 55,
+          "title": "الدرس الحادي والخمسون: كتاب البيوع",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/055.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/055.mp3",
+          "size": "8.2 MB"
+        },
+        {
+          "n": 56,
+          "title": "الدرس الثاني والخمسون: كتاب البيوع: خيار البيع وشروطه",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/056.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/056.mp3",
+          "size": "13.7 MB"
+        },
+        {
+          "n": 57,
+          "title": "الدرس الثالث والخمسون: كتاب البيوع: البيوع المنهي عنها",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/057.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/057.mp3",
+          "size": "9.0 MB"
+        },
+        {
+          "n": 58,
+          "title": "الدرس الرابع والخمسون: كتاب البيوع: تتمة البيوع المنهي عنها إلى البيع بالتقسيط",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/058.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/058.mp3",
+          "size": "12.1 MB"
+        },
+        {
+          "n": 59,
+          "title": "الدرس الرابع والخمسون: كتاب البيوع: باب الربا",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/059.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/059.mp3",
+          "size": "9.3 MB"
+        },
+        {
+          "n": 60,
+          "title": "الدرس الخامس والخمسون: كتاب البيوع: باب القرض",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/060.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/060.mp3",
+          "size": "10.9 MB"
+        },
+        {
+          "n": 61,
+          "title": "الدرس السادس والخمسون: كتاب البيوع: الرَّهْن والسَّلَم",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/061.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/061.mp3",
+          "size": "14.0 MB"
+        },
+        {
+          "n": 62,
+          "title": "الدرس السابع والخمسون: كتاب البيوع: الحوالة والوكالة",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/062.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/062.mp3",
+          "size": "9.6 MB"
+        },
+        {
+          "n": 63,
+          "title": "الدرس الثامن والخمسون: كتاب البيوع: الكفالة والضَّمَان والحَجْر",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/063.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/063.mp3",
+          "size": "13.3 MB"
+        },
+        {
+          "n": 64,
+          "title": "الدرس التاسع والخمسون: كتاب البيوع: المزارعة والمساقاة والشفعة والجوار",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/064.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/064.mp3",
+          "size": "9.1 MB"
+        },
+        {
+          "n": 65,
+          "title": "الدرس الستون: كتاب البيوع: باب الوديعة والإتلافات",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/065.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/065.mp3",
+          "size": "9.8 MB"
+        },
+        {
+          "n": 66,
+          "title": "الدرس الحادي والستون: كتاب البيوع: الشركة والإجارة",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/066.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/066.mp3",
+          "size": "12.0 MB"
+        },
+        {
+          "n": 67,
+          "title": "الدرس الثاني والستون: كتاب البيوع: الغصب والصلح",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/067.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/067.mp3",
+          "size": "11.9 MB"
+        },
+        {
+          "n": 68,
+          "title": "الدرس الثالث والستون: كتاب البيوع: باب المسابقة",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/068.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/068.mp3",
+          "size": "10.0 MB"
+        },
+        {
+          "n": 69,
+          "title": "الدرس الرابع والستون: كتاب البيوع: العارِيَّة وإحياء الموات والجُعالة",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/069.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/069.mp3",
+          "size": "8.7 MB"
+        },
+        {
+          "n": 70,
+          "title": "الدرس الخامس والستون: كتاب البيوع: اللقطة واللقيط والوقف والهبة والعطيّة",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/070.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/070.mp3",
+          "size": "13.9 MB"
+        },
+        {
+          "n": 71,
+          "title": "الدرس السادس والستون: كتاب المواريث والوصايا والعتق",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/071.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/071.mp3",
+          "size": "10.5 MB"
+        },
+        {
+          "n": 72,
+          "title": "الدرس السابع والستون: كتاب المواريث والوصايا والعتق",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/072.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/072.mp3",
+          "size": "13.3 MB"
+        },
+        {
+          "n": 73,
+          "title": "الدرس الثامن والستون: كتاب المواريث والوصايا والعتق: (باب الفرائض والمواريث): القسم الأول",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/073.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/073.mp3",
+          "size": "11.2 MB"
+        },
+        {
+          "n": 74,
+          "title": "الدرس التاسع والستون: كتاب المواريث والوصايا والعتق: (باب الفرائض والمواريث): القسم الثاني",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/074.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/074.mp3",
+          "size": "12.6 MB"
+        },
+        {
+          "n": 75,
+          "title": "الدرس السبعون: كتاب المواريث والوصايا والعتق: (باب الفرائض والمواريث): القسم الثالث",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/075.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/075.mp3",
+          "size": "8.9 MB"
+        },
+        {
+          "n": 76,
+          "title": "الدرس الواحد والسبعون: كتاب النكاح والطلاق: باب النكاح (القسم الأول)",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/076.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/076.mp3",
+          "size": "12.1 MB"
+        },
+        {
+          "n": 77,
+          "title": "الدرس الثاني والسبعون: كتاب النكاح والطلاق: باب النكاح (القسم الثاني)",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/077.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/077.mp3",
+          "size": "11.4 MB"
+        },
+        {
+          "n": 78,
+          "title": "الدرس الثالث والسبعون: كتاب النكاح والطلاق",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/078.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/078.mp3",
+          "size": "14.6 MB"
+        },
+        {
+          "n": 79,
+          "title": "الدرس الرابع والسبعون: كتاب النكاح والطلاق",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/079.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/079.mp3",
+          "size": "12.6 MB"
+        },
+        {
+          "n": 80,
+          "title": "الدرس الخامس والسبعون: كتاب النكاح والطلاق",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/080.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/080.mp3",
+          "size": "12.5 MB"
+        },
+        {
+          "n": 81,
+          "title": "الدرس السادس والسبعون: كتاب النكاح والطلاق",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/081.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/081.mp3",
+          "size": "12.1 MB"
+        },
+        {
+          "n": 82,
+          "title": "الدرس السابع والسبعون: كتاب النكاح والطلاق",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/082.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/082.mp3",
+          "size": "10.4 MB"
+        },
+        {
+          "n": 83,
+          "title": "الدرس الثامن والسبعون: كتاب النكاح والطلاق",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/083.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/083.mp3",
+          "size": "14.2 MB"
+        },
+        {
+          "n": 84,
+          "title": "الدرس التاسع والسبعون: كتاب النكاح والطلاق",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/084.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/084.mp3",
+          "size": "14.1 MB"
+        },
+        {
+          "n": 85,
+          "title": "الدرس الثمانون: كتاب النكاح والطلاق",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/085.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/085.mp3",
+          "size": "12.7 MB"
+        },
+        {
+          "n": 86,
+          "title": "الدرس الحادي والثمانون: كتاب الجنايات",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/086.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/086.mp3",
+          "size": "13.9 MB"
+        },
+        {
+          "n": 87,
+          "title": "الدرس الثاني والثمانون: كتاب الجنايات",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/087.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/087.mp3",
+          "size": "12.2 MB"
+        },
+        {
+          "n": 88,
+          "title": "الدرس الثالث والثمانون: كتاب الجنايات",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/088.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/088.mp3",
+          "size": "13.1 MB"
+        },
+        {
+          "n": 89,
+          "title": "الدرس الرابع والثمانون: كتاب الجنايات",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/089.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/089.mp3",
+          "size": "9.8 MB"
+        },
+        {
+          "n": 90,
+          "title": "الدرس الخامس والثمانون: كتاب الحدود: تعريف الحدود ومشروعيتها",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/090.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/090.mp3",
+          "size": "9.3 MB"
+        },
+        {
+          "n": 91,
+          "title": "الدرس السادس والثمانون: كتاب الحدود",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/091.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/091.mp3",
+          "size": "11.4 MB"
+        },
+        {
+          "n": 92,
+          "title": "الدرس السابع والثمانون: كتاب الحدود",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/092.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/092.mp3",
+          "size": "14.7 MB"
+        },
+        {
+          "n": 93,
+          "title": "الدرس الثامن والثمانون: كتاب الحدود",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/093.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/093.mp3",
+          "size": "10.1 MB"
+        },
+        {
+          "n": 94,
+          "title": "الدرس التاسع والثمانون: كتاب الحدود",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/094.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/094.mp3",
+          "size": "13.8 MB"
+        },
+        {
+          "n": 95,
+          "title": "الدرس التسعون: كتاب الأيمان والنذور",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/095.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/095.mp3",
+          "size": "14.1 MB"
+        },
+        {
+          "n": 96,
+          "title": "الدرس الحادي والتسعون: كتاب الأيمان والنذور",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/096.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/096.mp3",
+          "size": "9.0 MB"
+        },
+        {
+          "n": 97,
+          "title": "الدرس الثاني والتسعون: كتاب الأطعمة، والذبائح، والصيد",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/097.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/097.mp3",
+          "size": "9.3 MB"
+        },
+        {
+          "n": 98,
+          "title": "الدرس الثالث والتسعون: كتاب الأطعمة، والذبائح، والصيد",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/098.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/098.mp3",
+          "size": "14.2 MB"
+        },
+        {
+          "n": 99,
+          "title": "الدرس الرابع والتسعون: كتاب الأطعمة، والذبائح، والصيد",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/099.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/099.mp3",
+          "size": "9.7 MB"
+        },
+        {
+          "n": 100,
+          "title": "الدرس الخامس والتسعون: كتاب الأطعمة، والذبائح، والصيد",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/100.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/100.mp3",
+          "size": "10.8 MB"
+        },
+        {
+          "n": 101,
+          "title": "الدرس السادس والتسعون: كتاب القضاء والشهادات",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/101.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/101.mp3",
+          "size": "15.8 MB"
+        },
+        {
+          "n": 102,
+          "title": "الدرس السابع والتسعون والأخير: كتاب القضاء والشهادات",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/102.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/fiqh-muyassar-hudhaify/102.mp3",
+          "size": "10.8 MB"
+        }
+      ]
+    }
+  ]
+}
