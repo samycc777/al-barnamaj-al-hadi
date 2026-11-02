@@ -309,8 +309,10 @@ export const categories = [
     slug: 'arabiyyah', name: 'علوم العربية', icon: 'pen', items: [], sections: [
       {
         title: 'محاضرات', first: true, items: [
-        { title: 'مدخل إلى علم اللغة العربية', type: 'audio', slug: 'madkhal-ilm-al-lughah-kouni', note: 'فضيلة الشيخ العلامة عبد الرحمن بن عوف كوني' },
+        { title: 'جهود أئمة اللغة في تقرير العقيدة', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/juhud-aimmat-al-lughah-kouni/juhud-aimmat-al-lughah-kouni.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/juhud-aimmat-al-lughah-kouni/juhud-aimmat-al-lughah-kouni.mp3', note: 'فضيلة الشيخ العلامة عبد الرحمن بن عوف كوني' },
+        { title: 'قيام علوم القرآن على اللغة العربية', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/qiyam-ulum-al-quran-ala-al-lughah-kouni/qiyam-ulum-al-quran-ala-al-lughah-kouni.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/qiyam-ulum-al-quran-ala-al-lughah-kouni/qiyam-ulum-al-quran-ala-al-lughah-kouni.mp3', note: 'فضيلة الشيخ العلامة عبد الرحمن بن عوف كوني' },
         { title: 'مبادئ علم اللغة العربية وضبطها', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/mabadi-ilm-al-lughah-kouni/mabadi-ilm-al-lughah-kouni.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/mabadi-ilm-al-lughah-kouni/mabadi-ilm-al-lughah-kouni.mp3', date: '1438/07/28', note: 'فضيلة الشيخ العلامة عبد الرحمن بن عوف كوني' },
+        { title: 'مدخل إلى علم اللغة العربية', type: 'audio', slug: 'madkhal-ilm-al-lughah-kouni', note: 'فضيلة الشيخ العلامة عبد الرحمن بن عوف كوني' },
         ],
       },
       {
