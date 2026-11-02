@@ -40,7 +40,7 @@ Cloudflare builds with `npm run build` and serves `dist/`. Deploying = pushing `
 
 - The GitHub repo is public (open source; Zaid asked). Never commit keys: `.env*`, `*.jks` are gitignored.
 - `android/`: the Android app (APK), a Trusted Web Activity that shows the live site full screen, so site changes need no app update. `.github/workflows/android.yml` builds and signs it on a push touching `android/` (or `gh workflow run android.yml`) and publishes a GitHub release; https://al-barnamaj-al-hadi.pages.dev/app.apk redirects to the latest. Signing key: `~/.config/al-hadi-android/` (keystore, password, sha256) and Actions secrets `ANDROID_KEYSTORE_B64`/`ANDROID_KEYSTORE_PASSWORD`; its fingerprint is in `/.well-known/assetlinks.json` (build.mjs). Losing the key = users must uninstall to update.
-- Google: not verified yet. Plan: Bilal enables the Site Verification and Search Console APIs on GCP project 260237133433; then the service account (`~/.config/google-play/service-account.json`) gets a FILE token, the build serves `google<hex>.html`, verify, add samycc777@gmail.com as owner, submit the sitemap.
+- Google: verified (file `google7c565d2e729adcd8.html` from build.mjs; keep it), owners samycc777@gmail.com + the service account `~/.config/google-play/service-account.json` (Site Verification and Search Console APIs on). Sitemap submitted via the Search Console API: https://search.google.com/search-console?resource_id=https%3A%2F%2Fal-barnamaj-al-hadi.pages.dev%2F
 
 ## The brother's inbox
 
