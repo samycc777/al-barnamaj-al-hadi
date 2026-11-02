@@ -356,6 +356,7 @@ function bookPage(c, it) {
   const head = `<div class="book-head">
       <a class="crumb" href="/${c.slug}/">${esc(c.name)}</a>
       ${it.note ? `<div class="book-note">${txt(it.note)}</div>` : ''}
+      <button class="share-btn" type="button">مشاركة</button>
     </div>${choice(c, it)}${it.warning ? `<p class="book-warning"><b>تنبيه:</b> ${txt(it.warning)}</p>` : ''}`;
 
   return layout({ title: it.title, active: c.slug, path: `/${c.slug}/${it.slug}/`, main: panel(it.title, c.icon, head + body), extra: PLAYER(), description: [it.title, it.note].filter(Boolean).join(' — ') });

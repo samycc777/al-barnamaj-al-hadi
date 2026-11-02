@@ -5,7 +5,9 @@
 // - On a book's page the next lesson plays when one ends.
 // - Silent stretches a lesson lists (data-skip) are jumped over.
 // - The bar has 15-second back/forward and speed buttons (the speed is kept).
-// - The phone's lock screen shows the lesson and book and has the same buttons.
+// - The phone's lock screen shows the lesson and book and has the same buttons
+//   (and the position bar: setPositionState).
+// - The share button in a book's head shares the book's page.
 // - The last lesson played is kept ("last", once it starts playing) for the
 //   home page's card. A failed load offers the lesson's download link.
 // - A link ending in #l-12 (search) or #play=<audio> (the home page's card)
@@ -54,6 +56,16 @@
     set('rate', rate);
     showRate();
   });
+
+  // Lock-screen position bar.
+  function position() {
+    try {
+      if ('mediaSession' in navigator && au.duration && isFinite(au.duration)) {
+        navigator.mediaSession.setPositionState({ duration: au.duration, position: Math.min(au.currentTime, au.duration), playbackRate: au.playbackRate });
+      }
+    } catch (e) {}
+  }
+  ['loadedmetadata', 'ratechange', 'seeked'].forEach(function (ev) { au.addEventListener(ev, position); });
 
   function seek(by) {
     if (!cur) return;
@@ -122,6 +134,7 @@
     if (au.duration && saved >= au.duration * 0.97) { set('heard:' + src, '1'); del('pos:' + src); }
     else set('pos:' + src, Math.floor(saved) + '/' + Math.floor(au.duration || 0));
     mark(cur);
+    position();
   });
   au.addEventListener('ended', function () {
     set('heard:' + cur.dataset.src, '1');
@@ -151,6 +164,9 @@
     var on = function (action, fn) { try { navigator.mediaSession.setActionHandler(action, fn); } catch (e) {} };
     on('seekbackward', function () { seek(-15); });
     on('seekforward', function () { seek(15); });
+    on('seekto', function (d) { if (cur && d && d.seekTime != null) au.currentTime = d.seekTime; });
+    on('play', play);
+    on('pause', function () { au.pause(); });
     if (bookPage) {
       on('nexttrack', function () { step(1); });
       on('previoustrack', function () { step(-1); });
@@ -172,4 +188,19 @@
   }
   openFromLink();
   window.addEventListener('hashchange', openFromLink);
+
+  // Share the book's page (the phone's share sheet, else copy the link).
+  var shareBtn = document.querySelector('.share-btn');
+  if (shareBtn) shareBtn.addEventListener('click', function () {
+    var url = location.href.split('#')[0], title = document.querySelector('.panel-head h2').textContent.trim();
+    if (navigator.share && matchMedia('(pointer: coarse)').matches) {
+      navigator.share({ title: title, url: url }).catch(function () {});
+      return;
+    }
+    var label = shareBtn.textContent;
+    (navigator.clipboard ? navigator.clipboard.writeText(url) : Promise.reject()).then(function () {
+      shareBtn.textContent = 'نُسخ الرابط';
+      setTimeout(function () { shareBtn.textContent = label; }, 2000);
+    }, function () { prompt('الرابط:', url); });
+  });
 })();

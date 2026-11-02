@@ -277,6 +277,8 @@ main.container { padding: 28px 0 40px; }
 
 /* ---- A book's page: chapters, lessons and the audio player ---- */
 .book-head { margin: -18px -18px 0; padding: 12px 18px; border-bottom: 1px solid var(--row-line); display: flex; flex-wrap: wrap; align-items: center; gap: 6px 16px; font-size: 14px; }
+.share-btn { font: inherit; color: var(--brown-2); background: none; border: 1px solid currentColor; border-radius: 6px; padding: 0 .7em; line-height: 1.7; cursor: pointer; margin-inline-start: auto; }
+.share-btn:hover, .share-btn:focus-visible { color: var(--brown-3); }
 .crumb::before { content: "‹ "; }
 .book-note { color: var(--ink-2); flex: 1; }
 .book-head + .rows, .book-warning + .rows, .variants + .rows { margin-top: 0; }

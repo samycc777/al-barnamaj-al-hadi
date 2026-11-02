@@ -6,7 +6,7 @@
 - `check.mjs` wants mp3 audio (AAC/m4a must go to R2 as mp3); mimham's `audcha-…` addresses without `.mp3` are allowed.
 - `assets/`: `style.css` (colour tokens at the top), `favicon.svg`, `apple-touch-icon.png` (180 px, from the favicon) and `og.jpg` (1200×630 link-preview picture: site name and description; remake it if either changes).
 - Web app: `assets/manifest.webmanifest` with `icon-192.png`/`icon-512.png` (the favicon without rounded corners, `sips` from SVG) and `src/sw.js` (copied to `/sw.js`; network first, cache only offline; skips audio, `/api/`, `/inbox/`). The inbox page has no manifest, so its home-screen icon keeps the key. Bump `CACHE` in `sw.js` only if its logic changes.
-- The player (`PLAYER()` in `build.mjs`, `assets/player.js`) remembers each lesson's position and marks heard lessons (localStorage), has ±15 s and speed buttons, plays the next lesson on a book page, shows lesson/book/shaykh on the phone's lock screen, and says so when a file fails to load. `#l-<n>` (search results) or `#play=<audio>` (continue card) in a book's address opens that lesson.
+- The player (`PLAYER()` in `build.mjs`, `assets/player.js`) remembers each lesson's position and marks heard lessons (localStorage), has ±15 s and speed buttons, plays the next lesson on a book page, shows lesson/book/shaykh on the phone's lock screen (with the position bar and seeking), has a share button in each book's head (`.share-btn`, handled in `player.js`), and says so when a file fails to load. `#l-<n>` (search results) or `#play=<audio>` (continue card) in a book's address opens that lesson.
 
 ## Audio hosts
 
