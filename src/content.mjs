@@ -308,6 +308,12 @@ export const categories = [
   {
     slug: 'arabiyyah', name: 'علوم العربية', icon: 'pen', items: [], sections: [
       {
+        title: 'محاضرات', first: true, items: [
+        { title: 'مدخل إلى علم اللغة العربية', type: 'audio', slug: 'madkhal-ilm-al-lughah-kouni', note: 'فضيلة الشيخ العلامة عبد الرحمن بن عوف كوني' },
+        { title: 'مبادئ علم اللغة العربية وضبطها', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/mabadi-ilm-al-lughah-kouni/mabadi-ilm-al-lughah-kouni.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/mabadi-ilm-al-lughah-kouni/mabadi-ilm-al-lughah-kouni.mp3', date: '1438/07/28', note: 'فضيلة الشيخ العلامة عبد الرحمن بن عوف كوني' },
+        ],
+      },
+      {
         title: 'النحو', items: [
         { title: 'التعليق على الدرة اليتيمة', type: 'audio', slug: 'ad-durrah-al-yatimah', warning: 'توقف شرح الشيخ في باب الاستثناء، ولم يشرح ما بعده إلى آخر المنظومة.', note: 'فضيلة الشيخ العلامة محمد بن صالح العثيمين (ت 1421هـ)' },
         { title: 'شرح ملحة الإعراب للإمام القاسم بن علي الحريري (ت 516هـ)', type: 'audio', slug: 'mulhat-al-irab-kouni', note: 'فضيلة الشيخ العلامة عبد الرحمن بن عوف كوني' },
