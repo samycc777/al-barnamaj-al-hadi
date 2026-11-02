@@ -34,10 +34,10 @@
         var k = s.key(i), val = s.getItem(k);
         if (k.indexOf('heard:') === 0 && val === '1') d.h.push(k.slice(6));
         else if (k.indexOf('pos:') === 0) d.p[k.slice(4)] = val;
-        else if (k.indexOf('book:') === 0) d.b[k.slice(5)] = JSON.parse(val);
+        else if (k.indexOf('book:') === 0) { try { d.b[k.slice(5)] = JSON.parse(val); } catch (e) {} }
       }
       if (s.getItem('rate')) d.r = s.getItem('rate');
-      if (s.getItem('last')) d.l = JSON.parse(s.getItem('last'));
+      try { if (s.getItem('last')) d.l = JSON.parse(s.getItem('last')); } catch (e) {}
     });
     return d;
   }
@@ -50,7 +50,7 @@
     var m = /#c=([zj][A-Za-z0-9_-]+)/.exec(code) || /^\s*([zj][A-Za-z0-9_-]{8,})\s*$/.exec(code);
     if (!m) return Promise.reject();
     var bytes = unb64(m[1].slice(1));
-    var go = m[1][0] === 'z' ? (Z ? pipe(bytes, new DecompressionStream('deflate-raw')) : Promise.reject()) : Promise.resolve(bytes);
+    var go = m[1][0] === 'z' ? (Z ? pipe(bytes, new DecompressionStream('deflate-raw')) : Promise.reject('old')) : Promise.resolve(bytes);
     return go.then(function (b) {
       var d = JSON.parse(new TextDecoder().decode(b));
       if (d.v !== 1 || !Array.isArray(d.h)) throw 0;
@@ -107,6 +107,10 @@
   });
 
   // To this device: from the link it was opened with, or a pasted one.
+  // A browser too old to unpack the link says so instead of blaming the link.
+  function failed(why) {
+    $('in-status').textContent = why === 'old' ? 'هذا المتصفح قديم لا يقرأ الرابط؛ حدّثه أو افتح الرابط في متصفح آخر.' : 'الرابط غير صالح أو ناقص.';
+  }
   var found = null;
   function show(d) {
     found = d;
@@ -115,7 +119,7 @@
   }
   if (location.hash.indexOf('#c=') === 0) {
     $('code').value = location.href;
-    decode(location.hash).then(show, function () { $('in-status').textContent = 'الرابط غير صالح أو ناقص.'; });
+    decode(location.hash).then(show, failed);
   }
   $('import').addEventListener('click', function () {
     (found && $('code').value === location.href ? Promise.resolve(found) : decode($('code').value)).then(function (d) {
@@ -123,6 +127,6 @@
       $('in-status').textContent = 'تم الاستيراد. الدروس المسموعة المضافة إلى هذا الجهاز: ' + ar(n) + '.';
       history.replaceState(null, '', '/transfer/');
       found = null;
-    }, function () { $('in-status').textContent = 'الرابط غير صالح أو ناقص.'; });
+    }, failed);
   });
 })();
