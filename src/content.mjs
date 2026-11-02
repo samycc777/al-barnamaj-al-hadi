@@ -237,8 +237,8 @@ export const categories = [
     slug: 'fiqh', name: 'الفقه', icon: 'scale', items: [], sections: [
       {
         title: 'فقه السنة', items: [
-        { title: 'شرح تلخيص صفة صلاة النبي ﷺ للإمام محمد ناصر الدين بن نوح الألباني (ت 1420هـ)', type: 'audio', slug: 'sharh-talkhis-sifat-as-salah-nizar', note: 'فضيلة الشيخ نزار بن هاشم العباس' },
-        { title: 'شرح الفقه الميسر', type: 'audio', slug: 'sharh-al-fiqh-al-muyassar-hudhaify', note: 'فضيلة الشيخ علي بن حسين الحذيفي العدني' },
+        { title: 'شرح تلخيص صفة صلاة النبي ﷺ للإمام محمد ناصر الدين بن نوح الألباني (ت 1420هـ)', type: 'audio', slug: 'sharh-talkhis-sifat-as-salah-nizar', note: 'فضيلة الشيخ العالم نزار بن هاشم العباس' },
+        { title: 'شرح الفقه الميسر', type: 'audio', slug: 'sharh-al-fiqh-al-muyassar-hudhaify', note: 'فضيلة الشيخ العالم علي بن حسين الحذيفي العدني' },
         ],
       },
       {
