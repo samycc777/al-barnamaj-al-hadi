@@ -8,6 +8,7 @@
     "dev": "node scripts/dev.mjs",
     "import": "node scripts/import-lessons.mjs",
     "inbox": "node scripts/inbox.mjs",
-    "links": "node scripts/check-links.mjs"
+    "links": "node scripts/check-links.mjs",
+    "indexnow": "node scripts/indexnow.mjs"
   }
 }

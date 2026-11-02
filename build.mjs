@@ -2,6 +2,7 @@
 import { mkdirSync, rmSync, writeFileSync, cpSync, readFileSync, readdirSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { site, categories, itemsOf, removed } from './src/content.mjs';
+import { INDEXNOW_KEY } from './src/indexnow-key.mjs';
 import { mirrorKey } from './scripts/mirror-key.mjs';
 
 // `npm run check` builds into its own folder so it never races the preview,
@@ -447,6 +448,12 @@ writeFileSync(`${OUT}/sitemap.xml`, `<?xml version="1.0" encoding="UTF-8"?>
 ${pagePaths.map((p) => `<url><loc>${site.url}${p}</loc></url>`).join('\n')}
 </urlset>
 `);
+// The Android app (android/) is allowed to show the site full screen: its signing key's fingerprint.
+mkdirSync(`${OUT}/.well-known`, { recursive: true });
+writeFileSync(`${OUT}/.well-known/assetlinks.json`, JSON.stringify([{ relation: ['delegate_permission/common.handle_all_urls'],
+  target: { namespace: 'android_app', package_name: 'dev.pages.albarnamajalhadi', sha256_cert_fingerprints: ['A7:BC:9A:EB:0C:F1:5C:3F:26:51:AB:5E:24:AB:DF:38:D8:35:C5:E3:9D:6D:52:AB:28:31:E5:B5:BF:45:C9:2E'] } }]));
+// IndexNow key file (src/indexnow-key.mjs).
+writeFileSync(`${OUT}/${INDEXNOW_KEY}.txt`, INDEXNOW_KEY);
 writeFileSync(`${OUT}/robots.txt`, `User-agent: *\nAllow: /\nSitemap: ${site.url}/sitemap.xml\n`);
 // Lessons titled with a file name only ("الدرس ٣" on the page) aren't worth finding.
 writeFileSync(`${OUT}/assets/search.json`, JSON.stringify({ pages: search.pages, chapters: search.chapters, lessons: search.lessons.filter((l) => l[0]) }));
@@ -477,5 +484,7 @@ ${assetFiles.map((f) => `/assets/${f}\n  Cache-Control: public, max-age=3600`).j
   X-Robots-Tag: noindex, nofollow
   Referrer-Policy: no-referrer
 `);
-writeFileSync(`${OUT}/_redirects`, removed.map(([from, to]) => `${from} ${to} 301\n${from.slice(0, -1)} ${to} 301`).join('\n') + '\n');
+writeFileSync(`${OUT}/_redirects`, removed.map(([from, to]) => `${from} ${to} 301\n${from.slice(0, -1)} ${to} 301`).join('\n') + '\n'
+  // The Android app: always the latest build (.github/workflows/android.yml).
+  + '/app.apk https://github.com/samycc777/al-barnamaj-al-hadi/releases/latest/download/al-barnamaj-al-hadi.apk 302\n');
 console.log(`Built ${categories.length + books.length + 4} pages into ${OUT}/`);
