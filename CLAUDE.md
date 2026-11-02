@@ -36,6 +36,12 @@ Live at https://al-barnamaj-al-hadi.pages.dev (Cloudflare Pages project `al-barn
 
 Cloudflare builds with `npm run build` and serves `dist/`. Deploying = pushing `main` to GitHub (a push needs the user's OK only if they haven't asked for the change to go live).
 
+## Android app, search engines, open source
+
+- The GitHub repo is public (open source; Zaid asked). Never commit keys: `.env*`, `*.jks` are gitignored.
+- `android/`: the Android app (APK), a Trusted Web Activity that shows the live site full screen, so site changes need no app update. `.github/workflows/android.yml` builds and signs it on a push touching `android/` (or `gh workflow run android.yml`) and publishes a GitHub release; https://al-barnamaj-al-hadi.pages.dev/app.apk redirects to the latest. Signing key: `~/.config/al-hadi-android/` (keystore, password, sha256) and Actions secrets `ANDROID_KEYSTORE_B64`/`ANDROID_KEYSTORE_PASSWORD`; its fingerprint is in `/.well-known/assetlinks.json` (build.mjs). Losing the key = users must uninstall to update.
+- Google: verified in Search Console through the Google service account (`~/.config/google-play/service-account.json`, Site Verification + Search Console APIs), sitemap submitted; Bilal is an owner there. Bing and others: `npm run indexnow` after a deploy that adds pages (key in `src/indexnow-key.mjs`).
+
 ## The brother's inbox
 
 The brother (Zayd bin Ibrahim al-Jazairi, runs the programme; the user says "the brother", never "manager") sends new additions from https://al-barnamaj-al-hadi.pages.dev/inbox/ (not linked anywhere; his link carries the key: `/inbox/#key=<INBOX_KEY>`). Page built by `inboxPage()` in `build.mjs` with `assets/inbox.js`; `functions/api/inbox/` stores messages and files in the private R2 bucket `al-barnamaj-al-hadi-inbox` (binding `INBOX` in `wrangler.toml`). `INBOX_KEY` is a Pages secret, also in `.env.local`. When the user asks for the brother's new additions:

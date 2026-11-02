@@ -11,3 +11,11 @@ dist-check/
 
 # Audio waiting for its R2 upload (see docs/notes/pending.md).
 /media-pending/
+
+# Android build output.
+/android/.gradle/
+/android/build/
+/android/app/build/
+/android/local.properties
+*.jks
+*.apk
