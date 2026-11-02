@@ -18,3 +18,5 @@
 
 
 - Manarat al-Muqarribin 17–18 (checked): mpubs has audio only for classes 1–14 (Arabic+English, shorter than our archive.org set); classes 15–17 are text summaries without audio; no class 18. Nothing to add.
+
+- al-Wusaifi's شرح نقض الدارمي على المريسي: Zaid cancelled it (not added). Facts if asked again: mpubs files 404 from Egypt, Wayback has 49 of 50 (class 3 only as a Telegram post, no public file); English comes as blocks after each Arabic block (cut by language ID per 6 s window, ~43% of the length stays); Modal workspace was disabled mid-run.
