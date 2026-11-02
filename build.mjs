@@ -454,6 +454,8 @@ writeFileSync(`${OUT}/.well-known/assetlinks.json`, JSON.stringify([{ relation: 
   target: { namespace: 'android_app', package_name: 'dev.pages.albarnamajalhadi', sha256_cert_fingerprints: ['A7:BC:9A:EB:0C:F1:5C:3F:26:51:AB:5E:24:AB:DF:38:D8:35:C5:E3:9D:6D:52:AB:28:31:E5:B5:BF:45:C9:2E'] } }]));
 // IndexNow key file (src/indexnow-key.mjs).
 writeFileSync(`${OUT}/${INDEXNOW_KEY}.txt`, INDEXNOW_KEY);
+// Google Search Console ownership file (token from the Site Verification API).
+writeFileSync(`${OUT}/google7c565d2e729adcd8.html`, 'google-site-verification: google7c565d2e729adcd8.html');
 writeFileSync(`${OUT}/robots.txt`, `User-agent: *\nAllow: /\nSitemap: ${site.url}/sitemap.xml\n`);
 // Lessons titled with a file name only ("الدرس ٣" on the page) aren't worth finding.
 writeFileSync(`${OUT}/assets/search.json`, JSON.stringify({ pages: search.pages, chapters: search.chapters, lessons: search.lessons.filter((l) => l[0]) }));
