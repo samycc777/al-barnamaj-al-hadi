@@ -1,7 +1,7 @@
 # Site internals (read when changing the build, player, web app or audio hosting)
 
 - `build.mjs`: builds static pages into `dist/` (home, `/<category>/`, `/<category>/<book>/`, `/search/`, `404.html`), plus `assets/search.json` (the search index) and `_headers` (Content-Security-Policy and other headers; `/inbox/` gets noindex). No dependencies. Icons are SVG line icons in `ICONS`, written once per page as a sprite and used with `icon()` (sun and moon are taken by the night-mode button).
-- No inline scripts or `style=`/`onclick=` attributes: the CSP blocks them. The only inline script is the theme snippet `THEME`, whose hash build.mjs puts in the CSP. Scripts are files: `assets/site.js` (menu, night mode, home page's continue card, service worker), `assets/player.js` (the player), `assets/search.js` (search page).
+- No inline scripts or `style=`/`onclick=` attributes: the CSP blocks them. The only inline script is the theme snippet `THEME`, whose hash build.mjs puts in the CSP. Scripts are files: `assets/site.js` (menu, night mode, home page's continue card, service worker), `assets/player.js` (the player), `assets/search.js` (search page), `assets/transfer.js` (`/transfer/`: progress moved to another device).
 - Fonts are self-hosted in `assets/fonts/` (Google Fonts' Arabic and Latin parts; `@font-face` at the top of `style.css`).
 - `check.mjs` wants mp3 audio (AAC/m4a must go to R2 as mp3); mimham's `audcha-…` addresses without `.mp3` are allowed.
 - `assets/`: `style.css` (colour tokens at the top), `favicon.svg`, `apple-touch-icon.png` (180 px, from the favicon) and `og.jpg` (1200×630 link-preview picture: site name and description; remake it if either changes).

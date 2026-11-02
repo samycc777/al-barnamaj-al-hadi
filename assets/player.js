@@ -4,7 +4,12 @@
 //   and whether it was heard to the end ("heard:<audio>"); rows show both.
 // - On a book's page the next lesson plays when one ends.
 // - Silent stretches a lesson lists (data-skip) are jumped over.
-// - The bar has 15-second back/forward and speed buttons (the speed is kept).
+// - The bar has 15-second back/forward and speed buttons (the speed is kept),
+//   and a sleep timer: stop after 15/30/60 minutes or at the lesson's end (kept
+//   for this tab only, "sleep" in sessionStorage, so a reload keeps it).
+// - A book's page shows how many of its lessons were heard, and keeps that
+//   ("book:<path>" = {t: title, h: heard, n: lessons, at: last listened}) for
+//   the category page and the home page's list of books started.
 // - The phone's lock screen shows the lesson and book and has the same buttons
 //   (and the position bar: setPositionState).
 // - The share button in a book's head shares the book's page.
@@ -37,6 +42,29 @@
   }
   rows().forEach(mark);
 
+  // How much of this book was heard. `at` changes only while listening, so a
+  // visit alone doesn't move the book up the home page's list.
+  var progBox = document.querySelector('.book-progress');
+  function bookProgress(listening) {
+    if (!bookPage) return;
+    var all = rows(), h = 0, started = false, key = 'book:' + location.pathname;
+    all.forEach(function (r) {
+      if (r.classList.contains('heard')) h++;
+      else if (r.classList.contains('started')) started = true;
+    });
+    var old = null;
+    try { old = JSON.parse(get(key)); } catch (e) {}
+    if (h || started || listening) {
+      set(key, JSON.stringify({ t: document.querySelector('.panel-head h2').textContent.trim(), h: h, n: all.length, at: listening || !old ? Date.now() : old.at }));
+    } else if (old) del(key);
+    if (progBox) {
+      progBox.hidden = !h;
+      progBox.querySelector('span').textContent = 'استمعت: ' + h.toLocaleString('ar-EG') + ' من ' + all.length.toLocaleString('ar-EG');
+      progBox.style.setProperty('--done', Math.round(h / all.length * 100) + '%');
+    }
+  }
+  bookProgress(false);
+
   function sync() {
     rows().forEach(function (r) {
       var on = r === cur && !au.paused;
@@ -56,6 +84,41 @@
     set('rate', rate);
     showRate();
   });
+
+  // Sleep timer: each tap moves to the next choice; the button shows the
+  // minutes left. Checked on timeupdate (which keeps firing on a locked phone
+  // while the sound plays) and by a timer as a backup.
+  var SLEEPS = [0, 15, 30, 60, 'end'], sleepBtn = bar.querySelector('.sleep'), sleepTimer = null;
+  var sleep = { mode: 0, until: 0 };
+  try { sleep = JSON.parse(sessionStorage.getItem('sleep')) || sleep; } catch (e) {}
+  if (sleep.mode !== 'end' && !(sleep.until > Date.now())) sleep = { mode: 0, until: 0 };
+  function showSleep() {
+    var label = sleepBtn.querySelector('span'), left;
+    if (sleep.mode === 'end') label.textContent = 'نهاية الدرس';
+    else if (sleep.mode) {
+      left = Math.max(1, Math.ceil((sleep.until - Date.now()) / 60000));
+      label.textContent = left.toLocaleString('ar-EG') + ' د';
+    } else label.textContent = '';
+    sleepBtn.classList.toggle('on', !!sleep.mode);
+    sleepBtn.setAttribute('aria-label', sleep.mode === 'end' ? 'إيقاف بعد مدة: في نهاية الدرس'
+      : sleep.mode ? 'إيقاف بعد مدة: بعد ' + left + ' دقيقة' : 'إيقاف بعد مدة');
+  }
+  function setSleep(mode) {
+    sleep = { mode: mode, until: typeof mode === 'number' && mode ? Date.now() + mode * 60000 : 0 };
+    try { sessionStorage.setItem('sleep', JSON.stringify(sleep)); } catch (e) {}
+    clearInterval(sleepTimer);
+    if (sleep.until) sleepTimer = setInterval(checkSleep, 20000);
+    showSleep();
+  }
+  function checkSleep() {
+    if (!sleep.until) return;
+    if (Date.now() >= sleep.until) { au.pause(); setSleep(0); }
+    else showSleep();
+  }
+  sleepBtn.addEventListener('click', function () { setSleep(SLEEPS[(SLEEPS.indexOf(sleep.mode) + 1) % SLEEPS.length]); });
+  // A reload keeps the time already counted.
+  if (sleep.until) sleepTimer = setInterval(checkSleep, 20000);
+  showSleep();
 
   // Lock-screen position bar.
   function position() {
@@ -126,6 +189,7 @@
     });
   }
   au.addEventListener('timeupdate', function () {
+    checkSleep();
     if (cur && cur.dataset.skip) skipSilence();
     if (!cur || Math.abs(au.currentTime - saved) < 5) return;
     saved = au.currentTime;
@@ -134,12 +198,15 @@
     if (au.duration && saved >= au.duration * 0.97) { set('heard:' + src, '1'); del('pos:' + src); }
     else set('pos:' + src, Math.floor(saved) + '/' + Math.floor(au.duration || 0));
     mark(cur);
+    bookProgress(true);
     position();
   });
   au.addEventListener('ended', function () {
     set('heard:' + cur.dataset.src, '1');
     del('pos:' + cur.dataset.src);
     mark(cur);
+    bookProgress(true);
+    if (sleep.mode === 'end') { setSleep(0); return; }
     if (!bookPage || !step(1)) del('last');
   });
   au.addEventListener('playing', function () {

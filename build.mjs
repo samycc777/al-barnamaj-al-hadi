@@ -58,6 +58,7 @@ const ICONS = {
   search: '<circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5l5 5"/>',
   back: '<path d="M4.5 12a7.5 7.5 0 1 0 2.2-5.3"/><path d="M4.5 3.5v4h4"/>',
   fwd: '<path d="M19.5 12a7.5 7.5 0 1 1-2.2-5.3"/><path d="M19.5 3.5v4h-4"/>',
+  hourglass: '<path d="M6.5 3h11M6.5 21h11"/><path d="M7.5 3c0 4.5 4.5 6 4.5 9s-4.5 4.5-4.5 9M16.5 3c0 4.5-4.5 6-4.5 9s4.5 4.5 4.5 9"/><path d="M10 18.5h4"/>',
 };
 // Each icon is drawn once per page (a hidden sprite at the top of the body,
 // made by layout()) and used by reference, so long lesson lists stay light.
@@ -132,13 +133,17 @@ const commentaries = (c, it) => {
   return itemsOf(c).filter((x) => x.slug && (x.slug === first || x.variantOf === first));
 };
 
+// How much of a book this visitor has heard, filled in by assets/site.js from
+// what assets/player.js saved on the book's page ("book:<path>"). Empty until then.
+const mine = (c, x) => `<span class="mine" data-book="/${c.slug}/${x.slug}/" hidden></span>`;
+
 function itemRow(it, c) {
   const t = TYPE[it.type] || TYPE.link;
   const book = it.slug && lessonsOf(it);
   const all = book ? commentaries(c, it) : [];
   const meta = (all.length > 1 ? [
     `<span>عدد الشروح: ${all.length}</span>`,
-    `<span class="notes">${all.map((x) => `<span>${txt(x.note)} ${countNote(x)}</span>`).join(' ')}</span>`,
+    `<span class="notes">${all.map((x) => `<span class="note-line"><a href="/${c.slug}/${x.slug}/">${txt(x.note)}</a> ${countNote(x)}${mine(c, x)}</span>`).join('')}</span>`,
   ] : [
     book && `<span>عدد الدروس: ${lessonCount(book)}</span>`,
     it.date && `<span>${esc(it.date)}</span>`,
@@ -155,7 +160,7 @@ function itemRow(it, c) {
   const id = !book && it.audio ? ` id="${nextRow(it.title)}"` : '';
   return `<li class="row${it.audio ? ' lesson' : ''}"${id}${it.audio ? audioAttrs(it) : ''}>
       <span class="row-ic">${icon(t.icon)}</span>
-      <div class="row-body"><div class="row-title">${book ? `<a href="/${c.slug}/${it.slug}/">${txt(it.title)}</a>` : txt(it.title)}</div>${meta ? `<div class="row-meta">${meta}</div>` : ''}</div>
+      <div class="row-body"><div class="row-title">${book ? `<a href="/${c.slug}/${it.slug}/">${txt(it.title)}</a>` : txt(it.title)}</div>${meta ? `<div class="row-meta">${meta}</div>` : ''}${book && all.length < 2 ? `<div class="row-meta">${mine(c, it)}</div>` : ''}</div>
       ${btn}
     </li>`;
 }
@@ -277,8 +282,10 @@ function homePage() {
       <span class="row-ic">${icon('mic')}</span>
       <div class="row-body"><div class="row-title"></div><div class="row-meta"><span></span></div></div>
       <a class="round-btn" href="/" title="متابعة">${icon('play')}</a>
-    </li></ul></div>
+    </li></ul><ul class="rows my-books"></ul>
+    <p class="move-link"><a href="/transfer/">نقل التقدّم إلى جهاز آخر</a></p></div>
   </section>`;
+  icon('chevron'); // the started books' buttons (site.js)
   return layout({ active: 'home', main: `${last}<section class="panel"><div class="panel-body"><div class="cat-grid">${cards}</div></div></section>` });
 }
 
@@ -291,6 +298,7 @@ const PLAYER = () => `<div class="player" hidden>
     <audio controls preload="none"></audio>
     <button class="pbtn fwd" type="button" title="تقديم ١٥ ثانية" aria-label="تقديم 15 ثانية"><span>15</span>${icon('fwd')}</button>
     <button class="pbtn rate" type="button" title="سرعة التشغيل" aria-label="سرعة التشغيل">1×</button>
+    <button class="pbtn sleep" type="button" title="إيقاف بعد مدة" aria-label="إيقاف بعد مدة">${icon('hourglass')}<span></span></button>
   </div>
 </div>
 <script src="${v('player.js')}" defer></script>`
@@ -358,6 +366,7 @@ function bookPage(c, it) {
       <a class="crumb" href="/${c.slug}/">${esc(c.name)}</a>
       ${it.note ? `<div class="book-note">${txt(it.note)}</div>` : ''}
       <button class="share-btn" type="button">مشاركة</button>
+      <div class="book-progress" hidden><span></span><i></i></div>
     </div>${choice(c, it)}${it.warning ? `<p class="book-warning"><b>تنبيه:</b> ${txt(it.warning)}</p>` : ''}`;
 
   return layout({ title: it.title, active: c.slug, path: `/${c.slug}/${it.slug}/`, main: panel(it.title, c.icon, head + body), extra: PLAYER(), description: [it.title, it.note].filter(Boolean).join(' — ') });
@@ -417,6 +426,24 @@ function searchPage() {
   return layout({ title: 'البحث', active: 'search', path: '/search/', main: panel('البحث', 'search', body), extra: `<script src="${v('search.js')}" defer></script>` });
 }
 
+// Moving this visitor's listening (lessons heard, places stopped, speed) to
+// another phone or computer: a link that carries it all after its # (never
+// sent to the server), made and read by assets/transfer.js.
+function transferPage() {
+  const body = `<div class="transfer">
+      <h3>من هذا الجهاز</h3>
+      <p id="out-status" class="muted"></p>
+      <p class="actions" id="out-actions" hidden><button class="btn" type="button" id="share">مشاركة الرابط</button> <button class="btn btn-2" type="button" id="copy">نسخ الرابط</button></p>
+      <h3>إلى هذا الجهاز</h3>
+      <p id="in-found" class="muted" hidden></p>
+      <label for="code" class="muted">افتح الرابط على الجهاز الجديد، أو الصقه هنا:</label>
+      <textarea id="code" dir="ltr" rows="3" autocomplete="off" spellcheck="false"></textarea>
+      <p class="actions"><button class="btn" type="button" id="import">استيراد</button></p>
+      <p id="in-status" role="status" aria-live="polite"></p>
+    </div>`;
+  return layout({ title: 'نقل التقدّم', active: '', path: '/transfer/', main: panel('نقل التقدّم إلى جهاز آخر', 'send', body), extra: `<script src="${v('transfer.js')}" defer></script>` });
+}
+
 function notFound() {
   const main = panel('الصفحة غير موجودة', 'info', `<p class="center"><a class="btn" href="/">الرئيسية</a></p>`);
   return layout({ title: 'الصفحة غير موجودة', active: '', main });
@@ -432,6 +459,8 @@ mkdirSync(`${OUT}/inbox`, { recursive: true });
 write(`${OUT}/inbox/index.html`, inboxPage());
 mkdirSync(`${OUT}/search`, { recursive: true });
 write(`${OUT}/search/index.html`, searchPage());
+mkdirSync(`${OUT}/transfer`, { recursive: true });
+write(`${OUT}/transfer/index.html`, transferPage());
 for (const c of categories) {
   mkdirSync(`${OUT}/${c.slug}`, { recursive: true });
   write(`${OUT}/${c.slug}/index.html`, categoryPage(c));
@@ -489,4 +518,4 @@ ${assetFiles.map((f) => `/assets/${f}\n  Cache-Control: public, max-age=3600`).j
 writeFileSync(`${OUT}/_redirects`, removed.map(([from, to]) => `${from} ${to} 301\n${from.slice(0, -1)} ${to} 301`).join('\n') + '\n'
   // The Android app: always the latest build (.github/workflows/android.yml).
   + '/app.apk https://github.com/samycc777/al-barnamaj-al-hadi/releases/latest/download/al-barnamaj-al-hadi.apk 302\n');
-console.log(`Built ${categories.length + books.length + 4} pages into ${OUT}/`);
+console.log(`Built ${categories.length + books.length + 5} pages into ${OUT}/`);

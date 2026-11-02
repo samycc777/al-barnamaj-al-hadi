@@ -1,6 +1,7 @@
 # Pending items (still open; remove an item when done)
 
 - Open questions to the brother or user (details in `commentaries-research.md`):
+  - Study order (levels per category) and book texts (matn PDFs) beside the commentaries: asked Zaid 2 Nov 2026, waiting.
   - Zaid's four commentaries (1 Nov 2026): Rabee's الشريعة and فتح المجيد added with warnings; Fallatah's جامع العلوم already on the site with a warning (`jami-al-ulum-fallatah`).
   - Rabee on Ibn al-Qayyim's books (Zaid asked to search, 1 Nov 2026): found and reported, waiting for his choice; details in `commentaries-research.md`.
   - Ali al-Shibl's الفتن والحوادث (archive.org islami-805, 23 lessons, complete) and/or al-Badr's الكبائر: offered, no answer.
