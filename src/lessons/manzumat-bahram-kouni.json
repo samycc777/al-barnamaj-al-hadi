@@ -1,0 +1,41 @@
+{
+  "chapters": [
+    {
+      "title": "",
+      "lessons": [
+        {
+          "n": 1,
+          "title": "الدرس الأول",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/manzumat-bahram-kouni/01.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/manzumat-bahram-kouni/01.mp3",
+          "size": "15.2 MB"
+        },
+        {
+          "n": 2,
+          "title": "الدرس الثاني",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/manzumat-bahram-kouni/02.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/manzumat-bahram-kouni/02.mp3",
+          "size": "13.6 MB"
+        },
+        {
+          "n": 3,
+          "title": "الدرس الثالث",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/manzumat-bahram-kouni/03.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/manzumat-bahram-kouni/03.mp3",
+          "size": "14.7 MB"
+        },
+        {
+          "n": 4,
+          "title": "الدرس الرابع",
+          "date": "",
+          "audio": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/manzumat-bahram-kouni/04.mp3",
+          "download": "https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/manzumat-bahram-kouni/04.mp3",
+          "size": "15.4 MB"
+        }
+      ]
+    }
+  ]
+}
