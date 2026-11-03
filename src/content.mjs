@@ -94,6 +94,7 @@ export const categories = [
       },
       {
         title: 'شروح المؤلفات للإمام أحمد بن عبد الحليم ابن تيمية النميري الحراني (ت 728هـ)', items: [
+        { title: 'ابن تيمية السلفي', type: 'audio', audio: 'https://archive.org/download/haraas-lec/01.mp3', download: 'https://archive.org/download/haraas-lec/01.mp3', note: 'فضيلة الشيخ العلامة محمد خليل هراس (ت 1395هـ)' },
         { title: 'شرح القصيدة اللامية', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/al-lamiyyah/al-lamiyyah.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/al-lamiyyah/al-lamiyyah.mp3', note: 'فضيلة الشيخ العالم عبد الله بن صالح القصير (ت 1445هـ)' },
         { title: 'شرح العبودية', type: 'audio', slug: 'al-ubudiyyah', note: 'سماحة المفتي الشيخ صالح بن فوزان بن عبد الله الفوزان' },
         { title: 'شرح قاعدة جليلة في التوسل والوسيلة', type: 'audio', slug: 'at-tawassul-wal-wasilah', note: 'سماحة المفتي الشيخ صالح بن فوزان بن عبد الله الفوزان' },
@@ -175,6 +176,10 @@ export const categories = [
         { title: 'أصول وقواعد في منهج السلف', type: 'audio', slug: 'usul-wa-qawaid-jabiri', note: 'فضيلة الشيخ العلامة عبيد بن عبد الله بن سليمان الحمداني الجابري (ت 1444هـ)' },
         { title: 'سلسلة مفهوم السلفية (أصول الدعوة السلفية)', type: 'audio', slug: 'mafhum-as-salafiyyah', note: 'فضيلة الشيخ العلامة محمد ناصر الدين بن نوح الألباني (ت 1420هـ)' },
         { title: 'العقيدة منهجًا وسلوكًا', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/al-aqidah-manhajan-wa-suluk-adud/al-aqidah-manhajan-wa-suluk-adud.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/al-aqidah-manhajan-wa-suluk-adud/al-aqidah-manhajan-wa-suluk-adud.mp3', warning: 'ينتهي التسجيل المتوفر أثناء الكلام على عصمة الأنبياء والرسل، ولم نجد باقي المحاضرة.', note: 'فضيلة الشيخ العلامة محمد سالم بن محمد عالي بن عبد الودود الشنقيطي (ت 1430هـ)' },
+        { title: 'التوحيد', type: 'audio', audio: 'https://archive.org/download/haraas-lec/17.mp3', download: 'https://archive.org/download/haraas-lec/17.mp3', note: 'فضيلة الشيخ العلامة محمد خليل هراس (ت 1395هـ)' },
+        { title: 'دفاعًا عن السنة', type: 'audio', audio: 'https://archive.org/download/haraas-lec/07.mp3', download: 'https://archive.org/download/haraas-lec/07.mp3', note: 'فضيلة الشيخ العلامة محمد خليل هراس (ت 1395هـ)' },
+        { title: 'تاريخ الشيعة الإمامية الاثني عشرية', type: 'audio', audio: 'https://archive.org/download/haraas-lec/11.mp3', download: 'https://archive.org/download/haraas-lec/11.mp3', note: 'فضيلة الشيخ العلامة محمد خليل هراس (ت 1395هـ)' },
+        { title: 'الإنسان وحرية الاختيار', type: 'audio', audio: 'https://archive.org/download/haraas-lec/13.mp3', download: 'https://archive.org/download/haraas-lec/13.mp3', note: 'فضيلة الشيخ العلامة محمد خليل هراس (ت 1395هـ)' },
         { title: 'تاريخ الإسلام في الجزائر', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/tarikh-al-islam-fi-al-jazair/tarikh-al-islam-fi-al-jazair.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/tarikh-al-islam-fi-al-jazair/tarikh-al-islam-fi-al-jazair.mp3', note: 'فضيلة الشيخ العلامة محمد البشير الإبراهيمي (ت 1385هـ)' },
         { title: 'يا شباب الجزائر هكذا كونوا أو لا تكونوا', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/ya-shabab-al-jazair/ya-shabab-al-jazair.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/ya-shabab-al-jazair/ya-shabab-al-jazair.mp3', note: 'فضيلة الشيخ العلامة محمد البشير الإبراهيمي (ت 1385هـ)' },
         { title: 'كلمة في مجمع اللغة العربية', type: 'audio', audio: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/kalimah-fi-majma-al-lughah-al-arabiyyah/kalimah-fi-majma-al-lughah-al-arabiyyah.mp3', download: 'https://pub-04b2ff031f654021aecd7529acd87d9c.r2.dev/kalimah-fi-majma-al-lughah-al-arabiyyah/kalimah-fi-majma-al-lughah-al-arabiyyah.mp3', note: 'فضيلة الشيخ العلامة محمد البشير الإبراهيمي (ت 1385هـ)' },
@@ -227,6 +232,7 @@ export const categories = [
   },
   {
     slug: 'ulum-al-hadith', name: 'علوم الحديث', icon: 'chain', items: [
+      { title: 'علوم الحديث', type: 'audio', audio: 'https://archive.org/download/haraas-lec/03.mp3', download: 'https://archive.org/download/haraas-lec/03.mp3', note: 'فضيلة الشيخ العلامة محمد خليل هراس (ت 1395هـ)' },
       { title: 'مقدمة في علم الحديث', type: 'audio', audio: 'https://rabee.net/wp-content/uploads/bulk-files/sounds/mostalah.mp3', note: 'فضيلة الشيخ العلامة ربيع بن هادي عمير المدخلي (ت 1447هـ)' },
       { title: 'شرح مقدمة صحيح الإمام مسلم بن الحجاج (ت 261هـ)', type: 'audio', slug: 'muqaddimat-sahih-muslim-abbad', note: 'فضيلة الشيخ العلامة عبد المحسن بن حمد العباد البدر' },
       { title: 'شرح مقدمة صحيح الإمام مسلم بن الحجاج (ت 261هـ)', type: 'audio', slug: 'muqaddimat-sahih-muslim-muqbil', variantOf: 'muqaddimat-sahih-muslim-abbad', note: 'فضيلة الشيخ العلامة مقبل بن هادي الوادعي (ت 1422هـ)' },
