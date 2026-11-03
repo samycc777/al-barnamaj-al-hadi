@@ -1,5 +1,6 @@
 # Pending items (still open; remove an item when done)
 
+- al-Fawzan checked 3 Nov 2026 (Zaid): الأربعين 42 complete; عمدة الأحكام 64 complete (all 4 archive copies end at the same place); بلوغ المرام (`Bulug1439`, 175 = same as `103_20211019`, last title «الجامع: باب الذكر والدعاء 2», lesson 175 is at حديث «إذا مد يديه في الدعاء», so the end of the book is probably missing). Other long copy: `2271220164925` (357 untitled files, 416 h, unchecked). Modal workspace over its spend limit (3 Nov).
 - Open questions to the brother or user (details in `commentaries-research.md`):
   - Study order (levels per category) and book texts (matn PDFs) beside the commentaries: asked Zaid 2 Nov 2026, waiting.
   - Zaid's four commentaries (1 Nov 2026): Rabee's الشريعة and فتح المجيد added with warnings; Fallatah's جامع العلوم already on the site with a warning (`jami-al-ulum-fallatah`).
